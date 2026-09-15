@@ -5,7 +5,7 @@ services:
       - 'MYSQL_DATABASE=History'
       - 'MYSQL_USER=myuser'
       - 'MYSQL_PASSWORD='
-      - 'MYSQL_ROOT_PASSWORD='
+      - 'MYSQL_ROOT_PASSWORD=verysecret'
     ports:
       - '3307:3306'
 

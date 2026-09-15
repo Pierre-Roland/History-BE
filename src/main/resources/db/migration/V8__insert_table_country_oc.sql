@@ -1,0 +1,15 @@
+INSERT INTO country (name, code) VALUES
+    ('Australie', 'AU'),
+    ('Fidji', 'FJ'),
+    ('Kiribati', 'KI'),
+    ('Îles Marshall', 'MH'),
+    ('Micronésie', 'FM'),
+    ('Nauru', 'NR'),
+    ('Nouvelle-Zélande', 'NZ'),
+    ('Palaos', 'PW'),
+    ('Papouasie-Nouvelle-Guinée', 'PG'),
+    ('Samoa', 'WS'),
+    ('Îles Salomon', 'SB'),
+    ('Tonga', 'TO'),
+    ('Tuvalu', 'TV'),
+    ('Vanuatu', 'VU');
