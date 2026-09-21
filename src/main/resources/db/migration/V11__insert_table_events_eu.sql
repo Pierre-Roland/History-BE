@@ -1,260 +1,136 @@
--- 1. Bataille d'Alésia
-INSERT INTO events (
-    title, slug, date_start, date_end, description, image_url, type_id
-) VALUES (
-    'Bataille d''Alésia',
-    'bataille-d-alesia',
-    '0052-09-01',
-    '0052-09-01',
-    'La bataille d''Alésia oppose les forces de Vercingétorix à l''armée romaine de Jules César et marque la défaite décisive de la résistance gauloise.',
-    NULL,
-    6
-);
+-- FRANCE --
 
--- 2. Clovis devient roi des Francs
-INSERT INTO events (
-    title, slug, date_start, date_end, description, image_url, type_id
-) VALUES (
-    'Clovis devient roi des Francs',
-    'clovis-devient-roi-des-francs',
-    '0481-01-01',
-    '0481-01-01',
-    'Clovis devient roi des Francs et fonde la dynastie mérovingienne.',
-    NULL,
-    5
-);
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Bataille d''Alésia', 'bataille-d-alesia-FR', '0052-09-01', '0052-09-01', 'La bataille d''Alésia oppose les forces de Vercingétorix à l''armée romaine de Jules César et marque la défaite décisive de la résistance gauloise.', NULL, 6),
+('Clovis devient roi des Francs', 'clovis-devient-roi-des-francs', '0481-01-01', '0481-01-01', 'Clovis devient roi des Francs et fonde la dynastie mérovingienne.', NULL, 5),
+('Baptême de Clovis', 'bapteme-de-clovis', '0496-12-25', '0496-12-25', 'Le baptême de Clovis à Reims marque sa conversion au christianisme nicéen.', NULL, 23),
+('Bataille de Poitiers', 'bataille-de-poitiers-FR', '0732-10-01', '0732-10-01', 'La bataille de Poitiers oppose les forces franques dirigées par Charles Martel aux forces omeyyades.', NULL, 6),
+('Couronnement de Charlemagne', 'couronnement-de-charlemagne-FR', '0800-12-25', '0800-12-25', 'Charlemagne est couronné empereur d''Occident par le pape Léon III à Rome.', NULL, 4),
+('Traité de Verdun', 'traite-de-verdun-FR', '0843-08-10', '0843-08-10', 'Le traité de Verdun partage l''Empire carolingien entre les trois petits-fils de Charlemagne.', NULL, 14),
+('Siège de Paris par les Vikings', 'siege-de-paris-par-les-vikings-FR', '0885-11-24', '0886-02-01', 'Les Vikings assiègent Paris pendant plusieurs mois avant de négocier leur départ.', NULL, 6),
+('Création du duché de Normandie', 'creation-du-duche-de-normandie', '0911-01-01', '0911-01-01', 'Le traité de Saint-Clair-sur-Epte établit le duché de Normandie autour de Rollon.', NULL, 17),
+('Hugues Capet devient roi', 'hugues-capet-devient-roi', '0987-07-03', '0987-07-03', 'Hugues Capet est élu roi des Francs et inaugure la dynastie capétienne.', NULL, 5),
+('Bataille de Bouvines', 'bataille-de-bouvines-FR', '1214-07-27', '1214-07-27', 'La bataille de Bouvines oppose notamment l''armée de Philippe Auguste à une coalition menée par l''empereur Otton IV et le roi Jean sans Terre.', NULL, 6),
+('Guerre de Cent Ans', 'guerre-de-cent-ans-FR', '1337-01-01', '1453-10-19', 'La guerre de Cent Ans est un long conflit opposant principalement les royaumes de France et d''Angleterre entre 1337 et 1453.', NULL, 6),
+('Jeanne d''Arc libère Orléans', 'jeanne-d-arc-libere-orleans', '1429-04-29', '1429-05-08', 'Jeanne d''Arc participe à la levée du siège d''Orléans pendant la guerre de Cent Ans.', NULL, 6),
+('Bataille de Marignan', 'bataille-de-marignan-FR', '1515-09-13', '1515-09-14', 'La bataille de Marignan oppose les forces françaises aux Suisses et constitue une victoire majeure du règne de François Ier.', NULL, 6),
+('Édit de Nantes', 'edit-de-nantes', '1598-04-13', '1598-04-13', 'Henri IV promulgue l''édit de Nantes, accordant des droits et garanties aux protestants français.', NULL, 14),
+('Louis XIV commence son gouvernement personnel', 'louis-xiv-gouvernement-personnel', '1661-03-09', '1661-03-09', 'Après la mort de Mazarin, Louis XIV décide de gouverner personnellement le royaume de France.', NULL, 22),
+('Prise de la Bastille', 'prise-de-la-bastille', '1789-07-14', '1789-07-14', 'La prise de la Bastille, le 14 juillet 1789 à Paris, constitue un événement majeur du début de la Révolution française.', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtsZwZ-6JgZwcjKMQodeYdMKi0Gqi7Ekw-kYl8BnB76A&s=10', 8),
+('Déclaration des droits de l''homme et du citoyen', 'declaration-des-droits-de-l-homme-et-du-citoyen-FR', '1789-08-26', '1789-08-26', 'L''Assemblée nationale constituante adopte la Déclaration des droits de l''homme et du citoyen.', NULL, 22),
+('Proclamation de la Première République', 'proclamation-de-la-premiere-republique', '1792-09-21', '1792-09-21', 'La Convention nationale abolit la monarchie et proclame la République française.', NULL, 22),
+('Exécution de Louis XVI', 'execution-de-louis-xvi', '1793-01-21', '1793-01-21', 'Louis XVI est exécuté place de la Révolution à Paris pendant la Révolution française.', NULL, 2),
+('Sacre de Napoléon Ier', 'sacre-de-napoleon-ier-FR', '1804-12-02', '1804-12-02', 'Napoléon Bonaparte est sacré empereur des Français lors d''une cérémonie à Notre-Dame de Paris.', NULL, 4),
+('Bataille des Champs Catalauniques', 'bataille-des-champs-catalauniques-FR', '0451-01-01', '0451-01-01', 'Les forces romaines et leurs alliés affrontent les Huns d''Attila lors d''une bataille majeure en Gaule.', NULL, 7),
+('Bataille de Vouillé', 'bataille-de-vouille-FR', '0507-01-01', '0507-01-01', 'Clovis remporte une victoire contre les Wisigoths et étend son royaume vers le sud de la Gaule.', NULL, 7),
+('Pépin le Bref devient roi', 'pepin-le-bref-devient-roi-FR', '0751-11-01', '0751-11-01', 'Pépin le Bref devient roi des Francs, mettant fin à la dynastie mérovingienne.', NULL, 5),
+('Mort de Charlemagne', 'mort-de-charlemagne-FR', '0814-01-28', '0814-01-28', 'Charlemagne meurt à Aix-la-Chapelle après avoir profondément marqué l''histoire politique et culturelle de l''Europe occidentale.', NULL, 2),
+('Invasions vikings en Francie occidentale', 'invasions-vikings-en-francie-occidentale-FR', '0840-01-01', '0911-01-01', 'Les raids vikings se multiplient sur les côtes et les fleuves de la Francie occidentale.', NULL, 13),
+('Conquête de l''Angleterre par Guillaume le Conquérant', 'conquete-de-l-angleterre-par-guillaume-le-conquerant-FR', '1066-10-14', '1066-10-14', 'Guillaume, duc de Normandie, remporte la bataille d''Hastings et conquiert le trône d''Angleterre.', NULL, 12),
+('Début de la construction de Notre-Dame de Paris', 'debut-construction-notre-dame-de-paris', '1163-01-01', '1163-01-01', 'La construction de la cathédrale Notre-Dame de Paris commence sous l''épiscopat de Maurice de Sully.', NULL, 17),
+('Louis IX devient roi', 'louis-ix-devient-roi', '1226-11-29', '1226-11-29', 'Louis IX, futur Saint Louis, devient roi de France.', NULL, 5),
+('Peste noire en France', 'peste-noire-en-france-FR', '1348-01-01', '1348-01-01', 'La peste noire atteint la France et provoque une catastrophe démographique majeure.', NULL, 21),
+('Bataille d''Azincourt', 'bataille-d-azincourt-FR', '1415-10-25', '1415-10-25', 'L''armée anglaise remporte une victoire majeure contre les forces françaises pendant la guerre de Cent Ans.', NULL, 7),
+('Fin de la guerre de Cent Ans', 'fin-de-la-guerre-de-cent-ans-FR', '1453-10-19', '1453-10-19', 'La reprise de Bordeaux marque traditionnellement la fin de la guerre de Cent Ans.', NULL, 6),
+('Début des guerres d''Italie', 'debut-des-guerres-d-italie-FR', '1494-09-01', '1494-09-01', 'Charles VIII lance une expédition en Italie, ouvrant une longue période de conflits impliquant la monarchie française.', NULL, 6),
+('Ordonnance de Villers-Cotterêts', 'ordonnance-de-villers-cotterets', '1539-08-10', '1539-08-10', 'François Ier impose notamment l''usage du français dans les actes administratifs et judiciaires du royaume.', NULL, 22),
+('Début des guerres de Religion', 'debut-des-guerres-de-religion', '1562-03-01', '1562-03-01', 'Les tensions entre catholiques et protestants dégénèrent en une série de guerres civiles en France.', NULL, 6),
+('Assassinat d''Henri IV', 'assassinat-d-henri-iv', '1610-05-14', '1610-05-14', 'Henri IV est assassiné à Paris par François Ravaillac.', NULL, 2),
+('Révocation de l''édit de Nantes', 'revocation-de-l-edit-de-nantes', '1685-10-18', '1685-10-18', 'Louis XIV révoque l''édit de Nantes par l''édit de Fontainebleau.', NULL, 22),
+('Début de publication de l''Encyclopédie', 'debut-publication-de-l-encyclopedie', '1751-07-01', '1751-07-01', 'Diderot et d''Alembert commencent la publication de l''Encyclopédie, œuvre majeure des Lumières.', NULL, 24),
+('Ouverture des États généraux', 'ouverture-des-etats-generaux', '1789-05-05', '1789-05-05', 'Louis XVI ouvre les États généraux à Versailles dans un contexte de crise financière et politique.', NULL, 22),
+('Serment du Jeu de paume', 'serment-du-jeu-de-paume', '1789-06-20', '1789-06-20', 'Les députés jurent de ne pas se séparer avant d''avoir donné une constitution à la France.', NULL, 22),
+('Abolition des privilèges', 'abolition-des-privileges', '1789-08-04', '1789-08-04', 'L''Assemblée constituante abolit les privilèges féodaux lors de la nuit du 4 août.', NULL, 22),
+('Bataille de Valmy', 'bataille-de-valmy-FR', '1792-09-20', '1792-09-20', 'L''armée française remporte une victoire majeure contre les forces prussiennes.', NULL, 7),
+('Chute de Robespierre', 'chute-de-robespierre', '1794-07-27', '1794-07-27', 'Robespierre est renversé lors de la journée du 9 Thermidor, mettant fin à la période de la Terreur.', NULL, 10),
+('Bataille de Waterloo', 'bataille-de-waterloo-FR', '1815-06-18', '1815-06-18', 'Napoléon est définitivement vaincu lors de la bataille de Waterloo.', NULL, 7),
+('Révolution de Juillet', 'revolution-de-juillet', '1830-07-27', '1830-07-29', 'Les Trois Glorieuses provoquent la chute de Charles X et l''avènement de la monarchie de Juillet.', NULL, 8),
+('Révolution de Février', 'revolution-de-fevrier', '1848-02-22', '1848-02-24', 'Une révolution renverse la monarchie de Juillet et conduit à la proclamation de la Deuxième République.', NULL, 8),
+('Défaite de Sedan', 'defaite-de-sedan-FR', '1870-09-02', '1870-09-02', 'L''armée française capitule à Sedan pendant la guerre franco-prussienne.', NULL, 7),
+('Proclamation de la Troisième République', 'proclamation-de-la-troisieme-republique', '1870-09-04', '1870-09-04', 'La République est proclamée à Paris après la chute du Second Empire.', NULL, 22),
+('Construction de la tour Eiffel', 'construction-de-la-tour-eiffel', '1887-01-28', '1889-03-31', 'La tour Eiffel est construite à Paris pour l''Exposition universelle de 1889.', NULL, 17),
+('Début de la Première Guerre mondiale', 'debut-de-la-premiere-guerre-mondiale-FR', '1914-08-03', '1914-08-03', 'L''Allemagne déclare la guerre à la France, marquant l''entrée officielle de la France dans la Première Guerre mondiale.', NULL, 6),
+('Libération de Paris', 'liberation-de-paris-FR', '1944-08-19', '1944-08-25', 'Paris est libéré par les forces françaises et alliées après plusieurs jours d''insurrection et de combats.', NULL, 6);
 
--- 3. Baptême de Clovis
-INSERT INTO events (
-    title, slug, date_start, date_end, description, image_url, type_id
-) VALUES (
-    'Baptême de Clovis',
-    'bapteme-de-clovis',
-    '0496-12-25',
-    '0496-12-25',
-    'Le baptême de Clovis à Reims marque sa conversion au christianisme nicéen.',
-    NULL,
-    23
-);
 
--- 4. Bataille de Poitiers
-INSERT INTO events (
-    title, slug, date_start, date_end, description, image_url, type_id
-) VALUES (
-    'Bataille de Poitiers',
-    'bataille-de-poitiers',
-    '0732-10-01',
-    '0732-10-01',
-    'La bataille de Poitiers oppose les forces franques dirigées par Charles Martel aux forces omeyyades.',
-    NULL,
-    6
-);
 
--- 5. Couronnement de Charlemagne
-INSERT INTO events (
-    title, slug, date_start, date_end, description, image_url, type_id
-) VALUES (
-    'Couronnement de Charlemagne',
-    'couronnement-de-charlemagne',
-    '0800-12-25',
-    '0800-12-25',
-    'Charlemagne est couronné empereur d''Occident par le pape Léon III à Rome.',
-    NULL,
-    4
-);
+-- BELGIQUE --
 
--- 6. Traité de Verdun
-INSERT INTO events (
-    title, slug, date_start, date_end, description, image_url, type_id
-) VALUES (
-    'Traité de Verdun',
-    'traite-de-verdun',
-    '0843-08-10',
-    '0843-08-10',
-    'Le traité de Verdun partage l''Empire carolingien entre les trois petits-fils de Charlemagne.',
-    NULL,
-    14
-);
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Révolution brabançonne', 'revolution-brabanconne', '1789-10-24', '1790-12-03', 'La révolution brabançonne éclate contre les réformes de l''empereur Joseph II et conduit à la formation des États belgiques unis, première expérience d''un État belge indépendant des Pays-Bas autrichiens.', NULL, 8),
+('Révolution belge', 'revolution-belge-BE', '1830-08-25', '1831-07-21', 'La révolution belge de 1830 provoque la séparation des provinces méridionales du Royaume uni des Pays-Bas et conduit à la création de l''État belge indépendant.', NULL, 8),
+('Indépendance de la Belgique', 'independance-de-la-belgique', '1830-10-04', '1830-10-04', 'Le gouvernement provisoire proclame l''indépendance de la Belgique vis-à-vis du Royaume uni des Pays-Bas.', NULL, 11),
+('Constitution belge', 'constitution-belge', '1831-02-07', '1831-02-07', 'Le Congrès national adopte la Constitution belge, qui établit les institutions du nouvel État et organise une monarchie constitutionnelle.', NULL, 22),
+('Prestation de serment de Léopold Ier', 'prestation-serment-leopold-i', '1831-07-21', '1831-07-21', 'Léopold de Saxe-Cobourg-Gotha prête serment comme premier roi des Belges devant le Congrès national, marquant l''établissement de la monarchie belge.', NULL, 4),
+('Traité des XXIV Articles', 'traite-des-xxiv-articles-BE', '1839-04-19', '1839-04-19', 'Le traité des XXIV Articles règle définitivement la séparation entre la Belgique et les Pays-Bas et fixe notamment les frontières internationales du nouvel État belge.', NULL, 14),
+('Fondation de l''État indépendant du Congo', 'fondation-etat-independant-congo-BE', '1885-02-26', '1885-02-26', 'La conférence de Berlin reconnaît l''État indépendant du Congo comme possession personnelle du roi Léopold II, ouvrant une période de domination belge au Congo qui prendra fin avec l''annexion par la Belgique en 1908.', NULL, 16),
+('Exposition internationale de Bruxelles', 'exposition-internationale-bruxelles-1897', '1897-04-10', '1897-11-08', 'L''Exposition internationale de Bruxelles de 1897 présente les réalisations industrielles, scientifiques et culturelles de la Belgique et accueille des visiteurs internationaux.', NULL, 24),
+('Annexion de l''État indépendant du Congo', 'annexion-etat-independant-congo-BE', '1908-11-15', '1908-11-15', 'La Belgique annexe officiellement l''État indépendant du Congo, qui devient le Congo belge sous l''administration de l''État belge.', NULL, 12),
+('Invasion allemande de la Belgique', 'invasion-allemande-belgique-1914-BE', '1914-08-04', '1914-10-16', 'L''Allemagne envahit la Belgique au début de la Première Guerre mondiale malgré la neutralité belge, entraînant la résistance de l''armée belge et l''occupation d''une grande partie du territoire.', NULL, 13),
+('Bataille de Liège', 'bataille-de-liege-BE', '1914-08-05', '1914-08-16', 'La bataille de Liège oppose l''armée belge aux forces allemandes lors de l''invasion de la Belgique en 1914 et constitue l''un des premiers affrontements majeurs de la Première Guerre mondiale.', NULL, 7),
+('Bataille de l''Yser', 'bataille-de-lyser-BE', '1914-10-16', '1914-10-31', 'La bataille de l''Yser oppose les forces belges et alliées à l''armée allemande. L''ouverture des écluses de l''Yser contribue à inonder la plaine et permet de stabiliser le front belge.', NULL, 7),
+('Traité de Versailles', 'traite-de-versailles-BE', '1919-06-28', '1919-06-28', 'Le traité de Versailles met officiellement fin à l''état de guerre entre l''Allemagne et les puissances alliées et prévoit notamment des dispositions territoriales concernant la Belgique.', NULL, 14),
+('Invasion allemande de la Belgique en 1940', 'invasion-allemande-belgique-1940-BE', '1940-05-10', '1940-05-28', 'L''Allemagne nazie envahit la Belgique pendant la Seconde Guerre mondiale. Après dix-huit jours de combats, l''armée belge capitule le 28 mai 1940.', NULL, 13),
+('Libération de Bruxelles', 'liberation-de-bruxelles', '1944-09-03', '1944-09-04', 'Les forces alliées libèrent Bruxelles au début de septembre 1944 après le retrait des forces allemandes. La capitale est reprise avec l''entrée des troupes britanniques et des unités de la résistance.', NULL, 12),
+('Question royale', 'question-royale', '1945-05-08', '1951-07-16', 'La question royale porte sur le retour du roi Léopold III après la Seconde Guerre mondiale et provoque une importante crise politique et sociale en Belgique, qui aboutit à son abdication en 1951.', NULL, 22),
+('Traité de Rome et naissance de la CEE', 'traite-de-rome-cee-BE', '1957-03-25', '1957-03-25', 'La Belgique signe les traités de Rome avec cinq autres États européens, participant à la création de la Communauté économique européenne et de la Communauté européenne de l''énergie atomique.', NULL, 14),
+('Indépendance du Congo belge', 'independance-du-congo-belge-BE', '1960-06-30', '1960-06-30', 'Le Congo belge accède à l''indépendance après plusieurs années de montée des revendications anticoloniales et devient la République du Congo.', NULL, 11),
+('Fédéralisation de la Belgique', 'federalisation-de-la-belgique', '1970-12-24', '1993-07-05', 'Une succession de réformes institutionnelles transforme progressivement la Belgique d''un État unitaire en un État fédéral composé de communautés et de régions.', NULL, 22),
+('Création de l''Union économique belgo-luxembourgeoise', 'union-economique-belgo-luxembourgeoise-BE', '1921-07-25', '1921-07-25', 'La Belgique et le Luxembourg concluent la convention créant l''Union économique belgo-luxembourgeoise, qui établit une coopération économique et monétaire étroite entre les deux pays.', NULL, 25);
 
--- 7. Siège de Paris par les Vikings
-INSERT INTO events (
-    title, slug, date_start, date_end, description, image_url, type_id
-) VALUES (
-    'Siège de Paris par les Vikings',
-    'siege-de-paris-par-les-vikings',
-    '0885-11-24',
-    '0886-02-01',
-    'Les Vikings assiègent Paris pendant plusieurs mois avant de négocier leur départ.',
-    NULL,
-    6
-);
 
--- 8. Création du duché de Normandie
-INSERT INTO events (
-    title, slug, date_start, date_end, description, image_url, type_id
-) VALUES (
-    'Création du duché de Normandie',
-    'creation-du-duche-de-normandie',
-    '0911-01-01',
-    '0911-01-01',
-    'Le traité de Saint-Clair-sur-Epte établit le duché de Normandie autour de Rollon.',
-    NULL,
-    17
-);
+ -- ALLEMAGNE --
 
--- 9. Hugues Capet devient roi
-INSERT INTO events (
-    title, slug, date_start, date_end, description, image_url, type_id
-) VALUES (
-    'Hugues Capet devient roi',
-    'hugues-capet-devient-roi',
-    '0987-07-03',
-    '0987-07-03',
-    'Hugues Capet est élu roi des Francs et inaugure la dynastie capétienne.',
-    NULL,
-    5
-);
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Serments de Strasbourg', 'serments-de-strasbourg-AL', '0842-02-14', '0842-02-14', 'Louis le Germanique et Charles le Chauve prêtent les serments de Strasbourg contre leur frère Lothaire Ier, événement majeur dans la formation politique et linguistique de l''Europe occidentale.', NULL, 14),
+('Traité de Verdun', 'traite-de-verdun-AL', '0843-08-10', '0843-08-10', 'Le traité de Verdun partage l''Empire carolingien entre les trois petits-fils de Charlemagne et attribue à Louis le Germanique la Francie orientale.', NULL, 14),
+('Couronnement impérial d''Otton Ier', 'couronnement-imperial-otton-ier-AL', '0962-02-02', '0962-02-02', 'Otton Ier est couronné empereur à Rome par le pape Jean XII, événement traditionnellement associé à la fondation du Saint-Empire romain germanique.', NULL, 4),
+('Querelle des Investitures', 'querelle-des-investitures-AL', '1075-01-01', '1122-01-01', 'La Querelle des Investitures oppose les empereurs du Saint-Empire à la papauté au sujet de la nomination des évêques et du pouvoir politique et religieux.', NULL, 23),
+('Marche de Canossa', 'marche-de-canossa-AL', '1077-01-25', '1077-01-27', 'L''empereur Henri IV se rend à Canossa afin d''obtenir la levée de son excommunication auprès du pape Grégoire VII.', NULL, 23),
+('Concordat de Worms', 'concordat-de-worms-AL', '1122-09-23', '1122-09-23', 'Le concordat de Worms met fin à la Querelle des Investitures entre l''empereur Henri V et le pape Calixte II.', NULL, 14),
+('Début du règne de Frédéric Barberousse', 'debut-regne-frederic-barberousse', '1152-03-04', '1152-03-04', 'Frédéric Ier, dit Barberousse, devient roi des Romains et entreprend de renforcer l''autorité impériale au sein du Saint-Empire.', NULL, 5),
+('Bulle d''Or', 'bulle-d-or', '1356-01-01', '1356-01-01', 'La Bulle d''Or de Charles IV fixe les règles de l''élection du roi des Romains et renforce le rôle des princes-électeurs du Saint-Empire.', NULL, 22),
+('Épidémie de peste noire', 'peste-noire-dans-le-saint-empire', '1348-01-01', '1352-01-01', 'La peste noire atteint les territoires du Saint-Empire et provoque une catastrophe démographique et sociale majeure.', NULL, 21),
+('Invention de l''imprimerie à caractères mobiles', 'invention-imprimerie-gutenberg', '1450-01-01', '1455-01-01', 'Johannes Gutenberg perfectionne à Mayence l''imprimerie à caractères métalliques mobiles, transformant durablement la diffusion des textes en Europe.', NULL, 19),
+('Début de la Réforme protestante', 'debut-reforme-protestante', '1517-10-31', '1517-10-31', 'Martin Luther publie traditionnellement ses 95 thèses à Wittenberg, événement associé au début de la Réforme protestante.', NULL, 23),
+('Diète de Worms', 'diete-de-worms', '1521-01-28', '1521-05-25', 'La Diète de Worms examine les positions de Martin Luther, qui refuse de rétracter ses écrits devant l''empereur Charles Quint.', NULL, 23),
+('Guerre des Paysans allemands', 'guerre-paysans-allemands', '1524-01-01', '1525-05-01', 'La guerre des Paysans allemands voit de nombreuses communautés rurales se soulever dans différentes régions du Saint-Empire.', NULL, 9),
+('Paix d''Augsbourg', 'paix-augsbourg', '1555-09-25', '1555-09-25', 'La paix d''Augsbourg établit un compromis religieux au sein du Saint-Empire entre princes catholiques et luthériens.', NULL, 14),
+('Début de la guerre de Trente Ans', 'debut-guerre-trente-ans-AL', '1618-05-23', '1618-05-23', 'La défenestration de Prague contribue au déclenchement de la guerre de Trente Ans, qui ravage une grande partie de l''Europe centrale.', NULL, 6),
+('Paix de Westphalie', 'paix-de-westphalie-AL', '1648-10-24', '1648-10-24', 'Les traités de Westphalie mettent fin à la guerre de Trente Ans et réorganisent l''équilibre politique et religieux du Saint-Empire.', NULL, 14),
+('Établissement de la monarchie prussienne', 'etablissement-monarchie-prussienne', '1701-01-18', '1701-01-18', 'Frédéric III de Brandebourg devient roi en Prusse sous le nom de Frédéric Ier, renforçant la position de la Prusse parmi les États allemands.', NULL, 4),
+('Guerre de Sept Ans', 'guerre-de-sept-ans-allemagne-AL', '1756-01-01', '1763-02-15', 'La guerre de Sept Ans oppose notamment la Prusse à l''Autriche et à leurs alliés dans un conflit qui redéfinit l''équilibre des puissances européennes.', NULL, 6),
+('Dissolution du Saint-Empire romain germanique', 'dissolution-saint-empire-romain-germanique', '1806-08-06', '1806-08-06', 'François II renonce à la couronne impériale, mettant officiellement fin au Saint-Empire romain germanique après près d''un millénaire d''existence.', NULL, 22),
+('Bataille d''Iéna et d''Auerstaedt', 'bataille-iena-auerstaedt-AL', '1806-10-14', '1806-10-14', 'Les armées napoléoniennes remportent une victoire décisive contre les forces prussiennes lors des batailles d''Iéna et d''Auerstaedt.', NULL, 7),
+('Guerres de libération contre Napoléon', 'guerres-liberation-contre-napoleon-AL', '1813-01-01', '1815-06-18', 'Les États allemands participent aux guerres de libération contre Napoléon, culminant avec la défaite française de 1815.', NULL, 6),
+('Congrès de Vienne', 'congres-de-vienne-AL', '1814-09-01', '1815-06-09', 'Le Congrès de Vienne réorganise l''Europe après les guerres napoléoniennes et contribue à la nouvelle organisation politique des États allemands.', NULL, 14),
+('Création de la Confédération germanique', 'creation-confederation-germanique', '1815-06-08', '1815-06-08', 'La Confédération germanique est créée lors du règlement européen issu du Congrès de Vienne et rassemble de nombreux États allemands.', NULL, 17),
+('Révolution de 1848 dans les États allemands', 'revolution-1848-etats-allemands', '1848-03-01', '1849-07-01', 'Les révolutions de 1848 touchent les États allemands et provoquent une importante mobilisation en faveur des libertés et de l''unification.', NULL, 8),
+('Parlement de Francfort', 'parlement-de-francfort', '1848-05-18', '1849-05-30', 'Le Parlement de Francfort se réunit à l''église Saint-Paul afin de travailler à l''unification politique et constitutionnelle des États allemands.', NULL, 22),
+('Défaite de l''Autriche à Sadowa', 'bataille-de-sadowa-AL', '1866-07-03', '1866-07-03', 'La Prusse remporte une victoire décisive contre l''Autriche lors de la bataille de Sadowa pendant la guerre austro-prussienne.', NULL, 7),
+('Création de la Confédération de l''Allemagne du Nord', 'creation-confederation-allemagne-du-nord', '1867-07-01', '1867-07-01', 'La Confédération de l''Allemagne du Nord est créée sous direction prussienne après la guerre austro-prussienne.', NULL, 17),
+('Guerre franco-prussienne', 'guerre-franco-prussienne-AL', '1870-07-19', '1871-05-10', 'La guerre franco-prussienne oppose la France aux États allemands dirigés par la Prusse et accélère le processus d''unification allemande.', NULL, 6),
+('Proclamation de l''Empire allemand', 'proclamation-empire-allemand', '1871-01-18', '1871-01-18', 'Guillaume Ier de Prusse est proclamé empereur allemand dans la galerie des Glaces du château de Versailles, marquant la création de l''Empire allemand.', NULL, 17),
+('Traité de Francfort', 'traite-de-francfort-1871-AL', '1871-05-10', '1871-05-10', 'Le traité de Francfort met officiellement fin à la guerre franco-prussienne et confirme notamment la cession de l''Alsace et d''une partie de la Lorraine à l''Empire allemand.', NULL, 14),
+('Début de la Première Guerre mondiale', 'debut-premiere-guerre-mondiale-allemagne-AL', '1914-08-01', '1914-08-01', 'L''Empire allemand déclare la guerre à la Russie dans le contexte de la crise de juillet, contribuant au déclenchement de la Première Guerre mondiale.', NULL, 6),
+('Révolution allemande de 1918-1919', 'revolution-allemande-1918-1919', '1918-11-03', '1919-08-11', 'La révolution allemande entraîne la chute de la monarchie, l''abdication de Guillaume II et la création d''un régime républicain.', NULL, 8),
+('Traité de Versailles', 'traite-de-versailles-allemagne-AL', '1919-06-28', '1919-06-28', 'Le traité de Versailles impose à l''Allemagne les conditions de paix mettant fin à la Première Guerre mondiale sur le front occidental.', NULL, 14),
+('Adoption de la Constitution de Weimar', 'constitution-de-weimar', '1919-08-11', '1919-08-11', 'La Constitution de Weimar établit la République allemande et définit ses institutions démocratiques après la Première Guerre mondiale.', NULL, 22),
+('Hyperinflation allemande', 'hyperinflation-allemande', '1923-01-01', '1923-11-01', 'L''Allemagne connaît une hyperinflation majeure en 1923, aggravée par les tensions économiques et l''occupation de la Ruhr.', NULL, 25),
+('Putsch de la Brasserie', 'putsch-de-la-brasserie', '1923-11-08', '1923-11-09', 'Adolf Hitler et ses partisans tentent de renverser le gouvernement bavarois et le pouvoir allemand lors du putsch de la Brasserie à Munich.', NULL, 10),
+('Grande Dépression en Allemagne', 'grande-depression-allemagne-AL', '1929-10-24', '1933-01-30', 'La crise économique mondiale frappe durement l''Allemagne et contribue à une profonde crise économique et politique durant la République de Weimar.', NULL, 25),
+('Hitler devient chancelier', 'hitler-devient-chancelier', '1933-01-30', '1933-01-30', 'Le président Paul von Hindenburg nomme Adolf Hitler chancelier du Reich, ouvrant la voie à l''établissement du régime national-socialiste.', NULL, 22),
+('Incendie du Reichstag', 'incendie-du-reichstag', '1933-02-27', '1933-02-27', 'Le bâtiment du Reichstag est incendié à Berlin. L''événement est suivi de mesures d''exception et d''une accélération de la mise au pas politique du régime nazi.', NULL, 10),
+('Nuit de Cristal', 'nuit-de-cristal', '1938-11-09', '1938-11-10', 'Des violences antisémites coordonnées frappent les communautés juives dans l''Allemagne nazie et les territoires alors annexés.', NULL, 9),
+('Invasion de la Pologne', 'invasion-de-la-pologne-1939-AL', '1939-09-01', '1939-10-06', 'L''Allemagne nazie envahit la Pologne, déclenchant la Seconde Guerre mondiale en Europe.', NULL, 13),
+('Bataille de Stalingrad', 'bataille-de-stalingrad-AL', '1942-08-23', '1943-02-02', 'La bataille de Stalingrad se termine par la capitulation des forces allemandes encerclées et constitue un tournant majeur de la Seconde Guerre mondiale.', NULL, 7),
+('Attentat du 20 juillet 1944', 'attentat-20-juillet-1944', '1944-07-20', '1944-07-20', 'Un groupe d''officiers allemands tente d''assassiner Adolf Hitler et de renverser le régime nazi lors de l''opération Walkyrie.', NULL, 10),
+('Chute de Berlin', 'chute-de-berlin-AL', '1945-04-16', '1945-05-02', 'Les forces soviétiques lancent l''offensive finale contre Berlin et prennent la capitale du Reich au printemps 1945.', NULL, 7),
+('Capitulation allemande', 'capitulation-allemande-1945-AL', '1945-05-07', '1945-05-08', 'L''Allemagne signe sa capitulation sans condition, mettant fin aux combats en Europe pendant la Seconde Guerre mondiale.', NULL, 14),
+('Création de la République fédérale d''Allemagne', 'creation-rfa', '1949-05-23', '1949-05-23', 'La Loi fondamentale entre en vigueur et fonde la République fédérale d''Allemagne dans les zones d''occupation occidentales.', NULL, 17),
+('Création de la République démocratique allemande', 'creation-rda', '1949-10-07', '1949-10-07', 'La République démocratique allemande est créée dans la zone d''occupation soviétique, officialisant la division politique de l''Allemagne.', NULL, 17),
+('Construction du mur de Berlin', 'construction-mur-berlin', '1961-08-13', '1961-08-13', 'Les autorités est-allemandes ferment les passages entre Berlin-Est et Berlin-Ouest et commencent la construction du mur de Berlin.', NULL, 22),
+('Chute du mur de Berlin', 'chute-mur-berlin', '1989-11-09', '1989-11-09', 'L''ouverture des postes-frontières de Berlin met fin au fonctionnement du mur et devient un symbole majeur de la fin de la division de l''Allemagne.', NULL, 8),
+('Réunification allemande', 'reunification-allemande', '1990-10-03', '1990-10-03', 'La République démocratique allemande rejoint la République fédérale d''Allemagne, réalisant la réunification allemande.', NULL, 17);
 
--- 10. Bataille de Bouvines
-INSERT INTO events (
-    title, slug, date_start, date_end, description, image_url, type_id
-) VALUES (
-    'Bataille de Bouvines',
-    'bataille-de-bouvines',
-    '1214-07-27',
-    '1214-07-27',
-    'La bataille de Bouvines oppose notamment l''armée de Philippe Auguste à une coalition menée par l''empereur Otton IV et le roi Jean sans Terre.',
-    NULL,
-    6
-);
-
--- 11. Guerre de Cent Ans
-INSERT INTO events (
-    title, slug, date_start, date_end, description, image_url, type_id
-) VALUES (
-    'Guerre de Cent Ans',
-    'guerre-de-cent-ans',
-    '1337-01-01',
-    '1453-10-19',
-    'La guerre de Cent Ans est un long conflit opposant principalement les royaumes de France et d''Angleterre entre 1337 et 1453.',
-    NULL,
-    6
-);
-
--- 12. Jeanne d'Arc libère Orléans
-INSERT INTO events (
-    title, slug, date_start, date_end, description, image_url, type_id
-) VALUES (
-    'Jeanne d''Arc libère Orléans',
-    'jeanne-d-arc-libere-orleans',
-    '1429-04-29',
-    '1429-05-08',
-    'Jeanne d''Arc participe à la levée du siège d''Orléans pendant la guerre de Cent Ans.',
-    NULL,
-    6
-);
-
--- 13. Bataille de Marignan
-INSERT INTO events (
-    title, slug, date_start, date_end, description, image_url, type_id
-) VALUES (
-    'Bataille de Marignan',
-    'bataille-de-marignan',
-    '1515-09-13',
-    '1515-09-14',
-    'La bataille de Marignan oppose les forces françaises aux Suisses et constitue une victoire majeure du règne de François Ier.',
-    NULL,
-    6
-);
-
--- 14. Édit de Nantes
-INSERT INTO events (
-    title, slug, date_start, date_end, description, image_url, type_id
-) VALUES (
-    'Édit de Nantes',
-    'edit-de-nantes',
-    '1598-04-13',
-    '1598-04-13',
-    'Henri IV promulgue l''édit de Nantes, accordant des droits et garanties aux protestants français.',
-    NULL,
-    14
-);
-
--- 15. Louis XIV commence son gouvernement personnel
-INSERT INTO events (
-    title, slug, date_start, date_end, description, image_url, type_id
-) VALUES (
-    'Louis XIV commence son gouvernement personnel',
-    'louis-xiv-gouvernement-personnel',
-    '1661-03-09',
-    '1661-03-09',
-    'Après la mort de Mazarin, Louis XIV décide de gouverner personnellement le royaume de France.',
-    NULL,
-    22
-);
-
--- 16. Prise de la Bastille
-INSERT INTO events (
-    title, slug, date_start, date_end, description, image_url, type_id
-) VALUES (
-    'Prise de la Bastille',
-    'prise-de-la-bastille',
-    '1789-07-14',
-    '1789-07-14',
-    'La prise de la Bastille, le 14 juillet 1789 à Paris, constitue un événement majeur du début de la Révolution française.',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtsZwZ-6JgZwcjKMQodeYdMKi0Gqi7Ekw-kYl8BnB76A&s=10',
-    8
-);
-
--- 17. Déclaration des droits de l'homme et du citoyen
-INSERT INTO events (
-    title, slug, date_start, date_end, description, image_url, type_id
-) VALUES (
-    'Déclaration des droits de l''homme et du citoyen',
-    'declaration-des-droits-de-l-homme-et-du-citoyen',
-    '1789-08-26',
-    '1789-08-26',
-    'L''Assemblée nationale constituante adopte la Déclaration des droits de l''homme et du citoyen.',
-    NULL,
-    22
-);
-
--- 18. Première République
-INSERT INTO events (
-    title, slug, date_start, date_end, description, image_url, type_id
-) VALUES (
-    'Proclamation de la Première République',
-    'proclamation-de-la-premiere-republique',
-    '1792-09-21',
-    '1792-09-21',
-    'La Convention nationale abolit la monarchie et proclame la République française.',
-    NULL,
-    22
-);
-
--- 19. Exécution de Louis XVI
-INSERT INTO events (
-    title, slug, date_start, date_end, description, image_url, type_id
-) VALUES (
-    'Exécution de Louis XVI',
-    'execution-de-louis-xvi',
-    '1793-01-21',
-    '1793-01-21',
-    'Louis XVI est exécuté place de la Révolution à Paris pendant la Révolution française.',
-    NULL,
-    2
-);
-
--- 20. Sacre de Napoléon Ier
-INSERT INTO events (
-    title, slug, date_start, date_end, description, image_url, type_id
-) VALUES (
-    'Sacre de Napoléon Ier',
-    'sacre-de-napoleon-ier',
-    '1804-12-02',
-    '1804-12-02',
-    'Napoléon Bonaparte est sacré empereur des Français lors d''une cérémonie à Notre-Dame de Paris.',
-    NULL,
-    4
-);
 
