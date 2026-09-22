@@ -242,3 +242,493 @@ INSERT INTO events (title, slug, date_start, date_end, description, image_url, t
 ('Adoption de l''euro en Italie', 'adoption-euro-italie-IT', '1999-01-01', '2002-01-01', 'L''Italie adopte l''euro comme monnaie commune européenne, d''abord pour les transactions financières puis sous forme fiduciaire en 2002.', NULL, 25),
 ('Séisme de L''Aquila', 'seisme-laquila-IT', '2009-04-06', '2009-04-06', 'Un puissant séisme frappe la région des Abruzzes et provoque d''importantes destructions dans la ville de L''Aquila et ses environs.', NULL, 20),
 ('Expo 2015 à Milan', 'expo-2015-milan-IT', '2015-05-01', '2015-10-31', 'Milan accueille l''Exposition universelle de 2015, consacrée notamment aux enjeux de l''alimentation et du développement durable.', NULL, 16);
+
+
+-- PORTUGAL --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Arrivée des Romains dans la péninsule Ibérique', 'arrivee-romains-peninsule-iberique', '0218-01-01', '0218-12-31', 'Les armées romaines interviennent dans la péninsule Ibérique pendant la deuxième guerre punique, amorçant la romanisation progressive du territoire correspondant à l''actuel Portugal.', NULL, 12),
+('Fondation de la province romaine de Lusitanie', 'fondation-province-lusitanie', '0015-01-01', '0015-12-31', 'Rome organise une partie de ses territoires ibériques en province de Lusitanie, dont le centre administratif se situe à Emerita Augusta.', NULL, 17),
+('Invasion des Suèves dans la péninsule Ibérique', 'invasion-sueves-peninsule-iberique', '0409-01-01', '0409-12-31', 'Les Suèves pénètrent dans la péninsule Ibérique et fondent un royaume qui englobe une partie du nord-ouest de l''actuel Portugal.', NULL, 13),
+('Fondation du royaume suève', 'fondation-royaume-sueve', '0411-01-01', '0411-12-31', 'Les Suèves établissent un royaume indépendant en Galice et dans le nord-ouest de la péninsule Ibérique, avec Braga comme centre politique majeur.', NULL, 16),
+('Conquête wisigothe du royaume suève', 'conquete-wisigothe-royaume-sueve', '0585-01-01', '0585-12-31', 'Le roi wisigoth Léovigild conquiert le royaume suève et intègre ses territoires à la monarchie wisigothique.', NULL, 12),
+('Invasion musulmane de la péninsule Ibérique', 'invasion-musulmane-peninsule-iberique', '0711-07-01', '0716-12-31', 'Les forces arabo-berbères conquièrent une grande partie de la péninsule Ibérique, plaçant le territoire portugais sous domination islamique progressive.', NULL, 13),
+('Conquête chrétienne de Porto', 'conquete-chretienne-porto', '0868-01-01', '0868-12-31', 'Les forces chrétiennes reprennent Porto et consolident leur présence au nord du futur Portugal.', NULL, 12),
+('Création du comté de Portugal', 'creation-comte-portugal', '0868-01-01', '0868-12-31', 'Le comté de Portugal est organisé dans le cadre de l''expansion du royaume des Asturies et devient une entité politique frontalière importante.', NULL, 16),
+('Henri de Bourgogne reçoit le comté de Portugal', 'henri-bourgogne-comte-portugal', '1096-01-01', '1096-12-31', 'Henri de Bourgogne reçoit le comté de Portugal du roi Alphonse VI de León et de Castille, posant les bases de la future dynastie portugaise.', NULL, 22),
+('Bataille d''Ourique', 'bataille-ourique', '1139-07-25', '1139-07-25', 'Alphonse Henriques remporte une victoire majeure contre les forces musulmanes et est acclamé roi par ses troupes selon la tradition portugaise.', NULL, 7),
+('Traité de Zamora', 'traite-zamora-PT', '1143-10-05', '1143-10-05', 'Le traité de Zamora marque la reconnaissance par Alphonse VII de León et de Castille du titre royal d''Alphonse Henriques.', NULL, 14),
+('Conquête de Lisbonne', 'conquete-lisbonne', '1147-10-25', '1147-10-25', 'Les forces portugaises d''Alphonse Henriques, aidées par des croisés européens, reprennent Lisbonne aux Almoravides.', NULL, 12),
+('Conquête de Santarém', 'conquete-santarem', '1147-03-15', '1147-03-15', 'Alphonse Henriques s''empare de Santarém, renforçant la position portugaise dans la vallée du Tage.', NULL, 12),
+('Reconnaissance pontificale du royaume du Portugal', 'reconnaissance-pontificale-royaume-portugal', '1179-05-23', '1179-05-23', 'La bulle Manifestis Probatum du pape Alexandre III reconnaît officiellement le royaume du Portugal et Alphonse Henriques comme roi.', NULL, 23),
+('Bataille de Las Navas de Tolosa', 'bataille-las-navas-tolosa-PT', '1212-07-16', '1212-07-16', 'Les armées chrétiennes, auxquelles participent des forces portugaises, infligent une défaite majeure aux Almohades dans la péninsule Ibérique.', NULL, 7),
+('Conquête de l''Algarve', 'conquete-algarve', '1249-01-01', '1249-12-31', 'Alphonse III achève la conquête chrétienne de l''Algarve en prenant plusieurs villes musulmanes, dont Faro, Loulé et Albufeira.', NULL, 12),
+('Cortes de Leiria', 'cortes-leiria', '1254-01-01', '1254-12-31', 'Les Cortes de Leiria réunissent des représentants de la noblesse, du clergé et des municipalités, marquant une étape importante dans l''organisation politique du royaume.', NULL, 22),
+('Lisbonne devient capitale du Portugal', 'lisbonne-capitale-portugal', '1255-01-01', '1255-12-31', 'Lisbonne devient la capitale du royaume du Portugal sous le règne d''Alphonse III.', NULL, 22),
+('Fondation de l''Université de Coimbra', 'fondation-universite-coimbra', '1290-03-01', '1290-03-01', 'Le roi Denis Ier crée l''Estudo Geral, institution à l''origine de l''Université de Coimbra.', NULL, 17),
+('Traité d''Alcañices', 'traite-alcanices-PT', '1297-09-12', '1297-09-12', 'Le Portugal et la Castille fixent une grande partie de leur frontière commune par le traité d''Alcañices.', NULL, 14),
+('Traité commercial entre le Portugal et l''Angleterre', 'traite-commercial-portugal-angleterre-PT', '1308-05-01', '1308-05-01', 'Le Portugal et l''Angleterre concluent un accord commercial favorisant les échanges entre les deux royaumes.', NULL, 14),
+('Crise de succession portugaise de 1383-1385', 'crise-succession-portugal-1383-1385', '1383-12-01', '1385-08-14', 'Une crise dynastique oppose les partisans de Jean de Castille aux défenseurs de l''indépendance portugaise et conduit à l''avènement de la dynastie d''Aviz.', NULL, 22),
+('Bataille d''Aljubarrota', 'bataille-aljubarrota-PT', '1385-08-14', '1385-08-14', 'L''armée portugaise, soutenue par des alliés anglais, défait les forces castillanes et consolide l''indépendance du Portugal.', NULL, 7),
+('Traité de Windsor', 'traite-windsor-PT', '1386-05-09', '1386-05-09', 'Le Portugal et l''Angleterre concluent une alliance diplomatique et militaire durable, considérée comme l''une des plus anciennes alliances internationales encore en vigueur.', NULL, 15),
+('Prise de Ceuta', 'prise-ceuta-PT', '1415-08-21', '1415-08-21', 'Les forces portugaises dirigées par Jean Ier s''emparent de Ceuta, marquant le début de l''expansion portugaise outre-mer.', NULL, 12),
+('Découverte de Madère', 'decouverte-madere', '1419-01-01', '1419-12-31', 'Les navigateurs portugais João Gonçalves Zarco et Tristão Vaz Teixeira explorent et prennent possession de l''île de Madère.', NULL, 18),
+('Dépassement du cap Bojador', 'depassement-cap-bojador', '1434-01-01', '1434-12-31', 'Gil Eanes franchit le cap Bojador, étape majeure de l''exploration maritime portugaise de la côte africaine.', NULL, 18),
+('Prise de Constantinople par les Ottomans', 'prise-constantinople-PT', '1453-05-29', '1453-05-29', 'La prise de Constantinople par les Ottomans bouleverse les échanges entre l''Europe et l''Orient et contribue à stimuler les recherches de nouvelles routes maritimes portugaises.', NULL, 12),
+('Conquête d''Alcácer Ceguer', 'conquete-alcacer-ceguer-PT', '1458-10-24', '1458-10-24', 'Les Portugais s''emparent d''Alcácer Ceguer sur la côte marocaine sous le règne d''Alphonse V.', NULL, 12),
+('Bataille de Toro', 'bataille-toro-PT', '1476-03-01', '1476-03-01', 'Les forces portugaises affrontent les troupes castillanes lors de la guerre de succession de Castille.', NULL, 7),
+('Traité d''Alcáçovas', 'traite-alcacovas-PT', '1479-09-04', '1479-09-04', 'Le traité d''Alcáçovas met fin à la guerre de succession de Castille et délimite certaines zones d''influence maritimes entre le Portugal et la Castille.', NULL, 14),
+('Arrivée de Bartolomeu Dias au cap de Bonne-Espérance', 'bartolomeu-dias-cap-bonne-esperance-PT', '1488-02-03', '1488-02-03', 'Bartolomeu Dias atteint le cap de Bonne-Espérance, ouvrant la voie maritime vers l''océan Indien.', NULL, 18),
+('Arrivée de Vasco de Gama en Inde', 'vasco-de-gama-arrivee-inde-PT', '1498-05-20', '1498-05-20', 'Vasco de Gama atteint Calicut en Inde après avoir contourné l''Afrique, ouvrant une route maritime directe entre l''Europe et l''océan Indien.', NULL, 18),
+('Découverte officielle du Brésil', 'decouverte-bresil-PT', '1500-04-22', '1500-04-22', 'La flotte de Pedro Álvares Cabral atteint les côtes du Brésil et en prend possession au nom du Portugal.', NULL, 18),
+('Conquête de Malacca', 'conquete-malacca-PT', '1511-08-15', '1511-08-24', 'Les forces portugaises commandées par Afonso de Albuquerque conquièrent Malacca, centre stratégique du commerce asiatique.', NULL, 12),
+('Séisme de Lisbonne', 'seisme-lisbonne', '1755-11-01', '1755-11-01', 'Un puissant séisme, suivi d''un tsunami et d''incendies, dévaste Lisbonne et provoque une catastrophe majeure dans le royaume du Portugal.', NULL, 20),
+('Première invasion française du Portugal', 'premiere-invasion-francaise-portugal-PT', '1807-11-19', '1807-12-01', 'Les troupes napoléoniennes envahissent le Portugal, entraînant le départ de la famille royale et de la cour vers le Brésil.', NULL, 13),
+('Création du Royaume-Uni de Portugal, du Brésil et des Algarves', 'creation-royaume-uni-portugal-bresil-algarves-PT', '1815-12-16', '1815-12-16', 'Le prince régent Jean élève le Brésil au rang de royaume et crée le Royaume-Uni de Portugal, du Brésil et des Algarves.', NULL, 17),
+('Révolution libérale de Porto', 'revolution-liberale-porto', '1820-08-24', '1820-08-24', 'Une révolution libérale éclate à Porto et réclame le retour de la cour royale ainsi qu''une constitution.', NULL, 8),
+('Guerres libérales portugaises', 'guerres-liberales-portugal', '1828-01-01', '1834-05-26', 'Une guerre civile oppose les partisans de la monarchie constitutionnelle aux défenseurs de l''absolutisme de Michel Ier.', NULL, 6),
+('Abolition de la peine de mort pour les crimes civils', 'abolition-peine-mort-portugal', '1867-07-01', '1867-07-01', 'Le Portugal abolit la peine de mort pour les crimes civils, devenant l''un des premiers pays européens à adopter cette mesure.', NULL, 22),
+('Ultimatum britannique au Portugal', 'ultimatum-britannique-portugal-PT', '1890-01-11', '1890-01-11', 'Le Royaume-Uni impose au Portugal de renoncer à ses projets de liaison territoriale entre l''Angola et le Mozambique, provoquant une crise politique majeure.', NULL, 22),
+('Régicide de Lisbonne', 'regicide-lisbonne', '1908-02-01', '1908-02-01', 'Le roi Charles Ier et le prince héritier Louis-Philippe sont assassinés à Lisbonne lors d''un attentat contre la famille royale.', NULL, 2),
+('Révolution du 5 octobre 1910', 'revolution-5-octobre-1910', '1910-10-05', '1910-10-05', 'La monarchie portugaise est renversée et la Première République est proclamée.', NULL, 8),
+('Bataille de la Lys', 'bataille-la-lys-PT', '1918-04-09', '1918-04-09', 'Les forces portugaises engagées sur le front occidental subissent une lourde défaite face aux troupes allemandes pendant la Première Guerre mondiale.', NULL, 7),
+('Coup d''État militaire du 28 mai 1926', 'coup-etat-militaire-28-mai-1926', '1926-05-28', '1926-05-28', 'Un coup d''État militaire met fin à la Première République portugaise et ouvre la voie à une longue dictature.', NULL, 10),
+('Institutionnalisation de l''Estado Novo', 'institutionnalisation-estado-novo', '1933-04-11', '1933-04-11', 'Une nouvelle constitution institutionnalise l''Estado Novo, régime autoritaire dirigé par António de Oliveira Salazar.', NULL, 22),
+('Révolution des Œillets', 'revolution-oeillets', '1974-04-25', '1974-04-25', 'Un soulèvement militaire renverse l''Estado Novo et ouvre la voie à la démocratisation du Portugal.', NULL, 8),
+('Adhésion du Portugal à la Communauté économique européenne', 'adhesion-portugal-cee', '1986-01-01', '1986-01-01', 'Le Portugal rejoint la Communauté économique européenne avec l''Espagne, intégrant durablement le projet européen.', NULL, 17),
+('Adoption de l''euro au Portugal', 'adoption-euro-portugal', '1999-01-01', '1999-01-01', 'Le Portugal adopte l''euro comme monnaie officielle pour les transactions financières, avant la mise en circulation des billets et pièces en 2002.', NULL, 25);
+
+
+-- ALBANIE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Séisme de Dyrrachium', 'seisme-dyrrachium', '0346-01-01', '0346-12-31', 'Un puissant séisme frappe Dyrrachium, l’actuelle Durrës, et provoque d’importants dégâts dans la région.', NULL, 20),
+('Fondation de la principauté d''Arbanon', 'fondation-principaute-arbanon', '1190-01-01', '1190-12-31', 'Progon établit la principauté d’Arbanon, considérée comme l’un des premiers États médiévaux dirigés par une dynastie albanaise.', NULL, 16),
+('Bataille de Savra', 'bataille-savra-AL', '1385-09-18', '1385-09-18', 'Les forces ottomanes remportent la bataille de Savra près de Lushnjë, marquant le début de l’expansion ottomane durable dans les territoires albanais.', NULL, 7),
+('Ligue de Lezhë', 'ligue-lezhe', '1444-03-02', '1444-03-02', 'Skanderbeg et plusieurs princes albanais forment à Lezhë une alliance destinée à coordonner la résistance contre l’expansion ottomane.', NULL, 15),
+('Bataille de Torvioll', 'bataille-torvioll-AL', '1444-06-29', '1444-06-29', 'Les forces commandées par Skanderbeg remportent une importante victoire contre l’armée ottomane à Torvioll.', NULL, 7),
+('Siège de Krujë', 'siege-kruje-AL', '1450-05-14', '1450-10-23', 'L’armée ottomane assiège Krujë, mais la garnison dirigée par Skanderbeg résiste et contraint les assiégeants à se retirer.', NULL, 7),
+('Prise de Krujë par les Ottomans', 'prise-kruje-AL', '1478-06-01', '1478-06-01', 'Après plusieurs décennies de résistance, Krujë tombe aux mains des Ottomans et la résistance organisée de la principauté de Skanderbeg s’achève progressivement.', NULL, 12),
+('Prise de Shkodër par les Ottomans', 'prise-shkoder-AL', '1479-01-25', '1479-01-25', 'La République de Venise cède Shkodër aux Ottomans après le siège de la ville, consolidant la domination ottomane sur les territoires albanais.', NULL, 12),
+('Création de la Ligue de Prizren', 'ligue-prizren', '1878-06-10', '1878-06-10', 'Des représentants albanais réunis à Prizren fondent la Ligue de Prizren afin de défendre l’intégrité territoriale et les intérêts politiques des populations albanaises.', NULL, 17),
+('Ouverture de la première école normale albanaise', 'premiere-ecole-normale-albanaise', '1887-03-07', '1887-03-07', 'L’école de Korçë ouvre ses portes et devient un important centre de formation et de diffusion de l’enseignement en langue albanaise.', NULL, 24),
+('Congrès de Manastir et adoption de l''alphabet latin', 'congres-manastir-alphabet-latin', '1908-11-14', '1908-11-22', 'Le Congrès de Manastir réunit des intellectuels albanais et contribue à établir l’alphabet latin comme base commune de l’écriture albanaise.', NULL, 24),
+('Révolte albanaise de 1912', 'revolte-albanaise-1912', '1912-01-01', '1912-09-04', 'Une vaste insurrection albanaise contre le pouvoir ottoman obtient plusieurs concessions et accélère le processus menant à l’indépendance.', NULL, 9),
+('Première Guerre balkanique', 'premiere-guerre-balkanique-AL', '1912-10-08', '1913-05-30', 'La Première Guerre balkanique oppose la Ligue balkanique à l’Empire ottoman et entraîne l’occupation de plusieurs territoires albanais.', NULL, 6),
+('Déclaration d''indépendance de l''Albanie', 'declaration-independance-albanie', '1912-11-28', '1912-11-28', 'L’Assemblée nationale réunie à Vlorë proclame l’indépendance de l’Albanie et met en place un gouvernement provisoire dirigé par Ismail Qemali.', NULL, 11),
+('Traité de Londres et reconnaissance de l''Albanie', 'traite-londres-albanie-AL', '1913-05-30', '1913-05-30', 'Le traité de Londres met fin à la Première Guerre balkanique et contribue à définir le territoire du nouvel État albanais.', NULL, 14),
+('Arrivée du prince Guillaume de Wied', 'arrivee-guillaume-wied', '1914-03-07', '1914-03-07', 'Le prince Guillaume de Wied arrive à Durrës pour prendre la tête de la nouvelle principauté d’Albanie.', NULL, 4),
+('Guerre de Vlora', 'guerre-vlora', '1920-06-04', '1920-08-02', 'Les forces albanaises affrontent les troupes italiennes autour de Vlora et obtiennent leur retrait de la région.', NULL, 6),
+('Proclamation de la République albanaise', 'proclamation-republique-albanie', '1925-01-21', '1925-01-21', 'L’Assemblée constitutionnelle proclame la République albanaise après la prise du pouvoir par Ahmet Zogu.', NULL, 22),
+('Invasion italienne de l''Albanie', 'invasion-italienne-albanie-AL', '1939-04-07', '1939-04-12', 'L’Italie fasciste envahit l’Albanie et contraint le roi Zog Ier à l’exil, intégrant le pays à l’empire italien.', NULL, 13),
+('Chute du régime communiste en Albanie', 'chute-regime-communiste-albanie', '1990-12-08', '1992-03-22', 'Les manifestations étudiantes de décembre 1990 ouvrent la transition politique qui conduit à la fin du régime communiste et aux élections pluralistes de 1992.', NULL, 8);
+
+
+-- ANDORE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Première mention écrite d''Andorre', 'premiere-mention-ecrite-andorre', '0843-01-01', '0843-12-31', 'Un acte de l’empereur carolingien Charles le Chauve mentionne les vallées d’Andorre parmi les possessions du comte Sunifred d’Urgell.', NULL, 18),
+('Établissement de la coseigneurie d''Andorre', 'coseigneurie-andorre', '1278-09-08', '1278-09-08', 'Le premier paréage d’Andorre établit une souveraineté partagée entre l’évêque d’Urgell et le comte de Foix, fondement du système politique andorran.', NULL, 14),
+('Second paréage d''Andorre', 'second-pareage-andorre', '1288-11-06', '1288-11-06', 'Le second paréage complète l’accord de 1278 et précise les droits et obligations des deux coseigneurs d’Andorre.', NULL, 14),
+('Création du Consell de la Terra', 'creation-consell-terra', '1419-01-01', '1419-12-31', 'L’évêque d’Urgell reconnaît officiellement le Consell de la Terra, institution représentative chargée de gérer les affaires communes des vallées.', NULL, 17),
+('Annexion temporaire d''Andorre par la Couronne d''Aragon', 'annexion-andorre-couronne-aragon', '1396-01-01', '1396-12-31', 'Andorre est temporairement rattachée à la Couronne d’Aragon dans le contexte des conflits politiques de la fin du Moyen Âge.', NULL, 12),
+('Seconde annexion temporaire d''Andorre par la Couronne d''Aragon', 'seconde-annexion-andorre-aragon', '1512-01-01', '1512-12-31', 'Andorre connaît une nouvelle période de rattachement à la Couronne d’Aragon avant le rétablissement de son régime de coseigneurie.', NULL, 12),
+('Adoption du Manual Digest', 'adoption-manual-digest', '1748-01-01', '1748-12-31', 'Antoni Fiter i Rossell rédige le Manual Digest, importante compilation du droit, des usages et de l’histoire politique d’Andorre.', NULL, 24),
+('Révolution française et maintien de la coseigneurie', 'revolution-francaise-coseigneurie-andorre-FR', '1789-07-14', '1799-11-09', 'La Révolution française entraîne la suppression temporaire des droits féodaux du coseigneur français sur Andorre, tandis que la principauté maintient ses institutions traditionnelles.', NULL, 8),
+('Rétablissement des droits du coseigneur français', 'retablissement-coseigneur-francais', '1806-01-01', '1806-12-31', 'Napoléon rétablit les droits institutionnels du chef de l’État français comme coseigneur d’Andorre.', NULL, 22),
+('Nouvelle Réforme d''Andorre', 'nouvelle-reforme-andorre', '1866-04-22', '1866-04-22', 'La Nouvelle Réforme transforme les institutions politiques andorranes, élargit le droit de vote aux chefs de maison et renforce les pouvoirs du Conseil général.', NULL, 22),
+('Ouverture de la première route carrossable vers l''Espagne', 'premiere-route-andorre-espagne', '1914-01-01', '1914-12-31', 'Une première route relie Andorre à la Seu d’Urgell en Espagne, réduisant l’isolement géographique du pays et facilitant les échanges.', NULL, 17),
+('Révolution andorrane de 1933', 'revolution-andorrane-1933', '1933-04-05', '1933-04-05', 'Le mouvement des Jeunes Andorrans s’empare du Parlement et réclame des réformes politiques et l’instauration du suffrage universel masculin.', NULL, 8),
+('Occupation française d''Andorre', 'occupation-francaise-andorre-FR', '1933-08-01', '1933-08-01', 'La France envoie des gendarmes en Andorre dans le contexte des troubles politiques liés à la réforme électorale de 1933.', NULL, 13),
+('Proclamation de Boris Ier d''Andorre', 'proclamation-boris-premier-andorre', '1934-07-06', '1934-07-20', 'Boris Skossyreff se proclame souverain d’Andorre avant d’être arrêté par les autorités espagnoles et expulsé du territoire.', NULL, 10),
+('Guerre civile espagnole et présence française en Andorre', 'guerre-civile-espagnole-andorre-ES', '1936-07-17', '1939-04-01', 'Pendant la guerre civile espagnole, la France maintient un détachement de gendarmes en Andorre afin de prévenir les débordements du conflit sur le territoire.', NULL, 6),
+('Neutralité d''Andorre pendant la Seconde Guerre mondiale', 'neutralite-andorre-seconde-guerre-mondiale', '1939-09-01', '1945-09-02', 'Andorre reste officiellement neutre pendant la Seconde Guerre mondiale et sert notamment de voie de passage pour des réseaux d’évasion à travers les Pyrénées.', NULL, 22),
+('Création du premier gouvernement d''Andorre', 'premier-gouvernement-andorre', '1982-01-14', '1982-01-14', 'Le premier gouvernement distinct du pouvoir législatif entre en fonction sous la présidence d’Òscar Ribas Reig.', NULL, 22),
+('Création du Conseil exécutif d''Andorre', 'creation-conseil-executif-andorre', '1981-01-01', '1981-12-31', 'La création du Conseil exécutif marque le début d’une série de réformes institutionnelles conduisant à la transformation politique du principat.', NULL, 17),
+('Adoption de la Constitution d''Andorre', 'constitution-andorre', '1993-03-14', '1993-03-14', 'Les électeurs andorrans approuvent par référendum la première Constitution écrite du pays, qui établit Andorre comme un État souverain, démocratique et de droit.', NULL, 22),
+('Admission d''Andorre à l''Organisation des Nations unies', 'admission-andorre-onu-AL', '1993-07-28', '1993-07-28', 'Andorre devient membre de l’Organisation des Nations unies, consacrant son intégration dans la communauté internationale.', NULL, 22);
+
+
+-- AUTRICHE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Conquête romaine du Norique', 'conquete-romaine-norique-AU', '0015-01-01', '0015-12-31', 'Les Romains établissent leur contrôle sur le royaume celtique du Norique, correspondant en grande partie à l’Autriche actuelle.', NULL, 12),
+('Fondation du camp militaire de Vindobona', 'fondation-vindobona', '0090-01-01', '0090-12-31', 'Les Romains établissent à Vindobona, l’actuelle Vienne, un important camp militaire sur le Danube.', NULL, 16),
+('Guerres marcomanes', 'guerres-marcomanes-AU', '0166-01-01', '0180-12-31', 'Les guerres marcomanes opposent l’Empire romain à plusieurs peuples germaniques le long du Danube, notamment dans la région de l’actuelle Autriche.', NULL, 6),
+('Mort de Marc Aurèle à Vindobona', 'mort-marc-aurele-vindobona', '0180-03-17', '0180-03-17', 'L’empereur romain Marc Aurèle meurt à Vindobona, probablement durant la campagne contre les peuples germaniques.', NULL, 2),
+('Bataille de Pressburg', 'bataille-pressburg-AU', '0907-07-04', '0907-07-04', 'Les Magyars remportent une importante victoire contre l’armée bavaroise à proximité de Pressburg, consolidant leur domination dans le bassin danubien.', NULL, 7),
+('Bataille du Lechfeld', 'bataille-lechfeld-AU', '0955-08-10', '0955-08-10', 'Otton Ier bat les Magyars au Lechfeld, mettant fin à leurs grandes incursions en Germanie et renforçant le pouvoir ottonien dans la région alpine.', NULL, 7),
+('Création du margraviat d''Autriche', 'creation-margraviat-autriche', '0976-01-01', '0976-12-31', 'L’empereur Otton II confie le margraviat oriental à Léopold de Babenberg, origine de la dynastie qui gouvernera l’Autriche pendant plusieurs siècles.', NULL, 16),
+('Élévation de l''Autriche au rang de duché', 'elevation-autriche-duche', '1156-09-17', '1156-09-17', 'Le Privilegium Minus élève l’Autriche au rang de duché et accorde d’importants privilèges à la maison de Babenberg.', NULL, 22),
+('Début du règne des Habsbourg en Autriche', 'debut-regne-habsbourg-autriche', '1278-08-26', '1278-08-26', 'La victoire de Rodolphe Ier de Habsbourg sur Ottokar II de Bohême permet aux Habsbourg de s’établir durablement en Autriche.', NULL, 5),
+('Fondation de l''université de Vienne', 'fondation-universite-vienne', '1365-03-12', '1365-03-12', 'Le duc Rodolphe IV fonde l’université de Vienne, l’une des plus anciennes universités du monde germanophone.', NULL, 16),
+('Mariage de Maximilien Ier et de Marie de Bourgogne', 'mariage-maximilien-marie-bourgogne-AU', '1477-08-19', '1477-08-19', 'Le mariage de Maximilien de Habsbourg et de Marie de Bourgogne renforce considérablement la puissance dynastique des Habsbourg en Europe.', NULL, 3),
+('Couronnement impérial de Maximilien Ier', 'couronnement-maximilien-empereur-AU', '1508-02-04', '1508-02-04', 'Maximilien Ier prend le titre d’empereur élu des Romains sans être couronné par le pape, inaugurant une nouvelle pratique impériale.', NULL, 4),
+('Siège de Vienne par les Ottomans', 'siege-vienne-1529-AU', '1529-09-27', '1529-10-15', 'L’armée ottomane de Soliman le Magnifique assiège Vienne mais échoue à prendre la ville.', NULL, 7),
+('Bataille de Vienne', 'bataille-vienne-1683-AU', '1683-09-12', '1683-09-12', 'Les forces de la monarchie des Habsbourg et leurs alliés battent l’armée ottomane devant Vienne.', NULL, 7),
+('Grande guerre turque', 'grande-guerre-turque-AU', '1683-01-01', '1699-01-26', 'La monarchie des Habsbourg participe à la guerre de la Sainte-Ligue contre l’Empire ottoman, qui se termine par le traité de Karlowitz.', NULL, 6),
+('Guerre de Succession d''Espagne', 'guerre-succession-espagne-AU', '1701-07-09', '1714-04-11', 'La monarchie des Habsbourg participe à la guerre de Succession d’Espagne contre la France et ses alliés.', NULL, 6),
+('Pragmatique Sanction de 1713', 'pragmatique-sanction-1713', '1713-04-19', '1713-04-19', 'Charles VI promulgue la Pragmatique Sanction afin d’assurer l’indivisibilité des possessions des Habsbourg et la succession de sa descendance.', NULL, 22),
+('Naissance de Marie-Thérèse d''Autriche', 'naissance-marie-therese-autriche', '1717-05-13', '1717-05-13', 'Marie-Thérèse, future archiduchesse d’Autriche et reine de Hongrie et de Bohême, naît à Vienne.', NULL, 1),
+('Guerre de Succession d''Autriche', 'guerre-succession-autriche-AU', '1740-12-16', '1748-10-18', 'La succession de Marie-Thérèse déclenche un conflit européen au cours duquel la monarchie des Habsbourg défend ses possessions.', NULL, 6),
+('Couronnement de Marie-Thérèse reine de Hongrie', 'couronnement-marie-therese-hongrie', '1741-06-25', '1741-06-25', 'Marie-Thérèse est couronnée reine de Hongrie à Presbourg pendant la guerre de Succession d’Autriche.', NULL, 4),
+('Réformes de Joseph II', 'reformes-joseph-ii', '1780-01-01', '1790-02-20', 'Joseph II mène une vaste politique de réformes administratives, religieuses et sociales dans les territoires des Habsbourg.', NULL, 22),
+('Guerres de la Révolution française', 'guerres-revolution-francaise-AU', '1792-04-20', '1802-03-25', 'La monarchie des Habsbourg participe aux guerres contre la France révolutionnaire.', NULL, 6),
+('Bataille de Wagram', 'bataille-wagram-AU', '1809-07-05', '1809-07-06', 'Napoléon Ier bat les forces autrichiennes lors de la bataille de Wagram, près de Vienne.', NULL, 7),
+('Traité de Schönbrunn', 'traite-schonbrunn-AU', '1809-10-14', '1809-10-14', 'L’Autriche signe avec la France le traité de Schönbrunn après sa défaite dans la guerre de la Cinquième Coalition.', NULL, 14),
+('Congrès de Vienne', 'congres-vienne-AU', '1814-09-01', '1815-06-09', 'Le Congrès de Vienne réorganise l’Europe après les guerres napoléoniennes et fait de l’Autriche une puissance centrale du nouvel ordre européen.', NULL, 22),
+('Création de la Confédération germanique', 'creation-confederation-germanique-AU', '1815-06-08', '1815-06-08', 'L’Acte final du Congrès de Vienne établit la Confédération germanique, présidée par l’Empire d’Autriche.', NULL, 17),
+('Révolution autrichienne de 1848', 'revolution-autrichienne-1848', '1848-03-13', '1848-12-31', 'Les mouvements révolutionnaires de 1848 provoquent à Vienne la chute de Metternich et de profondes transformations politiques.', NULL, 8),
+('Abdication de Ferdinand Ier d''Autriche', 'abdication-ferdinand-autriche', '1848-12-02', '1848-12-02', 'Ferdinand Ier abdique au profit de son neveu François-Joseph Ier au cours des bouleversements révolutionnaires de 1848.', NULL, 22),
+('Compromis austro-hongrois', 'compromis-austro-hongrois', '1867-03-30', '1867-06-08', 'Le compromis de 1867 transforme l’Empire d’Autriche en double monarchie austro-hongroise.', NULL, 22),
+('Couronnement de François-Joseph Ier roi de Hongrie', 'couronnement-francois-joseph-hongrie', '1867-06-08', '1867-06-08', 'François-Joseph Ier est couronné roi de Hongrie après la création de la monarchie austro-hongroise.', NULL, 4),
+('Exposition universelle de Vienne', 'exposition-universelle-vienne', '1873-05-01', '1873-10-31', 'Vienne accueille une grande exposition universelle consacrée notamment aux réalisations industrielles, scientifiques et culturelles.', NULL, 24),
+('Création de la Sécession viennoise', 'creation-secession-viennoise', '1897-04-03', '1897-04-03', 'Des artistes autrichiens fondent la Sécession viennoise en rupture avec les institutions artistiques traditionnelles.', NULL, 24),
+('Assassinat de François-Ferdinand à Sarajevo', 'assassinat-francois-ferdinand-SI', '1914-06-28', '1914-06-28', 'L’assassinat de l’archiduc François-Ferdinand et de son épouse à Sarajevo déclenche la crise diplomatique qui précède la Première Guerre mondiale.', NULL, 2),
+('Déclaration de guerre austro-hongroise à la Serbie', 'declaration-guerre-serbie-AU', '1914-07-28', '1914-07-28', 'L’Autriche-Hongrie déclare la guerre à la Serbie, ouvrant les hostilités de la Première Guerre mondiale.', NULL, 6),
+('Première Guerre mondiale', 'premiere-guerre-mondiale-AU', '1914-07-28', '1918-11-11', 'L’Autriche-Hongrie combat aux côtés des Empires centraux avant la désintégration de la monarchie en 1918.', NULL, 6),
+('Proclamation de la République d''Autriche allemande', 'proclamation-republique-autriche-allemande', '1918-11-12', '1918-11-12', 'Après la dissolution de l’Empire austro-hongrois, l’Assemblée provisoire proclame la République d’Autriche allemande.', NULL, 22),
+('Traité de Saint-Germain-en-Laye', 'traite-saint-germain-autriche-AU', '1919-09-10', '1919-09-10', 'Le traité de Saint-Germain-en-Laye fixe les nouvelles frontières de l’Autriche et interdit notamment son union avec l’Allemagne sans accord international.', NULL, 14),
+('Adoption de la Constitution fédérale autrichienne', 'constitution-federale-autriche', '1920-10-01', '1920-10-01', 'L’Autriche adopte sa Constitution fédérale, qui organise les institutions de la nouvelle république.', NULL, 22),
+('Guerre civile autrichienne', 'guerre-civile-autrichienne', '1934-02-12', '1934-02-16', 'Des affrontements armés opposent les forces gouvernementales et les organisations socialistes dans plusieurs villes autrichiennes.', NULL, 6),
+('Établissement de l''État corporatif autrichien', 'etat-corporatif-autrichien', '1934-05-01', '1934-05-01', 'Une nouvelle constitution transforme l’Autriche en État autoritaire corporatif sous la direction d’Engelbert Dollfuss.', NULL, 22),
+('Assassinat d''Engelbert Dollfuss', 'assassinat-engelbert-dollfuss', '1934-07-25', '1934-07-25', 'Des putschistes nazis autrichiens assassinent le chancelier Engelbert Dollfuss lors d’une tentative de coup d’État.', NULL, 2),
+('Anschluss de l''Autriche à l''Allemagne nazie', 'anschluss-autriche-DE', '1938-03-12', '1938-03-13', 'Les troupes allemandes entrent en Autriche et le pays est incorporé au Reich allemand après l’Anschluss.', NULL, 13),
+('Seconde Guerre mondiale', 'seconde-guerre-mondiale-AU', '1939-09-01', '1945-09-02', 'L’Autriche, intégrée au Reich allemand depuis 1938, participe au conflit jusqu’à la défaite de l’Allemagne nazie en 1945.', NULL, 6),
+('Libération de Vienne', 'liberation-vienne-AU', '1945-04-06', '1945-04-13', 'Les forces soviétiques s’emparent de Vienne après de violents combats contre les forces allemandes.', NULL, 7),
+('Rétablissement de la République autrichienne', 'retablissement-republique-autrichienne', '1945-04-27', '1945-04-27', 'Les représentants des partis autrichiens proclament la restauration de la République d’Autriche après la fin du régime nazi.', NULL, 22),
+('Traité d''État autrichien', 'traite-etat-autrichien-AU', '1955-05-15', '1955-05-15', 'Le traité d’État autrichien met fin au régime d’occupation alliée et rétablit la pleine souveraineté de l’Autriche.', NULL, 14),
+('Déclaration de neutralité permanente de l''Autriche', 'neutralite-permanente-autriche', '1955-10-26', '1955-10-26', 'Le Parlement autrichien adopte la loi constitutionnelle établissant la neutralité permanente de l’Autriche.', NULL, 22),
+('Adhésion de l''Autriche à l''Union européenne', 'adhesion-autriche-union-europeenne-UE', '1995-01-01', '1995-01-01', 'L’Autriche devient membre de l’Union européenne avec la Finlande et la Suède.', NULL, 22),
+('Adoption de l''euro en Autriche', 'adoption-euro-autriche-UE', '1999-01-01', '1999-01-01', 'L’Autriche adopte l’euro comme monnaie officielle pour les transactions financières avant la mise en circulation des pièces et billets en 2002.', NULL, 25),
+('Mise en circulation de l''euro en Autriche', 'mise-circulation-euro-autriche-UE', '2002-01-01', '2002-01-01', 'Les pièces et billets en euros remplacent progressivement le schilling autrichien comme monnaie fiduciaire.', NULL, 25);
+
+
+-- BIELORUSSIE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Fondation de la principauté de Polotsk', 'fondation-principaute-polotsk', '0862-01-01', '0862-12-31', 'La principauté de Polotsk devient un important centre politique des terres correspondant au nord de la Biélorussie.', NULL, 16),
+('Christianisation des terres de la Rus', 'christianisation-rus-BI', '0988-01-01', '0988-12-31', 'La christianisation de la Rus kiévienne étend le christianisme orthodoxe aux territoires biélorusses.', NULL, 23),
+('Fondation de Minsk', 'fondation-minsk', '1067-01-01', '1067-12-31', 'Minsk est mentionnée pour la première fois dans les sources historiques à l’occasion de la bataille de la Nemiga.', NULL, 16),
+('Intégration de Navahrudak au grand-duché de Lituanie', 'integration-navahrudak-grand-duche-lituanie', '1250-01-01', '1250-12-31', 'Navahrudak devient un centre majeur du grand-duché de Lituanie.', NULL, 12),
+('Bataille de Grunwald', 'bataille-grunwald-BI', '1410-07-15', '1410-07-15', 'Les forces polono-lituaniennes battent l’ordre Teutonique lors d’une grande bataille d’Europe orientale.', NULL, 7),
+('Bataille d’Orcha', 'bataille-orcha-BI', '1514-09-08', '1514-09-08', 'Les forces du grand-duché de Lituanie remportent une victoire contre la Moscovie près d’Orcha.', NULL, 7),
+('Premier Statut de Lituanie', 'premier-statut-lituanie', '1529-01-01', '1529-12-31', 'Le premier Statut de Lituanie codifie le droit du grand-duché dans une langue ruthène.', NULL, 22),
+('Union de Lublin', 'union-lublin-BI', '1569-07-01', '1569-07-01', 'L’union de Lublin crée la République des Deux Nations, réunissant la Pologne et le grand-duché de Lituanie.', NULL, 14),
+('Deuxième partage de la République des Deux Nations', 'deuxieme-partage-republique-deux-nations-BI', '1793-01-23', '1793-01-23', 'Le deuxième partage entraîne l’annexion de vastes territoires biélorusses par l’Empire russe.', NULL, 12),
+('Insurrection de Kościuszko', 'insurrection-kosciuszko-BI', '1794-03-24', '1794-11-16', 'L’insurrection de Kościuszko contre les puissances partageant la République des Deux Nations touche également les territoires biélorusses.', NULL, 9),
+('Guerre franco-russe de 1812', 'guerre-franco-russe-1812-BI', '1812-06-24', '1812-12-14', 'La campagne de Napoléon contre la Russie traverse largement les territoires de l’actuelle Biélorussie.', NULL, 6),
+('Soulèvement de Kalinowski', 'soulevement-kalinowski', '1863-01-22', '1864-06-18', 'Kastus Kalinowski dirige une insurrection contre la domination de l’Empire russe dans les anciennes terres du grand-duché de Lituanie.', NULL, 9),
+('Proclamation de la République populaire biélorusse', 'proclamation-republique-populaire-bielorusse', '1918-03-25', '1918-12-31', 'La Rada proclame la République populaire biélorusse pendant la période de bouleversements suivant la Première Guerre mondiale.', NULL, 11),
+('Création de la République socialiste soviétique de Biélorussie', 'creation-rss-bielorussie', '1919-01-01', '1919-01-01', 'Les bolcheviks proclament la République socialiste soviétique de Biélorussie.', NULL, 17),
+('Traité de Riga', 'traite-riga-BI', '1921-03-18', '1921-03-18', 'Le traité de Riga met fin à la guerre soviéto-polonaise et partage les territoires biélorusses entre la Pologne et la Russie soviétique.', NULL, 14),
+('Entrée de la RSS de Biélorussie dans l’URSS', 'entree-rss-bielorussie-urss', '1922-12-30', '1922-12-30', 'La République socialiste soviétique de Biélorussie devient l’une des républiques fondatrices de l’Union soviétique.', NULL, 17),
+('Invasion allemande de la Biélorussie', 'invasion-allemande-bielorussie-DE', '1941-06-22', '1941-06-28', 'L’opération Barbarossa entraîne l’occupation rapide de la Biélorussie par l’Allemagne nazie.', NULL, 13),
+('Libération de Minsk', 'liberation-minsk-BI', '1944-07-03', '1944-07-03', 'L’Armée rouge reprend Minsk aux forces allemandes lors de l’opération Bagration.', NULL, 12),
+('Catastrophe de Tchernobyl', 'catastrophe-tchernobyl-BI', '1986-04-26', '1986-04-26', 'L’accident nucléaire de Tchernobyl provoque d’importantes contaminations en Biélorussie.', NULL, 20),
+('Indépendance de la Biélorussie', 'independance-bielorussie', '1991-08-25', '1991-08-25', 'Le Soviet suprême proclame l’indépendance de la Biélorussie à la suite de l’échec du putsch de Moscou.', NULL, 11);
+
+
+-- BOSNIE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Première mention écrite de la Bosnie', 'premiere-mention-ecrite-bosnie', '0958-01-01', '0958-12-31', 'La Bosnie est mentionnée dans le traité byzantin De Administrando Imperio.', NULL, 18),
+('Règne de Ban Kulin', 'regne-ban-kulin', '1180-01-01', '1204-09-01', 'Sous Ban Kulin, la Bosnie consolide son autonomie et développe ses relations commerciales avec Raguse.', NULL, 5),
+('Charte de Ban Kulin', 'charte-ban-kulin', '1189-08-29', '1189-08-29', 'La charte de Ban Kulin accorde des privilèges commerciaux aux marchands de Raguse.', NULL, 22),
+('Création de la Banovine de Bosnie', 'creation-banovine-bosnie', '1154-01-01', '1154-12-31', 'La Bosnie s’affirme comme une entité politique dirigée par un ban.', NULL, 16),
+('Conquête de Hum par Stjepan II Kotromanić', 'conquete-hum-stjepan-ii', '1326-01-01', '1326-12-31', 'Stjepan II Kotromanić étend le territoire bosnien vers Hum et l’Adriatique.', NULL, 12),
+('Mort de Stjepan II Kotromanić', 'mort-stjepan-ii-kotromanic', '1353-09-28', '1353-09-28', 'La mort de Stjepan II ouvre la voie au règne de Tvrtko Ier.', NULL, 2),
+('Couronnement de Tvrtko Ier', 'couronnement-tvrtko-ier', '1377-10-26', '1377-10-26', 'Tvrtko Ier est couronné roi, faisant du royaume de Bosnie une puissance régionale majeure.', NULL, 4),
+('Bataille de Bileća', 'bataille-bileca', '1388-08-27', '1388-08-27', 'Les forces bosniennes remportent une victoire contre les Ottomans près de Bileća.', NULL, 7),
+('Mort de Tvrtko Ier', 'mort-tvrtko-ier', '1391-03-10', '1391-03-10', 'La mort de Tvrtko Ier marque le début d’une période de fragmentation politique du royaume bosnien.', NULL, 2),
+('Première invasion ottomane majeure de la Bosnie', 'premiere-invasion-ottomane-bosnie-BO', '1414-01-01', '1414-12-31', 'Les Ottomans établissent une présence militaire durable dans l’est de la Bosnie.', NULL, 13),
+('Bataille de Doboj', 'bataille-doboj-BO', '1415-08-01', '1415-08-01', 'Les forces ottomanes remportent une victoire majeure contre les forces hongroises et bosniennes.', NULL, 7),
+('Fondation de Sarajevo', 'fondation-sarajevo', '1462-01-01', '1462-12-31', 'Isa-beg Ishaković développe Sarajevo comme centre administratif et commercial ottoman.', NULL, 16),
+('Conquête ottomane du royaume de Bosnie', 'conquete-ottomane-royaume-bosnie-BO', '1463-05-05', '1463-06-05', 'L’Empire ottoman conquiert le royaume de Bosnie et exécute le dernier roi, Étienne Tomašević.', NULL, 12),
+('Chute de l’Herzégovine médiévale', 'chute-herzegovine-medievale', '1481-12-01', '1481-12-31', 'La dernière grande forteresse de l’Herzégovine médiévale tombe aux mains des Ottomans.', NULL, 12),
+('Révolte de Husein Gradaščević', 'revolte-husein-gradascevic', '1831-03-01', '1832-06-01', 'Husein Gradaščević dirige une révolte bosnienne contre les réformes centralisatrices de l’Empire ottoman.', NULL, 9),
+('Insurrection d’Herzégovine', 'insurrection-herzegovine-BO', '1875-06-19', '1878-01-01', 'Une insurrection contre la domination ottomane en Herzégovine contribue au déclenchement de la crise orientale.', NULL, 9),
+('Traité de Berlin', 'traite-berlin-bosnie-BO', '1878-07-13', '1878-07-13', 'Le traité de Berlin place la Bosnie-Herzégovine sous administration austro-hongroise.', NULL, 14),
+('Annexion austro-hongroise de la Bosnie-Herzégovine', 'annexion-austro-hongroise-bosnie-BO', '1908-10-06', '1908-10-06', 'L’Autriche-Hongrie annexe officiellement la Bosnie-Herzégovine.', NULL, 12),
+('Assassinat de François-Ferdinand à Sarajevo', 'assassinat-francois-ferdinand-sarajevo-BO', '1914-06-28', '1914-06-28', 'Gavrilo Princip assassine l’archiduc François-Ferdinand à Sarajevo.', NULL, 22),
+('Indépendance de la Bosnie-Herzégovine', 'independance-bosnie-herzegovine', '1992-03-03', '1992-03-03', 'La Bosnie-Herzégovine devient indépendante après la dissolution de la Yougoslavie.', NULL, 11);
+
+
+-- BULGARIE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Fondation du Premier Empire bulgare', 'fondation-premier-empire-bulgare', '0681-01-01', '0681-12-31', 'L’Empire byzantin reconnaît l’État bulgare établi par le khan Asparoukh au sud du Danube.', NULL, 16),
+('Bataille d’Anchialos', 'bataille-anchialos-BU', '0717-01-01', '0718-12-31', 'Les forces bulgares contribuent à repousser l’armée omeyyade lors du siège de Constantinople.', NULL, 7),
+('Règne de Kroum', 'regne-kroum', '0803-01-01', '0814-04-13', 'Le khan Kroum étend considérablement le territoire bulgare et renforce l’État.', NULL, 5),
+('Bataille de Pliska', 'bataille-pliska-BU', '0811-07-26', '0811-07-26', 'L’armée bulgare inflige une lourde défaite à l’armée byzantine de Nicéphore Ier.', NULL, 7),
+('Adoption du christianisme', 'adoption-christianisme-bulgarie', '0864-01-01', '0864-12-31', 'Le prince Boris Ier adopte le christianisme comme religion officielle de la Bulgarie.', NULL, 23),
+('Arrivée des disciples de Cyrille et Méthode', 'arrivee-disciples-cyrille-methode-BU', '0886-01-01', '0886-12-31', 'Les disciples de Cyrille et Méthode arrivent en Bulgarie et développent les activités littéraires et éducatives slaves.', NULL, 24),
+('Développement de l’alphabet cyrillique', 'developpement-alphabet-cyrillique-BU', '0893-01-01', '0893-12-31', 'Les centres littéraires bulgares contribuent à la diffusion et au développement de l’alphabet cyrillique.', NULL, 19),
+('Début du règne de Siméon Ier', 'regne-simeon-ier', '0893-01-01', '0893-12-31', 'Siméon Ier devient souverain et ouvre la période de puissance et d’essor culturel du Premier Empire bulgare.', NULL, 5),
+('Proclamation de Siméon comme tsar', 'proclamation-simeon-tsar-BU', '0913-01-01', '0913-12-31', 'Siméon Ier adopte le titre de tsar dans le contexte de son conflit avec Byzance.', NULL, 4),
+('Bataille d’Anchialos de 917', 'bataille-anchialos-917-BU', '0917-08-20', '0917-08-20', 'L’armée bulgare de Siméon Ier remporte une victoire majeure sur les Byzantins près d’Anchialos.', NULL, 7),
+('Chute du Premier Empire bulgare', 'chute-premier-empire-bulgare-BU', '1018-01-01', '1018-12-31', 'La Bulgarie passe sous domination byzantine après les campagnes de Basile II.', NULL, 12),
+('Soulèvement d’Asen et Pierre', 'soulevement-asen-pierre', '1185-01-01', '1185-12-31', 'Les frères Asen et Pierre déclenchent une révolte contre la domination byzantine.', NULL, 9),
+('Fondation du Second Empire bulgare', 'fondation-second-empire-bulgare', '1185-01-01', '1185-12-31', 'La révolte des frères Asen et Pierre aboutit au rétablissement d’un État bulgare indépendant.', NULL, 16),
+('Bataille de Klokotnitsa', 'bataille-klokotnitsa-BU', '1230-03-09', '1230-03-09', 'Ivan Asen II remporte une victoire décisive contre l’empire de Thessalonique.', NULL, 7),
+('Chute de Tarnovo', 'chute-tarnovo-BU', '1393-07-17', '1393-07-17', 'Les Ottomans conquièrent Tarnovo, capitale du Second Empire bulgare.', NULL, 12),
+('Conquête ottomane de Vidin', 'conquete-ottomane-vidin-BU', '1396-01-01', '1396-12-31', 'La chute de Vidin marque la fin du dernier grand État bulgare médiéval.', NULL, 12),
+('Insurrection d’Avril', 'insurrection-avril-bulgarie', '1876-04-20', '1876-05-17', 'L’insurrection d’Avril éclate contre la domination ottomane et devient un élément majeur du mouvement national bulgare.', NULL, 9),
+('Traité de San Stefano', 'traite-san-stefano-BU', '1878-03-03', '1878-03-03', 'Le traité de San Stefano prévoit la création d’une vaste Bulgarie autonome après la guerre russo-turque.', NULL, 14),
+('Unification de la Bulgarie et de la Roumélie orientale', 'unification-bulgarie-roumelie-orientale', '1885-09-06', '1885-09-06', 'La Principauté de Bulgarie s’unit à la Roumélie orientale.', NULL, 22),
+('Indépendance de la Bulgarie', 'independance-bulgarie', '1908-09-22', '1908-09-22', 'Ferdinand proclame l’indépendance complète de la Bulgarie vis-à-vis de l’Empire ottoman.', NULL, 11);
+
+
+-- CHYPRE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Fondation du royaume de Chypre', 'fondation-royaume-chypre', '1192-01-01', '1192-12-31', 'Guy de Lusignan établit le royaume latin de Chypre après la conquête de l’île.', NULL, 16),
+('Vente de Chypre aux Templiers', 'vente-chypre-templiers', '1191-12-01', '1192-03-01', 'Richard Cœur de Lion cède Chypre aux Templiers, avant que l’île ne passe aux Lusignan.', NULL, 22),
+('Règne de Pierre Ier de Chypre', 'regne-pierre-ier-chypre', '1358-01-01', '1369-01-01', 'Pierre Ier règne sur Chypre et mène plusieurs campagnes contre les puissances musulmanes de Méditerranée orientale.', NULL, 5),
+('Croisade d’Alexandrie', 'croisade-alexandrie-CH', '1365-10-09', '1365-10-13', 'Les forces de Pierre Ier de Chypre prennent et pillent Alexandrie avant de se retirer.', NULL, 12),
+('Mort de Pierre Ier de Chypre', 'mort-pierre-ier-chypre', '1369-01-17', '1369-01-17', 'Pierre Ier est assassiné à Nicosie et son fils Pierre II lui succède.', NULL, 2),
+('Conquête de Chypre par les Génois', 'conquete-chypre-genois', '1373-01-01', '1374-01-01', 'Les Génois interviennent dans le conflit dynastique et prennent le contrôle d’une partie importante de l’économie de Chypre.', NULL, 12),
+('Chute de Famagouste', 'chute-famagouste-CH', '1374-01-01', '1374-12-31', 'Famagouste passe sous contrôle génois après le conflit entre Chypre et Gênes.', NULL, 12),
+('Mariage de Janus de Lusignan', 'mariage-janus-lusignan', '1401-01-01', '1401-12-31', 'Janus de Lusignan épouse Charlotte de Bourbon dans le cadre des alliances de la dynastie chypriote.', NULL, 3),
+('Conquête mamelouke de Chypre', 'conquete-mamelouke-chypre', '1426-07-07', '1426-07-07', 'Les Mamelouks battent les forces chypriotes à la bataille de Choirokoitia et capturent le roi Janus.', NULL, 12),
+('Mort de Janus de Lusignan', 'mort-janus-lusignan', '1432-06-29', '1432-06-29', 'Janus de Lusignan meurt après avoir régné sur le royaume de Chypre.', NULL, 2),
+('Mariage de Catherine Cornaro', 'mariage-catherine-cornaro', '1468-01-01', '1468-12-31', 'Catherine Cornaro épouse Jacques II de Lusignan et devient reine de Chypre.', NULL, 3),
+('Abdication de Catherine Cornaro', 'abdication-catherine-cornaro', '1489-03-14', '1489-03-14', 'Catherine Cornaro cède le royaume de Chypre à la République de Venise.', NULL, 22),
+('Début de la domination vénitienne', 'domination-venitienne-chypre', '1489-03-14', '1489-03-14', 'Chypre passe sous le contrôle direct de la République de Venise.', NULL, 12),
+('Siège de Famagouste', 'siege-famagouste-CH', '1570-09-16', '1571-08-01', 'Les forces ottomanes assiègent Famagouste, dernier grand bastion vénitien de Chypre.', NULL, 6),
+('Conquête ottomane de Chypre', 'conquete-ottomane-chypre', '1570-07-01', '1571-08-01', 'L’Empire ottoman conquiert Chypre au détriment de la République de Venise.', NULL, 12),
+('Administration britannique de Chypre', 'administration-britannique-chypre', '1878-06-04', '1878-06-04', 'La Convention de Chypre place l’administration de l’île sous contrôle britannique tout en maintenant la souveraineté ottomane.', NULL, 22),
+('Annexion britannique de Chypre', 'annexion-britannique-chypre', '1914-11-05', '1914-11-05', 'Le Royaume-Uni annexe Chypre après l’entrée de l’Empire ottoman dans la Première Guerre mondiale.', NULL, 12),
+('Proclamation de la République de Chypre', 'proclamation-republique-chypre', '1960-08-16', '1960-08-16', 'Chypre devient une république indépendante à la suite des accords de Zurich et de Londres.', NULL, 11),
+('Invasion turque de Chypre', 'invasion-turque-chypre', '1974-07-20', '1974-08-16', 'Les forces turques interviennent dans le nord de Chypre après le coup d’État contre le président Makarios III.', NULL, 13),
+('Proclamation de la République turque de Chypre du Nord', 'proclamation-republique-turque-chypre-nord', '1983-11-15', '1983-11-15', 'La République turque de Chypre du Nord est proclamée dans la partie nord de l’île.', NULL, 22);
+
+
+-- CROATIE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Fondation du duché de Croatie', 'fondation-duche-croatie', '0800-01-01', '0800-12-31', 'Les principautés croates se structurent progressivement sous l’autorité de ducs locaux.', NULL, 16),
+('Couronnement de Tomislav', 'couronnement-tomislav-croatie', '0925-01-01', '0925-12-31', 'Tomislav est reconnu comme premier roi de Croatie.', NULL, 4),
+('Union dynastique avec la Hongrie', 'union-dynastique-croatie-hongrie', '1102-01-01', '1102-12-31', 'La Croatie entre dans une union dynastique avec la couronne hongroise.', NULL, 14),
+('Invasion mongole de la Croatie', 'invasion-mongole-croatie', '1242-01-01', '1242-12-31', 'Les forces mongoles envahissent la Croatie lors de leur campagne en Europe centrale.', NULL, 13),
+('Bataille de Grobnik', 'bataille-grobnik', '1242-01-01', '1242-12-31', 'La tradition croate associe la région de Grobnik à la résistance contre les Mongols.', NULL, 7),
+('Fondation de Zagreb comme siège épiscopal', 'fondation-eveche-zagreb', '1094-01-01', '1094-12-31', 'Le roi Ladislas Ier de Hongrie fonde l’évêché de Zagreb.', NULL, 16),
+('Bataille de Krbava', 'bataille-krbava-CR', '1493-09-09', '1493-09-09', 'Les forces croates subissent une lourde défaite face aux Ottomans à Krbava.', NULL, 7),
+('Bataille de Sisak', 'bataille-sisak-CR', '1593-06-22', '1593-06-22', 'Les forces chrétiennes remportent une importante victoire contre les Ottomans à Sisak.', NULL, 7),
+('Début des Provinces illyriennes', 'creation-provinces-illyriennes-CR', '1809-10-14', '1809-10-14', 'Napoléon crée les Provinces illyriennes, qui comprennent une partie des territoires croates.', NULL, 17),
+('Mouvement illyrien', 'mouvement-illyrien-croatie', '1830-01-01', '1843-12-31', 'Le mouvement illyrien favorise le développement de la conscience nationale et de la langue croates.', NULL, 24),
+('Printemps des peuples en Croatie', 'revolution-1848-croatie', '1848-03-01', '1848-12-31', 'Les mouvements révolutionnaires de 1848 entraînent des changements politiques et sociaux en Croatie.', NULL, 8),
+('Ban Josip Jelačić', 'nomination-josip-jelacic', '1848-03-23', '1848-03-23', 'Josip Jelačić devient ban de Croatie et joue un rôle central dans les événements révolutionnaires de 1848.', NULL, 22),
+('Compromis croato-hongrois', 'compromis-croato-hongrois', '1868-11-24', '1868-11-24', 'Le compromis de 1868 définit le statut de la Croatie au sein du royaume de Hongrie.', NULL, 14),
+('Création du royaume des Serbes, Croates et Slovènes', 'creation-royaume-serbes-croates-slovenes-CR', '1918-12-01', '1918-12-01', 'Les territoires croates rejoignent le nouveau royaume des Serbes, Croates et Slovènes.', NULL, 17),
+('Création de la Banovine de Croatie', 'creation-banovine-croatie', '1939-08-26', '1939-08-26', 'La Banovine de Croatie est créée au sein du royaume de Yougoslavie.', NULL, 17),
+('État indépendant de Croatie', 'etat-independant-croatie', '1941-04-10', '1941-04-10', 'L’État indépendant de Croatie est proclamé pendant l’invasion de la Yougoslavie par les puissances de l’Axe.', NULL, 22),
+('Libération de Zagreb', 'liberation-zagreb-CR', '1945-05-08', '1945-05-08', 'Les forces partisanes yougoslaves entrent à Zagreb à la fin de la Seconde Guerre mondiale.', NULL, 12),
+('Printemps croate', 'printemps-croate', '1971-01-01', '1971-12-31', 'Le mouvement du Printemps croate réclame davantage d’autonomie politique et économique au sein de la Yougoslavie.', NULL, 9),
+('Proclamation d’indépendance de la Croatie', 'proclamation-independance-croatie', '1991-06-25', '1991-06-25', 'Le Parlement croate proclame l’indépendance de la Croatie.', NULL, 11),
+('Reconnaissance internationale de la Croatie', 'reconnaissance-internationale-croatie', '1992-01-15', '1992-01-15', 'Les États membres de la Communauté européenne reconnaissent officiellement la Croatie.', NULL, 22);
+
+
+-- DANEMARK --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Fondation du royaume de Danemark', 'fondation-royaume-danemark', '0800-01-01', '0800-12-31', 'Les premières structures du royaume danois se consolident sous les premiers rois historiquement attestés.', NULL, 16),
+('Construction du mur de Danevirke', 'construction-danevirke', '0737-01-01', '0737-12-31', 'Un important système défensif est développé dans le sud du Jutland.', NULL, 16),
+('Règne de Gorm le Vieux', 'regne-gorm-vieux', '0936-01-01', '0958-01-01', 'Gorm le Vieux règne sur le Danemark et contribue à l’unification du royaume.', NULL, 5),
+('Conversion d’Harald à la Dent Bleue', 'conversion-harald-dent-bleue', '0960-01-01', '0960-12-31', 'Harald à la Dent Bleue adopte le christianisme et favorise sa diffusion au Danemark.', NULL, 23),
+('Pierre de Jelling', 'pierre-jelling', '0965-01-01', '0965-12-31', 'Harald à la Dent Bleue fait ériger la grande pierre runique de Jelling, monument majeur de l’histoire danoise.', NULL, 24),
+('Conquête de l’Angleterre par Knut', 'conquete-angleterre-knut-DA', '1016-01-01', '1016-12-31', 'Knut le Grand devient roi d’Angleterre et établit un vaste ensemble politique autour de la mer du Nord.', NULL, 12),
+('Union de Kalmar', 'union-kalmar-DA', '1397-06-17', '1397-06-17', 'Le Danemark, la Norvège et la Suède sont réunis sous une même monarchie.', NULL, 14),
+('Réforme protestante au Danemark', 'reforme-protestante-danemark', '1536-10-30', '1536-10-30', 'Le luthéranisme devient la religion officielle du Danemark après la réforme menée sous Christian III.', NULL, 23),
+('Introduction de la monarchie absolue', 'monarchie-absolue-danemark', '1660-10-13', '1660-10-13', 'La monarchie absolue est instaurée au Danemark sous Frédéric III.', NULL, 22),
+('Fondation de l’Université de Copenhague', 'fondation-universite-copenhague', '1479-06-01', '1479-06-01', 'L’Université de Copenhague est fondée par le roi Christian Ier.', NULL, 17),
+('Bataille de Copenhague', 'bataille-copenhague-1801-DA', '1801-04-02', '1801-04-02', 'La flotte britannique affronte la flotte danoise lors de la première bataille de Copenhague.', NULL, 7),
+('Bombardement de Copenhague', 'bombardement-copenhague-1807-DA', '1807-09-02', '1807-09-05', 'La flotte britannique bombarde Copenhague et s’empare de la flotte danoise.', NULL, 7),
+('Traité de Kiel', 'traite-kiel-DA', '1814-01-14', '1814-01-14', 'Le traité de Kiel met fin à l’union du Danemark et de la Norvège et réorganise les territoires danois.', NULL, 14),
+('Première Constitution danoise', 'constitution-danoise-1849', '1849-06-05', '1849-06-05', 'La Constitution de juin établit une monarchie constitutionnelle et un parlement au Danemark.', NULL, 22),
+('Guerre des Duchés', 'guerre-duches-DA', '1864-02-01', '1864-10-30', 'Le Danemark affronte la Prusse et l’Autriche au sujet du Schleswig et du Holstein.', NULL, 6),
+('Bataille de Dybbøl', 'bataille-dybbol-DA', '1864-04-18', '1864-04-18', 'Les forces prussiennes remportent une victoire décisive contre l’armée danoise à Dybbøl.', NULL, 7),
+('Libération du Danemark', 'liberation-danemark', '1945-05-05', '1945-05-05', 'Les forces allemandes capitulent au Danemark à la fin de la Seconde Guerre mondiale.', NULL, 12),
+('Adhésion du Danemark à l’OTAN', 'adhesion-danemark-otan', '1949-04-04', '1949-04-04', 'Le Danemark devient membre fondateur de l’Organisation du traité de l’Atlantique nord.', NULL, 15),
+('Adhésion du Danemark à la Communauté européenne', 'adhesion-danemark-communaute-europeenne', '1973-01-01', '1973-01-01', 'Le Danemark rejoint la Communauté économique européenne avec l’Irlande et le Royaume-Uni.', NULL, 15),
+('Référendum sur l’euro au Danemark', 'referendum-euro-danemark', '2000-09-28', '2000-09-28', 'Un référendum rejette l’adoption de l’euro au Danemark.', NULL, 22);
+
+
+-- ESTONIE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Fondation de Tallinn', 'fondation-tallinn', '1154-01-01', '1154-12-31', 'La première mention cartographique connue de Tallinn apparaît sous le nom de Qlwn dans l’œuvre d’al-Idrissi.', NULL, 16),
+('Croisade livonienne', 'croisade-livonienne-ES', '1208-01-01', '1227-12-31', 'Les territoires estoniens sont conquis par les forces chrétiennes allemandes et danoises lors de la croisade livonienne.', NULL, 12),
+('Bataille de Lyndanisse', 'bataille-lydanisse-ES', '1219-06-15', '1219-06-15', 'Les forces danoises battent les Estoniens à Lyndanisse et prennent le contrôle du nord de l’Estonie.', NULL, 7),
+('Soulèvement de la nuit de la Saint-Georges', 'soulevement-saint-georges-estonie', '1343-04-23', '1345-02-01', 'Une importante révolte estonienne éclate contre la domination danoise et allemande.', NULL, 9),
+('Vente de l’Estonie danoise à l’Ordre Teutonique', 'vente-estonie-danoise-ordre-teutonique', '1346-11-01', '1346-11-01', 'Le roi Valdemar IV vend l’Estonie danoise à l’Ordre Teutonique.', NULL, 22),
+('Réforme protestante en Estonie', 'reforme-protestante-estonie', '1524-01-01', '1524-12-31', 'La Réforme protestante se diffuse dans les villes et territoires de l’Estonie.', NULL, 23),
+('Guerre de Livonie', 'guerre-livonie-ES', '1558-01-01', '1583-01-01', 'Les territoires estoniens deviennent un théâtre majeur de la guerre de Livonie entre plusieurs puissances régionales.', NULL, 6),
+('Conquête suédoise de l’Estonie', 'conquete-suedoise-estonie', '1561-06-04', '1561-06-04', 'Tallinn et le nord de l’Estonie passent sous l’autorité de la Suède.', NULL, 12),
+('Fondation de l’Université de Tartu', 'fondation-universite-tartu', '1632-06-30', '1632-06-30', 'L’université de Tartu est fondée par le roi Gustave II Adolphe de Suède.', NULL, 17),
+('Grande guerre du Nord en Estonie', 'grande-guerre-nord-estonie', '1700-01-01', '1721-09-10', 'La Grande guerre du Nord entraîne la conquête de l’Estonie par la Russie.', NULL, 6),
+('Capitulation de l’Estonie suédoise', 'capitulation-estonie-suede', '1710-09-29', '1710-09-29', 'Tallinn capitule devant les forces russes pendant la Grande guerre du Nord.', NULL, 12),
+('Gouvernement d’Estonie dans l’Empire russe', 'gouvernement-estonie-empire-russe', '1721-09-10', '1721-09-10', 'Le traité de Nystad confirme l’intégration de l’Estonie à l’Empire russe.', NULL, 14),
+('Révolution russe en Estonie', 'revolution-russe-estonie', '1917-02-23', '1917-11-07', 'Les révolutions russes de 1917 entraînent l’effondrement de l’administration impériale en Estonie.', NULL, 8),
+('Déclaration d’indépendance de l’Estonie', 'declaration-independance-estonie', '1918-02-24', '1918-02-24', 'Le Comité de salut proclame l’indépendance de la République d’Estonie.', NULL, 11),
+('Guerre d’indépendance estonienne', 'guerre-independance-estonie', '1918-11-28', '1920-02-02', 'L’Estonie combat les forces soviétiques et allemandes pour défendre son indépendance.', NULL, 6),
+('Traité de Tartu', 'traite-tartu-ES', '1920-02-02', '1920-02-02', 'Le traité de Tartu met fin à la guerre d’indépendance et la Russie soviétique reconnaît l’indépendance de l’Estonie.', NULL, 14),
+('Occupation soviétique de l’Estonie', 'occupation-sovietique-estonie', '1940-06-17', '1941-07-01', 'L’Union soviétique occupe et annexe l’Estonie pendant la Seconde Guerre mondiale.', NULL, 13),
+('Occupation allemande de l’Estonie', 'occupation-allemande-estonie', '1941-07-01', '1944-09-22', 'L’Allemagne nazie occupe l’Estonie après l’invasion de l’Union soviétique.', NULL, 13),
+('Restauration de l’indépendance de l’Estonie', 'restauration-independance-estonie', '1991-08-20', '1991-08-20', 'Le Conseil suprême rétablit l’indépendance de l’Estonie à la suite de l’échec du putsch de Moscou.', NULL, 11),
+('Adhésion de l’Estonie à l’Union européenne', 'adhesion-estonie-union-europeenne', '2004-05-01', '2004-05-01', 'L’Estonie rejoint l’Union européenne avec neuf autres États lors de l’élargissement de 2004.', NULL, 15);
+
+
+-- FINLANDE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Premières implantations agricoles en Finlande', 'premieres-implantations-agricoles-finlande', '0500-01-01', '0500-12-31', 'L’agriculture et l’élevage se développent progressivement dans les régions de la Finlande actuelle.', NULL, 16),
+('Intégration de la Finlande au royaume de Suède', 'integration-finlande-royaume-suede', '1150-01-01', '1150-12-31', 'Les territoires finlandais passent progressivement sous l’autorité du royaume de Suède.', NULL, 12),
+('Croisade suédoise en Finlande', 'croisade-suedoise-finlande', '1249-01-01', '1249-12-31', 'Une campagne suédoise renforce le contrôle de la Suède sur la Finlande occidentale.', NULL, 12),
+('Fondation de Turku', 'fondation-turku', '1280-01-01', '1280-12-31', 'Turku devient un important centre administratif et religieux de la Finlande médiévale.', NULL, 16),
+('Construction du château de Turku', 'construction-chateau-turku', '1280-01-01', '1280-12-31', 'La construction du château de Turku renforce la présence militaire et administrative suédoise.', NULL, 16),
+('Guerre russo-suédoise de 1495-1497', 'guerre-russo-suedoise-1495-1497-FI', '1495-01-01', '1497-03-01', 'La Finlande devient un important théâtre du conflit entre la Suède et la Russie.', NULL, 6),
+('Réforme protestante en Finlande', 'reforme-protestante-finlande', '1527-01-01', '1527-12-31', 'La Réforme luthérienne transforme progressivement la vie religieuse de la Finlande sous l’autorité suédoise.', NULL, 23),
+('Guerre russo-suédoise de 1590-1595', 'guerre-russo-suedoise-1590-1595-FI', '1590-01-01', '1595-05-18', 'Le conflit entre la Suède et la Russie touche directement les territoires finlandais.', NULL, 6),
+('Grande guerre du Nord en Finlande', 'grande-guerre-nord-finlande', '1700-01-01', '1721-09-10', 'La Finlande est durement touchée par la Grande guerre du Nord et l’occupation russe.', NULL, 6),
+('Petite Colère', 'petite-colere-finlande', '1741-08-01', '1743-08-18', 'La Russie occupe une nouvelle fois la Finlande pendant la guerre russo-suédoise de 1741-1743.', NULL, 13),
+('Guerre de Finlande', 'guerre-finlande', '1808-02-21', '1809-09-17', 'La Russie envahit la Finlande et vainc les forces suédoises.', NULL, 6),
+('Traité de Fredrikshamn', 'traite-fredrikshamn-FI', '1809-09-17', '1809-09-17', 'La Suède cède la Finlande à la Russie, mettant fin à la guerre de Finlande.', NULL, 14),
+('Création du grand-duché de Finlande', 'creation-grand-duche-finlande', '1809-09-17', '1809-09-17', 'La Finlande devient un grand-duché autonome au sein de l’Empire russe.', NULL, 17),
+('Première diète de Finlande', 'premiere-diete-finlande', '1809-03-22', '1809-07-19', 'La diète de Porvoo confirme les institutions et les droits spécifiques de la Finlande sous le nouveau souverain russe.', NULL, 22),
+('Publication du Kalevala', 'publication-kalevala', '1835-02-28', '1835-02-28', 'Elias Lönnrot publie la première édition du Kalevala, œuvre majeure de la culture finlandaise.', NULL, 24),
+('Manifeste de février', 'manifeste-fevrier-finlande', '1899-02-15', '1899-02-15', 'Le manifeste impérial réduit l’autonomie politique du grand-duché de Finlande.', NULL, 22),
+('Déclaration d’indépendance de la Finlande', 'declaration-independance-finlande', '1917-12-06', '1917-12-06', 'Le Parlement finlandais adopte la déclaration d’indépendance vis-à-vis de la Russie.', NULL, 11),
+('Guerre civile finlandaise', 'guerre-civile-finlandaise', '1918-01-27', '1918-05-15', 'Une guerre civile oppose les forces rouges et blanches après l’indépendance de la Finlande.', NULL, 6),
+('Guerre d’Hiver', 'guerre-hiver-FI', '1939-11-30', '1940-03-13', 'L’Union soviétique attaque la Finlande, qui résiste pendant plusieurs mois avant la conclusion de la paix.', NULL, 6),
+('Adhésion de la Finlande à l’Union européenne', 'adhesion-finlande-union-europeenne', '1995-01-01', '1995-01-01', 'La Finlande devient membre de l’Union européenne avec l’Autriche et la Suède.', NULL, 15);
+
+
+-- GRECE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Fondation d’Athènes', 'fondation-athenes', '0500-01-01', '0500-12-31', 'Athènes devient progressivement une cité-État majeure de l’Attique durant l’Antiquité.', NULL, 16),
+('Réformes de Solon', 'reformes-solon', '0594-01-01', '0594-12-31', 'Solon entreprend des réformes politiques et sociales qui transforment les institutions athéniennes.', NULL, 22),
+('Bataille des Thermopyles', 'bataille-thermopyles-GR', '0480-08-01', '0480-08-01', 'Les forces grecques affrontent l’armée perse aux Thermopyles.', NULL, 7),
+('Bataille navale de Salamine', 'bataille-salamine-GR', '0480-09-01', '0480-09-01', 'La flotte grecque remporte une victoire décisive contre la flotte perse à Salamine.', NULL, 7),
+('Bataille de Platées', 'bataille-platees-GR', '0479-08-27', '0479-08-27', 'Les forces grecques battent l’armée perse à Platées.', NULL, 7),
+('Construction du Parthénon', 'construction-parthenon', '0001-01-01', '0432-01-01', 'Le Parthénon est construit sur l’Acropole d’Athènes sous la direction de Périclès.', NULL, 16),
+('Début de la guerre du Péloponnèse', 'guerre-peloponnese-GR', '0431-04-01', '0431-04-01', 'Le conflit entre Athènes et Sparte marque profondément le monde grec.', NULL, 6),
+('Bataille d’Aigos Potamos', 'bataille-aigos-potamos-GR', '0405-01-01', '0405-01-01', 'La flotte spartiate détruit la flotte athénienne, précipitant la fin de la guerre du Péloponnèse.', NULL, 7),
+('Hégémonie macédonienne sur la Grèce', 'hegemonie-macedonienne-grece', '0338-08-02', '0338-08-02', 'Philippe II de Macédoine vainc les principales cités grecques à Chéronée.', NULL, 12),
+('Mort d’Alexandre le Grand', 'mort-alexandre-grand-GR', '0323-06-10', '0323-06-10', 'La mort d’Alexandre le Grand ouvre la période hellénistique.', NULL, 2),
+('Fondation du royaume hellénistique de Macédoine', 'royaume-hellenistique-macedoine-GR', '0310-01-01', '0310-12-31', 'Les territoires grecs sont intégrés dans les royaumes issus des conquêtes d’Alexandre.', NULL, 16),
+('Conquête romaine de la Grèce', 'conquete-romaine-grece-GR', '0146-01-01', '0146-12-31', 'Après la destruction de Corinthe, la Grèce passe sous domination romaine.', NULL, 12),
+('Fondation de Constantinople', 'fondation-constantinople-GR', '0330-05-11', '0330-05-11', 'Constantin Ier inaugure Constantinople comme nouvelle capitale impériale.', NULL, 16),
+('Christianisation de l’Empire romain', 'christianisation-empire-romain-GR', '0380-02-27', '0380-02-27', 'Le christianisme nicéen devient religion officielle de l’Empire romain sous Théodose Ier.', NULL, 23),
+('Séparation définitive de l’Empire romain', 'separation-empire-romain-GR', '0395-01-17', '0395-01-17', 'La division administrative entre les parties orientale et occidentale de l’Empire devient durable.', NULL, 22),
+('Début du règne de Justinien Ier', 'regne-justinien-ier-GR', '0527-08-01', '0527-08-01', 'Justinien Ier devient empereur de l’Empire romain d’Orient.', NULL, 5),
+('Construction de Sainte-Sophie', 'construction-sainte-sophie-GR', '0532-02-23', '0537-12-27', 'La basilique Sainte-Sophie est reconstruite à Constantinople sous Justinien Ier.', NULL, 16),
+('Première croisade', 'premiere-croisade-GR', '1096-01-01', '1099-12-31', 'Les territoires grecs de l’Empire byzantin deviennent un axe majeur du passage des armées croisées vers le Levant.', NULL, 6),
+('Prise de Constantinople par les croisés', 'prise-constantinople-croises-GR', '1204-04-12', '1204-04-13', 'Les croisés et les Vénitiens prennent Constantinople et établissent l’Empire latin.', NULL, 12),
+('Fondation de l’Empire de Nicée', 'fondation-empire-nicee', '1204-01-01', '1204-12-31', 'Des réfugiés byzantins fondent l’Empire de Nicée en Anatolie occidentale.', NULL, 16),
+('Restauration byzantine de Constantinople', 'restauration-byzantine-constantinople-GR', '1261-07-25', '1261-07-25', 'Michel VIII Paléologue reprend Constantinople et restaure l’Empire byzantin.', NULL, 12),
+('Chute de Constantinople', 'chute-constantinople-GR', '1453-05-29', '1453-05-29', 'Les Ottomans prennent Constantinople, mettant fin à l’Empire byzantin.', NULL, 12),
+('Conquête ottomane de la Grèce', 'conquete-ottomane-grece-GR', '1460-01-01', '1460-12-31', 'Les Ottomans achèvent la conquête de la majeure partie de la Grèce continentale.', NULL, 12),
+('Fondation de l’Académie d’Athènes', 'fondation-academie-athenes', '1454-01-01', '1454-12-31', 'L’Académie d’Athènes devient un important centre intellectuel de la Grèce moderne.', NULL, 17),
+('Bataille navale de Lépante', 'bataille-lepante-GR', '1571-10-07', '1571-10-07', 'La flotte de la Sainte-Ligue bat la flotte ottomane dans le golfe de Patras.', NULL, 7),
+('Révolte grecque d’Orloff', 'revolte-orloff', '1770-02-01', '1770-12-31', 'Une insurrection grecque éclate dans le Péloponnèse avec le soutien de la Russie contre la domination ottomane.', NULL, 9),
+('Début de la guerre d’indépendance grecque', 'guerre-independance-grecque', '1821-03-25', '1829-09-12', 'Les insurgés grecs se soulèvent contre l’Empire ottoman et entament la guerre d’indépendance.', NULL, 11),
+('Bataille navale de Navarin', 'bataille-navarin-GR', '1827-10-20', '1827-10-20', 'Les flottes alliées britannique, française et russe détruisent la flotte ottomano-égyptienne à Navarin.', NULL, 7),
+('Création du royaume de Grèce', 'creation-royaume-grece', '1832-05-07', '1832-05-07', 'La monarchie grecque est établie sous le prince bavarois Othon.', NULL, 17),
+('Arrivée du roi Othon à Nauplie', 'arrivee-roi-othon-grece', '1833-01-25', '1833-01-25', 'Othon arrive en Grèce et commence son règne comme roi des Hellènes.', NULL, 5),
+('Révolution du 3 septembre', 'revolution-3-septembre-grece', '1843-09-03', '1843-09-03', 'Une révolution politique contraint le roi Othon à accepter une constitution.', NULL, 8),
+('Première Constitution grecque du royaume', 'constitution-grecque-1844', '1844-03-18', '1844-03-18', 'La Grèce adopte une constitution établissant une monarchie constitutionnelle.', NULL, 22),
+('Guerre gréco-turque de 1897', 'guerre-greco-turque-1897-GR', '1897-04-17', '1897-05-04', 'La Grèce affronte l’Empire ottoman dans le contexte de la question crétoise.', NULL, 6),
+('Jeux olympiques d’Athènes', 'jeux-olympiques-athenes-1896-GR', '1896-04-06', '1896-04-15', 'Athènes accueille les premiers Jeux olympiques modernes.', NULL, 24),
+('Guerres balkaniques', 'guerres-balkaniques-GR', '1912-10-08', '1913-08-10', 'La Grèce participe aux guerres balkaniques et agrandit considérablement son territoire.', NULL, 6),
+('Guerre gréco-turque', 'guerre-greco-turque-1919-1922-GR', '1919-05-15', '1922-09-09', 'Les forces grecques affrontent le mouvement national turc en Anatolie.', NULL, 6),
+('Traité de Lausanne', 'traite-lausanne-GR', '1923-07-24', '1923-07-24', 'Le traité de Lausanne fixe les frontières de la République de Turquie et accompagne l’échange de populations entre la Grèce et la Turquie.', NULL, 14),
+('Restauration de la République grecque', 'restauration-republique-grece', '1924-03-25', '1924-03-25', 'La monarchie est abolie et la Deuxième République hellénique est proclamée.', NULL, 22),
+('Restauration de la monarchie grecque', 'restauration-monarchie-grecque', '1935-11-03', '1935-11-03', 'Un référendum conduit à la restauration de la monarchie en Grèce.', NULL, 22),
+('Régime du 4 août', 'regime-4-aout-grece', '1936-08-04', '1936-08-04', 'Le gouvernement de Ioánnis Metaxás établit un régime autoritaire en Grèce.', NULL, 10),
+('Guerre italo-grecque', 'guerre-italo-grecque-GR', '1940-10-28', '1941-04-23', 'La Grèce résiste à l’invasion italienne avant l’intervention allemande.', NULL, 6),
+('Occupation de la Grèce par l’Axe', 'occupation-grece-axe-GR', '1941-04-23', '1944-10-12', 'La Grèce est occupée par l’Allemagne, l’Italie et la Bulgarie pendant la Seconde Guerre mondiale.', NULL, 13),
+('Libération d’Athènes', 'liberation-athenes-GR', '1944-10-12', '1944-10-12', 'Les forces allemandes évacuent Athènes et les forces alliées entrent dans la capitale.', NULL, 12),
+('Guerre civile grecque', 'guerre-civile-grecque', '1946-03-30', '1949-10-16', 'Le gouvernement grec affronte les forces communistes dans une guerre civile qui marque l’après-guerre.', NULL, 6),
+('Adhésion de la Grèce à l’OTAN', 'adhesion-grece-otan', '1952-02-18', '1952-02-18', 'La Grèce devient membre de l’Organisation du traité de l’Atlantique nord.', NULL, 15),
+('Coup d’État des colonels', 'coup-etat-colonels-grece', '1967-04-21', '1967-04-21', 'Un groupe d’officiers prend le pouvoir et établit la dictature des colonels.', NULL, 10),
+('Restauration de la démocratie grecque', 'restauration-democratie-grece', '1974-07-24', '1974-07-24', 'Constantin Karamanlis revient en Grèce et forme un gouvernement civil, marquant la fin de la dictature.', NULL, 22),
+('Référendum sur la monarchie', 'referendum-monarchie-grece', '1974-12-08', '1974-12-08', 'Un référendum confirme l’abolition de la monarchie et l’établissement de la République hellénique.', NULL, 22),
+('Adhésion de la Grèce à la Communauté européenne', 'adhesion-grece-communaute-europeenne', '1981-01-01', '1981-01-01', 'La Grèce devient le dixième membre de la Communauté économique européenne.', NULL, 15),
+('Adoption de l’euro en Grèce', 'adoption-euro-grece', '2001-01-01', '2001-01-01', 'La Grèce rejoint la zone euro et adopte l’euro pour ses opérations monétaires.', NULL, 25);
+
+
+-- HONGRIE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Conquête hongroise du bassin des Carpates', 'conquete-bassin-carpates-HO', '0895-01-01', '0896-12-31', 'Les tribus hongroises s’installent dans le bassin des Carpates sous la direction d’Árpád.', NULL, 12),
+('Fondation de l’État hongrois', 'fondation-etat-hongrois', '1000-01-01', '1000-12-31', 'Étienne Ier fonde l’État hongrois et établit le christianisme comme religion d’État.', NULL, 16),
+('Couronnement d’Étienne Ier', 'couronnement-etienne-ier', '1000-12-25', '1001-01-01', 'Étienne Ier est couronné roi de Hongrie.', NULL, 4),
+('Invasion mongole de la Hongrie', 'invasion-mongole-hongrie-HO', '1241-04-11', '1242-12-31', 'Les Mongols envahissent et ravagent une grande partie du royaume de Hongrie.', NULL, 13),
+('Règne de Matthias Corvin', 'regne-matthias-corvin', '1458-01-24', '1490-04-06', 'Matthias Corvin règne sur la Hongrie et renforce son pouvoir en Europe centrale.', NULL, 5),
+('Bataille de Mohács', 'bataille-mohacs-HO', '1526-08-29', '1526-08-29', 'L’armée hongroise est vaincue par les Ottomans lors de la bataille de Mohács.', NULL, 7),
+('Prise de Buda par les Ottomans', 'prise-buda-ottomans-HO', '1541-08-29', '1541-08-29', 'Les Ottomans prennent Buda et établissent leur domination sur le centre de la Hongrie.', NULL, 12),
+('Reconquête de Buda', 'reconquete-buda-HO', '1686-09-02', '1686-09-02', 'Les forces chrétiennes reprennent Buda aux Ottomans.', NULL, 12),
+('Soulèvement de Rákóczi', 'soulèvement-rakoczi', '1703-06-01', '1711-04-30', 'François II Rákóczi dirige une guerre d’indépendance contre les Habsbourg.', NULL, 9),
+('Paix de Szatmár', 'paix-szatmar', '1711-05-01', '1711-05-01', 'La paix de Szatmár met fin au soulèvement de Rákóczi contre les Habsbourg.', NULL, 14),
+('Révolution hongroise', 'revolution-hongroise-1848', '1848-03-15', '1849-10-04', 'La révolution hongroise éclate dans le cadre des révolutions européennes de 1848.', NULL, 8),
+('Déclaration d’indépendance hongroise', 'declaration-independance-hongrie', '1849-04-14', '1849-04-14', 'Le parlement hongrois proclame l’indépendance vis-à-vis de la maison des Habsbourg.', NULL, 11),
+('Compromis austro-hongrois', 'compromis-austro-hongrois-HO', '1867-02-01', '1867-06-08', 'Le compromis établit la monarchie dualiste austro-hongroise.', NULL, 14),
+('Unification de Budapest', 'unification-budapest', '1873-11-17', '1873-11-17', 'Buda, Pest et Óbuda sont réunies pour former Budapest.', NULL, 17),
+('République populaire hongroise', 'proclamation-republique-populaire-hongrie', '1918-11-16', '1918-11-16', 'La monarchie est abolie et la République populaire hongroise est proclamée.', NULL, 22),
+('Traité de Trianon', 'traite-trianon-HO', '1920-06-04', '1920-06-04', 'Le traité de Trianon redéfinit les frontières de la Hongrie après la Première Guerre mondiale.', NULL, 14),
+('Occupation allemande de la Hongrie', 'occupation-allemande-hongrie-DE', '1944-03-19', '1944-03-19', 'Les forces allemandes occupent la Hongrie pendant la Seconde Guerre mondiale.', NULL, 13),
+('Révolution hongroise de 1956', 'revolution-hongroise-1956', '1956-10-23', '1956-11-10', 'Une insurrection éclate contre le régime communiste et la présence soviétique avant d’être réprimée.', NULL, 8),
+('Proclamation de la République de Hongrie', 'proclamation-republique-hongrie', '1989-10-23', '1989-10-23', 'La République de Hongrie est proclamée et le régime communiste prend fin.', NULL, 22),
+('Adhésion de la Hongrie à l’Union européenne', 'adhesion-hongrie-union-europeenne', '2004-05-01', '2004-05-01', 'La Hongrie devient membre de l’Union européenne.', NULL, 17);
+
+
+-- IRLANDE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Fondation du monastère de Glendalough', 'fondation-monastere-glendalough', '0560-01-01', '0560-12-31', 'Saint Kevin fonde le monastère de Glendalough, qui devient un important centre religieux.', NULL, 16),
+('Invasion normande de l’Irlande', 'invasion-normande-irlande-IR', '1169-05-01', '1171-12-31', 'Des forces normandes interviennent en Irlande à la demande de Dermot MacMurrough.', NULL, 13),
+('Conquête de Dublin par les Normands', 'conquete-dublin-normands-IR', '1170-09-21', '1170-09-21', 'Dublin est prise par les forces normandes et leurs alliés irlandais.', NULL, 12),
+('Seigneurie d’Irlande', 'creation-seigneurie-irlande', '1171-01-01', '1171-12-31', 'Henri II d’Angleterre établit la seigneurie d’Irlande sous domination de la Couronne anglaise.', NULL, 17),
+('Statuts de Kilkenny', 'statuts-kilkenny', '1366-01-01', '1366-12-31', 'Les Statuts de Kilkenny cherchent à limiter l’assimilation des colons anglais à la société gaélique.', NULL, 22),
+('Révolte de Silken Thomas', 'revolte-silken-thomas', '1534-06-01', '1535-08-01', 'Thomas FitzGerald se révolte contre Henri VIII et le pouvoir anglais en Irlande.', NULL, 9),
+('Reddition de Galway aux forces de Cromwell', 'prise-galway-cromwell-IR', '1652-04-01', '1652-04-01', 'La conquête cromwellienne entraîne la soumission de Galway et d’une grande partie de l’Irlande.', NULL, 12),
+('Bataille de la Boyne', 'bataille-boyne-IR', '1690-07-12', '1690-07-12', 'Les forces de Guillaume III battent celles de Jacques II lors de la bataille de la Boyne.', NULL, 7),
+('Fondation de la Banque d’Irlande', 'fondation-banque-irlande', '1783-01-01', '1783-12-31', 'La Banque d’Irlande est créée par acte du Parlement irlandais.', NULL, 17),
+('Rébellion irlandaise de 1798', 'revolte-irlandaise-1798', '1798-05-23', '1798-09-23', 'Une insurrection dirigée notamment par les United Irishmen éclate contre la domination britannique.', NULL, 9),
+('Acte d’Union', 'acte-union-irlande-GB', '1800-08-01', '1801-01-01', 'L’Acte d’Union unit le Royaume d’Irlande au Royaume de Grande-Bretagne pour former le Royaume-Uni.', NULL, 22),
+('Grande Famine irlandaise', 'grande-famine-irlandaise', '1845-01-01', '1852-12-31', 'Une grave famine provoquée principalement par la maladie de la pomme de terre entraîne des millions de morts et d’émigrants.', NULL, 20),
+('Création de l’Irish Republican Brotherhood', 'creation-irish-republican-brotherhood', '1858-03-17', '1858-03-17', 'L’Irish Republican Brotherhood est fondée pour promouvoir l’indépendance de l’Irlande.', NULL, 17),
+('Home Rule Bill', 'home-rule-bill-irlande-IR', '1886-04-08', '1886-06-08', 'Le gouvernement britannique présente le premier projet majeur d’autonomie politique pour l’Irlande.', NULL, 22),
+('Soulèvement de Pâques', 'soulevement-paques-1916', '1916-04-24', '1916-04-29', 'Des républicains irlandais occupent plusieurs bâtiments à Dublin et proclament une république.', NULL, 9),
+('Première réunion du Dáil Éireann', 'premiere-reunion-dail-eireann', '1919-01-21', '1919-01-21', 'Les députés du Sinn Féin réunissent le premier Dáil et proclament une république irlandaise.', NULL, 22),
+('Guerre d’indépendance irlandaise', 'guerre-independance-irlandaise-IR', '1919-01-21', '1921-07-11', 'L’IRA mène une campagne armée contre les forces britanniques en Irlande.', NULL, 6),
+('Partition de l’Irlande', 'partition-irlande-IR', '1920-12-23', '1921-05-03', 'Le Government of Ireland Act établit deux juridictions distinctes en Irlande.', NULL, 22),
+('Traité anglo-irlandais', 'traite-anglo-irlandais-IR', '1921-12-06', '1921-12-06', 'Le traité met fin à la guerre d’indépendance et prévoit la création de l’État libre d’Irlande.', NULL, 14),
+('Création de l’État libre d’Irlande', 'creation-etat-libre-irlande', '1922-12-06', '1922-12-06', 'L’État libre d’Irlande entre officiellement en existence en tant que dominion du Commonwealth.', NULL, 11);
+
+
+-- ISLANDE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Installation des premiers colons nordiques en Islande', 'installation-premiers-colons-islande', '0874-01-01', '0930-12-31', 'Les colons nordiques commencent à s’installer durablement en Islande.', NULL, 16),
+('Fondation de l’Althing', 'fondation-althing', '0930-01-01', '0930-12-31', 'L’Althing est fondé à Þingvellir comme assemblée politique et juridique islandaise.', NULL, 16),
+('Christianisation de l’Islande', 'christianisation-islande', '1000-01-01', '1000-12-31', 'L’Althing décide l’adoption officielle du christianisme en Islande.', NULL, 23),
+('Création de l’évêché de Skálholt', 'creation-eveche-skalholt', '1056-01-01', '1056-12-31', 'Skálholt devient le premier siège épiscopal permanent d’Islande.', NULL, 23),
+('Création de l’évêché de Hólar', 'creation-eveche-holar', '1106-01-01', '1106-12-31', 'Un second évêché est établi à Hólar dans le nord de l’Islande.', NULL, 23),
+('Guerre civile islandaise', 'guerre-civile-islandaise', '1220-01-01', '1262-12-31', 'Les conflits entre clans islandais conduisent à la fin du Commonwealth islandais.', NULL, 6),
+('Ancienne Alliance avec la Norvège', 'ancienne-alliance-islande-norvege', '1262-01-01', '1264-12-31', 'Les chefs islandais acceptent la souveraineté du roi de Norvège.', NULL, 14),
+('Adoption du Jónsbók', 'adoption-jonsbok', '1281-01-01', '1281-12-31', 'Le Jónsbók devient le principal code juridique de l’Islande.', NULL, 22),
+('Union de Kalmar', 'union-kalmar-islande-DA', '1397-06-17', '1397-06-17', 'L’Islande passe sous l’autorité de la monarchie danoise dans le cadre de l’Union de Kalmar.', NULL, 15),
+('Réforme protestante en Islande', 'reforme-protestante-islande', '1540-01-01', '1550-12-31', 'La Réforme luthérienne est imposée en Islande sous l’autorité de la monarchie danoise.', NULL, 23),
+('Exécution de Jón Arason', 'execution-jon-arason', '1550-11-07', '1550-11-07', 'L’évêque Jón Arason est exécuté après avoir résisté à la Réforme luthérienne.', NULL, 2),
+('Éruption du Laki', 'eruption-laki', '1783-06-08', '1784-02-07', 'L’éruption volcanique du Laki provoque une catastrophe environnementale et une grave crise démographique.', NULL, 20),
+('Établissement de Reykjavik comme ville', 'fondation-reykjavik', '1786-08-18', '1786-08-18', 'Reykjavík reçoit une charte municipale et obtient le statut de ville.', NULL, 17),
+('Transfert de l’Althing à Reykjavik', 'transfert-althing-reykjavik', '1845-07-01', '1845-07-01', 'L’Althing est rétabli et siège désormais à Reykjavik.', NULL, 22),
+('Constitution islandaise', 'constitution-islandaise-1874', '1874-08-05', '1874-08-05', 'Le roi Christian IX accorde une constitution dotant l’Islande de pouvoirs législatifs propres.', NULL, 22),
+('Autonomie de l’Islande', 'autonomie-islande', '1904-02-01', '1904-02-01', 'L’Islande obtient une autonomie politique accrue avec un gouvernement installé à Reykjavik.', NULL, 22),
+('Acte d’Union dano-islandais', 'acte-union-dano-islandais', '1918-12-01', '1918-12-01', 'L’Islande devient un État souverain en union personnelle avec le Danemark.', NULL, 14),
+('Occupation britannique de l’Islande', 'occupation-britannique-islande-GB', '1940-05-10', '1941-07-07', 'Les forces britanniques occupent l’Islande pendant la Seconde Guerre mondiale.', NULL, 13),
+('Adhésion de l’Islande à l’OTAN', 'adhesion-islande-otan', '1949-03-30', '1949-03-30', 'L’Islande devient membre fondateur de l’Organisation du traité de l’Atlantique nord.', NULL, 15),
+('Fondation de la République d’Islande', 'fondation-republique-islande', '1944-06-17', '1944-06-17', 'L’Islande abolit son union avec le Danemark et devient une république indépendante.', NULL, 11);
