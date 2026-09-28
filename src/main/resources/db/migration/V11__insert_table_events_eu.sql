@@ -732,3 +732,704 @@ INSERT INTO events (title, slug, date_start, date_end, description, image_url, t
 ('Occupation britannique de l’Islande', 'occupation-britannique-islande-GB', '1940-05-10', '1941-07-07', 'Les forces britanniques occupent l’Islande pendant la Seconde Guerre mondiale.', NULL, 13),
 ('Adhésion de l’Islande à l’OTAN', 'adhesion-islande-otan', '1949-03-30', '1949-03-30', 'L’Islande devient membre fondateur de l’Organisation du traité de l’Atlantique nord.', NULL, 15),
 ('Fondation de la République d’Islande', 'fondation-republique-islande', '1944-06-17', '1944-06-17', 'L’Islande abolit son union avec le Danemark et devient une république indépendante.', NULL, 11);
+
+
+-- KOSOVO --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Établissement du siège patriarcal à Peć', 'etablissement-siege-patriarcal-pec', '1346-04-09', '1346-04-09', 'Le siège de l''Église serbe est établi à Peć, qui devient un centre religieux majeur des Balkans médiévaux.', NULL, 23),
+('Bataille de Kosovo Polje', 'bataille-kosovo-polje-KO', '1389-06-15', '1389-06-15', 'Les forces du prince serbe Lazar affrontent l''armée ottomane du sultan Murad Ier à Kosovo Polje. La bataille entraîne la mort des deux souverains et constitue un épisode majeur de l''expansion ottomane dans les Balkans.', NULL, 7),
+('Conquête ottomane de Novo Brdo', 'conquete-ottomane-novo-brdo', '1455-06-01', '1455-06-01', 'Après un siège, la forteresse et le centre minier de Novo Brdo passent sous contrôle ottoman, renforçant la domination de l''Empire ottoman sur le Kosovo.', NULL, 12),
+('Création du vilayet de Kosovo', 'creation-vilayet-kosovo', '1877-01-01', '1877-01-01', 'L''Empire ottoman crée le vilayet de Kosovo, une nouvelle province administrative englobant une grande partie du Kosovo et plusieurs territoires voisins.', NULL, 17),
+('Fondation de la Ligue de Prizren', 'fondation-ligue-prizren', '1878-06-10', '1878-06-10', 'Des représentants albanais se réunissent à Prizren et fondent la Ligue de Prizren afin de défendre les territoires à population albanaise face aux projets de réorganisation territoriale dans les Balkans.', NULL, 17),
+('Répression de la Ligue de Prizren', 'repression-ligue-prizren', '1881-04-01', '1881-04-20', 'Les forces ottomanes interviennent contre la Ligue de Prizren et mettent fin à son contrôle politique et militaire dans la région.', NULL, 9),
+('Fondation de la Ligue de Peja', 'fondation-ligue-peja', '1899-01-01', '1899-01-01', 'Haxhi Zeka et d''autres dirigeants albanais fondent à Peja une nouvelle organisation politique destinée à défendre les intérêts des populations albanaises de l''Empire ottoman.', NULL, 17),
+('Première Guerre balkanique au Kosovo', 'premiere-guerre-balkanique-kosovo-KO', '1912-10-08', '1913-05-30', 'Pendant la Première Guerre balkanique, les forces serbes prennent le contrôle d''une grande partie du Kosovo alors administré par l''Empire ottoman.', NULL, 6),
+('Partage du Kosovo entre la Serbie et le Monténégro', 'partage-kosovo-serbie-montenegro-KO', '1913-05-30', '1913-07-29', 'À la suite des guerres balkaniques, le territoire du Kosovo est réparti principalement entre le Royaume de Serbie et le Royaume du Monténégro.', NULL, 12),
+('Intégration du Kosovo au Royaume des Serbes, Croates et Slovènes', 'integration-kosovo-royaume-serbes-croates-slovenes-KO', '1918-12-01', '1918-12-01', 'Les territoires du Kosovo contrôlés par la Serbie sont intégrés au nouveau Royaume des Serbes, Croates et Slovènes après la Première Guerre mondiale.', NULL, 22),
+('Occupation du Kosovo pendant la Seconde Guerre mondiale', 'occupation-kosovo-seconde-guerre-mondiale-KO', '1941-04-17', '1945-05-08', 'Après l''invasion de la Yougoslavie par les puissances de l''Axe, le Kosovo est partagé entre différentes zones d''occupation, une grande partie étant rattachée à l''Albanie sous contrôle italien.', NULL, 13),
+('Intégration du Kosovo dans la Yougoslavie socialiste', 'integration-kosovo-yougoslavie-socialiste-KO', '1945-11-29', '1945-11-29', 'Après la Seconde Guerre mondiale, le Kosovo est intégré à la République fédérative populaire de Yougoslavie et placé au sein de la République de Serbie.', NULL, 22),
+('Manifestations du Kosovo de 1981', 'manifestations-kosovo-1981', '1981-03-11', '1981-04-02', 'Des manifestations étudiantes puis populaires éclatent au Kosovo et évoluent vers des revendications politiques, notamment celle d''un statut de république au sein de la Yougoslavie. Les autorités yougoslaves répriment le mouvement.', NULL, 9),
+('Suppression de l''autonomie du Kosovo', 'suppression-autonomie-kosovo', '1989-03-23', '1989-03-23', 'Les institutions de Serbie adoptent des amendements constitutionnels réduisant fortement l''autonomie dont le Kosovo bénéficiait au sein de la Yougoslavie.', NULL, 22),
+('Proclamation de la République du Kosovo', 'proclamation-republique-kosovo', '1990-09-07', '1990-09-07', 'Des députés albanais du Kosovo proclament une République du Kosovo, dans le contexte de la désintégration progressive de la Yougoslavie. Cette proclamation n''est pas reconnue par les autorités yougoslaves.', NULL, 22),
+('Début de la guerre du Kosovo', 'debut-guerre-kosovo-KO', '1998-02-28', '1998-02-28', 'Les affrontements entre l''Armée de libération du Kosovo et les forces serbes et yougoslaves s''intensifient et débouchent sur une guerre ouverte au Kosovo.', NULL, 6),
+('Création de la Mission d''administration intérimaire des Nations unies au Kosovo', 'creation-mission-onu-kosovo-KO', '1999-06-10', '1999-06-10', 'À la suite de la résolution 1244 du Conseil de sécurité, les Nations unies mettent en place la Mission d''administration intérimaire des Nations unies au Kosovo (MINUK) afin d''assurer une administration internationale intérimaire du territoire.', NULL, 17),
+('Intervention de l''OTAN au Kosovo', 'intervention-otan-kosovo-KO', '1999-03-24', '1999-06-10', 'L''OTAN lance une campagne aérienne contre la République fédérale de Yougoslavie dans le contexte de la guerre du Kosovo. L''opération prend fin après le retrait des forces serbes et yougoslaves du Kosovo.', NULL, 13),
+('Adoption de la résolution 1244 du Conseil de sécurité de l''ONU', 'resolution-1244-conseil-securite-onu-KO', '1999-06-10', '1999-06-10', 'Le Conseil de sécurité des Nations unies adopte la résolution 1244, établissant une administration internationale intérimaire au Kosovo et autorisant une présence internationale de sécurité.', NULL, 14),
+('Déclaration d''indépendance du Kosovo', 'declaration-independance-kosovo', '2008-02-17', '2008-02-17', 'L''Assemblée du Kosovo adopte une déclaration proclamant le Kosovo comme État indépendant et souverain.', NULL, 11);
+
+
+-- LETTONIE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Fondation de Riga', 'fondation-riga', '1201-01-01', '1201-01-01', 'L''évêque Albert de Buxhoeveden fonde Riga, qui devient progressivement le principal centre politique, religieux et commercial de la région de Livonie.', NULL, 16),
+('Fondation des Frères de l''Épée', 'fondation-freres-epee-LE', '1202-01-01', '1202-01-01', 'L''ordre militaire des Frères de l''Épée est fondé en Livonie afin de participer à la conquête et à la christianisation des territoires baltes.', NULL, 16),
+('Fusion des Frères de l''Épée avec l''Ordre Teutonique', 'fusion-freres-epee-ordre-teutonique-LE', '1237-01-01', '1237-01-01', 'Après la défaite des Frères de l''Épée, l''ordre est intégré à l''Ordre Teutonique sous la forme de la branche livonienne.', NULL, 17),
+('Intégration de Riga à la Ligue hanséatique', 'integration-riga-ligue-hanseatique-LE', '1282-01-01', '1282-01-01', 'Riga rejoint la Ligue hanséatique et devient un important centre du commerce entre la mer Baltique, l''Europe centrale et la Russie.', NULL, 17),
+('Fin de la Confédération livonienne', 'fin-confederation-livonienne-LE', '1561-01-01', '1561-01-01', 'La guerre de Livonie entraîne la disparition de la Confédération livonienne. Une partie de ses territoires passe sous domination polono-lituanienne tandis que la Courlande devient un duché vassal.', NULL, 6),
+('Création du duché de Courlande et Sémigalie', 'creation-duche-courlande-semigalie', '1561-11-28', '1561-11-28', 'Le dernier maître de l''Ordre livonien, Gotthard Kettler, sécularise les territoires de l''ordre en Courlande et devient le premier duc de Courlande et Sémigalie.', NULL, 17),
+('Prise de Riga par la Suède', 'prise-riga-suede-LE', '1621-09-15', '1621-09-16', 'Les forces du roi Gustave II Adolphe de Suède prennent Riga au cours de la guerre polono-suédoise, intégrant la ville à l''Empire suédois.', NULL, 12),
+('Abolition du servage en Courlande', 'abolition-servage-courlande', '1817-01-01', '1817-01-01', 'Le servage est officiellement aboli dans le gouvernement de Courlande de l''Empire russe, dans le cadre des réformes concernant les paysans baltes.', NULL, 22),
+('Annexion de la Lettonie à l''Empire russe', 'annexion-lettonie-empire-russe', '1795-03-01', '1795-03-01', 'Lors du troisième partage de la Pologne-Lituanie, le duché de Courlande et Sémigalie est annexé par l''Empire russe, plaçant progressivement l''ensemble des territoires lettons sous domination russe.', NULL, 12),
+('Premier Festival national letton de chant', 'premier-festival-chant-letton', '1873-06-26', '1873-06-29', 'Le premier Festival national letton de chant se tient à Riga et contribue au développement du mouvement culturel et national letton.', NULL, 24),
+('Révolution russe de 1905 en Lettonie', 'revolution-russe-1905-lettonie-LE', '1905-01-13', '1905-12-31', 'La révolution de 1905 provoque des grèves, manifestations et soulèvements dans les territoires lettons de l''Empire russe, suivis d''une importante répression.', NULL, 8),
+('Proclamation de l''indépendance de la Lettonie', 'proclamation-independance-lettonie', '1918-11-18', '1918-11-18', 'Le Conseil populaire proclame l''indépendance de la République de Lettonie à Riga, mettant en place un État letton indépendant.', NULL, 11),
+('Guerre d''indépendance de la Lettonie', 'guerre-independance-lettonie-LE', '1918-12-01', '1920-08-11', 'Les forces lettones combattent les forces soviétiques et allemandes ainsi que l''armée de Bermont-Avalov dans le cadre de la guerre d''indépendance lettone.', NULL, 6),
+('Traité de paix entre la Lettonie et la Russie soviétique', 'traite-paix-lettonie-russie-sovietique-LE', '1920-08-11', '1920-08-11', 'La Lettonie et la Russie soviétique signent le traité de paix de Riga, par lequel la Russie soviétique reconnaît l''indépendance et la souveraineté de la Lettonie.', NULL, 14),
+('Adoption de la Constitution lettone', 'adoption-constitution-lettonie', '1922-02-15', '1922-02-15', 'L''Assemblée constituante adopte la Satversme, la Constitution de la République de Lettonie.', NULL, 22),
+('Coup d''État de Kārlis Ulmanis', 'coup-etat-karlis-ulmanis', '1934-05-15', '1934-05-15', 'Le Premier ministre Kārlis Ulmanis instaure un régime autoritaire, dissout le Parlement et suspend les activités des partis politiques.', NULL, 10),
+('Occupation soviétique de la Lettonie', 'occupation-sovietique-lettonie-LE', '1940-06-17', '1940-06-17', 'L''Armée rouge entre en Lettonie après un ultimatum soviétique, entraînant l''occupation du pays puis son incorporation à l''Union soviétique.', NULL, 13),
+('Occupation allemande de la Lettonie', 'occupation-allemande-lettonie-LE', '1941-07-01', '1944-10-13', 'L''Allemagne nazie occupe la Lettonie après l''invasion de l''Union soviétique et intègre le territoire au Reichskommissariat Ostland.', NULL, 13),
+('Déclaration du rétablissement de l''indépendance de la Lettonie', 'declaration-retablissement-independance-lettonie', '1990-05-04', '1990-05-04', 'Le Conseil suprême de Lettonie adopte une déclaration restaurant l''indépendance de la République de Lettonie et engageant une période de transition.', NULL, 11),
+('Rétablissement de l''indépendance de la Lettonie', 'retablissement-independance-lettonie', '1991-08-21', '1991-08-21', 'Après l''échec du putsch de Moscou, le Conseil suprême adopte la loi constitutionnelle rétablissant pleinement l''indépendance de la République de Lettonie.', NULL, 11);
+
+
+-- LIECHTENSTEIN --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Création du comté de Vaduz', 'creation-comte-vaduz', '1342-05-03', '1342-05-03', 'Le comté de Vaduz est créé à partir d''une partie du territoire du comté de Werdenberg-Sargans, constituant l''une des deux entités territoriales qui formeront plus tard le Liechtenstein.', NULL, 17),
+('Reconnaissance de l''immédiateté impériale de Vaduz', 'reconnaissance-immediatete-imperiale-vaduz', '1396-03-22', '1396-03-22', 'Le comté de Vaduz devient directement soumis au Saint-Empire romain germanique, renforçant son statut d''entité territoriale indépendante des autorités intermédiaires.', NULL, 22),
+('Unification de Vaduz et Schellenberg', 'unification-vaduz-schellenberg', '1434-01-01', '1437-12-31', 'Les territoires de Vaduz et de Schellenberg sont réunis sous une même autorité, constituant progressivement le territoire historique du futur Liechtenstein.', NULL, 17),
+('Acquisition de la seigneurie de Schellenberg', 'acquisition-seigneurie-schellenberg', '1699-02-18', '1699-02-18', 'Le prince Johann Adam Andreas de Liechtenstein achète la seigneurie de Schellenberg aux comtes de Hohenems.', NULL, 12),
+('Acquisition du comté de Vaduz', 'acquisition-comte-vaduz', '1712-02-22', '1712-02-22', 'Le prince Johann Adam Andreas de Liechtenstein acquiert le comté de Vaduz auprès des comtes de Hohenems, réunissant les deux territoires qui formeront le futur État.', NULL, 12),
+('Élévation de Vaduz et Schellenberg au rang de principauté de Liechtenstein', 'creation-principaute-liechtenstein', '1719-01-23', '1719-01-23', 'L''empereur Charles VI réunit la seigneurie de Schellenberg et le comté de Vaduz et les élève au rang de principauté impériale sous le nom de Liechtenstein.', NULL, 17),
+('Souveraineté du Liechtenstein et adhésion à la Confédération du Rhin', 'souverainete-liechtenstein-confederation-rhin-LI', '1806-07-12', '1806-07-12', 'L''adhésion du Liechtenstein à la Confédération du Rhin créée par Napoléon entraîne l''obtention de sa souveraineté étatique formelle.', NULL, 11),
+('Adhésion du Liechtenstein à la Confédération germanique', 'adhesion-liechtenstein-confederation-germanique-LI', '1815-06-08', '1815-06-08', 'Le Liechtenstein rejoint la Confédération germanique créée au Congrès de Vienne et conserve son statut d''État souverain au sein de cette organisation.', NULL, 15),
+('Adoption de la Constitution de 1862', 'constitution-liechtenstein-1862', '1862-10-26', '1862-10-26', 'Une nouvelle constitution entre en vigueur et établit notamment un Landtag représentant la population, marquant une évolution du système politique du Liechtenstein.', NULL, 22),
+('Dissolution de la Confédération germanique', 'dissolution-confederation-germanique-LI', '1866-08-23', '1866-08-23', 'La dissolution de la Confédération germanique à la suite de la guerre austro-prussienne met fin à l''appartenance du Liechtenstein à cette structure politique.', NULL, 22),
+('Abolition de l''armée du Liechtenstein', 'abolition-armee-liechtenstein', '1868-02-12', '1868-02-12', 'Le Liechtenstein abolit son armée permanente, décision prise dans un contexte de difficultés financières et de réorganisation de l''État.', NULL, 22),
+('Fin de l''union douanière avec l''Autriche', 'fin-union-douaniere-autriche-LI', '1919-07-02', '1919-07-02', 'Le Liechtenstein met fin à son traité douanier avec l''Autriche après la Première Guerre mondiale et commence à se rapprocher économiquement de la Suisse.', NULL, 25),
+('Adoption de la Constitution de 1921', 'constitution-liechtenstein-1921', '1921-10-05', '1921-10-05', 'La nouvelle Constitution du Liechtenstein entre en vigueur et établit une monarchie constitutionnelle sur une base démocratique et parlementaire.', NULL, 22),
+('Traité douanier entre le Liechtenstein et la Suisse', 'traite-douanier-liechtenstein-suisse-LI', '1923-03-29', '1923-03-29', 'Le Liechtenstein et la Suisse concluent un traité douanier qui intègre le territoire liechtensteinois à l''espace douanier suisse.', NULL, 14),
+('Introduction du franc suisse au Liechtenstein', 'introduction-franc-suisse-liechtenstein-LI', '1924-05-01', '1924-05-01', 'Le franc suisse devient la monnaie officielle du Liechtenstein dans le cadre du rapprochement économique et monétaire avec la Suisse.', NULL, 25),
+('Installation de la famille princière au château de Vaduz', 'installation-famille-princiere-chateau-vaduz', '1938-03-15', '1938-03-15', 'Le prince Franz Joseph II devient le premier souverain du Liechtenstein à résider durablement dans le pays et la famille princière s''installe au château de Vaduz.', NULL, 5),
+('Adhésion du Liechtenstein au Conseil de l''Europe', 'adhesion-liechtenstein-conseil-europe-LI', '1978-11-23', '1978-11-23', 'Le Liechtenstein devient membre du Conseil de l''Europe, renforçant son intégration dans les institutions européennes.', NULL, 15),
+('Adhésion du Liechtenstein à l''Organisation des Nations unies', 'adhesion-liechtenstein-onu-LI', '1990-09-18', '1990-09-18', 'Le Liechtenstein devient le 160e État membre de l''Organisation des Nations unies.', NULL, 15),
+('Adhésion du Liechtenstein à l''Espace économique européen', 'adhesion-liechtenstein-eee-LI', '1995-05-01', '1995-05-01', 'Le Liechtenstein rejoint l''Espace économique européen et participe ainsi au marché intérieur européen.', NULL, 15),
+('Création de l''archidiocèse de Vaduz', 'creation-archidiocese-vaduz', '1997-12-02', '1997-12-02', 'Le pape Jean-Paul II crée l''archidiocèse de Vaduz, qui devient la principale juridiction de l''Église catholique au Liechtenstein.', NULL, 23);
+
+
+-- LITUANIE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Couronnement de Mindaugas', 'couronnement-mindaugas-LI', '1253-07-06', '1253-07-06', 'Mindaugas est couronné roi de Lituanie avec l''accord du pape Innocent IV, devenant le premier et unique roi couronné de Lituanie.', NULL, 4),
+('Conversion de Mindaugas au christianisme', 'conversion-mindaugas-christianisme', '1251-01-01', '1251-01-01', 'Mindaugas accepte le baptême chrétien dans le cadre de sa politique visant à obtenir la reconnaissance de son pouvoir par les puissances chrétiennes européennes.', NULL, 23),
+('Mort de Mindaugas', 'mort-mindaugas', '1263-09-12', '1263-09-12', 'Le roi Mindaugas est assassiné lors d''un complot dirigé par plusieurs nobles lituaniens, mettant fin à la première période de monarchie chrétienne de Lituanie.', NULL, 2),
+('Fondation du Grand-Duché de Lituanie', 'fondation-grand-duche-lituanie', '1263-01-01', '1263-01-01', 'Après la mort de Mindaugas, le pouvoir politique se réorganise et le Grand-Duché de Lituanie se consolide comme une puissance majeure de l''Europe orientale.', NULL, 16),
+('Règne de Gediminas', 'regne-gediminas', '1316-01-01', '1341-12-31', 'Gediminas règne sur la Lituanie, étend son influence territoriale et fait de Vilnius un centre politique important du Grand-Duché.', NULL, 5),
+('Première mention de Vilnius comme capitale', 'premiere-mention-vilnius', '1323-01-25', '1323-01-25', 'Dans une lettre de Gediminas adressée aux autorités et marchands d''Europe occidentale, Vilnius apparaît comme le siège du pouvoir du grand-duc de Lituanie.', NULL, 22),
+('Bataille de Grunwald', 'bataille-grunwald-LI', '1410-07-15', '1410-07-15', 'Les forces combinées de la Lituanie et de la Pologne battent l''armée de l''Ordre Teutonique lors de la bataille de Grunwald, affaiblissant durablement la puissance de l''ordre dans la région baltique.', NULL, 7),
+('Union de Horodło', 'union-horodlo-LI', '1413-10-02', '1413-10-02', 'La Pologne et la Lituanie concluent l''union de Horodło, qui renforce leurs liens politiques tout en maintenant l''existence distincte du Grand-Duché de Lituanie.', NULL, 15),
+('Christianisation de la Lituanie', 'christianisation-lituanie', '1387-02-01', '1387-02-01', 'Le grand-duc Jogaila, devenu roi de Pologne sous le nom de Ladislas II Jagellon, lance la christianisation officielle de la Lituanie proprement dite selon le rite latin.', NULL, 23),
+('Union de Lublin', 'union-lublin-LI', '1569-07-01', '1569-07-01', 'La Pologne et la Lituanie concluent l''Union de Lublin, qui crée la République des Deux Nations tout en maintenant le Grand-Duché de Lituanie comme entité politique distincte.', NULL, 15),
+('Statut de la Lituanie de 1588', 'statut-lituanie-1588', '1588-01-01', '1588-01-01', 'Le troisième Statut de Lituanie entre en vigueur et constitue une importante codification juridique du Grand-Duché de Lituanie.', NULL, 22),
+('Partition du Grand-Duché de Lituanie', 'partitions-grand-duche-lituanie-LI', '1772-02-19', '1795-10-24', 'Les trois partages de la République des Deux Nations entraînent la disparition progressive du Grand-Duché de Lituanie, dont les territoires sont principalement intégrés à l''Empire russe.', NULL, 12),
+('Insurrection de 1830-1831 en Lituanie', 'insurrection-1830-1831-lituanie-LI', '1830-11-29', '1831-10-21', 'L''insurrection de novembre contre la domination russe s''étend aux territoires lituaniens avant d''être réprimée par les autorités impériales russes.', NULL, 9),
+('Insurrection de janvier en Lituanie', 'insurrection-janvier-lituanie-LI', '1863-01-22', '1864-06-01', 'L''insurrection de janvier contre l''Empire russe touche également la Lituanie. Le mouvement est finalement vaincu et suivi d''une importante politique de répression et de russification.', NULL, 9),
+('Acte d''indépendance de la Lituanie', 'acte-independance-lituanie', '1918-02-16', '1918-02-16', 'Le Conseil de Lituanie proclame la restauration d''un État lituanien indépendant, établissant le fondement juridique de la République moderne de Lituanie.', NULL, 11),
+('Occupation soviétique de la Lituanie', 'occupation-sovietique-lituanie-LI', '1940-06-15', '1940-06-15', 'L''Union soviétique occupe la Lituanie à la suite d''un ultimatum et impose progressivement un nouveau régime politique, avant l''annexion du pays à l''URSS.', NULL, 13),
+('Occupation allemande de la Lituanie', 'occupation-allemande-lituanie-LI', '1941-06-22', '1944-07-13', 'L''Allemagne nazie envahit et occupe la Lituanie dans le cadre de l''opération Barbarossa. L''occupation s''accompagne notamment de la destruction de la communauté juive lituanienne.', NULL, 13),
+('Acte de rétablissement de l''indépendance de la Lituanie', 'retablissement-independance-lituanie', '1990-03-11', '1990-03-11', 'Le Conseil suprême de la République de Lituanie adopte l''Acte de rétablissement de l''État indépendant de Lituanie, devenant la première république soviétique à proclamer ainsi le rétablissement de son indépendance.', NULL, 11),
+('Reconnaissance internationale de l''indépendance de la Lituanie', 'reconnaissance-independance-lituanie-LI', '1991-09-17', '1991-09-17', 'La Lituanie est admise à l''Organisation des Nations unies avec la Lettonie et l''Estonie, marquant sa réintégration dans la communauté internationale en tant qu''État indépendant.', NULL, 11),
+('Adhésion de la Lituanie à l''OTAN et à l''Union européenne', 'adhesion-lituanie-otan-union-europeenne-LI', '2004-03-29', '2004-05-01', 'La Lituanie rejoint l''OTAN le 29 mars 2004 puis l''Union européenne le 1er mai 2004, achevant une étape majeure de son intégration euro-atlantique.', NULL, 15);
+
+
+-- LUXEMBOURG --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Fondation de Luxembourg', 'fondation-luxembourg', '0963-01-01', '0963-01-01', 'Le comte Siegfried acquiert le castellum de Lucilinburhuc sur le rocher du Bock, acte considéré comme l''origine historique de la ville et du futur comté de Luxembourg.', NULL, 16),
+('Élévation du comté de Luxembourg au rang de comté impérial', 'elevation-comte-luxembourg', '1136-01-01', '1136-01-01', 'Le comté de Luxembourg consolide son statut territorial au sein du Saint-Empire romain germanique et devient progressivement une puissance régionale.', NULL, 22),
+('Henri VII devient roi des Romains', 'henri-vii-roi-romains-LU', '1308-11-27', '1308-11-27', 'Le comte Henri VII de Luxembourg est élu roi des Romains, ouvrant la voie à son accession au trône impérial.', NULL, 4),
+('Henri VII devient empereur du Saint-Empire', 'henri-vii-empereur-saint-empire-LU', '1312-06-29', '1312-06-29', 'Henri VII est couronné empereur du Saint-Empire romain germanique à Rome.', NULL, 4),
+('Élévation du comté de Luxembourg au rang de duché', 'elevation-duche-luxembourg', '1354-03-13', '1354-03-13', 'L''empereur Charles IV élève le comté de Luxembourg au rang de duché, renforçant son statut au sein du Saint-Empire.', NULL, 22),
+('Passage du Luxembourg aux Habsbourg', 'passage-luxembourg-habsbourg-LU', '1443-01-01', '1443-01-01', 'Le duché de Luxembourg passe sous la domination des Habsbourg après la conquête de Luxembourg par Philippe le Bon de Bourgogne.', NULL, 12),
+('Passage du Luxembourg aux Pays-Bas espagnols', 'luxembourg-pays-bas-espagnols-LU', '1555-01-01', '1555-01-01', 'Le Luxembourg passe sous l''autorité de la branche espagnole des Habsbourg et est intégré aux Pays-Bas espagnols.', NULL, 12),
+('Prise de Luxembourg par les Français', 'prise-luxembourg-francais-LU', '1795-06-07', '1795-06-07', 'Les troupes révolutionnaires françaises prennent la forteresse de Luxembourg après un siège, mettant fin à la domination autrichienne sur le duché.', NULL, 12),
+('Création du département des Forêts', 'creation-departement-forets-LU', '1795-10-24', '1795-10-24', 'Le territoire luxembourgeois est intégré à la République française sous la forme du département des Forêts.', NULL, 22),
+('Création du Grand-Duché de Luxembourg', 'creation-grand-duche-luxembourg-LU', '1815-06-09', '1815-06-09', 'Le Congrès de Vienne érige le Luxembourg en Grand-Duché et l''attribue au roi des Pays-Bas Guillaume Ier en union personnelle.', NULL, 17),
+('Révolution belge au Luxembourg', 'revolution-belge-luxembourg-LU', '1830-08-01', '1831-01-01', 'La révolution belge de 1830 touche le Luxembourg et une grande partie du territoire du Grand-Duché se rallie au mouvement révolutionnaire belge.', NULL, 8),
+('Traité de Londres de 1839', 'traite-londres-1839-LU', '1839-04-19', '1839-04-19', 'Le traité de Londres règle la partition du territoire luxembourgeois et établit les frontières du Grand-Duché dans une forme proche de celle du Luxembourg actuel.', NULL, 14),
+('Intégration du Luxembourg au Zollverein', 'integration-luxembourg-zollverein-LU', '1842-04-01', '1842-04-01', 'Le Luxembourg rejoint l''Union douanière allemande, favorisant son intégration économique avec les États allemands.', NULL, 25),
+('Révolution luxembourgeoise', 'revolution-luxembourgeoise', '1848-03-01', '1848-09-01', 'La vague révolutionnaire européenne de 1848 atteint le Luxembourg et conduit à des réformes politiques et constitutionnelles.', NULL, 8),
+('Traité de Londres et neutralité du Luxembourg', 'traite-londres-neutralite-luxembourg-LU', '1867-05-11', '1867-05-11', 'Le traité de Londres de 1867 garantit la neutralité perpétuelle du Luxembourg, prévoit le retrait de la garnison prussienne et le démantèlement de la forteresse de Luxembourg.', NULL, 14),
+('Début de l''industrialisation sidérurgique luxembourgeoise', 'debut-industrie-siderurgique-luxembourg', '1870-01-01', '1870-01-01', 'Les premières grandes installations sidérurgiques apparaissent dans le sud du pays et constituent le début de l''industrialisation moderne du Luxembourg.', NULL, 25),
+('Avènement de la dynastie Nassau-Weilbourg', 'avenement-nassau-weilbourg', '1890-11-23', '1890-11-23', 'À la mort du roi grand-duc Guillaume III, Adolphe de Nassau devient grand-duc de Luxembourg, inaugurant la dynastie Nassau-Weilbourg au Luxembourg.', NULL, 5),
+('Invasion allemande du Luxembourg pendant la Première Guerre mondiale', 'invasion-allemande-luxembourg-premiere-guerre-mondiale-LU', '1914-08-02', '1918-11-11', 'Les troupes allemandes envahissent et occupent le Luxembourg malgré son statut de neutralité pendant la Première Guerre mondiale.', NULL, 13),
+('Invasion allemande du Luxembourg pendant la Seconde Guerre mondiale', 'invasion-allemande-luxembourg-seconde-guerre-mondiale-LU', '1940-05-10', '1944-09-10', 'L''Allemagne nazie envahit le Luxembourg le 10 mai 1940 et impose une politique d''annexion et de germanisation jusqu''à la libération du pays en septembre 1944.', NULL, 13),
+('Libération de Luxembourg-Ville', 'liberation-luxembourg-ville-LU', '1944-09-10', '1944-09-10', 'Les forces américaines libèrent Luxembourg-Ville, mettant fin à l''occupation allemande de la capitale luxembourgeoise.', NULL, 13);
+
+
+-- MACEDOINE DU NORD --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Conquête romaine de la Macédoine', 'conquete-romaine-macedoine-MA', '00168-01-01', '00168-12-31', 'La Macédoine passe sous domination romaine après la défaite du royaume macédonien.', NULL, 12),
+('Fondation de l''archevêché d''Ohrid', 'fondation-archeveche-ohrid', '01018-01-01', '01018-12-31', 'Après la conquête byzantine de l’État de Samuel, l’archevêché d’Ohrid conserve un rôle religieux majeur dans la région.', NULL, 17),
+('Bataille de Kleidion', 'bataille-kleidion-MA', '01014-07-29', '01014-07-29', 'L’armée byzantine de Basile II défait les forces du tsar Samuel lors de la bataille de Kleidion.', NULL, 7),
+('Conquête ottomane de la Macédoine', 'conquete-ottomane-macedoine-MA', '01371-01-01', '01390-12-31', 'À la suite de la bataille de la Maritsa et des campagnes suivantes, les Ottomans établissent progressivement leur domination sur la Macédoine.', NULL, 12),
+('Révolte de Karposh', 'revolte-karposh', '01689-10-01', '01689-12-31', 'La révolte de Karposh contre la domination ottomane éclate dans le nord de la Macédoine.', NULL, 9),
+('Soulèvement d''Ilinden', 'soulevement-ilinden-MA', '01903-08-02', '01903-08-02', 'L''Organisation révolutionnaire intérieure macédonienne lance le soulèvement d''Ilinden contre l''Empire ottoman.', NULL, 9),
+('Bataille de Kumanovo', 'bataille-kumanovo-MA', '01912-10-23', '01912-10-24', 'Les forces serbes remportent une victoire décisive sur l’armée ottomane pendant la Première Guerre balkanique.', NULL, 7),
+('Traité de Bucarest et partage de la Macédoine', 'traite-bucarest-partage-macedoine-MA', '01913-08-10', '01913-08-10', 'Le traité de Bucarest consacre le partage de la région géographique de Macédoine entre plusieurs États balkaniques.', NULL, 14),
+('Soulèvement d''Ohrid-Débar', 'soulevement-ohrid-debar-MA', '01915-09-01', '01915-10-31', 'Une insurrection contre l’administration serbe éclate dans les régions d’Ohrid et de Débar pendant la Première Guerre mondiale.', NULL, 9),
+('Fondation de l''Organisation révolutionnaire macédonienne', 'fondation-organisation-revolutionnaire-macedonienne', '01893-10-23', '01893-10-23', 'Création à Thessalonique de l’Organisation révolutionnaire macédonienne, future VMRO.', NULL, 16),
+('Occupation bulgare de la Macédoine du Vardar', 'occupation-bulgare-macedonie-vardar-MA', '01941-04-01', '01944-11-01', 'La Bulgarie occupe une grande partie de la Macédoine du Vardar pendant la Seconde Guerre mondiale.', NULL, 13),
+('Première session de l''ASNOM', 'premiere-session-asnom', '01944-08-02', '01944-08-02', 'L’Assemblée antifasciste pour la libération nationale de la Macédoine se réunit à Prohor Pčinjski et affirme les bases de l’État macédonien moderne.', NULL, 22),
+('Création de la République populaire de Macédoine', 'creation-republique-populaire-macedoine', '01945-01-01', '01945-01-01', 'La Macédoine devient une république constitutive de la Yougoslavie fédérale.', NULL, 17),
+('Codification de la langue macédonienne', 'codification-langue-macedonienne', '01945-05-03', '01945-06-07', 'La commission linguistique établit les bases de la langue macédonienne standard moderne.', NULL, 24),
+('Proclamation de l''autocéphalie de l''Église orthodoxe macédonienne', 'proclamation-autochephalie-eglise-macedonienne', '01967-07-19', '01967-07-19', 'L’Église orthodoxe macédonienne proclame son autocéphalie vis-à-vis de l’Église orthodoxe serbe.', NULL, 23),
+('Référendum sur l''indépendance de la Macédoine', 'referendum-independance-macedoine', '01991-09-08', '01991-09-08', 'Un référendum est organisé sur l’indépendance de la République de Macédoine vis-à-vis de la Yougoslavie.', NULL, 22),
+('Adoption de la Constitution de la République de Macédoine', 'adoption-constitution-macedoine', '01991-11-17', '01991-11-17', 'Le Parlement adopte la nouvelle Constitution de la République de Macédoine indépendante.', NULL, 22),
+('Admission de la Macédoine à l''Organisation des Nations unies', 'adhesion-macedoine-onu-MA', '01993-04-08', '01993-04-08', 'La République de Macédoine devient membre de l’Organisation des Nations unies sous une référence provisoire.', NULL, 17),
+('Accord-cadre d''Ohrid', 'accord-cadre-ohrid-MA', '02001-08-13', '02001-08-13', 'L’accord-cadre d’Ohrid met fin au conflit armé de 2001 et prévoit des réformes constitutionnelles et des droits renforcés pour les communautés minoritaires.', NULL, 14),
+('Accord de Prespa et changement de nom', 'accord-prespa-changement-nom-MA', '02018-06-17', '02019-02-12', 'L’accord de Prespa règle le différend avec la Grèce et conduit au changement officiel du nom de l’État en République de Macédoine du Nord.', NULL, 14);
+
+
+-- MALTE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Naufrage de saint Paul à Malte', 'naufrage-saint-paul-malte', '00060-01-01', '00060-12-31', 'Selon la tradition chrétienne, l’apôtre Paul fait naufrage à Malte, événement associé à l’arrivée du christianisme dans l’archipel.', NULL, 23),
+('Conquête arabe de Malte', 'conquete-arabe-malte-MT', '00870-01-01', '00870-12-31', 'Les Aghlabides conquièrent Malte et introduisent durablement des influences arabes dans la langue et la culture de l’archipel.', NULL, 12),
+('Conquête normande de Malte', 'conquete-normande-malte-MT', '01091-01-01', '01091-12-31', 'Le comte Roger de Hauteville établit la suzeraineté normande sur Malte.', NULL, 12),
+('Passage de Malte aux Angevins', 'passage-malte-angevins-MT', '01266-01-01', '01266-12-31', 'Après la conquête angevine du royaume de Sicile, Malte passe sous l’autorité de la dynastie angevine.', NULL, 22),
+('Passage de Malte aux Aragonais', 'passage-malte-aragonais-MT', '01283-01-01', '01283-12-31', 'La révolte des Vêpres siciliennes entraîne le passage de Malte sous l’autorité de la Couronne d’Aragon.', NULL, 22),
+('Arrivée des chevaliers de Saint-Jean à Malte', 'arrivee-chevaliers-saint-jean-malte-MT', '01530-10-26', '01530-10-26', 'Charles Quint cède Malte à l’Ordre de Saint-Jean de Jérusalem, qui établit son siège dans l’archipel.', NULL, 22),
+('Grand Siège de Malte', 'grand-siege-malte-MT', '01565-05-18', '01565-09-11', 'Les chevaliers de Saint-Jean et les défenseurs maltais résistent à l’invasion ottomane lors du Grand Siège.', NULL, 7),
+('Fondation de La Valette', 'fondation-la-valette', '01566-03-28', '01566-03-28', 'La construction de la nouvelle cité fortifiée de La Valette commence après le Grand Siège.', NULL, 16),
+('Achèvement de la co-cathédrale Saint-Jean', 'achevement-co-cathedrale-saint-jean', '01577-01-01', '01577-12-31', 'La co-cathédrale Saint-Jean est achevée à La Valette et devient l’un des principaux monuments de l’Ordre.', NULL, 24),
+('Conquête française de Malte', 'conquete-francaise-malte-MT', '01798-06-10', '01798-06-12', 'Les troupes de Napoléon Bonaparte prennent le contrôle de Malte et mettent fin au gouvernement de l’Ordre de Saint-Jean.', NULL, 12),
+('Insurrection maltaise contre les Français', 'insurrection-maltaise-francais-MT', '01798-09-02', '01800-09-05', 'Les insurgés maltais se soulèvent contre l’occupation française avec le soutien britannique.', NULL, 9),
+('Début de la domination britannique à Malte', 'debut-domination-britannique-malte-MT', '01800-09-05', '01800-09-05', 'La capitulation française marque le début de la domination britannique sur Malte.', NULL, 13),
+('Traité de Paris et rattachement de Malte à la Grande-Bretagne', 'traite-paris-malte-grande-bretagne-MT', '01814-05-30', '01814-05-30', 'Le traité de Paris confirme la possession britannique de Malte.', NULL, 14),
+('Émeutes du 7 juin 1919', 'emeutes-7-juin-malte', '01919-06-07', '01919-06-07', 'Des émeutes éclatent à Malte et quatre Maltais sont tués par les forces britanniques, accélérant les réformes constitutionnelles.', NULL, 9),
+('Constitution maltaise de 1921', 'constitution-malte-1921', '01921-04-30', '01921-04-30', 'Une nouvelle constitution accorde à Malte un gouvernement responsable composé de ministres issus d’une législature élue.', NULL, 22),
+('Siège de Malte pendant la Seconde Guerre mondiale', 'siege-malte-seconde-guerre-mondiale-MT', '01940-06-11', '01942-11-20', 'Malte subit de lourds bombardements et un blocus pendant la Seconde Guerre mondiale.', NULL, 6),
+('Attribution de la George Cross à Malte', 'attribution-george-cross-malte', '01942-04-15', '01942-04-15', 'Le roi George VI décerne la George Cross à la population maltaise en reconnaissance de son courage pendant la guerre.', NULL, 24),
+('Indépendance de Malte', 'independance-malte', '01964-09-21', '01964-09-21', 'Malte devient indépendante du Royaume-Uni tout en conservant initialement une monarchie constitutionnelle.', NULL, 11),
+('Proclamation de la République de Malte', 'proclamation-republique-malte', '01974-12-13', '01974-12-13', 'Malte devient une république au sein du Commonwealth et remplace le monarque par un président.', NULL, 22),
+('Retrait des forces britanniques de Malte', 'retrait-forces-britanniques-malte-MT', '01979-03-31', '01979-03-31', 'Le dernier accord militaire britannique prend fin et les dernières forces britanniques quittent Malte.', NULL, 22);
+
+
+-- MOLDAVIE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Fondation de la Principauté de Moldavie', 'fondation-principaute-moldavie-MO', '01359-01-01', '01359-12-31', 'Bogdan Ier établit une principauté moldave indépendante de la Hongrie, considérée comme l’origine de l’État moldave médiéval.', NULL, 16),
+('Règne d''Alexandre le Bon', 'regne-alexandre-bon-MO', '01400-01-01', '01432-01-01', 'Alexandre le Bon règne sur la Moldavie et consolide l’administration et les institutions de la principauté.', NULL, 5),
+('Règne d''Étienne le Grand', 'regne-etienne-grand-MO', '01457-04-12', '01504-07-02', 'Étienne le Grand dirige la Moldavie pendant près d’un demi-siècle et mène de nombreuses campagnes militaires.', NULL, 5),
+('Bataille de Vaslui', 'bataille-vaslui-MO', '01475-01-10', '01475-01-10', 'Étienne le Grand défait une importante armée ottomane lors de la bataille de Vaslui.', NULL, 7),
+('Bataille de la forêt de Cosmin', 'bataille-foret-cosmin-MO', '01497-10-26', '01497-10-26', 'Les forces moldaves d’Étienne le Grand repoussent l’armée polonaise lors de la campagne de 1497.', NULL, 7),
+('Vassalité ottomane de la Moldavie', 'vassalite-ottomane-moldavie-MO', '01538-01-01', '01538-12-31', 'La Moldavie devient une principauté tributaire de l’Empire ottoman tout en conservant ses institutions internes.', NULL, 22),
+('Règne de Vasile Lupu', 'regne-vasile-lupu-MO', '01634-01-01', '01653-04-01', 'Vasile Lupu règne sur la Moldavie et favorise le développement culturel, religieux et juridique de la principauté.', NULL, 5),
+('Code de Vasile Lupu', 'code-vasile-lupu', '01646-01-01', '01646-12-31', 'Le Code de Vasile Lupu, connu sous le nom de Carte românească de învățătură, est publié en Moldavie.', NULL, 24),
+('Guerre russo-turque et occupation de la Moldavie', 'guerre-russo-turque-moldavie-MO', '01768-01-01', '01774-01-01', 'La Moldavie devient un théâtre majeur des affrontements entre les empires russe et ottoman.', NULL, 6),
+('Traité de Bucarest et annexion de la Bessarabie', 'traite-bucarest-annexion-bessarabie-MO', '01812-05-28', '01812-05-28', 'Le traité de Bucarest met fin à la guerre russo-turque et entraîne l’annexion de la Bessarabie par l’Empire russe.', NULL, 14),
+('Révolution de 1848 en Moldavie', 'revolution-1848-moldavie-MO', '01848-03-27', '01848-09-01', 'Un mouvement révolutionnaire moldave réclame des réformes politiques et sociales, mais est réprimé.', NULL, 8),
+('Union de la Moldavie et de la Valachie', 'union-moldavie-valachie-MO', '01859-01-24', '01859-01-24', 'Alexandru Ioan Cuza est élu prince de Moldavie puis de Valachie, contribuant à la création de la Roumanie moderne.', NULL, 22),
+('Sfatul Țării et autonomie de la Bessarabie', 'sfatul-tarii-autonomie-bessarabie-MO', '01917-12-15', '01917-12-15', 'Le Sfatul Țării est constitué à Chișinău comme organe représentatif de la Bessarabie.', NULL, 22),
+('Proclamation de la République démocratique moldave', 'proclamation-republique-democratique-moldave-MO', '01917-12-15', '01918-01-24', 'Le Sfatul Țării proclame la République démocratique moldave dans le contexte de l’effondrement de l’Empire russe.', NULL, 22),
+('Union de la Bessarabie avec la Roumanie', 'union-bessarabie-roumanie-MO', '01918-03-27', '01918-03-27', 'Le Sfatul Țării vote l’union de la Bessarabie avec le Royaume de Roumanie.', NULL, 22),
+('Création de la RSSA moldave', 'creation-rssa-moldave-MO', '01924-10-12', '01924-10-12', 'L’Union soviétique crée la République socialiste soviétique autonome moldave au sein de la RSS d’Ukraine.', NULL, 17),
+('Création de la RSS moldave', 'creation-rss-moldave-MO', '01940-08-02', '01940-08-02', 'L’Union soviétique crée la République socialiste soviétique moldave après l’annexion de la Bessarabie en 1940.', NULL, 17),
+('Mouvement de renaissance nationale moldave', 'mouvement-renaissance-nationale-moldave', '01989-08-27', '01989-08-31', 'Les grandes mobilisations nationales de 1989 conduisent notamment à l’adoption du roumain comme langue d’État et au retour à l’alphabet latin.', NULL, 22),
+('Déclaration de souveraineté de la Moldavie', 'declaration-souverainete-moldavie', '01990-06-23', '01990-06-23', 'Le Parlement de la RSS moldave adopte la Déclaration de souveraineté de la république.', NULL, 22),
+('Indépendance de la République de Moldavie', 'independance-republique-moldavie', '01991-08-27', '01991-08-27', 'Le Parlement adopte la Déclaration d’indépendance et la République de Moldavie devient un État souverain et indépendant.', NULL, 11);
+
+
+-- MONACO --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Construction de la première forteresse de Monaco', 'construction-forteresse-monaco', '01215-01-01', '01215-12-31', 'Une première forteresse est construite sur le Rocher de Monaco sous la direction du consul génois Fulco del Castello.', NULL, 16),
+('Prise du Rocher par François Grimaldi', 'prise-rocher-francois-grimaldi-MO', '01297-01-08', '01297-01-08', 'François Grimaldi s’empare du château fort de Monaco par ruse, événement fondateur de la présence des Grimaldi.', NULL, 12),
+('Charles Grimaldi devient seigneur de Monaco', 'charles-grimaldi-seigneur-monaco', '01331-01-01', '01331-12-31', 'Charles Ier Grimaldi devient le premier seigneur de Monaco et œuvre à renforcer l’indépendance du territoire.', NULL, 5),
+('Reconnaissance du titre de seigneur de Monaco', 'reconnaissance-seigneur-monaco', '01342-01-01', '01342-12-31', 'Le titre de seigneur de Monaco est officiellement associé à Charles Grimaldi.', NULL, 22),
+('Honoré II prend le titre de prince de Monaco', 'honore-ii-prince-monaco', '01612-01-01', '01612-12-31', 'Honoré II adopte officiellement le titre de prince de Monaco.', NULL, 4),
+('Traité de Péronne', 'traite-peronne-monaco-FR', '01641-09-14', '01641-09-14', 'Le traité de Péronne renforce les liens entre Monaco et la France et accorde à Honoré II plusieurs possessions et titres.', NULL, 14),
+('Annexion de Monaco par la République française', 'annexion-monaco-republique-francaise-FR', '01793-02-14', '01793-02-14', 'La Principauté de Monaco est annexée à la République française et devient une commune des Alpes-Maritimes.', NULL, 12),
+('Restauration de la Principauté de Monaco', 'restauration-principaute-monaco', '01814-05-30', '01814-05-30', 'Le traité de Paris rétablit les droits des Grimaldi et place Monaco sous la protection de la France.', NULL, 22),
+('Traité franco-monégasque de 1861', 'traite-franco-monegasque-1861-FR', '01861-02-02', '01861-02-02', 'Charles III cède à la France ses droits sur Menton et Roquebrune ; Monaco acquiert une indépendance durable.', NULL, 14),
+('Création de la Société des Bains de Mer', 'creation-societe-bains-mer', '01863-01-01', '01863-12-31', 'François Blanc fonde la Société des Bains de Mer et ouvre un casino sur le plateau des Spélugues.', NULL, 25),
+('Séparation du diocèse de Nice', 'separation-diocese-nice-monaco', '01868-01-01', '01868-12-31', 'Le territoire de Monaco est séparé du diocèse de Nice, préparant la création d’une structure ecclésiastique propre.', NULL, 23),
+('Pose de la première pierre de la cathédrale de Monaco', 'premiere-pierre-cathedrale-monaco', '01875-01-06', '01875-01-06', 'Le prince Charles III pose la première pierre de l’actuelle cathédrale Notre-Dame-Immaculée.', NULL, 17),
+('Fondation de l’Institut océanographique', 'fondation-institut-oceanographique-monaco', '01906-01-01', '01906-12-31', 'Le prince Albert Ier fonde l’Institut océanographique consacré à l’étude et à la protection des océans.', NULL, 17),
+('Première édition du Rallye Monte-Carlo', 'premier-rallye-monte-carlo', '01911-01-21', '01911-01-25', 'La première édition du Rallye Monte-Carlo est organisée afin notamment de promouvoir Monaco comme destination touristique.', NULL, 24),
+('Première Constitution monégasque', 'premiere-constitution-monaco', '01911-01-05', '01911-01-05', 'Le prince Albert Ier promulgue la première Constitution de Monaco.', NULL, 22),
+('Création du Grand Prix de Monaco', 'premier-grand-prix-monaco', '01929-04-14', '01929-04-14', 'Le premier Grand Prix automobile de Monaco est organisé dans les rues de la Principauté.', NULL, 24),
+('Avènement de Rainier III', 'avenement-rainier-iii-monaco', '01949-05-09', '01949-05-09', 'Rainier III succède à son grand-père Louis II et devient prince souverain de Monaco.', NULL, 5),
+('Mariage de Rainier III et Grace Kelly', 'mariage-rainier-grace-kelly', '01956-04-19', '01956-04-19', 'Le prince Rainier III épouse l’actrice américaine Grace Kelly à Monaco.', NULL, 3),
+('Adhésion de Monaco à l''ONU', 'adhesion-monaco-onu-MO', '01993-05-28', '01993-05-28', 'Monaco devient le 183e État membre de l’Organisation des Nations unies.', NULL, 17),
+('Adhésion de Monaco au Conseil de l''Europe', 'adhesion-monaco-conseil-europe-MO', '02004-10-05', '02004-10-05', 'Monaco devient membre du Conseil de l’Europe.', NULL, 17);
+
+
+-- MONTENEGRO --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Indépendance de la Duklja', 'independance-duklja-MO', '01042-01-01', '01042-12-31', 'Le prince Stefan Vojislav défait les forces byzantines et établit l’indépendance de la Duklja.', NULL, 11),
+('Couronnement de Mihailo Vojislavljević', 'couronnement-mihailo-vojislavljevic-MO', '01076-01-01', '01076-12-31', 'Mihailo Vojislavljević reçoit le titre royal et la Duklja atteint le rang de royaume.', NULL, 4),
+('Fondation de la principauté de Zeta', 'fondation-principaute-zeta-MO', '01356-01-01', '01356-12-31', 'La Zeta s’affirme progressivement comme une principauté autonome après l’affaiblissement de l’Empire serbe.', NULL, 16),
+('Règne de Balša II', 'regne-balsa-ii-MO', '01378-01-01', '01385-01-01', 'Balša II dirige la Zeta et étend son influence dans les Balkans occidentaux.', NULL, 5),
+('Bataille de Marica', 'bataille-marica-MO', '01371-09-26', '01371-09-26', 'La défaite des forces chrétiennes face aux Ottomans accélère l’expansion ottomane dans les Balkans.', NULL, 7),
+('Règne de Stefan Crnojević', 'regne-stefan-crnojevic-MO', '01450-01-01', '01465-01-01', 'Stefan Crnojević dirige la Zeta et consolide le pouvoir de la dynastie Crnojević.', NULL, 5),
+('Installation de l''imprimerie de Cetinje', 'imprimerie-cetinje-MO', '01493-01-01', '01493-01-01', 'L’imprimerie de Cetinje produit les premiers livres slaves imprimés dans les Balkans méridionaux.', NULL, 19),
+('Règne de Đurađ Crnojević', 'regne-durad-crnojevic-MO', '01490-01-01', '01496-01-01', 'Đurađ Crnojević dirige la Zeta et soutient l’imprimerie et la culture à Cetinje.', NULL, 5),
+('Création de la principauté-évêché de Cetinje', 'creation-principaute-eveche-cetinje-MO', '01516-01-01', '01516-12-31', 'La direction politique de la Zeta est progressivement exercée par les évêques de Cetinje.', NULL, 23),
+('Victoire monténégrine à Grahovo', 'bataille-grahovo-MO', '01858-05-01', '01858-05-01', 'Les forces monténégrines remportent une victoire importante contre les Ottomans à Grahovo.', NULL, 7),
+('Transformation en principauté séculière', 'transformation-principaute-seculiere-montenegro', '01852-03-13', '01852-03-13', 'Danilo II abandonne le titre de prince-évêque et devient prince séculier du Monténégro.', NULL, 22),
+('Code de Danilo', 'code-danilo-MO', '01855-01-01', '01855-12-31', 'Le Code général de Danilo modernise le droit et l’administration de la principauté du Monténégro.', NULL, 22),
+('Reconnaissance internationale du Monténégro', 'reconnaissance-independance-montenegro-MO', '01878-07-13', '01878-07-13', 'Le Congrès de Berlin reconnaît internationalement le Monténégro comme État indépendant et souverain.', NULL, 14),
+('Adoption de la Constitution monténégrine', 'constitution-montenegro-1905-MO', '01905-12-19', '01905-12-19', 'Le Monténégro adopte sa première Constitution et devient une monarchie constitutionnelle.', NULL, 22),
+('Proclamation du Royaume du Monténégro', 'proclamation-royaume-montenegro-MO', '01910-08-28', '01910-08-28', 'Le prince Nikola proclame le Monténégro royaume et devient le roi Nikola Ier.', NULL, 4),
+('Première Guerre balkanique au Monténégro', 'premiere-guerre-balkanique-montenegro-MO', '01912-10-08', '01913-05-30', 'Le Monténégro participe à la Première Guerre balkanique contre l’Empire ottoman.', NULL, 6),
+('Occupation austro-hongroise du Monténégro', 'occupation-austro-hongroise-montenegro-MO', '01916-01-15', '01918-10-01', 'Le Monténégro est occupé par l’Autriche-Hongrie pendant la Première Guerre mondiale.', NULL, 13),
+('Unification du Monténégro avec la Serbie', 'unification-montenegro-serbie-MO', '01918-11-26', '01918-11-26', 'L’Assemblée de Podgorica dépose Nikola Ier et vote l’unification du Monténégro avec la Serbie.', NULL, 22),
+('Soulèvement de Noël', 'soulevement-noel-montenegro-MO', '01919-01-07', '01919-01-07', 'Des partisans de l’indépendance monténégrine se soulèvent contre l’unification avec la Serbie.', NULL, 9),
+('Indépendance du Monténégro', 'independance-montenegro-MO', '02006-06-03', '02006-06-03', 'Après le référendum du 21 mai 2006, le Monténégro proclame son indépendance le 3 juin 2006.', NULL, 11);
+
+
+-- NORVEGE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Unification du royaume de Norvège par Harald à la Belle Chevelure', 'unification-royaume-norvege-NO', '00872-01-01', '00872-12-31', 'Harald Hårfagre consolide plusieurs petits royaumes et établit un pouvoir royal dominant sur une grande partie de la Norvège.', NULL, 22),
+('Christianisation de la Norvège', 'christianisation-norvege-NO', '01030-01-01', '01035-12-31', 'Sous l’action des rois Olav Tryggvason et Olav Haraldsson, le christianisme s’impose progressivement comme religion du royaume.', NULL, 23),
+('Bataille de Stiklestad', 'bataille-stiklestad-NO', '01030-07-29', '01030-07-29', 'Le roi Olav Haraldsson est tué lors de la bataille de Stiklestad, événement majeur de la christianisation et de l’histoire médiévale norvégienne.', NULL, 7),
+('Règne de Magnus le Bon', 'regne-magnus-bon-NO', '01035-01-01', '01047-10-25', 'Magnus le Bon règne sur la Norvège et contribue à stabiliser le royaume après les conflits du début du XIe siècle.', NULL, 5),
+('Union de Kalmar', 'union-kalmar-NO', '01397-06-17', '01397-06-17', 'La Norvège entre dans l’Union de Kalmar avec le Danemark et la Suède sous une même monarchie.', NULL, 14),
+('Réforme protestante en Norvège', 'reforme-protestante-norvege-NO', '01536-01-01', '01537-12-31', 'La Réforme luthérienne est introduite en Norvège dans le cadre de la transformation du royaume danois-norvégien.', NULL, 23),
+('Début de l’union avec le Danemark', 'union-dano-norvegienne-NO', '01536-01-01', '01536-12-31', 'La Norvège est intégrée plus étroitement à la monarchie danoise et perd ses institutions centrales autonomes.', NULL, 22),
+('Traité de Kiel', 'traite-kiel-NO', '01814-01-14', '01814-01-14', 'Le traité de Kiel prévoit la cession de la Norvège par le Danemark à la Suède à la suite des guerres napoléoniennes.', NULL, 14),
+('Constitution norvégienne d’Eidsvoll', 'constitution-norvegienne-eidsvoll-NO', '01814-05-17', '01814-05-17', 'L’Assemblée d’Eidsvoll adopte la Constitution norvégienne et élit Christian-Frédéric roi de Norvège.', NULL, 22),
+('Union personnelle avec la Suède', 'union-norvege-suede-NO', '01814-11-04', '01814-11-04', 'La Norvège entre dans une union personnelle avec la Suède tout en conservant sa Constitution et son Parlement.', NULL, 14),
+('Introduction du parlementarisme', 'introduction-parlementarisme-norvege-NO', '01884-06-01', '01884-06-01', 'Le gouvernement de Johan Sverdrup marque l’établissement du principe parlementaire dans le système politique norvégien.', NULL, 22),
+('Dissolution de l’union avec la Suède', 'dissolution-union-suede-norvege-NO', '01905-06-07', '01905-06-07', 'Le Storting déclare que le roi Oscar II a cessé d’exercer ses fonctions de roi de Norvège, ouvrant la voie à la dissolution de l’union.', NULL, 11),
+('Indépendance de la Norvège', 'independance-norvege-NO', '01905-10-26', '01905-10-26', 'Oscar II renonce au trône norvégien et la dissolution de l’union avec la Suède devient définitive.', NULL, 11),
+('Couronnement de Haakon VII', 'couronnement-haakon-vii-NO', '01905-11-18', '01905-11-18', 'Le prince Carl de Danemark devient roi de Norvège sous le nom de Haakon VII après la dissolution de l’union avec la Suède.', NULL, 4),
+('Invasion allemande de la Norvège', 'invasion-allemande-norvege-NO', '01940-04-09', '01940-06-10', 'L’Allemagne nazie envahit la Norvège pendant la Seconde Guerre mondiale et occupe le pays.', NULL, 13),
+('Libération de la Norvège', 'liberation-norvege-NO', '01945-05-08', '01945-05-08', 'La capitulation allemande met fin à l’occupation allemande de la Norvège et permet au gouvernement et à la monarchie de reprendre pleinement leurs fonctions.', NULL, 22),
+('Adhésion de la Norvège à l’ONU', 'adhesion-norvege-onu-NO', '01945-11-27', '01945-11-27', 'La Norvège devient membre fondateur de l’Organisation des Nations unies.', NULL, 17),
+('Adhésion de la Norvège à l’OTAN', 'adhesion-norvege-otan-NO', '01949-04-04', '01949-04-04', 'La Norvège rejoint l’Organisation du traité de l’Atlantique nord parmi ses membres fondateurs.', NULL, 15),
+('Découverte du champ pétrolier d’Ekofisk', 'decouverte-champ-petrolier-ekofisk-NO', '01969-12-23', '01969-12-23', 'La découverte du champ pétrolier d’Ekofisk marque le début de l’essor de l’industrie pétrolière norvégienne en mer du Nord.', NULL, 18),
+('Début de la production pétrolière d’Ekofisk', 'production-petrole-ekofisk-NO', '01971-06-15', '01971-06-15', 'La production commerciale commence sur le champ d’Ekofisk, faisant du secteur pétrolier une composante majeure de l’économie norvégienne.', NULL, 25);
+
+
+-- PAYS-BAS --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Fondation de la ville de Nimègue', 'fondation-nimegue-NL', '00050-01-01', '00050-12-31', 'Nimègue se développe comme établissement romain important sur le territoire des Pays-Bas actuels.', NULL, 16),
+('Union d’Utrecht', 'union-utrecht-NL', '01579-01-23', '01579-01-23', 'Les provinces du nord des Pays-Bas concluent l’Union d’Utrecht, fondement politique de la future République néerlandaise.', NULL, 14),
+('Acte d’abjuration', 'acte-abjuration-NL', '01581-07-26', '01581-07-26', 'Les États généraux des provinces insurgées déclarent ne plus reconnaître Philippe II comme souverain.', NULL, 11),
+('Fondation de la Compagnie néerlandaise des Indes orientales', 'fondation-compagnie-indes-orientales-NL', '01602-03-20', '01602-03-20', 'La VOC est créée et devient l’un des principaux instruments commerciaux et coloniaux de la République néerlandaise.', NULL, 17),
+('Paix de Münster', 'paix-munster-NL', '01648-01-30', '01648-01-30', 'L’Espagne reconnaît officiellement l’indépendance de la République des Provinces-Unies à l’issue de la guerre de Quatre-Vingts Ans.', NULL, 14),
+('Découverte de Titan par Christiaan Huygens', 'decouverte-titan-huygens-NL', '01655-03-25', '01655-03-25', 'L’astronome néerlandais Christiaan Huygens découvre Titan, le plus grand satellite de Saturne.', NULL, 18),
+('Invasion française de la République néerlandaise', 'invasion-francaise-pays-bas-NL', '01795-01-01', '01795-01-01', 'Les forces françaises envahissent la République néerlandaise, qui devient la République batave.', NULL, 13),
+('Création de la République batave', 'creation-republique-batave-NL', '01795-01-19', '01795-01-19', 'La République batave remplace la République des Provinces-Unies et établit un État unitaire sous influence française.', NULL, 17),
+('Création du royaume de Hollande', 'creation-royaume-hollande-NL', '01806-06-05', '01806-06-05', 'Napoléon Bonaparte transforme la République batave en royaume de Hollande et place Louis Bonaparte sur le trône.', NULL, 17),
+('Annexion des Pays-Bas à l’Empire français', 'annexion-pays-bas-empire-francais-NL', '01810-07-09', '01810-07-09', 'Le royaume de Hollande est supprimé et son territoire est intégré à l’Empire français.', NULL, 12),
+('Indépendance retrouvée des Pays-Bas', 'independance-pays-bas-1813-NL', '01813-11-30', '01813-11-30', 'Guillaume Frédéric d’Orange revient aux Pays-Bas et devient prince souverain après le retrait des forces françaises.', NULL, 11),
+('Création du royaume uni des Pays-Bas', 'creation-royaume-uni-pays-bas-NL', '01815-03-16', '01815-03-16', 'Guillaume Ier devient roi du nouveau Royaume-Uni des Pays-Bas, réunissant les provinces du nord et du sud.', NULL, 17),
+('Sécession de la Belgique', 'secession-belgique-NL', '01830-10-04', '01830-10-04', 'Les provinces méridionales se séparent du Royaume-Uni des Pays-Bas et proclament leur indépendance sous la forme du royaume de Belgique.', NULL, 11),
+('Traité de Londres', 'traite-londres-1839-NL', '01839-04-19', '01839-04-19', 'Les Pays-Bas reconnaissent officiellement l’indépendance et la neutralité de la Belgique.', NULL, 14),
+('Abolition de l’esclavage dans les colonies néerlandaises', 'abolition-esclavage-pays-bas-NL', '01863-07-01', '01863-07-01', 'L’esclavage est officiellement aboli dans les colonies néerlandaises, notamment au Suriname et dans les Antilles néerlandaises.', NULL, 22),
+('Révision constitutionnelle de 1848', 'constitution-pays-bas-1848-NL', '01848-11-03', '01848-11-03', 'La réforme constitutionnelle de Thorbecke renforce le Parlement et établit les bases du système parlementaire néerlandais.', NULL, 22),
+('Suffrage masculin universel aux Pays-Bas', 'suffrage-masculin-pays-bas-NL', '01917-01-01', '01917-12-31', 'La réforme constitutionnelle de 1917 introduit le suffrage masculin universel et le suffrage féminin passif.', NULL, 22),
+('Invasion allemande des Pays-Bas', 'invasion-allemande-pays-bas-NL', '01940-05-10', '01940-05-15', 'L’Allemagne nazie envahit les Pays-Bas et le pays est occupé pendant la Seconde Guerre mondiale.', NULL, 13),
+('Inondation de la mer du Nord', 'inondation-mer-du-nord-pays-bas-NL', '01953-01-31', '01953-02-01', 'Une importante tempête provoque l’inondation de vastes régions côtières des Pays-Bas et entraîne le lancement du plan Delta.', NULL, 20),
+('Ouverture du premier mariage civil entre personnes de même sexe', 'premier-mariage-meme-sexe-pays-bas-NL', '02001-04-01', '02001-04-01', 'Les Pays-Bas deviennent le premier pays au monde à ouvrir le mariage civil aux couples de même sexe.', NULL, 22);
+
+
+-- POLOGNE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Baptême de Mieszko Ier', 'bapteme-mieszko-ier-PO', '00966-01-01', '00966-12-31', 'Mieszko Ier adopte le christianisme latin, événement traditionnellement considéré comme le point fondateur de l’État polonais.', NULL, 23),
+('Congrès de Gniezno', 'congres-gniezno-PO', '01000-03-01', '01000-03-31', 'L’empereur Otton III rencontre Boleslas Ier à Gniezno et reconnaît l’importance politique et ecclésiastique du pouvoir polonais.', NULL, 22),
+('Couronnement de Boleslas Ier le Brave', 'couronnement-boleslas-chrobry-PO', '01025-04-18', '01025-04-18', 'Boleslas Ier est couronné roi de Pologne, établissant officiellement le royaume polonais.', NULL, 4),
+('Fondation de l’archevêché de Gniezno', 'fondation-archeveche-gniezno-PO', '01000-03-01', '01000-03-31', 'Le siège archiépiscopal de Gniezno est établi, renforçant l’organisation indépendante de l’Église en Pologne.', NULL, 23),
+('Division territoriale de la Pologne', 'division-feodale-pologne-PO', '01138-01-01', '01138-12-31', 'Le testament de Boleslas III répartit le royaume entre ses fils et ouvre une longue période de fragmentation politique.', NULL, 22),
+('Invasion mongole de la Pologne', 'invasion-mongole-pologne-PO', '01241-04-09', '01241-04-09', 'Les forces mongoles battent l’armée polonaise à Legnica lors de leur invasion de l’Europe centrale.', NULL, 13),
+('Couronnement de Ladislas Ier', 'couronnement-ladislas-ier-pologne-PO', '01320-01-20', '01320-01-20', 'Ladislas Ier le Bref est couronné à Cracovie, marquant la réunification du royaume polonais.', NULL, 4),
+('Fondation de l’université de Cracovie', 'fondation-universite-cracovie-PO', '01364-05-12', '01364-05-12', 'Casimir III fonde l’université de Cracovie, qui deviendra l’une des plus anciennes universités d’Europe centrale.', NULL, 17),
+('Mort de Casimir III le Grand', 'mort-casimir-iii-grand-PO', '01370-11-05', '01370-11-05', 'La mort de Casimir III met fin à la dynastie des Piast sur le trône polonais.', NULL, 2),
+('Union de Krewo', 'union-krewo-PO', '01385-08-14', '01385-08-14', 'L’accord de Krewo prépare l’union dynastique entre la Pologne et le Grand-Duché de Lituanie.', NULL, 14),
+('Christianisation de la Lituanie', 'christianisation-lituanie-PO', '01387-01-01', '01387-12-31', 'Le baptême de Jogaila et la christianisation de la Lituanie renforcent l’union dynastique polono-lituanienne.', NULL, 23),
+('Bataille de Grunwald', 'bataille-grunwald-PO', '01410-07-15', '01410-07-15', 'Les forces polono-lituaniennes remportent une victoire majeure contre l’Ordre teutonique à Grunwald.', NULL, 7),
+('Paix de Toruń', 'paix-torun-PO', '01411-02-01', '01411-02-01', 'Le premier traité de Toruń met fin à la guerre entre la Pologne-Lituanie et l’Ordre teutonique après Grunwald.', NULL, 14),
+('Deuxième paix de Toruń', 'deuxieme-paix-torun-PO', '01466-10-19', '01466-10-19', 'La deuxième paix de Toruń met fin à la guerre de Treize Ans et renforce considérablement la position de la Pologne.', NULL, 14),
+('Fondation du Parlement polonais moderne', 'formation-diete-pologne-PO', '01493-01-01', '01493-12-31', 'La réunion de la Diète générale à Piotrków contribue à institutionnaliser le système parlementaire du royaume.', NULL, 22),
+('Union de Lublin', 'union-lublin-PO', '01569-07-01', '01569-07-01', 'La Pologne et la Lituanie forment officiellement la République des Deux Nations par l’Union de Lublin.', NULL, 14),
+('Confédération de Varsovie', 'confederation-varsovie-PO', '01573-01-28', '01573-01-28', 'La Confédération de Varsovie garantit la paix religieuse entre les différentes confessions de la République des Deux Nations.', NULL, 14),
+('Élection d’Henri de Valois', 'election-henri-valois-PO', '01573-05-11', '01573-05-11', 'Henri de Valois est élu premier roi de Pologne dans le cadre de l’élection libre des souverains.', NULL, 22),
+('Transfert de la capitale à Varsovie', 'transfert-capitale-varsovie-PO', '01597-01-01', '01597-12-31', 'Sigismond III Vasa transfère progressivement le centre politique de la monarchie de Cracovie vers Varsovie.', NULL, 22),
+('Bataille de Kircholm', 'bataille-kircholm-PO', '01605-09-27', '01605-09-27', 'Les forces polono-lituaniennes remportent une victoire majeure contre l’armée suédoise à Kircholm.', NULL, 7),
+('Soulèvement de Khmelnytsky', 'soulevement-khmelnytsky-PO', '01648-01-01', '01648-12-31', 'Le soulèvement cosaque dirigé par Bohdan Khmelnytsky déclenche une guerre majeure dans les territoires de la République des Deux Nations.', NULL, 9),
+('Déluge suédois', 'deluge-suedois-pologne-PO', '01655-01-01', '01660-05-03', 'L’invasion suédoise dévaste une grande partie de la République des Deux Nations pendant la deuxième guerre du Nord.', NULL, 13),
+('Défense de Jasna Góra', 'defense-jasna-gora-PO', '01655-11-18', '01655-12-27', 'Le monastère de Jasna Góra résiste au siège suédois, devenant un symbole important de la résistance polonaise.', NULL, 7),
+('Traité de Hadiach', 'traite-hadiach-PO', '01658-09-16', '01658-09-16', 'Le traité de Hadiach prévoit une transformation de la République des Deux Nations avec la création envisagée d’un troisième élément ruthène.', NULL, 14),
+('Paix d’Oliwa', 'paix-oliwa-PO', '01660-05-03', '01660-05-03', 'La paix d’Oliwa met fin à la guerre avec la Suède et confirme notamment les droits de Jean II Casimir.', NULL, 14),
+('Bataille de Vienne', 'bataille-vienne-PO', '01683-09-12', '01683-09-12', 'Les forces polono-impériales commandées par Jean III Sobieski contribuent à lever le siège ottoman de Vienne.', NULL, 7),
+('Constitution du 3 mai', 'constitution-3-mai-PO', '01791-05-03', '01791-05-03', 'La Diète de la République des Deux Nations adopte une nouvelle constitution réformant profondément le système politique.', NULL, 22),
+('Premier partage de la Pologne', 'premier-partage-pologne-PO', '01772-08-05', '01772-08-05', 'La Russie, la Prusse et l’Autriche annexent une partie des territoires de la République des Deux Nations.', NULL, 12),
+('Deuxième partage de la Pologne', 'deuxieme-partage-pologne-PO', '01793-01-23', '01793-01-23', 'La Russie et la Prusse procèdent à un nouveau partage du territoire polonais après l’échec des réformes.', NULL, 12),
+('Insurrection de Tadeusz Kościuszko', 'insurrection-kosciuszko-PO', '01794-03-24', '01794-11-16', 'Tadeusz Kościuszko lance une insurrection contre les puissances qui ont partagé la Pologne.', NULL, 9),
+('Bataille de Racławice', 'bataille-raclawice-PO', '01794-04-04', '01794-04-04', 'Les forces de Kościuszko remportent une victoire contre l’armée russe à Racławice.', NULL, 7),
+('Troisième partage de la Pologne', 'troisieme-partage-pologne-PO', '01795-10-24', '01795-10-24', 'La Russie, la Prusse et l’Autriche procèdent au troisième partage et suppriment l’État polonais de la carte de l’Europe.', NULL, 12),
+('Création du duché de Varsovie', 'creation-duche-varsovie-PO', '01807-07-22', '01807-07-22', 'Napoléon établit le duché de Varsovie sur une partie des anciens territoires polonais.', NULL, 17),
+('Congrès de Vienne et royaume de Pologne', 'congres-vienne-royaume-pologne-PO', '01815-06-09', '01815-06-09', 'Le Congrès de Vienne établit le royaume de Pologne, placé sous l’autorité du tsar de Russie.', NULL, 22),
+('Insurrection de Novembre', 'insurrection-novembre-pologne-PO', '01830-11-29', '01831-10-21', 'Une insurrection polonaise éclate contre la domination russe et se transforme en guerre avant d’être réprimée.', NULL, 9),
+('Insurrection de Janvier', 'insurrection-janvier-pologne-PO', '01863-01-22', '01864-04-11', 'Une nouvelle insurrection polonaise contre l’Empire russe est lancée en 1863 et dure jusqu’en 1864.', NULL, 9),
+('Création de l’Université Jagellonne moderne', 'reorganisation-universite-jagellonne-PO', '01813-01-01', '01813-12-31', 'L’université de Cracovie est réorganisée et connaît un nouvel essor institutionnel au XIXe siècle.', NULL, 17),
+('Création de la Société polonaise d’émigration', 'grande-emigration-polonaise-PO', '01831-01-01', '01831-12-31', 'Après l’échec de l’Insurrection de Novembre, une importante émigration politique polonaise se développe en Europe occidentale.', NULL, 22),
+('Indépendance de la Pologne', 'independance-pologne-PO', '01918-11-11', '01918-11-11', 'Après 123 années de partitions, la Pologne rétablit son indépendance à la fin de la Première Guerre mondiale.', NULL, 11),
+('Création de la Deuxième République polonaise', 'creation-deuxieme-republique-pologne-PO', '01918-11-11', '01918-11-11', 'La restauration de l’État polonais donne naissance à la Deuxième République polonaise.', NULL, 17),
+('Traité de Versailles et reconnaissance des frontières polonaises', 'traite-versailles-pologne-PO', '01919-06-28', '01919-06-28', 'Le traité de Versailles confirme la restauration de la Pologne et attribue à celle-ci plusieurs territoires.', NULL, 14),
+('Bataille de Varsovie', 'bataille-varsovie-PO', '01920-08-15', '01920-08-25', 'L’armée polonaise repousse les forces soviétiques lors de la guerre polono-soviétique.', NULL, 7),
+('Paix de Riga', 'paix-riga-PO', '01921-03-18', '01921-03-18', 'Le traité de Riga met fin à la guerre polono-soviétique et fixe la frontière orientale de la Pologne.', NULL, 14),
+('Coup d’État de mai', 'coup-etat-mai-pologne-PO', '01926-05-12', '01926-05-15', 'Józef Piłsudski mène un coup d’État qui entraîne la mise en place du régime de la Sanacja.', NULL, 10),
+('Adoption de la Constitution d’avril', 'constitution-avril-pologne-PO', '01935-04-23', '01935-04-23', 'La Pologne adopte une nouvelle Constitution renforçant considérablement les pouvoirs du président.', NULL, 22),
+('Invasion allemande de la Pologne', 'invasion-allemande-pologne-PO', '01939-09-01', '01939-10-06', 'L’Allemagne attaque la Pologne le 1er septembre 1939, déclenchant la Seconde Guerre mondiale en Europe.', NULL, 13),
+('Invasion soviétique de la Pologne', 'invasion-sovietique-pologne-PO', '01939-09-17', '01939-09-17', 'L’Union soviétique envahit l’est de la Pologne conformément aux arrangements secrets du pacte germano-soviétique.', NULL, 13),
+('Création de l’État clandestin polonais', 'creation-etat-clandestin-polonais-PO', '01939-09-27', '01939-09-27', 'La résistance polonaise organise un État clandestin comprenant des structures politiques, administratives et militaires.', NULL, 17),
+('Insurrection du ghetto de Varsovie', 'insurrection-ghetto-varsovie-PO', '01943-04-19', '01943-05-16', 'Les habitants du ghetto de Varsovie se soulèvent contre les forces allemandes avant la liquidation définitive du ghetto.', NULL, 9),
+('Bataille de Monte Cassino', 'bataille-monte-cassino-PO', '01944-05-11', '01944-05-18', 'Le 2e corps polonais participe à la quatrième bataille de Monte Cassino et contribue à la prise du monastère.', NULL, 7),
+('Insurrection de Varsovie', 'insurrection-varsovie-PO', '01944-08-01', '01944-10-02', 'L’Armée de l’intérieur polonaise déclenche une insurrection contre l’occupation allemande à Varsovie.', NULL, 9),
+('Fin de la Seconde Guerre mondiale en Pologne', 'fin-seconde-guerre-mondiale-pologne-PO', '01945-05-08', '01945-05-08', 'La capitulation allemande met fin à la guerre en Europe, tandis que la Pologne entre dans la sphère d’influence soviétique.', NULL, 22),
+('Création de la République populaire de Pologne', 'creation-republique-populaire-pologne-PO', '01952-07-22', '01952-07-22', 'Une nouvelle Constitution transforme officiellement l’État polonais en République populaire de Pologne.', NULL, 17),
+('Fondation de Solidarność', 'fondation-solidarnosc-PO', '01980-08-31', '01980-08-31', 'Les accords d’août permettent la reconnaissance du syndicat indépendant Solidarność.', NULL, 17),
+('Proclamation de la loi martiale', 'loi-martiale-pologne-PO', '01981-12-13', '01981-12-13', 'Le gouvernement polonais proclame la loi martiale afin de réprimer le mouvement Solidarność et l’opposition politique.', NULL, 22),
+('Élections semi-libres de 1989', 'elections-1989-pologne-PO', '01989-06-04', '01989-06-18', 'Les élections de juin 1989 marquent une étape décisive de la transition politique mettant fin au système communiste en Pologne.', NULL, 22),
+('Gouvernement de Tadeusz Mazowiecki', 'gouvernement-mazowiecki-PO', '01989-09-12', '01989-09-12', 'Tadeusz Mazowiecki devient Premier ministre, à la tête du premier gouvernement non communiste du bloc de l’Est depuis l’après-guerre.', NULL, 22),
+('Restauration du nom de République de Pologne', 'restauration-republique-pologne-PO', '01989-12-31', '01989-12-31', 'Le Parlement restaure officiellement le nom de République de Pologne et abandonne la dénomination de République populaire de Pologne.', NULL, 22),
+('Adhésion de la Pologne à l’OTAN', 'adhesion-pologne-otan-PO', '01999-03-12', '01999-03-12', 'La Pologne rejoint l’Organisation du traité de l’Atlantique nord avec la Hongrie et la République tchèque.', NULL, 15),
+('Adhésion de la Pologne à l’Union européenne', 'adhesion-pologne-union-europeenne-PO', '02004-05-01', '02004-05-01', 'La Pologne devient membre de l’Union européenne lors du grand élargissement de 2004.', NULL, 15);
+
+
+-- REPUBLIQUE TCHEQUE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Royaume de Samo', 'royaume-samo-CZ', '00623-01-01', '00658-12-31', 'Samo unifie plusieurs tribus slaves d’Europe centrale dans une entité politique qui s’étend notamment sur une partie des territoires tchèques actuels.', NULL, 17),
+('Fondation de la Grande-Moravie', 'fondation-grande-moravie-CZ', '00833-01-01', '00833-12-31', 'La Grande-Moravie devient le premier grand État slave établi en partie sur le territoire correspondant aux terres tchèques actuelles.', NULL, 16),
+('Arrivée de Cyrille et Méthode', 'arrivee-cyrille-methode-CZ', '00863-01-01', '00863-12-31', 'Les missionnaires Cyrille et Méthode arrivent en Grande-Moravie et contribuent à la christianisation et à la diffusion de la liturgie slave.', NULL, 23),
+('Fondation de la dynastie des Přemyslides', 'fondation-dynastie-premyslides-CZ', '00900-01-01', '00900-12-31', 'La dynastie des Přemyslides consolide progressivement son pouvoir en Bohême après le déclin de la Grande-Moravie.', NULL, 16),
+('Création du duché de Bohême', 'creation-duche-boheme-CZ', '00935-01-01', '00935-12-31', 'Le duché de Bohême s’affirme autour de Prague sous la dynastie des Přemyslides.', NULL, 17),
+('Élévation de la Bohême au rang de royaume', 'elevation-royaume-boheme-CZ', '01192-06-15', '01192-06-15', 'Ottokar Ier obtient la confirmation du titre royal héréditaire de Bohême, renforçant le statut politique du pays.', NULL, 4),
+('Bulle d’or de Sicile', 'bulle-or-sicile-CZ', '01212-09-26', '01212-09-26', 'La Bulle d’or de Sicile confirme les privilèges et le statut royal de la Bohême au sein du Saint-Empire.', NULL, 14),
+('Avènement de Charles IV comme roi de Bohême', 'avenement-charles-iv-boheme-CZ', '01346-07-11', '01346-07-11', 'Charles IV devient roi de Bohême et ouvre une période de développement politique, culturel et économique majeur.', NULL, 5),
+('Fondation de l’Université Charles', 'fondation-universite-charles-CZ', '01348-01-01', '01348-01-01', 'Charles IV fonde à Prague la première université d’Europe centrale, aujourd’hui connue sous le nom d’Université Charles.', NULL, 17),
+('Début du mouvement hussite', 'debut-mouvement-hussite-CZ', '01415-07-06', '01415-07-06', 'L’exécution de Jan Hus contribue au déclenchement du mouvement hussite en Bohême.', NULL, 23),
+('Guerres hussites', 'guerres-hussites-CZ', '01419-01-01', '01434-05-30', 'Les guerres hussites opposent les partisans des réformes religieuses aux forces catholiques et impériales en Bohême.', NULL, 6),
+('Bataille de la Montagne Blanche', 'bataille-montagne-blanche-CZ', '01620-11-08', '01620-11-08', 'Les forces impériales remportent la bataille de la Montagne Blanche, marquant une étape décisive dans la centralisation des pays tchèques sous les Habsbourg.', NULL, 7),
+('Intégration des pays tchèques à la monarchie des Habsbourg', 'integration-pays-tcheques-monarchie-habsbourg-CZ', '01621-01-01', '01621-12-31', 'Après la défaite des États de Bohême, le pouvoir des Habsbourg se renforce et la centralisation politique des pays tchèques s’accentue.', NULL, 12),
+('Révolution de 1848 en Bohême', 'revolution-1848-boheme-CZ', '01848-03-01', '01848-12-31', 'Les mouvements révolutionnaires de 1848 provoquent des revendications politiques et nationales dans les pays tchèques de la monarchie des Habsbourg.', NULL, 8),
+('Création de la Tchécoslovaquie', 'creation-tchecoslovaquie-CZ', '01918-10-28', '01918-10-28', 'La Tchécoslovaquie est proclamée comme État indépendant des Tchèques et des Slovaques après la dissolution de l’Autriche-Hongrie.', NULL, 11),
+('Accord de Munich', 'accord-munich-CZ', '01938-09-30', '01938-09-30', 'Les accords de Munich imposent la cession des Sudètes à l’Allemagne nazie et précèdent la fin de la Tchécoslovaquie indépendante.', NULL, 14),
+('Occupation allemande des pays tchèques', 'occupation-allemande-pays-tcheques-CZ', '01939-03-15', '01945-05-08', 'L’Allemagne nazie occupe les territoires tchèques et établit le Protectorat de Bohême-Moravie pendant la Seconde Guerre mondiale.', NULL, 13),
+('Prise de pouvoir communiste', 'prise-pouvoir-communiste-tchecoslovaquie-CZ', '01948-02-25', '01948-02-25', 'Le Parti communiste prend le contrôle du gouvernement tchécoslovaque lors du coup de force de février 1948.', NULL, 10),
+('Invasion de la Tchécoslovaquie et fin du Printemps de Prague', 'invasion-tchecoslovaquie-printemps-prague-CZ', '01968-08-21', '01968-08-21', 'Les forces du Pacte de Varsovie envahissent la Tchécoslovaquie et mettent fin aux réformes du Printemps de Prague.', NULL, 13),
+('Révolution de Velours et création de la République tchèque', 'revolution-velours-creation-republique-tcheque-CZ', '01989-11-17', '01993-01-01', 'La Révolution de Velours met fin au régime communiste en 1989, puis la Tchécoslovaquie se dissout pacifiquement et la République tchèque devient indépendante le 1er janvier 1993.', NULL, 8);
+
+
+-- ROUMANIE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Conquête romaine de la Dacie', 'conquete-romaine-dacie-RO', '00101-01-01', '00106-12-31', 'Les guerres de Trajan contre les Daces aboutissent à la conquête de la Dacie et à son intégration à l’Empire romain.', NULL, 12),
+('Fondation de la Valachie', 'fondation-principaute-valachie-RO', '01330-01-01', '01330-12-31', 'La principauté de Valachie s’affirme comme État indépendant sous Basarab Ier.', NULL, 16),
+('Bataille de Posada', 'bataille-posada-RO', '01330-11-09', '01330-11-12', 'Basarab Ier défait l’armée du roi de Hongrie Charles Ier à la bataille de Posada, consolidant l’autonomie de la Valachie.', NULL, 7),
+('Fondation de la principauté de Moldavie', 'fondation-principaute-moldavie-RO', '01359-01-01', '01359-12-31', 'Bogdan Ier établit une principauté moldave indépendante du royaume de Hongrie.', NULL, 16),
+('Règne d’Étienne le Grand', 'regne-etienne-grand-RO', '01457-04-12', '01504-07-02', 'Étienne le Grand règne sur la Moldavie et mène de nombreuses campagnes militaires pour défendre la principauté.', NULL, 5),
+('Bataille de Vaslui', 'bataille-vaslui-RO', '01475-01-10', '01475-01-10', 'Les forces moldaves d’Étienne le Grand remportent une importante victoire contre l’armée ottomane à Vaslui.', NULL, 7),
+('Union des trois principautés sous Michel le Brave', 'union-michel-brave-RO', '01600-05-27', '01600-09-01', 'Michel le Brave place sous son autorité la Valachie, la Moldavie et la Transylvanie, réalisant une union politique de courte durée.', NULL, 22),
+('Révolution de 1821', 'revolution-1821-roumanie-RO', '01821-01-22', '01821-06-27', 'Le mouvement dirigé par Tudor Vladimirescu entraîne la fin du régime phanariote en Valachie.', NULL, 8),
+('Révolution de 1848 en Valachie et Moldavie', 'revolution-1848-valachie-moldavie-RO', '01848-06-21', '01848-09-25', 'Les mouvements révolutionnaires de 1848 réclament des réformes politiques, sociales et nationales dans les principautés roumaines.', NULL, 8),
+('Union de la Moldavie et de la Valachie', 'union-moldavie-valachie-RO', '01859-01-24', '01859-01-24', 'Alexandru Ioan Cuza est élu prince de Moldavie puis de Valachie, réalisant l’union politique des deux principautés.', NULL, 22),
+('Réforme agraire de Cuza', 'reforme-agraire-cuza-RO', '01864-08-14', '01864-08-14', 'Alexandru Ioan Cuza promulgue une importante réforme agraire qui transforme les rapports fonciers dans les Principautés unies.', NULL, 22),
+('Proclamation de l’indépendance de la Roumanie', 'proclamation-independance-roumanie-RO', '01877-05-09', '01877-05-09', 'Le gouvernement roumain proclame l’indépendance vis-à-vis de l’Empire ottoman pendant la guerre russo-turque.', NULL, 11),
+('Proclamation du royaume de Roumanie', 'proclamation-royaume-roumanie-RO', '01881-03-14', '01881-03-14', 'La Roumanie devient officiellement un royaume sous le règne de Carol Ier.', NULL, 4),
+('Entrée de la Roumanie dans la Première Guerre mondiale', 'entree-roumanie-premiere-guerre-mondiale-RO', '01916-08-27', '01916-08-27', 'La Roumanie entre dans la Première Guerre mondiale aux côtés de l’Entente.', NULL, 6),
+('Grande Union de 1918', 'grande-union-roumanie-RO', '01918-12-01', '01918-12-01', 'L’union de la Transylvanie avec la Roumanie est proclamée à Alba Iulia, après les unions de la Bessarabie et de la Bucovine.', NULL, 22),
+('Constitution roumaine de 1923', 'constitution-roumaine-1923-RO', '01923-03-29', '01923-03-29', 'La nouvelle Constitution établit le cadre institutionnel de la Roumanie après la formation de la Grande Roumanie.', NULL, 22),
+('Abolition de la monarchie roumaine', 'abolition-monarchie-roumanie-RO', '01947-12-30', '01947-12-30', 'Le roi Michel Ier abdique sous la pression du régime communiste et la monarchie est abolie.', NULL, 22),
+('Révolution roumaine de 1989', 'revolution-roumaine-1989-RO', '01989-12-16', '01989-12-25', 'Une révolution populaire met fin au régime communiste de Nicolae Ceaușescu en décembre 1989.', NULL, 8),
+('Adoption de la Constitution roumaine', 'constitution-roumanie-1991-RO', '01991-11-21', '01991-11-21', 'La nouvelle Constitution établit les institutions démocratiques de la Roumanie postcommuniste.', NULL, 22),
+('Adhésion de la Roumanie à l’Union européenne', 'adhesion-roumanie-union-europeenne-RO', '02007-01-01', '02007-01-01', 'La Roumanie rejoint officiellement l’Union européenne avec la Bulgarie.', NULL, 15);
+
+
+-- ROYAUME-UNIS --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Conquête romaine de la Bretagne', 'conquete-romaine-bretagne-RU', '00043-01-01', '00043-12-31', 'L’empereur Claude lance la conquête romaine de la Bretagne, ouvrant une longue période de domination romaine sur une grande partie de l’actuelle Grande-Bretagne.', NULL, 12),
+('Construction du mur d’Hadrien', 'construction-mur-hadrien-RU', '00122-01-01', '00128-12-31', 'Les Romains construisent le mur d’Hadrien afin de marquer et défendre la frontière septentrionale de la province de Bretagne.', NULL, 17),
+('Fin de la domination romaine en Bretagne', 'fin-domination-romaine-bretagne-RU', '00410-01-01', '00410-12-31', 'Les autorités romaines mettent fin à leur administration de la Bretagne, favorisant l’émergence de nouveaux royaumes en Grande-Bretagne.', NULL, 22),
+('Bataille de Hastings', 'bataille-hastings-RU', '01066-10-14', '01066-10-14', 'Guillaume le Conquérant vainc Harold Godwinson à Hastings, ouvrant la conquête normande de l’Angleterre.', NULL, 7),
+('Couronnement de Guillaume le Conquérant', 'couronnement-guillaume-conquerant-RU', '01066-12-25', '01066-12-25', 'Guillaume le Conquérant est couronné roi d’Angleterre à l’abbaye de Westminster.', NULL, 4),
+('Construction de la tour de Londres', 'construction-tour-londres-RU', '01070-01-01', '01070-12-31', 'Guillaume le Conquérant fait édifier les premières structures de la future Tour de Londres afin de renforcer le contrôle normand sur Londres.', NULL, 17),
+('Adoption de la Magna Carta', 'magna-carta-RU', '01215-06-15', '01215-06-15', 'Le roi Jean sans Terre accepte la Magna Carta, texte majeur de l’histoire constitutionnelle anglaise.', NULL, 14),
+('Fondation du Parlement de Montfort', 'fondation-parlement-montfort-RU', '01265-01-20', '01265-01-20', 'Le Parlement convoqué par Simon de Montfort élargit la représentation politique des comtés et des villes.', NULL, 17),
+('Bataille de Bannockburn', 'bataille-bannockburn-RU', '01314-06-23', '01314-06-24', 'Les forces écossaises de Robert Bruce battent l’armée anglaise lors de la bataille de Bannockburn.', NULL, 7),
+('Fondation de l’université d’Oxford', 'fondation-universite-oxford-RU', '01200-01-01', '01200-12-31', 'L’enseignement universitaire se développe à Oxford et donne naissance à l’une des plus anciennes universités du monde anglophone.', NULL, 17),
+('Bataille d’Azincourt', 'bataille-azincourt-RU', '01415-10-25', '01415-10-25', 'L’armée anglaise d’Henri V remporte une victoire majeure contre les forces françaises pendant la guerre de Cent Ans.', NULL, 7),
+('Début de la guerre des Deux-Roses', 'guerre-deux-roses-RU', '01455-05-22', '01485-01-01', 'Une longue série de conflits dynastiques oppose les maisons de Lancastre et d’York pour le trône d’Angleterre.', NULL, 6),
+('Avènement d’Henri VII', 'avenement-henri-vii-RU', '01485-08-22', '01485-08-22', 'Henri Tudor devient roi après la bataille de Bosworth et fonde la dynastie des Tudor.', NULL, 5),
+('Acte de suprématie', 'acte-suprematie-RU', '01534-11-03', '01534-11-03', 'Le Parlement reconnaît Henri VIII comme chef suprême de l’Église d’Angleterre, accélérant la rupture avec l’autorité papale.', NULL, 23),
+('Défaite de l’Armada espagnole', 'defaite-armada-espagnole-RU', '01588-07-19', '01588-08-08', 'La flotte anglaise repousse l’Armada espagnole lors d’une campagne navale majeure au large des côtes britanniques.', NULL, 7),
+('Union des Couronnes', 'union-couronnes-angleterre-ecosse-RU', '01603-03-24', '01603-03-24', 'Jacques VI d’Écosse devient également Jacques Ier d’Angleterre, réunissant les deux couronnes sous un même monarque.', NULL, 15),
+('Conspiration des poudres', 'conspiration-poudres-RU', '01605-11-05', '01605-11-05', 'Un groupe de conspirateurs catholiques tente de faire exploser le Parlement anglais lors de la Conspiration des poudres.', NULL, 10),
+('Guerre civile anglaise', 'guerre-civile-anglaise-RU', '01642-01-01', '01651-09-03', 'Les forces royalistes et parlementaires s’affrontent dans une série de conflits qui transforme profondément le régime politique anglais.', NULL, 6),
+('Exécution de Charles Ier', 'execution-charles-ier-RU', '01649-01-30', '01649-01-30', 'Charles Ier est exécuté après avoir été reconnu coupable de haute trahison par le régime parlementaire victorieux.', NULL, 22),
+('Création du Commonwealth d’Angleterre', 'creation-commonwealth-angleterre-RU', '01649-05-19', '01649-05-19', 'La monarchie anglaise est abolie et l’Angleterre devient un Commonwealth républicain.', NULL, 17),
+('Restauration de la monarchie', 'restauration-monarchie-anglaise-RU', '01660-05-29', '01660-05-29', 'Charles II revient au pouvoir et la monarchie anglaise est restaurée.', NULL, 22),
+('Glorieuse Révolution', 'glorieuse-revolution-RU', '01688-11-05', '01689-02-13', 'La Glorieuse Révolution conduit au remplacement de Jacques II par Guillaume III et Marie II et transforme l’équilibre constitutionnel anglais.', NULL, 8),
+('Bill of Rights', 'bill-of-rights-RU', '01689-12-16', '01689-12-16', 'Le Bill of Rights limite les pouvoirs de la monarchie et affirme plusieurs principes du fonctionnement parlementaire.', NULL, 22),
+('Actes d’Union de 1707', 'actes-union-1707-RU', '01707-05-01', '01707-05-01', 'Les royaumes d’Angleterre et d’Écosse sont unis pour former le royaume de Grande-Bretagne.', NULL, 14),
+('Révolte jacobite de 1745', 'revolte-jacobite-1745-RU', '01745-07-23', '01746-04-16', 'Charles Édouard Stuart mène une insurrection visant à restaurer les Stuart sur les trônes britanniques.', NULL, 9),
+('Bataille de Culloden', 'bataille-culloden-RU', '01746-04-16', '01746-04-16', 'Les forces gouvernementales britanniques battent l’armée jacobite à Culloden, mettant fin à la principale insurrection jacobite.', NULL, 7),
+('Début de la révolution industrielle', 'debut-revolution-industrielle-RU', '01760-01-01', '01760-12-31', 'La Grande-Bretagne connaît une transformation industrielle fondée sur la mécanisation, le charbon, la vapeur et le développement des manufactures.', NULL, 25),
+('Acte d’Union de 1801', 'acte-union-1801-RU', '01801-01-01', '01801-01-01', 'La Grande-Bretagne et le royaume d’Irlande sont réunis pour former le Royaume-Uni de Grande-Bretagne et d’Irlande.', NULL, 14),
+('Bataille de Trafalgar', 'bataille-trafalgar-RU', '01805-10-21', '01805-10-21', 'La flotte britannique commandée par Horatio Nelson défait les flottes française et espagnole à Trafalgar.', NULL, 7),
+('Abolition de la traite des esclaves', 'abolition-traite-esclaves-RU', '01807-03-25', '01807-03-25', 'Le Parlement britannique adopte une loi abolissant la traite des esclaves dans l’Empire britannique.', NULL, 22),
+('Bataille de Waterloo', 'bataille-waterloo-RU', '01815-06-18', '01815-06-18', 'Les forces britanniques et leurs alliés remportent la bataille de Waterloo contre Napoléon Bonaparte.', NULL, 7),
+('Grande Réforme de 1832', 'grande-reforme-1832-RU', '01832-06-07', '01832-06-07', 'Le Reform Act de 1832 redistribue les sièges parlementaires et élargit le corps électoral masculin dans une partie du Royaume-Uni.', NULL, 22),
+('Abolition de l’esclavage dans l’Empire britannique', 'abolition-esclavage-empire-britannique-RU', '01833-08-28', '01834-08-01', 'Le Slavery Abolition Act met fin à l’esclavage dans la plupart des territoires de l’Empire britannique.', NULL, 22),
+('Grande Exposition de Londres', 'grande-exposition-londres-RU', '01851-05-01', '01851-10-15', 'La Grande Exposition de 1851 présente à Londres des innovations industrielles et scientifiques venues de nombreux pays.', NULL, 24),
+('Deuxième Reform Act', 'deuxieme-reform-act-RU', '01867-08-15', '01867-08-15', 'La réforme électorale de 1867 élargit davantage le droit de vote aux hommes des classes ouvrières urbaines.', NULL, 22),
+('Introduction du vote secret', 'introduction-vote-secret-RU', '01872-07-18', '01872-07-18', 'Le Ballot Act de 1872 introduit le vote secret lors des élections parlementaires britanniques.', NULL, 22),
+('Troisième Reform Act', 'troisieme-reform-act-RU', '01884-12-06', '01884-12-06', 'La réforme électorale de 1884 étend et harmonise davantage le suffrage masculin au Royaume-Uni.', NULL, 22),
+('Création du Parti travailliste', 'creation-parti-travailliste-RU', '01900-02-27', '01900-02-27', 'Le Labour Representation Committee est créé et devient progressivement le Parti travailliste britannique.', NULL, 17),
+('Parlement Act de 1911', 'parliament-act-1911-RU', '01911-08-18', '01911-08-18', 'Le Parliament Act de 1911 réduit le pouvoir de veto de la Chambre des lords et renforce la prééminence de la Chambre des communes.', NULL, 22),
+('Droit de vote des femmes de 1918', 'droit-vote-femmes-1918-RU', '01918-02-06', '01918-02-06', 'Le Representation of the People Act de 1918 accorde le vote à tous les hommes adultes et à certaines femmes de plus de 30 ans.', NULL, 22),
+('Création de l’État libre d’Irlande', 'creation-etat-libre-irlande-RU', '01922-12-06', '01922-12-06', 'L’État libre d’Irlande entre en existence, tandis que l’Irlande du Nord reste au sein du Royaume-Uni.', NULL, 11),
+('Droit de vote égal pour les femmes', 'egalite-suffrage-femmes-1928-RU', '01928-07-02', '01928-07-02', 'Le Representation of the People Act de 1928 étend le droit de vote à toutes les femmes de 21 ans et plus dans les mêmes conditions que les hommes.', NULL, 22),
+('Seconde Guerre mondiale', 'seconde-guerre-mondiale-royaume-uni-RU', '01939-09-03', '01945-09-02', 'Le Royaume-Uni entre en guerre contre l’Allemagne après l’invasion de la Pologne et participe au conflit mondial jusqu’à sa fin.', NULL, 6),
+('Bataille d’Angleterre', 'bataille-angleterre-RU', '01940-07-10', '01940-10-31', 'La Royal Air Force affronte la Luftwaffe dans une campagne aérienne décisive au-dessus du Royaume-Uni.', NULL, 7),
+('Création du National Health Service', 'creation-national-health-service-RU', '01948-07-05', '01948-07-05', 'Le National Health Service est créé et commence à fournir des services de santé publics à l’ensemble de la population.', NULL, 17),
+('Adhésion aux Communautés européennes', 'adhesion-communautes-europeennes-RU', '01973-01-01', '01973-01-01', 'Le Royaume-Uni rejoint les Communautés européennes avec l’Irlande et le Danemark.', NULL, 15),
+('Dévolution à l’Écosse et au pays de Galles', 'devolution-ecosse-pays-galles-RU', '01998-11-19', '01999-07-01', 'Le processus de dévolution conduit à la création du Parlement écossais et de l’Assemblée nationale du pays de Galles.', NULL, 22),
+('Accord du Vendredi saint', 'accord-vendredi-saint-RU', '01998-04-10', '01998-04-10', 'L’Accord du Vendredi saint établit un cadre politique majeur pour le règlement du conflit en Irlande du Nord.', NULL, 14),
+('Référendum sur l’appartenance à l’Union européenne', 'referendum-brexit-RU', '02016-06-23', '02016-06-23', 'Un référendum est organisé sur l’appartenance du Royaume-Uni à l’Union européenne.', NULL, 22),
+('Sortie du Royaume-Uni de l’Union européenne', 'brexit-sortie-union-europeenne-RU', '02020-01-31', '02020-01-31', 'Le Royaume-Uni cesse officiellement d’être un État membre de l’Union européenne.', NULL, 22);
+
+
+-- SAINT-MARIN --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Fondation traditionnelle de Saint-Marin', 'fondation-saint-marin-SM', '00301-09-03', '00301-09-03', 'Selon la tradition, le tailleur de pierre Marin fonde une communauté chrétienne sur le mont Titano, à l’origine de Saint-Marin.', NULL, 16),
+('Première mention documentaire de Saint-Marin', 'premiere-mention-documentaire-saint-marin-SM', '00885-01-01', '00885-12-31', 'Les sources attestent l’existence d’une communauté laïque organisée sur le mont Titano.', NULL, 22),
+('Création de la paroisse de Saint-Marin', 'creation-paroisse-saint-marin-SM', '00951-01-01', '00951-12-31', 'Une paroisse est établie sur le mont Titano, témoignant de la consolidation de la communauté sammarinaise.', NULL, 23),
+('Transformation en commune libre', 'transformation-commune-libre-saint-marin-SM', '01200-01-01', '01200-12-31', 'Saint-Marin évolue progressivement d’une communauté religieuse vers une commune libre dotée de structures politiques et administratives.', NULL, 17),
+('Premiers Capitaines-Régents', 'premiers-capitaines-regents-SM', '01243-01-01', '01243-12-31', 'Deux consuls sont élus à Saint-Marin et deviennent les premiers détenteurs de la fonction qui prendra le nom de Capitaines-Régents.', NULL, 22),
+('Premiers statuts de Saint-Marin', 'premiers-statuts-saint-marin-SM', '01295-01-01', '01302-12-31', 'Les premiers statuts connus de Saint-Marin organisent les institutions et les règles de la commune.', NULL, 17),
+('Reconnaissance de l’indépendance de Saint-Marin', 'reconnaissance-independance-saint-marin-SM', '01296-01-01', '01296-12-31', 'Un document de 1296 constitue l’une des premières attestations de l’indépendance et de l’autonomie de Saint-Marin.', NULL, 14),
+('Acquisition de Fiorentino', 'acquisition-fiorentino-saint-marin-SM', '01463-01-01', '01463-12-31', 'Saint-Marin étend son territoire avec l’acquisition de Fiorentino, étape majeure de la formation de son territoire actuel.', NULL, 12),
+('Extension territoriale de Saint-Marin', 'extension-territoriale-saint-marin-SM', '01463-09-01', '01463-12-31', 'Après les conflits avec les Malatesta, Saint-Marin consolide son territoire et obtient plusieurs localités du Montefeltro.', NULL, 12),
+('Statuts de 1600', 'statuts-1600-saint-marin-SM', '01600-01-01', '01600-01-01', 'Les Leges Statutae Republicae Sancti Marini codifient les institutions et le droit de la république et restent une base essentielle de son ordre juridique.', NULL, 17),
+('Établissement du régime des Capitaines-Régents', 'institution-capitaines-regents-saint-marin-SM', '01600-01-01', '01600-12-31', 'Les institutions de la République sont consolidées autour du système des Capitaines-Régents et des statuts sammarinais.', NULL, 22),
+('Protection de Saint-Marin par Napoléon', 'protection-napoleon-saint-marin-SM', '01797-01-01', '01797-12-31', 'Napoléon reconnaît la liberté et l’indépendance de Saint-Marin pendant ses campagnes en Italie.', NULL, 14),
+('Congrès de Vienne et maintien de Saint-Marin', 'congres-vienne-saint-marin-SM', '01815-06-09', '01815-06-09', 'Le règlement européen issu du Congrès de Vienne permet à Saint-Marin de conserver son indépendance après les guerres napoléoniennes.', NULL, 14),
+('Début de la construction de la basilique Saint-Marin', 'construction-basilique-saint-marin-SM', '01825-01-01', '01825-12-31', 'La construction de la nouvelle basilique néoclassique de Saint-Marin commence en remplacement de l’ancienne église.', NULL, 17),
+('Reconnaissance de la souveraineté par le royaume d’Italie', 'reconnaissance-souverainete-italie-saint-marin-SM', '01862-03-22', '01862-03-22', 'Le traité d’amitié et de coopération avec le royaume d’Italie confirme la souveraineté et l’indépendance de Saint-Marin.', NULL, 14),
+('Construction du Palazzo Pubblico', 'construction-palazzo-pubblico-saint-marin-SM', '01884-01-01', '01894-01-01', 'Le nouveau Palazzo Pubblico est construit au cœur de la capitale et devient le siège des principales institutions de la République.', NULL, 17),
+('Première Guerre mondiale et neutralité de Saint-Marin', 'neutralite-saint-marin-premiere-guerre-mondiale-SM', '01914-07-28', '01918-11-11', 'Saint-Marin maintient officiellement sa neutralité pendant la Première Guerre mondiale tout en apportant une aide humanitaire aux belligérants.', NULL, 22),
+('Déclaration des droits des citoyens', 'declaration-droits-citoyens-saint-marin-SM', '01974-07-08', '01974-07-08', 'Saint-Marin adopte la Déclaration des droits des citoyens et des principes fondamentaux de son ordre constitutionnel.', NULL, 22),
+('Adhésion de Saint-Marin à l’Organisation des Nations unies', 'adhesion-saint-marin-onu-SM', '01992-03-02', '01992-03-02', 'Saint-Marin devient membre de l’Organisation des Nations unies.', NULL, 15),
+('Inscription du centre historique au patrimoine mondial', 'inscription-patrimoine-mondial-saint-marin-SM', '02008-07-07', '02008-07-07', 'Le centre historique de Saint-Marin et le mont Titano sont inscrits sur la Liste du patrimoine mondial de l’UNESCO.', NULL, 24);
+
+
+-- SERBIE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Fondation de la principauté serbe des Vlastimirović', 'fondation-principaute-serbe-vlastimirovic-SR', '00780-01-01', '00780-12-31', 'La dynastie des Vlastimirović consolide une principauté serbe dans les Balkans occidentaux.', NULL, 16),
+('Christianisation de la Serbie', 'christianisation-serbie-SR', '00870-01-01', '00870-12-31', 'La christianisation des principautés serbes s’accélère sous l’influence de Byzance et contribue à leur intégration au monde chrétien.', NULL, 23),
+('Fondation du monastère de Studenica', 'fondation-monastere-studenica-SR', '01190-01-01', '01190-12-31', 'Stefan Nemanja fonde le monastère de Studenica, l’un des principaux centres religieux et culturels de la Serbie médiévale.', NULL, 23),
+('Couronnement de Stefan Prvovenčani', 'couronnement-stefan-prvovencani-SR', '01217-01-01', '01217-12-31', 'Stefan Prvovenčani est couronné roi de Serbie, marquant l’élévation de la Serbie au rang de royaume.', NULL, 4),
+('Autocéphalie de l’Église serbe', 'autochephalie-eglise-serbe-SR', '01219-01-01', '01219-12-31', 'Sava de Serbie obtient l’autocéphalie de l’Église serbe et devient son premier archevêque.', NULL, 23),
+('Règne de Stefan Dušan', 'regne-stefan-dusan-SR', '01331-09-08', '01355-12-20', 'Stefan Dušan étend considérablement le territoire serbe et transforme le royaume en puissance majeure des Balkans.', NULL, 5),
+('Couronnement de Stefan Dušan comme empereur', 'couronnement-stefan-dusan-empereur-SR', '01346-04-14', '01346-04-14', 'Stefan Dušan est couronné empereur des Serbes et des Grecs, marquant l’apogée de l’État médiéval serbe.', NULL, 4),
+('Adoption du Code de Dušan', 'code-dusan-SR', '01349-05-21', '01354-12-31', 'Le Code de Dušan rassemble des règles juridiques et administratives fondamentales pour l’Empire serbe médiéval.', NULL, 22),
+('Bataille de Kosovo Polje', 'bataille-kosovo-polje-SR', '01389-06-28', '01389-06-28', 'Les forces serbes et leurs alliés affrontent l’armée ottomane lors de la bataille de Kosovo Polje.', NULL, 7),
+('Chute du despotat de Serbie', 'chute-despotat-serbie-SR', '01459-06-20', '01459-06-20', 'La conquête ottomane de Smederevo met fin au despotat de Serbie et à l’État serbe médiéval indépendant.', NULL, 12),
+('Premier soulèvement serbe', 'premier-soulevement-serbe-SR', '01804-02-15', '01813-12-07', 'Le soulèvement dirigé par Karađorđe Petrović commence à Orašac et constitue une étape majeure de la formation de l’État serbe moderne.', NULL, 9),
+('Second soulèvement serbe', 'second-soulevement-serbe-SR', '01815-04-23', '01817-10-01', 'Miloš Obrenović dirige un nouveau soulèvement qui conduit à une large autonomie de la principauté de Serbie.', NULL, 9),
+('Constitution de Sretenje', 'constitution-sretenje-SR', '01835-02-15', '01835-02-15', 'La première Constitution moderne de la principauté de Serbie est adoptée à Kragujevac.', NULL, 22),
+('Autonomie de la Serbie', 'autonomie-serbie-ottomans-SR', '01839-01-01', '01839-12-31', 'La principauté de Serbie consolide son autonomie vis-à-vis de l’Empire ottoman au cours du XIXe siècle.', NULL, 14),
+('Indépendance de la Serbie', 'independance-serbie-1878-SR', '01878-07-13', '01878-07-13', 'Le traité de Berlin reconnaît internationalement l’indépendance de la Serbie.', NULL, 11),
+('Proclamation du royaume de Serbie', 'proclamation-royaume-serbie-SR', '01882-03-06', '01882-03-06', 'La principauté de Serbie devient officiellement le royaume de Serbie sous Milan Ier.', NULL, 4),
+('Guerres balkaniques', 'guerres-balkaniques-serbie-SR', '01912-10-08', '01913-08-10', 'La Serbie participe aux guerres balkaniques et étend considérablement son territoire dans les Balkans.', NULL, 6),
+('Création du royaume des Serbes, Croates et Slovènes', 'creation-royaume-serbes-croates-slovenes-SR', '01918-12-01', '01918-12-01', 'La Serbie s’unit avec les territoires sud-slaves pour former le royaume des Serbes, Croates et Slovènes.', NULL, 17),
+('Proclamation de la République fédérative populaire de Yougoslavie', 'creation-republique-federative-populaire-yougoslavie-SR', '01945-11-29', '01945-11-29', 'La monarchie yougoslave est remplacée par une république fédérative dans laquelle la Serbie devient l’une des républiques constitutives.', NULL, 22),
+('Restauration de la République de Serbie indépendante', 'independance-serbie-2006-SR', '02006-06-05', '02006-06-05', 'Après la dissolution de l’union avec le Monténégro, la Serbie devient un État indépendant.', NULL, 11);
+
+
+-- SLOVAQUIE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Royaume de Samo', 'royaume-samo-SK', '00623-01-01', '00658-12-31', 'Samo dirige une confédération slave dont le territoire central comprend une partie importante de l’actuelle Slovaquie.', NULL, 17),
+('Fondation de la principauté de Nitra', 'fondation-principaute-nitra-SK', '00800-01-01', '00833-12-31', 'La principauté de Nitra se développe comme l’un des principaux centres politiques slaves sur le territoire de l’actuelle Slovaquie.', NULL, 16),
+('Fondation de la Grande-Moravie', 'fondation-grande-moravie-SK', '00833-01-01', '00833-12-31', 'Mojmír Ier réunit les principautés de Moravie et de Nitra et fonde la Grande-Moravie.', NULL, 16),
+('Arrivée de Cyrille et Méthode', 'arrivee-cyrille-methode-SK', '00863-01-01', '00863-12-31', 'Cyrille et Méthode arrivent en Grande-Moravie et contribuent à la christianisation ainsi qu’au développement de la culture slave.', NULL, 23),
+('Intégration au royaume de Hongrie', 'integration-royaume-hongrie-SK', '01000-01-01', '01000-12-31', 'Après la disparition de la Grande-Moravie, le territoire de l’actuelle Slovaquie est progressivement intégré au royaume de Hongrie.', NULL, 12),
+('Invasion hussite de la Slovaquie', 'invasion-hussite-slovaquie-SK', '01428-01-01', '01443-12-31', 'Les forces hussites mènent plusieurs campagnes militaires dans le royaume de Hongrie, notamment sur le territoire de l’actuelle Slovaquie.', NULL, 13),
+('Fondation de l’Academia Istropolitana', 'fondation-academia-istropolitana-SK', '01467-01-01', '01467-12-31', 'Mathias Corvin fonde à Bratislava l’Academia Istropolitana, première université établie sur le territoire de l’actuelle Slovaquie.', NULL, 17),
+('Bratislava devient capitale de la Hongrie', 'bratislava-capitale-hongrie-SK', '01536-01-01', '01536-12-31', 'Le Parlement hongrois fait de Bratislava, alors appelée Presbourg, la capitale du royaume de Hongrie.', NULL, 22),
+('Insurrection de Bocskai', 'insurrection-bocskai-SK', '01604-01-01', '01606-12-31', 'L’insurrection de Stephen Bocskai contre les Habsbourg touche également les territoires de la Haute-Hongrie correspondant en partie à la Slovaquie actuelle.', NULL, 9),
+('Codification de la langue slovaque par Bernolák', 'codification-langue-slovaque-bernolak-SK', '01787-01-01', '01787-12-31', 'Anton Bernolák codifie une première forme de langue littéraire slovaque.', NULL, 17),
+('Codification de la langue slovaque par Štúr', 'codification-langue-slovaque-stur-SK', '01843-01-01', '01843-12-31', 'Ľudovít Štúr codifie une nouvelle norme de la langue slovaque qui devient la base de la langue littéraire moderne.', NULL, 17),
+('Révolution slovaque de 1848', 'revolution-slovaque-1848-SK', '01848-05-01', '01848-12-31', 'Le mouvement national slovaque formule des revendications politiques et nationales pendant les révolutions de 1848.', NULL, 8),
+('Fondation de Matica slovenská', 'fondation-matica-slovenska-SK', '01863-08-04', '01863-08-04', 'Matica slovenská est fondée à Martin comme institution destinée à promouvoir la culture et l’éducation slovaques.', NULL, 17),
+('Création de la Tchécoslovaquie', 'creation-tchecoslovaquie-SK', '01918-10-28', '01918-10-28', 'La création de la Tchécoslovaquie entraîne l’intégration des territoires slovaques dans le nouvel État commun avec les Tchèques.', NULL, 17),
+('Proclamation de l’État slovaque', 'proclamation-etat-slovaque-SK', '01939-03-14', '01939-03-14', 'La République slovaque indépendante est proclamée à Bratislava sous la pression de l’Allemagne nazie.', NULL, 11),
+('Soulèvement national slovaque', 'soulèvement-national-slovaque-SK', '01944-08-29', '01944-10-28', 'Le Soulèvement national slovaque commence en août 1944 contre le régime slovaque allié à l’Allemagne nazie.', NULL, 9),
+('Restauration de la Tchécoslovaquie', 'restauration-tchecoslovaquie-SK', '01945-05-01', '01945-12-31', 'À la fin de la Seconde Guerre mondiale, la Tchécoslovaquie est rétablie et l’État slovaque cesse d’exister.', NULL, 22),
+('Prise de pouvoir communiste', 'prise-pouvoir-communiste-tchecoslovaquie-SK', '01948-02-25', '01948-02-25', 'Le coup de force communiste de février 1948 place la Tchécoslovaquie sous un régime communiste.', NULL, 10),
+('Révolution de Velours', 'revolution-velours-slovaquie-SK', '01989-11-17', '01989-12-29', 'La Révolution de Velours met fin au régime communiste en Tchécoslovaquie et ouvre la voie à la démocratisation.', NULL, 8),
+('Indépendance de la Slovaquie', 'independance-slovaquie-SK', '01993-01-01', '01993-01-01', 'La dissolution pacifique de la Tchécoslovaquie donne naissance à la République slovaque indépendante.', NULL, 11);
+
+
+-- SLOVENIE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Fondation de la Carantanie', 'fondation-carantanie-SL', '00623-01-01', '00623-12-31', 'La Carantanie se forme au VIIe siècle comme une principauté slave dont le centre se situe dans la région alpine correspondant notamment à l’espace slovène historique.', NULL, 16),
+('Christianisation de la Carantanie', 'christianisation-carantanie-SL', '00745-01-01', '00772-12-31', 'La Carantanie passe progressivement sous influence franque et la christianisation de sa population s’accélère.', NULL, 23),
+('Intégration de la Carantanie à l’Empire franc', 'integration-carantanie-empire-franc-SL', '00772-01-01', '00788-12-31', 'La Carantanie est intégrée à l’espace politique franc et perd progressivement son autonomie.', NULL, 12),
+('Manuscrits de Freising', 'manuscrits-freising-SL', '00972-01-01', '01032-12-31', 'Les manuscrits de Freising constituent les plus anciens textes connus conservés en langue slovène.', NULL, 18),
+('Intégration des terres slovènes aux Habsbourg', 'integration-terres-slovenes-habsbourg-SL', '01334-01-01', '01384-12-31', 'Les Habsbourg prennent progressivement le contrôle de la majeure partie des territoires slovènes historiques.', NULL, 12),
+('Invasions ottomanes des terres slovènes', 'invasions-ottomanes-terres-slovenes-SL', '01467-01-01', '01538-12-31', 'Les incursions ottomanes touchent à plusieurs reprises les territoires slovènes et entraînent la fortification de nombreuses localités.', NULL, 13),
+('Révolte paysanne slovène de 1515', 'revolte-paysanne-slovene-1515-SL', '01515-01-01', '01515-12-31', 'Une importante révolte paysanne éclate dans les terres slovènes contre les charges féodales et les abus des autorités.', NULL, 9),
+('Premier livre en slovène', 'premier-livre-slovene-SL', '01550-01-01', '01550-12-31', 'Primož Trubar publie le Catéchisme et l’Abécédaire, considérés comme les premiers livres imprimés en langue slovène.', NULL, 24),
+('Bible slovène de Jurij Dalmatin', 'bible-slovene-dalmatin-SL', '01584-01-01', '01584-12-31', 'Jurij Dalmatin achève la première traduction complète de la Bible en slovène.', NULL, 24),
+('Occupation napoléonienne et création des Provinces illyriennes', 'provinces-illyriennes-SL', '01809-01-01', '01813-12-31', 'Napoléon crée les Provinces illyriennes, qui comprennent une grande partie des territoires slovènes.', NULL, 12),
+('Programme de la Slovénie unie', 'programme-slovenie-unie-SL', '01848-03-01', '01848-12-31', 'Le programme de la Slovénie unie réclame le rassemblement politique et administratif des territoires habités par les Slovènes.', NULL, 22),
+('Déclaration de mai', 'declaration-mai-slovene-SL', '01917-05-30', '01917-05-30', 'Les représentants slovènes au Parlement de Vienne demandent l’unification des territoires slovènes, croates et serbes de la monarchie des Habsbourg.', NULL, 22),
+('Création de l’État des Slovènes, Croates et Serbes', 'creation-etat-slovènes-croates-serbes-SL', '01918-10-29', '01918-12-01', 'Après la dissolution de l’Autriche-Hongrie, les territoires slovènes rejoignent le nouvel État des Slovènes, Croates et Serbes.', NULL, 17),
+('Création du royaume des Serbes, Croates et Slovènes', 'creation-royaume-serbes-croates-slovenes-SL', '01918-12-01', '01918-12-01', 'Le royaume des Serbes, Croates et Slovènes est créé et comprend la majeure partie des territoires slovènes.', NULL, 17),
+('Occupation des territoires slovènes pendant la Seconde Guerre mondiale', 'occupation-slovenie-seconde-guerre-mondiale-SL', '01941-04-06', '01945-05-09', 'Après l’invasion de la Yougoslavie, le territoire slovène est partagé principalement entre l’Allemagne, l’Italie et la Hongrie.', NULL, 13),
+('Fondation du Front de libération slovène', 'fondation-front-liberation-slovene-SL', '01941-04-27', '01941-04-27', 'Le Front de libération du peuple slovène est fondé à Ljubljana et organise la résistance contre les forces d’occupation.', NULL, 17),
+('Création de la République populaire de Slovénie', 'creation-republique-populaire-slovenie-SL', '01946-01-31', '01946-01-31', 'La Slovénie devient une république constitutive de la nouvelle fédération yougoslave sous le nom de République populaire de Slovénie.', NULL, 17),
+('Premières élections multipartites en Slovénie', 'premieres-elections-multipartites-slovenie-SL', '01990-04-08', '01990-04-22', 'Les premières élections multipartites depuis la Seconde Guerre mondiale sont organisées en Slovénie.', NULL, 22),
+('Référendum sur l’indépendance de la Slovénie', 'referendum-independance-slovenie-SL', '01990-12-23', '01990-12-23', 'Un référendum sur l’indépendance est organisé et une large majorité des votants se prononce en faveur d’une Slovénie indépendante.', NULL, 22),
+('Indépendance de la Slovénie', 'independance-slovenie-SL', '01991-06-25', '01991-06-26', 'La Slovénie adopte les actes fondamentaux de son indépendance et proclame son indépendance, suivie de la guerre des Dix Jours.', NULL, 11);
+
+
+-- SUEDE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Fondation de Birka', 'fondation-birka-SE', '00750-01-01', '00750-12-31', 'Birka devient un important centre commercial et maritime de la Scandinavie à l’époque viking.', NULL, 16),
+('Christianisation de la Suède', 'christianisation-suede-SE', '01000-01-01', '01160-12-31', 'La christianisation de la Suède progresse progressivement sous l’influence de missionnaires et des souverains scandinaves.', NULL, 23),
+('Fondation de l’archevêché d’Uppsala', 'fondation-archeveche-uppsala-SE', '01164-01-01', '01164-12-31', 'L’archevêché d’Uppsala est créé et devient le principal siège ecclésiastique de la Suède.', NULL, 23),
+('Règne d’Éric IX de Suède', 'regne-eric-ix-suede-SE', '01156-01-01', '01160-05-18', 'Éric IX, devenu saint Éric dans la tradition suédoise, règne sur une Suède en cours de consolidation et de christianisation.', NULL, 5),
+('Bataille de Sparrsätra', 'bataille-sparrsatra-SE', '01247-01-01', '01247-12-31', 'La bataille de Sparrsätra oppose le roi Éric XI à une révolte menée par des nobles et des paysans suédois.', NULL, 7),
+('Fondation de Stockholm', 'fondation-stockholm-SE', '01252-01-01', '01252-12-31', 'Birger Jarl fonde Stockholm afin de renforcer le contrôle des voies maritimes et du territoire suédois.', NULL, 16),
+('Union de Kalmar', 'union-kalmar-SE', '01397-06-17', '01397-06-17', 'L’Union de Kalmar réunit les royaumes de Danemark, de Norvège et de Suède sous une même monarchie.', NULL, 15),
+('Révolte d’Engelbrekt Engelbrektsson', 'revolte-engelbrekt-SE', '01434-01-01', '01436-01-01', 'La révolte d’Engelbrekt Engelbrektsson contre le pouvoir danois devient un important mouvement politique en Suède.', NULL, 9),
+('Bataille de Brunkeberg', 'bataille-brunkeberg-SE', '01471-10-10', '01471-10-10', 'Sten Sture l’Ancien et les forces suédoises remportent la bataille de Brunkeberg contre Christian Ier de Danemark.', NULL, 7),
+('Bain de sang de Stockholm', 'bain-sang-stockholm-SE', '01520-11-08', '01520-11-10', 'Après son entrée à Stockholm, Christian II fait exécuter de nombreux opposants suédois lors du bain de sang de Stockholm.', NULL, 20),
+('Révolte de Gustav Vasa', 'revolte-gustav-vasa-SE', '01521-01-01', '01523-06-06', 'Gustav Vasa mène une révolte contre Christian II et contribue à mettre fin à la domination danoise en Suède.', NULL, 9),
+('Élection de Gustav Vasa comme roi', 'election-gustav-vasa-roi-SE', '01523-06-06', '01523-06-06', 'Gustav Vasa est élu roi de Suède à Strängnäs, marquant la fin effective de l’Union de Kalmar pour la Suède.', NULL, 4),
+('Réforme protestante en Suède', 'reforme-protestante-suede-SE', '01527-06-01', '01527-06-01', 'La Diète de Västerås adopte des mesures qui accélèrent la Réforme protestante et renforcent le pouvoir royal sur l’Église.', NULL, 23),
+('Introduction du luthéranisme comme religion d’État', 'lutheranisme-religion-etat-suede-SE', '01593-02-01', '01593-02-01', 'Le synode d’Uppsala confirme le luthéranisme comme confession officielle du royaume de Suède.', NULL, 23),
+('Fondation de Göteborg', 'fondation-goteborg-SE', '01621-06-04', '01621-06-04', 'Gustav II Adolphe fonde Göteborg afin de développer le commerce et renforcer la position maritime de la Suède.', NULL, 16),
+('Entrée de la Suède dans la guerre de Trente Ans', 'entree-suede-guerre-trente-ans-SE', '01630-06-01', '01630-06-01', 'La Suède intervient directement dans la guerre de Trente Ans aux côtés des forces protestantes.', NULL, 6),
+('Bataille de Breitenfeld', 'bataille-breitenfeld-SE', '01631-09-17', '01631-09-17', 'Les forces suédoises et leurs alliés remportent une victoire majeure contre l’armée impériale à Breitenfeld.', NULL, 7),
+('Mort de Gustav II Adolphe', 'mort-gustav-ii-adolphe-SE', '01632-11-06', '01632-11-06', 'Gustav II Adolphe meurt lors de la bataille de Lützen pendant la guerre de Trente Ans.', NULL, 2),
+('Traité de Westphalie', 'traite-westphalie-SE', '01648-10-24', '01648-10-24', 'Les traités de Westphalie mettent fin à la guerre de Trente Ans et confirment les gains territoriaux de la Suède en Europe du Nord.', NULL, 14),
+('Traité de Roskilde', 'traite-roskilde-SE', '01658-02-26', '01658-02-26', 'Le Danemark cède plusieurs territoires à la Suède lors du traité de Roskilde, au terme de la guerre dano-suédoise.', NULL, 14),
+('Fondation de la banque de Suède', 'fondation-banque-suede-SE', '01668-01-01', '01668-01-01', 'La Banque de Suède est fondée sous le nom de Sveriges Riksbank et devient l’une des plus anciennes banques centrales du monde.', NULL, 25),
+('Grande guerre du Nord', 'grande-guerre-nord-SE', '01700-02-01', '01721-09-14', 'La Suède affronte une coalition comprenant notamment la Russie, le Danemark-Norvège et la Saxe-Pologne lors de la Grande guerre du Nord.', NULL, 6),
+('Bataille de Narva', 'bataille-narva-SE', '01700-11-30', '01700-11-30', 'L’armée suédoise de Charles XII remporte une victoire importante contre les forces russes à Narva.', NULL, 7),
+('Bataille de Poltava', 'bataille-poltava-SE', '01709-07-08', '01709-07-08', 'Les forces suédoises de Charles XII sont lourdement vaincues par l’armée russe à Poltava.', NULL, 7),
+('Mort de Charles XII', 'mort-charles-xii-SE', '01718-11-30', '01718-11-30', 'Charles XII meurt pendant le siège de Fredriksten en Norvège.', NULL, 2),
+('Traité de Nystad', 'traite-nystad-SE', '01721-09-10', '01721-09-10', 'Le traité de Nystad met fin à la Grande guerre du Nord et entraîne la perte de plusieurs possessions suédoises au profit de la Russie.', NULL, 14),
+('Ère de la Liberté', 'ere-liberte-suede-SE', '01719-01-01', '01772-05-19', 'Après la mort de Charles XII, le pouvoir parlementaire s’accroît durant la période appelée Ère de la Liberté.', NULL, 22),
+('Coup d’État de Gustave III', 'coup-etat-gustave-iii-SE', '01772-08-19', '01772-08-19', 'Gustave III renforce le pouvoir monarchique lors d’un coup d’État qui met fin à l’Ère de la Liberté.', NULL, 10),
+('Guerre russo-suédoise de 1788-1790', 'guerre-russo-suedoise-1788-SE', '01788-06-01', '01790-08-14', 'La Suède affronte la Russie dans une guerre qui se termine par le maintien du statu quo territorial.', NULL, 6),
+('Révolution suédoise de 1809', 'revolution-suede-1809-SE', '01809-03-13', '01809-06-06', 'Une révolution conduit à la déposition de Gustave IV Adolphe et à l’adoption d’un nouvel ordre constitutionnel.', NULL, 8),
+('Perte de la Finlande', 'perte-finlande-suede-SE', '01809-09-17', '01809-09-17', 'Le traité de Fredrikshamn met fin à la guerre russo-suédoise et la Suède cède la Finlande à la Russie.', NULL, 14),
+('Adoption de l’Instrument de gouvernement de 1809', 'constitution-suede-1809-SE', '01809-06-06', '01809-06-06', 'La Suède adopte une nouvelle constitution qui réorganise les rapports entre le roi et les institutions représentatives.', NULL, 22),
+('Élection de Jean-Baptiste Bernadotte comme prince héritier', 'election-bernadotte-suede-SE', '01810-08-21', '01810-08-21', 'Le Parlement suédois élit Jean-Baptiste Bernadotte comme prince héritier, ouvrant la voie à la dynastie Bernadotte.', NULL, 22),
+('Union entre la Suède et la Norvège', 'union-suede-norvege-SE', '01814-11-04', '01814-11-04', 'La Suède et la Norvège sont réunies sous la couronne de Charles XIII après les guerres napoléoniennes.', NULL, 15),
+('Abolition de la peine de mort en temps de paix', 'abolition-peine-mort-suede-SE', '01921-01-01', '01921-12-31', 'La Suède abolit la peine de mort en temps de paix dans le cadre des réformes démocratiques du début du XXe siècle.', NULL, 22),
+('Droit de vote universel en Suède', 'suffrage-universel-suede-SE', '01918-05-24', '01921-01-01', 'Les réformes électorales instaurent progressivement le suffrage universel masculin et féminin et transforment le système politique suédois.', NULL, 22),
+('Dissolution de l’union Suède-Norvège', 'dissolution-union-suede-norvege-SE', '01905-10-26', '01905-10-26', 'L’union entre la Suède et la Norvège est dissoute pacifiquement après un accord entre les deux pays.', NULL, 14),
+('Neutralité suédoise pendant la Première Guerre mondiale', 'neutralite-suede-premiere-guerre-mondiale-SE', '01914-07-28', '01918-11-11', 'La Suède reste officiellement neutre pendant la Première Guerre mondiale.', NULL, 22),
+('Création de l’Institut Nobel', 'fondation-institut-nobel-SE', '01900-06-29', '01900-06-29', 'La fondation Nobel est créée conformément au testament d’Alfred Nobel afin d’administrer les prix Nobel.', NULL, 17),
+('Création de l’État-providence suédois', 'creation-etat-providence-suede-SE', '01930-01-01', '01950-12-31', 'La Suède développe progressivement un système étendu de protection sociale au cours du XXe siècle.', NULL, 25),
+('Neutralité suédoise pendant la Seconde Guerre mondiale', 'neutralite-suede-seconde-guerre-mondiale-SE', '01939-09-01', '01945-05-08', 'La Suède reste officiellement neutre pendant la Seconde Guerre mondiale tout en maintenant des relations commerciales avec les différents belligérants.', NULL, 22),
+('Création de l’Organisation des Nations unies', 'creation-organisation-nations-unies-SE', '01945-10-24', '01945-10-24', 'La Suède rejoint l’Organisation des Nations unies en 1946 après sa création à la fin de la Seconde Guerre mondiale.', NULL, 17),
+('Création du Conseil nordique', 'creation-conseil-nordique-SE', '01952-02-23', '01952-02-23', 'La Suède participe à la création du Conseil nordique destiné à renforcer la coopération entre les pays nordiques.', NULL, 15),
+('Adoption d’une nouvelle constitution suédoise', 'constitution-suede-1974-SE', '01974-01-01', '01974-01-01', 'Une nouvelle loi fondamentale entre en vigueur et redéfinit notamment le rôle constitutionnel du monarque.', NULL, 22),
+('Assassinat d’Olof Palme', 'assassinat-olof-palme-SE', '01986-02-28', '01986-02-28', 'Le Premier ministre suédois Olof Palme est assassiné à Stockholm.', NULL, 2),
+('Référendum sur l’énergie nucléaire', 'referendum-nucleaire-suede-SE', '01980-03-23', '01980-03-23', 'Un référendum national est organisé sur l’avenir de l’énergie nucléaire en Suède.', NULL, 22),
+('Référendum sur l’adhésion à l’Union européenne', 'referendum-ue-suede-SE', '01994-11-13', '01994-11-13', 'Un référendum est organisé sur l’adhésion de la Suède à l’Union européenne et une majorité des votants se prononce en faveur de l’adhésion.', NULL, 22),
+('Adhésion de la Suède à l’Union européenne', 'adhesion-suede-union-europeenne-SE', '01995-01-01', '01995-01-01', 'La Suède devient membre de l’Union européenne.', NULL, 15),
+('Référendum suédois sur l’euro', 'referendum-euro-suede-SE', '02003-09-14', '02003-09-14', 'Un référendum national est organisé sur l’adoption de l’euro en Suède.', NULL, 22),
+('Inauguration du pont de l’Øresund', 'inauguration-pont-oresund-SE', '02000-07-01', '02000-07-01', 'Le pont de l’Øresund relie la Suède au Danemark et renforce les échanges entre les deux pays.', NULL, 17);
+
+
+-- SUISSE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Fondation de la Confédération suisse', 'fondation-confederation-suisse-CH', '01291-08-01', '01291-08-01', 'Les communautés d’Uri, de Schwytz et d’Unterwald concluent le Pacte fédéral de 1291, considéré comme l’un des actes fondateurs de la Confédération suisse.', NULL, 15),
+('Bataille de Morgarten', 'bataille-morgarten-CH', '01315-11-15', '01315-11-15', 'Les Confédérés remportent une victoire contre les forces du duc Léopold Ier de Habsbourg lors de la bataille de Morgarten.', NULL, 7),
+('Bataille de Sempach', 'bataille-sempach-CH', '01386-07-09', '01386-07-09', 'Les Confédérés battent les forces habsbourgeoises lors de la bataille de Sempach.', NULL, 7),
+('Bataille de Morat', 'bataille-morat-CH', '01476-06-22', '01476-06-22', 'Les Confédérés infligent une lourde défaite à Charles le Téméraire lors de la bataille de Morat.', NULL, 7),
+('Paix perpétuelle avec la France', 'paix-perpetuelle-france-suisse-CH', '01516-11-29', '01516-11-29', 'La paix perpétuelle conclue avec François Ier établit durablement des relations entre la Confédération suisse et la France.', NULL, 14),
+('Réforme à Zurich', 'reforme-zurich-CH', '01519-01-01', '01519-12-31', 'Ulrich Zwingli commence à Zurich la Réforme qui transforme profondément la vie religieuse de plusieurs cantons suisses.', NULL, 23),
+('Paix de Kappel', 'paix-kappel-CH', '01529-06-24', '01529-06-24', 'La première paix de Kappel met temporairement fin au conflit entre cantons catholiques et réformés de la Confédération.', NULL, 14),
+('Seconde guerre de Kappel', 'seconde-guerre-kappel-CH', '01531-10-11', '01531-10-11', 'La seconde guerre de Kappel oppose les cantons catholiques aux cantons réformés et se termine par la défaite de Zurich.', NULL, 6),
+('Paix de Westphalie et reconnaissance de l’indépendance', 'paix-westphalie-independance-suisse-CH', '01648-10-24', '01648-10-24', 'La paix de Westphalie reconnaît l’indépendance de la Confédération suisse vis-à-vis du Saint-Empire romain germanique.', NULL, 14),
+('Invasion française de la Suisse', 'invasion-francaise-suisse-CH', '01798-03-05', '01798-03-05', 'Les troupes françaises envahissent la Confédération et mettent fin à l’ancienne structure confédérale.', NULL, 13),
+('Création de la République helvétique', 'creation-republique-helvetique-CH', '01798-04-12', '01798-04-12', 'La République helvétique est proclamée sous influence française et remplace l’ancienne Confédération.', NULL, 17),
+('Acte de Médiation', 'acte-mediation-suisse-CH', '01803-02-19', '01803-02-19', 'Napoléon Bonaparte impose l’Acte de Médiation, qui rétablit une structure fédérale entre les cantons suisses.', NULL, 14),
+('Pacte fédéral de 1815', 'pacte-federal-1815-suisse-CH', '01815-08-07', '01815-08-07', 'Le Pacte fédéral réorganise la Confédération après les guerres napoléoniennes et accompagne la reconnaissance internationale de sa neutralité.', NULL, 14),
+('Guerre du Sonderbund', 'guerre-sonderbund-CH', '01847-11-04', '01847-11-29', 'Une guerre civile oppose les cantons libéraux et les cantons catholiques conservateurs regroupés dans le Sonderbund.', NULL, 6),
+('Adoption de la Constitution fédérale', 'constitution-federale-suisse-1848-CH', '01848-09-12', '01848-09-12', 'La nouvelle Constitution transforme la Suisse en État fédéral moderne doté d’un Parlement et d’un gouvernement fédéral.', NULL, 22),
+('Révision totale de la Constitution fédérale', 'constitution-federale-suisse-1874-CH', '01874-05-19', '01874-05-19', 'La Constitution fédérale est entièrement révisée et élargit notamment les compétences de la Confédération et certains droits populaires.', NULL, 22),
+('Introduction du référendum facultatif', 'referendum-facultatif-suisse-CH', '01874-05-19', '01874-05-19', 'La Constitution révisée introduit le référendum facultatif au niveau fédéral, renforçant les instruments de démocratie directe.', NULL, 22),
+('Première grève générale suisse', 'greve-generale-suisse-CH', '01918-11-12', '01918-11-14', 'Une grève générale nationale éclate en novembre 1918 dans un contexte de difficultés sociales et économiques liées à la Première Guerre mondiale.', NULL, 9),
+('Introduction du suffrage féminin fédéral', 'suffrage-feminin-suisse-CH', '01971-02-07', '01971-02-07', 'Les citoyens suisses approuvent l’introduction du droit de vote et d’éligibilité des femmes au niveau fédéral.', NULL, 22),
+('Adhésion de la Suisse à l’ONU', 'adhesion-suisse-onu-CH', '02002-09-10', '02002-09-10', 'La Suisse devient membre de l’Organisation des Nations unies après l’approbation de son adhésion par le peuple et les cantons.', NULL, 15);
+
+
+-- UKRAINE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Fondation de la Rus’ de Kyiv', 'fondation-rus-kyiv-UA', '00882-01-01', '00882-12-31', 'Oleh prend le contrôle de Kyiv et en fait le centre d’un État kiévien qui devient progressivement la Rus’ de Kyiv.', NULL, 16),
+('Christianisation de la Rus’ de Kyiv', 'christianisation-rus-kyiv-UA', '00988-01-01', '00988-12-31', 'Le prince Volodymyr adopte le christianisme byzantin comme religion officielle de la Rus’ de Kyiv.', NULL, 23),
+('Construction de la cathédrale Sainte-Sophie de Kyiv', 'construction-sainte-sophie-kyiv-UA', '01037-01-01', '01037-12-31', 'Iaroslav le Sage fait construire la cathédrale Sainte-Sophie, devenue l’un des principaux monuments de la Rus’ de Kyiv.', NULL, 17),
+('Invasion mongole et prise de Kyiv', 'invasion-mongole-prise-kyiv-UA', '01240-12-06', '01240-12-06', 'Les forces mongoles de Batu Khan prennent Kyiv après un siège et détruisent une grande partie de la ville.', NULL, 13),
+('Création de la principauté de Galicie-Volhynie', 'creation-principaute-galicie-volhynie-UA', '01199-01-01', '01199-12-31', 'Roman Mstislavitch réunit les principautés de Galicie et de Volhynie et établit une importante principauté ruthène.', NULL, 16),
+('Couronnement de Daniel de Galicie', 'couronnement-daniel-galicie-UA', '01253-01-01', '01253-01-01', 'Daniel de Galicie reçoit la couronne royale et devient roi de Ruthénie.', NULL, 4),
+('Union de Lublin', 'union-lublin-UA', '01569-07-01', '01569-07-01', 'L’Union de Lublin crée la République des Deux Nations et intègre une grande partie des territoires ukrainiens à la nouvelle structure politique.', NULL, 14),
+('Fondation de la confrérie de Kyiv', 'fondation-confrerie-kyiv-UA', '01615-01-01', '01615-12-31', 'La confrérie de Kyiv devient un important centre religieux, éducatif et culturel de la population ruthène.', NULL, 17),
+('Soulèvement de Bohdan Khmelnytsky', 'soulevement-khmelnytsky-UA', '01648-01-01', '01654-01-01', 'Le soulèvement dirigé par Bohdan Khmelnytsky contre la domination polono-lituanienne entraîne la création d’un État cosaque dans une grande partie de l’Ukraine.', NULL, 9),
+('Traité de Pereïaslav', 'traite-pereiaslav-UA', '01654-01-01', '01654-01-01', 'Les cosaques de l’Hetmanat concluent une alliance avec le tsarat de Russie, événement qui modifie durablement l’équilibre politique de la région.', NULL, 14),
+('Destruction de la Sitch zaporogue', 'destruction-sitch-zaporogue-UA', '01775-06-15', '01775-06-15', 'Les troupes russes détruisent la Sitch zaporogue, mettant fin à l’autonomie politique des Cosaques zaporogues.', NULL, 12),
+('Création de la République populaire ukrainienne', 'creation-republique-populaire-ukrainienne-UA', '01917-11-20', '01917-11-20', 'La Rada centrale proclame la République populaire ukrainienne dans le contexte de la révolution russe.', NULL, 17),
+('Proclamation de l’indépendance de la République populaire ukrainienne', 'independance-republique-populaire-ukrainienne-UA', '01918-01-22', '01918-01-22', 'Le quatrième Universal de la Rada centrale proclame l’indépendance et la souveraineté de la République populaire ukrainienne.', NULL, 11),
+('Création de la République socialiste soviétique d’Ukraine', 'creation-rss-ukrainienne-UA', '01919-03-10', '01919-03-10', 'Le pouvoir soviétique consolide une république soviétique ukrainienne qui devient ensuite une république constitutive de l’URSS.', NULL, 17),
+('Holodomor', 'holodomor-UA', '01932-01-01', '01933-12-31', 'Une famine catastrophique frappe l’Ukraine soviétique en 1932-1933 et provoque plusieurs millions de morts.', NULL, 20),
+('Catastrophe nucléaire de Tchernobyl', 'catastrophe-tchernobyl-UA', '01986-04-26', '01986-04-26', 'Le réacteur numéro 4 de la centrale nucléaire de Tchernobyl explose, provoquant l’une des plus graves catastrophes nucléaires de l’histoire.', NULL, 20),
+('Déclaration de souveraineté de l’Ukraine', 'declaration-souverainete-ukraine-UA', '01990-07-16', '01990-07-16', 'La République socialiste soviétique d’Ukraine adopte une déclaration affirmant la primauté de ses lois et son droit à l’autodétermination.', NULL, 22),
+('Indépendance de l’Ukraine', 'independance-ukraine-UA', '01991-08-24', '01991-08-24', 'Le Parlement ukrainien adopte l’Acte de déclaration d’indépendance de l’Ukraine après l’échec du putsch de Moscou.', NULL, 11),
+('Référendum confirmant l’indépendance de l’Ukraine', 'referendum-independance-ukraine-UA', '01991-12-01', '01991-12-01', 'Un référendum national confirme l’indépendance proclamée en août 1991 et marque la consolidation du nouvel État ukrainien.', NULL, 22),
+('Adoption de la Constitution de l’Ukraine', 'constitution-ukraine-UA', '01996-06-28', '01996-06-28', 'La Verkhovna Rada adopte la Constitution de l’Ukraine indépendante, qui devient la loi fondamentale de l’État.', NULL, 22);
+
+
+-- VATICAN --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Martyre traditionnel de saint Pierre au Vatican', 'martyre-saint-pierre-vatican-VA', '00064-01-01', '00064-12-31', 'Selon la tradition chrétienne, l’apôtre Pierre est martyrisé à Rome et enterré dans la zone du Vatican, qui devient progressivement un lieu majeur de pèlerinage.', NULL, 23),
+('Construction de la première basilique Saint-Pierre', 'construction-premiere-basilique-saint-pierre-VA', '00324-01-01', '00326-12-31', 'L’empereur Constantin fait construire une grande basilique au-dessus du tombeau traditionnel de saint Pierre.', NULL, 17),
+('Construction des murailles léonines', 'construction-murailles-leonines-VA', '00848-01-01', '00852-12-31', 'Le pape Léon IV fait édifier des fortifications autour du Vatican afin de protéger la basilique Saint-Pierre et les quartiers voisins.', NULL, 17),
+('Développement du palais du Vatican', 'developpement-palais-vatican-VA', '01150-01-01', '01300-12-31', 'Des bâtiments et résidences pontificales se développent progressivement autour de la basilique Saint-Pierre.', NULL, 17),
+('Départ de la cour pontificale pour Avignon', 'depart-papes-avignon-VA', '01309-01-01', '01309-01-01', 'Le siège pontifical est transféré à Avignon, entraînant une longue période durant laquelle le Vatican et Rome perdent une partie de leur rôle politique pontifical.', NULL, 22),
+('Retour de la papauté à Rome', 'retour-papauté-rome-VA', '01377-01-17', '01377-01-17', 'Le pape Grégoire XI revient à Rome et met fin au séjour de la papauté à Avignon.', NULL, 22),
+('Construction de la chapelle Sixtine', 'construction-chapelle-sixtine-VA', '01477-01-01', '01480-12-31', 'Le pape Sixte IV fait construire la chapelle Sixtine dans l’enceinte du Vatican.', NULL, 17),
+('Inauguration de la chapelle Sixtine', 'inauguration-chapelle-sixtine-VA', '01483-08-15', '01483-08-15', 'La chapelle Sixtine est inaugurée et devient l’un des principaux édifices religieux et artistiques du Vatican.', NULL, 24),
+('Début de la construction de la nouvelle basilique Saint-Pierre', 'debut-nouvelle-basilique-saint-pierre-VA', '01506-04-18', '01506-04-18', 'Le pape Jules II pose la première pierre de la nouvelle basilique Saint-Pierre destinée à remplacer l’ancienne basilique constantinienne.', NULL, 17),
+('Achèvement de la coupole de Saint-Pierre', 'achevement-coupole-saint-pierre-VA', '01590-01-01', '01590-12-31', 'La grande coupole conçue à partir du projet de Michel-Ange est achevée sous la direction de Giacomo della Porta et Domenico Fontana.', NULL, 24),
+('Achèvement de la façade de Saint-Pierre', 'achevement-facade-saint-pierre-VA', '01612-01-01', '01612-12-31', 'La façade de la basilique Saint-Pierre conçue par Carlo Maderno est achevée.', NULL, 24),
+('Achèvement de la place Saint-Pierre', 'achevement-place-saint-pierre-VA', '01667-01-01', '01667-12-31', 'Le Bernin achève la grande colonnade qui donne à la place Saint-Pierre son aspect baroque caractéristique.', NULL, 24),
+('Création des États pontificaux modernes', 'creation-etats-pontificaux-VA', '07560-01-01', '07560-12-31', 'La donation de Pépin établit une base territoriale durable au pouvoir temporel de la papauté en Italie centrale.', NULL, 17),
+('Perte des États pontificaux', 'perte-etats-pontificaux-VA', '01870-09-20', '01870-09-20', 'La prise de Rome par les forces du royaume d’Italie met fin au pouvoir territorial des papes sur les États pontificaux.', NULL, 12),
+('Prise de Rome et occupation du Vatican', 'prise-rome-vatican-VA', '01870-09-20', '01870-09-20', 'Les troupes italiennes entrent dans Rome et le pape conserve le Vatican comme résidence tout en refusant de reconnaître l’annexion.', NULL, 13),
+('Accords du Latran', 'accords-latran-VA', '01929-02-11', '01929-02-11', 'Les Accords du Latran entre le Saint-Siège et l’Italie créent l’État de la Cité du Vatican et reconnaissent sa souveraineté.', NULL, 14),
+('Ratification des Accords du Latran', 'ratification-accords-latran-VA', '01929-06-07', '01929-06-07', 'Les Accords du Latran sont ratifiés et l’État de la Cité du Vatican acquiert officiellement son statut souverain en droit international.', NULL, 17),
+('Première levée du drapeau de la Cité du Vatican', 'premier-drapeau-cite-vatican-VA', '01929-06-08', '01929-06-08', 'Le nouveau drapeau de la Cité du Vatican est hissé pour la première fois après l’entrée en vigueur des accords créant le nouvel État.', NULL, 22),
+('Création de la Radio Vatican', 'creation-radio-vatican-VA', '01931-02-12', '01931-02-12', 'La Radio Vatican commence ses émissions et devient un important moyen de communication internationale du Saint-Siège.', NULL, 17),
+('Nouvelle Loi fondamentale de l’État de la Cité du Vatican', 'nouvelle-loi-fondamentale-vatican-VA', '02023-06-07', '02023-06-07', 'Une nouvelle Loi fondamentale de l’État de la Cité du Vatican entre en vigueur et remplace celle de 2000.', NULL, 22);
+
