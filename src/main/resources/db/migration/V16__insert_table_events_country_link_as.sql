@@ -209,3 +209,133 @@ INSERT INTO event_country_link (event_id, country_id) SELECT id, 130 FROM events
 
 
 -- NEPAL --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 131 FROM events WHERE slug IN (
+    'developpement-royaumes-kirata-nepal-NP', 'diffusion-bouddhisme-nepal-NP', 'developpement-vallee-katmandou-nepal-NP', 'fondation-dynastie-licchavi-nepal-NP', 'regne-manadeva-ier-nepal-NP', 'developpement-art-licchavi-nepal-NP', 'construction-temple-changu-narayan-nepal-NP', 'developpement-commerce-transhimalayen-nepal-NP', 'fondation-dynastie-thakuri-nepal-NP', 'developpement-royaume-bhaktapur-nepal-NP', 'fondation-dynastie-malla-nepal-NP', 'regne-jayasthiti-malla-nepal-NP', 'developpement-architecture-malla-nepal-NP', 'division-royaume-katmandou-nepal-NP', 'fondation-royaume-gorkha-nepal-NP', 'unification-nepal-prithvi-narayan-shah-nepal-NP', 'conquete-katmandou-gorkha-nepal-NP', 'guerre-anglo-nepalaise-nepal-NP', 'traite-sugauli-nepal-NP', 'etablissement-democratie-multipartite-nepal-NP'
+);
+
+
+-- OMAN --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 132 FROM events WHERE slug IN (
+    'developpement-etablissements-magan-oman-OM', 'developpement-metallurgie-cuivre-oman-OM', 'developpement-commerce-maritime-oman-OM', 'diffusion-islam-oman-OM', 'fondation-imamat-ibadite-oman-OM', 'developpement-sohar-port-commercial-oman-OM', 'developpement-commerce-encens-oman-OM', 'developpement-nizwa-centre-politique-oman-OM', 'conquete-portugaise-mascate-oman-OM', 'occupation-portugaise-mascate-oman-OM', 'expulsion-portugais-oman-OM', 'fondation-dynastie-yaruba-oman-OM', 'developpement-empire-maritime-oman-OM', 'conquete-zanzibar-oman-OM', 'fondation-dynastie-al-bu-said-oman-OM', 'developpement-mascate-centre-commercial-oman-OM', 'deplacement-capitale-zanzibar-oman-OM', 'traite-commerce-anglo-omanais-oman-OM', 'revolte-dhofar-oman-OM', 'creation-sultanat-moderne-oman-OM'
+);
+
+
+-- OUZBEKISTAN --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 133 FROM events WHERE slug IN (
+    'developpement-cultures-age-bronze-ouzbekistan-UZ', 'developpement-sogdiane-ouzbekistan-UZ', 'developpement-samarcande-ouzbekistan-UZ', 'conquete-achemenide-sogdiane-ouzbekistan-UZ', 'conquete-alexandre-sogdiane-ouzbekistan-UZ', 'developpement-royaume-greco-bactrien-ouzbekistan-UZ', 'developpement-route-soie-ouzbekistan-UZ', 'conquete-arabe-transoxiane-ouzbekistan-UZ', 'bataille-talas-ouzbekistan-UZ', 'fondation-dynastie-samanide-transoxiane-ouzbekistan-UZ', 'developpement-boukhara-samanides-ouzbekistan-UZ', 'conquete-seldjoukide-transoxiane-ouzbekistan-UZ', 'conquete-mongole-transoxiane-ouzbekistan-UZ', 'conquete-samarcande-mongols-ouzbekistan-UZ', 'developpement-samarcande-timourides-ouzbekistan-UZ', 'construction-observatoire-ulough-beg-ouzbekistan-UZ', 'fondation-khanat-boukhara-ouzbekistan-UZ', 'conquete-russe-tachkent-ouzbekistan-UZ', 'creation-republique-socialiste-sovietique-ouzbekistan-UZ', 'independance-ouzbekistan-UZ'
+);
+
+
+-- PAKISTAN --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 134 FROM events WHERE slug IN (
+    'developpement-cites-vallee-indus-pakistan-PK', 'developpement-taxila-pakistan-PK', 'developpement-bouddhisme-gandhara-pakistan-PK', 'developpement-art-gandhara-pakistan-PK', 'conquete-kouchane-gandhara-pakistan-PK', 'regne-kanishka-ier-pakistan-PK', 'developpement-multan-centre-commercial-pakistan-PK', 'conquete-arabe-sind-pakistan-PK', 'diffusion-islam-sind-pendjab-pakistan-PK', 'conquete-ghaznevide-pendjab-pakistan-PK', 'fondation-sultanat-lahore-pakistan-PK', 'conquete-mongole-pendjab-pakistan-PK', 'developpement-sultanat-delhi-pendjab-pakistan-PK', 'conquete-moghole-pendjab-pakistan-PK', 'fondation-communaute-sikhe-pakistan-PK', 'developpement-lahore-moghols-pakistan-PK', 'conquete-britannique-sind-pakistan-PK', 'creation-ligue-musulmane-pakistan-PK', 'independance-pakistan-PK', 'adoption-premiere-constitution-pakistan-PK'
+);
+
+
+-- PALESTINE --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 135 FROM events WHERE slug IN (
+    'developpement-cites-cananennes-palestine-PS', 'developpement-jerusalem-antiquite-palestine-PS', 'conquete-romaine-judee-palestine-PS', 'grande-revolte-juive-rome-palestine-PS', 'destruction-second-temple-palestine-PS', 'revolte-bar-kokhba-palestine-PS', 'fondation-aelia-capitolina-palestine-PS', 'diffusion-christianisme-palestine-PS', 'developpement-cesaree-maritime-palestine-PS', 'conquete-musulmane-palestine-PS', 'prise-jerusalem-forces-musulmanes-palestine-PS', 'construction-dome-rocher-palestine-PS', 'construction-mosquee-al-aqsa-palestine-PS', 'conquete-croisee-jerusalem-palestine-PS', 'reprise-jerusalem-saladin-palestine-PS', 'conquete-mamelouke-palestine-PS', 'conquete-ottomane-palestine-PS', 'declaration-balfour-palestine-PS', 'debut-mandat-britannique-palestine-PS', 'plan-partage-palestine-PS'
+);
+
+
+-- PHILIPPINES --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 136 FROM events WHERE slug IN (
+    'developpement-communautes-austronesiennes-philippines-PH', 'developpement-commerce-maritime-philippines-PH', 'developpement-chefferies-philippines-PH', 'developpement-influence-indienne-philippines-PH', 'developpement-influence-chinoise-philippines-PH', 'developpement-royaume-tondo-philippines-PH', 'developpement-butuan-centre-commercial-philippines-PH', 'developpement-sultanat-sulu-philippines-PH', 'diffusion-islam-sud-philippines-PH', 'arrivee-magellan-philippines-PH', 'bataille-mactan-philippines-PH', 'conquete-espagnole-philippines-PH', 'fondation-manille-espagnole-philippines-PH', 'developpement-commerce-galions-manille-philippines-PH', 'revolte-dagohoy-philippines-PH', 'revolte-silang-philippines-PH', 'revolution-philippine-philippines-PH', 'proclamation-independance-philippines-PH', 'guerre-americano-philippine-philippines-PH', 'independance-philippines-philippines-PH'
+);
+
+
+-- QATAR --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 137 FROM events WHERE slug IN (
+    'developpement-etablissements-anciens-qatar-QA', 'developpement-peche-perliculture-qatar-QA', 'developpement-commerce-maritime-golfe-qatar-QA', 'diffusion-islam-qatar-QA', 'developpement-routes-commerciales-abbassides-qatar-QA', 'developpement-ports-qatar-medieval-qatar-QA', 'developpement-commerce-perles-qatar-QA', 'conquete-portugaise-golfe-qatar-QA', 'developpement-tribus-arabes-qatar-QA', 'etablissement-famille-al-thani-qatar-QA', 'developpement-doha-qatar-QA', 'traite-maritime-grande-bretagne-qatar-QA', 'conflit-qatari-bahreini-qatar-QA', 'traite-anglo-qatari-qatar-QA', 'decouverte-petrole-qatar-QA', 'premiere-exportation-petrole-qatar-QA', 'independance-qatar-QA', 'adoption-constitution-permanente-qatar-QA', 'fondation-al-jazeera-qatar-QA', 'coupe-du-monde-football-qatar-QA'
+);
+
+
+-- RUSSIE --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 138 FROM events WHERE slug IN (
+    'developpement-cultures-age-bronze-russie-RU', 'developpement-cites-grecques-mer-noire-russie-RU', 'developpement-royaume-bosphore-russie-RU', 'developpement-peuples-scythes-russie-RU', 'conquete-romaine-royaume-bosphore-russie-RU', 'developpement-peuples-goths-russie-russie-RU', 'invasion-huns-steppes-russie-RU', 'developpement-khazars-russie-RU', 'developpement-novgorod-russie-RU', 'fondation-rus-kiev-russie-RU', 'christianisation-rus-kiev-russie-RU', 'developpement-principaute-vladimir-souzdal-russie-RU', 'invasion-mongole-rus-russie-RU', 'prise-kiev-mongols-russie-RU', 'fondation-principaute-moscou-russie-RU', 'developpement-republique-novgorod-russie-RU', 'bataille-koulikovo-russie-RU', 'developpement-grand-duche-moscou-russie-RU', 'fin-joug-horde-or-russie-RU', 'couronnement-ivan-iv-russie-RU', 'conquete-kazan-russie-RU', 'conquete-astrakhan-russie-RU', 'conquete-russe-siberie-russie-RU', 'fin-dynastie-riourikides-russie-RU', 'temps-troubles-russie-RU', 'fondation-dynastie-romanov-russie-RU', 'fondation-saint-petersbourg-russie-RU', 'grande-guerre-nord-russie-RU', 'bataille-poltava-russie-RU', 'couronnement-catherine-ii-russie-RU', 'conquete-crimee-russie-RU', 'guerre-patriotique-napoleon-russie-RU', 'bataille-borodino-russie-RU', 'revolte-decembristes-russie-RU', 'guerre-crimee-russie-RU', 'abolition-servage-russie-RU', 'creation-douma-etat-russie-RU', 'revolution-1905-russie-RU', 'revolution-fevrier-russie-RU', 'revolution-octobre-russie-RU', 'guerre-civile-russe-russie-RU', 'creation-union-sovietique-russie-RU', 'industrialisation-sovietique-russie-RU', 'bataille-stalingrad-russie-RU', 'victoire-sovietique-allemagne-nazie-russie-RU', 'lancement-spoutnik-1-russie-RU', 'premier-vol-gagarine-russie-RU', 'dissolution-union-sovietique-russie-RU', 'adoption-constitution-federation-russie-RU', 'creation-union-economique-eurasienne-russie-RU'
+);
+
+
+-- SINGAPOUR --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 139 FROM events WHERE slug IN (
+    'developpement-temasek-singapour-SG', 'developpement-commerce-maritime-temasek-singapour-SG', 'influence-srivijaya-singapour-SG', 'developpement-influence-javanaise-temasek-singapour-SG', 'developpement-temasek-majapahit-singapour-SG', 'arrivee-parameswara-temasek-singapour-SG', 'developpement-sultanat-malacca-singapour-SG', 'conquete-portugaise-malacca-singapour-SG', 'developpement-commerce-regional-singapour-SG', 'fondation-singapour-moderne-singapour-SG', 'traite-anglo-neerlandais-1824-singapour-SG', 'creation-etablissements-detroit-singapour-SG', 'developpement-port-singapour-SG', 'ouverture-canal-suez-essor-singapour-SG', 'inauguration-aeroport-kallang-singapour-SG', 'occupation-japonaise-singapour-SG', 'retour-administration-britannique-singapour-SG', 'autonomie-interne-singapour-SG', 'formation-malaisie-singapour-SG', 'independance-singapour-SG'
+);
+
+
+-- SRI LANKA --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 140 FROM events WHERE slug IN (
+    'developpement-premiers-etablissements-agricoles-sri-lanka-LK', 'developpement-royaume-anuradhapura-sri-lanka-LK', 'diffusion-bouddhisme-sri-lanka-LK', 'construction-stupa-ruwanwelisaya-sri-lanka-LK', 'developpement-reservoirs-anuradhapura-sri-lanka-LK', 'developpement-commerce-maritime-ocean-indien-sri-lanka-LK', 'developpement-royaume-polonnaruwa-sri-lanka-LK', 'regne-parakramabahu-ier-sri-lanka-LK', 'construction-gal-vihara-sri-lanka-LK', 'developpement-royaume-jaffna-sri-lanka-LK', 'developpement-royaume-kotte-sri-lanka-LK', 'arrivee-portugais-sri-lanka-LK', 'conquete-portugaise-cotes-sri-lanka-LK', 'fondation-royaume-kandy-sri-lanka-LK', 'conquete-neerlandaise-possessions-portugaises-sri-lanka-LK', 'developpement-royaume-kandy-sri-lanka-LK', 'conquete-britannique-royaume-kandy-sri-lanka-LK', 'revolte-1818-sri-lanka-LK', 'independance-ceylan-sri-lanka-LK', 'proclamation-republique-sri-lanka-LK', 'tsunami-ocean-indien-sri-lanka-LK'
+);
+
+
+-- SYRIE --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 141 FROM events WHERE slug IN (
+    'division-syrie-romaine-syrie-SY', 'seisme-antioche-526-syrie-SY', 'conquete-sassanide-syrie-SY', 'conquete-musulmane-syrie-SY', 'bataille-yarmouk-syrie-SY', 'fondation-califat-omeyyade-damas-syrie-SY', 'construction-grande-mosquee-damas-syrie-SY', 'fin-califat-omeyyade-syrie-SY', 'conquete-tulunide-syrie-SY', 'fondation-dynastie-hamdanide-alep-syrie-SY', 'conquete-seldjoukide-syrie-SY', 'prise-antioche-croises-syrie-SY', 'conquete-damas-saladin-syrie-SY', 'conquete-mongole-damas-syrie-SY', 'bataille-ain-djalout-syrie-SY', 'conquete-ottomane-syrie-SY', 'revolte-arabe-fin-ottomans-syrie-SY', 'mandat-francais-syrie-SY', 'grande-revolte-syrienne-SY', 'independance-syrie-SY'
+);
+
+
+-- TADJIKISTAN --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 142 FROM events WHERE slug IN (
+    'developpement-sogdiane-tadjikistan-TJ', 'developpement-routes-soie-tadjikistan-TJ', 'developpement-khodjent-tadjikistan-TJ', 'conquete-arabe-transoxiane-tadjikistan-TJ', 'diffusion-islam-tadjikistan-TJ', 'developpement-pendjikent-tadjikistan-TJ', 'fondation-etat-samanide-tadjikistan-TJ', 'apogee-empire-samanide-tadjikistan-TJ', 'developpement-culture-persane-tadjikistan-TJ', 'conquete-karakhanide-transoxiane-tadjikistan-TJ', 'conquete-mongole-asie-centrale-tadjikistan-TJ', 'developpement-empire-timouride-tadjikistan-TJ', 'developpement-douchanbe-tadjikistan-TJ', 'conquete-russe-turkestan-tadjikistan-TJ', 'protectorat-russe-boukhara-tadjikistan-TJ', 'creation-republique-autonome-sovietique-tadjike-TJ', 'creation-republique-socialiste-sovietique-tadjike-TJ', 'declaration-souverainete-tadjikistan-TJ', 'independance-tadjikistan-TJ', 'guerre-civile-tadjikistan-TJ'
+);
+
+
+-- TAIWAN --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 143 FROM events WHERE slug IN (
+    'developpement-cultures-austronesiennes-taiwan-TW', 'developpement-echanges-maritimes-asie-sud-est-taiwan-TW', 'developpement-echanges-chine-taiwan-TW', 'arrivee-marchands-chinois-taiwan-TW', 'etablissement-hollandais-taiwan-TW', 'fondation-fort-zeelandia-taiwan-TW', 'revolte-guo-huaiyi-taiwan-TW', 'conquete-taiwan-zheng-chenggong-TW', 'fin-domination-neerlandaise-taiwan-TW', 'fondation-royaume-tungning-taiwan-TW', 'conquete-taiwan-qing-TW', 'integration-taiwan-empire-qing-TW', 'revolte-zhu-yigui-taiwan-TW', 'creation-province-taiwan-TW', 'cession-taiwan-japon-TW', 'insurrection-taiwan-domination-japonaise-TW', 'retrocession-taiwan-republique-chine-TW', 'arrivee-gouvernement-nationaliste-taiwan-TW', 'levee-loi-martiale-taiwan-TW', 'premiere-election-presidentielle-directe-taiwan-TW'
+);
+
+
+-- THAILAND --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 144 FROM events WHERE slug IN (
+    'developpement-communautes-agricoles-chao-phraya-thailande-TH', 'developpement-culture-dvaravati-thailande-TH', 'diffusion-bouddhisme-thailande-TH', 'developpement-influence-khmere-thailande-TH', 'construction-phanom-rung-thailande-TH', 'fondation-royaume-sukhothai-thailande-TH', 'regne-ramkhamhaeng-thailande-TH', 'developpement-ecriture-thaie-thailande-TH', 'fondation-royaume-ayutthaya-thailande-TH', 'developpement-commerce-ayutthaya-thailande-TH', 'relations-diplomatiques-europeennes-ayutthaya-thailande-TH', 'revolution-siamoise-1688-thailande-TH', 'fondation-royaume-thonburi-thailande-TH', 'fondation-dynastie-chakri-thailande-TH', 'fondation-bangkok-capitale-thailande-TH', 'traite-bowring-thailande-TH', 'independance-siam-puissances-coloniales-thailande-TH', 'abolition-esclavage-siam-thailande-TH', 'revolution-siamoise-1932-thailande-TH', 'changement-nom-siam-thailande-TH'
+);
+
+
+-- TIMOR ORIENTAL --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 145 FROM events WHERE slug IN (
+    'developpement-communautes-austronesiennes-timor-oriental-TL', 'developpement-commerce-santal-timor-oriental-TL', 'developpement-echanges-maritimes-timor-oriental-TL', 'arrivee-marchands-portugais-timor-oriental-TL', 'etablissement-portugais-timor-oriental-TL', 'developpement-dili-timor-oriental-TL', 'traite-partage-timor-portugais-neerlandais-TL', 'transfert-capitale-dili-timor-oriental-TL', 'revolte-manufahi-timor-oriental-TL', 'occupation-japonaise-timor-oriental-TL', 'retour-administration-portugaise-timor-oriental-TL', 'revolution-oeillets-portugal-timor-oriental-TL', 'creation-association-sociale-democrate-timor-oriental-TL', 'fondation-fretilin-timor-oriental-TL', 'proclamation-independance-timor-oriental-TL', 'invasion-indonesienne-timor-oriental-TL', 'referendum-independance-timor-oriental-TL', 'administration-transitoire-onu-timor-oriental-TL', 'independance-timor-oriental-TL', 'adoption-constitution-timor-oriental-TL'
+);
+
+
+-- TURKMENISTAN --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 146 FROM events WHERE slug IN (
+    'developpement-cultures-age-bronze-turkmenistan-TM', 'developpement-civilisation-oxus-turkmenistan-TM', 'developpement-merv-turkmenistan-TM', 'conquete-achemenide-merv-turkmenistan-TM', 'conquete-alexandre-grand-turkmenistan-TM', 'developpement-margiane-hellenistique-turkmenistan-TM', 'developpement-routes-soie-turkmenistan-TM', 'developpement-empire-parthe-turkmenistan-TM', 'conquete-sassanide-merv-turkmenistan-TM', 'diffusion-islam-turkmenistan-TM', 'developpement-samanides-merv-turkmenistan-TM', 'conquete-seldjoukide-merv-turkmenistan-TM', 'merv-capitale-empire-seldjoukide-turkmenistan-TM', 'conquete-mongole-merv-turkmenistan-TM', 'developpement-empire-timouride-turkmenistan-TM', 'conquete-safavide-khurasan-turkmenistan-TM', 'developpement-tribus-turkmenes-turkmenistan-TM', 'conquete-russe-turkmenistan-TM', 'bataille-geok-tepe-turkmenistan-TM', 'independance-turkmenistan-TM'
+);
+
+
+-- TURQUIE --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 147 FROM events WHERE slug IN (
+    'developpement-cites-grecques-anatolie-turquie-TR', 'conquete-romaine-anatolie-turquie-TR', 'developpement-byzance-turquie-TR', 'fondation-constantinople-turquie-TR', 'developpement-empire-byzantin-anatolie-turquie-TR', 'diffusion-christianisme-anatolie-turquie-TR', 'conquete-arabe-anatolie-orientale-turquie-TR', 'bataille-manzikert-turquie-TR', 'fondation-sultanat-roum-turquie-TR', 'developpement-konya-seldjoukides-turquie-TR', 'invasion-mongole-anatolie-turquie-TR', 'fondation-principaute-ottomane-turquie-TR', 'prise-constantinople-ottomans-turquie-TR', 'apogee-empire-ottoman-soliman-turquie-TR', 'conquete-chypre-ottomane-turquie-TR', 'declin-empire-ottoman-turquie-TR', 'guerre-independance-turque-turquie-TR', 'abolition-sultanat-ottoman-turquie-TR', 'proclamation-republique-turquie-TR', 'adoption-constitution-turquie-TR'
+);
+
+
+-- VIETNAM --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 148 FROM events WHERE slug IN (
+    'developpement-culture-dong-son-vietnam-VN', 'formation-royaume-van-lang-vietnam-VN', 'conquete-chinoise-nam-viet-vietnam-VN', 'revolte-soeurs-trung-vietnam-VN', 'diffusion-bouddhisme-vietnam-VN', 'developpement-royaume-champa-vietnam-VN', 'independance-vietnam-ngo-quyen-VN', 'fondation-dynastie-ly-vietnam-VN', 'transfert-capitale-thang-long-vietnam-VN', 'developpement-dai-viet-vietnam-VN', 'resistance-vietnamienne-mongols-VN', 'fondation-dynastie-le-posterieure-vietnam-VN', 'conquete-champa-dai-viet-vietnam-VN', 'expansion-vietnamienne-vers-sud-VN', 'fondation-dynastie-nguyen-vietnam-VN', 'conquete-francaise-vietnam-VN', 'creation-indochine-francaise-vietnam-VN', 'revolution-aout-vietnam-VN', 'proclamation-independance-vietnam-VN', 'reunification-vietnam-VN'
+);
+
+
+-- YEMEN --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 149 FROM events WHERE slug IN (
+    'developpement-royaumes-sud-arabiques-yemen-YE', 'developpement-royaume-saba-yemen-YE', 'developpement-infrastructures-marib-yemen-YE', 'developpement-royaume-himyarite-yemen-YE', 'conquete-aksoumite-yemen-YE', 'intervention-sassanide-yemen-YE', 'conquete-musulmane-yemen-YE', 'diffusion-chiisme-zaidite-yemen-YE', 'fondation-imamat-zaidite-yemen-YE', 'developpement-dynastie-sulayhide-yemen-YE', 'fondation-dynastie-rasoulide-yemen-YE', 'apogee-sultanat-rasoulide-yemen-YE', 'conquete-ottomane-yemen-YE', 'domination-ottomane-yemen-YE', 'fondation-dynastie-qasimide-yemen-YE', 'seconde-conquete-ottomane-yemen-YE', 'creation-royaume-mutawakkilite-yemen-YE', 'independance-yemen-nord-YE', 'independance-yemen-sud-YE', 'unification-yemen-YE'
+);

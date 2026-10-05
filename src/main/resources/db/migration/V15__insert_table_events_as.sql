@@ -809,3 +809,504 @@ INSERT INTO events (title, slug, date_start, date_end, description, image_url, t
 
 
 -- NEPAL --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Développement des royaumes Kirata au Népal', 'developpement-royaumes-kirata-nepal-NP', '0001-01-01', '0300-01-01', 'Développement des royaumes Kirata dans la vallée de Katmandou et les régions environnantes.', NULL, 5),
+('Diffusion du bouddhisme au Népal', 'diffusion-bouddhisme-nepal-NP', '0250-01-01', '0500-01-01', 'Diffusion progressive du bouddhisme dans la vallée de Katmandou et les territoires himalayens.', NULL, 23),
+('Développement de la vallée de Katmandou', 'developpement-vallee-katmandou-nepal-NP', '0300-01-01', '0500-01-01', 'Développement urbain, agricole et commercial de la vallée de Katmandou.', NULL, 17),
+('Fondation de la dynastie Licchavi', 'fondation-dynastie-licchavi-nepal-NP', '0400-01-01', '0500-01-01', 'Établissement de la dynastie Licchavi comme puissance dominante dans la vallée de Katmandou.', NULL, 16),
+('Règne de Manadeva Ier', 'regne-manadeva-ier-nepal-NP', '0464-01-01', '0505-01-01', 'Règne de Manadeva Ier, l’un des souverains les plus importants de la période Licchavi.', NULL, 5),
+('Développement de l’art Licchavi', 'developpement-art-licchavi-nepal-NP', '0500-01-01', '0700-01-01', 'Épanouissement de la sculpture, de l’architecture et de l’art religieux sous les Licchavi.', NULL, 24),
+('Construction du temple de Changu Narayan', 'construction-temple-changu-narayan-nepal-NP', '0600-01-01', '0700-01-01', 'Développement et embellissement du complexe religieux de Changu Narayan.', NULL, 23),
+('Développement du commerce transhimalayen', 'developpement-commerce-transhimalayen-nepal-NP', '0600-01-01', '0900-01-01', 'Expansion des échanges commerciaux reliant le Népal à l’Inde et au Tibet.', NULL, 25),
+('Fondation de la dynastie Thakuri', 'fondation-dynastie-thakuri-nepal-NP', '0879-01-01', '1000-01-01', 'Établissement des souverains Thakuri après le déclin de la période Licchavi.', NULL, 16),
+('Développement du royaume de Bhaktapur', 'developpement-royaume-bhaktapur-nepal-NP', '1000-01-01', '1200-01-01', 'Renforcement de Bhaktapur comme centre politique et commercial de la vallée.', NULL, 17),
+('Fondation de la dynastie Malla', 'fondation-dynastie-malla-nepal-NP', '1200-01-01', '1250-01-01', 'Émergence de la dynastie Malla comme nouvelle puissance politique dans la vallée de Katmandou.', NULL, 16),
+('Règne de Jayasthiti Malla', 'regne-jayasthiti-malla-nepal-NP', '1382-01-01', '1395-01-01', 'Règne de Jayasthiti Malla, associé à d’importantes réformes sociales et administratives.', NULL, 5),
+('Développement de l’architecture Malla', 'developpement-architecture-malla-nepal-NP', '1400-01-01', '1700-01-01', 'Épanouissement des palais, temples, places et pagodes de la vallée de Katmandou.', NULL, 24),
+('Division du royaume de Katmandou', 'division-royaume-katmandou-nepal-NP', '1484-01-01', '1484-01-01', 'Division du royaume de la vallée entre plusieurs États dirigés par des branches de la dynastie Malla.', NULL, 22),
+('Fondation du royaume de Gorkha', 'fondation-royaume-gorkha-nepal-NP', '1559-01-01', '1559-01-01', 'Fondation du royaume de Gorkha par Dravya Shah.', NULL, 16),
+('Unification du Népal par Prithvi Narayan Shah', 'unification-nepal-prithvi-narayan-shah-nepal-NP', '1743-01-01', '1775-01-01', 'Conquête et unification progressive de nombreux royaumes de l’Himalaya central sous Gorkha.', NULL, 12),
+('Conquête de Katmandou par Gorkha', 'conquete-katmandou-gorkha-nepal-NP', '1768-09-25', '1768-09-25', 'Prise de Katmandou par les forces de Prithvi Narayan Shah et intégration de la ville au royaume unifié.', NULL, 12),
+('Guerre anglo-népalaise', 'guerre-anglo-nepalaise-nepal-NP', '1814-11-01', '1816-03-04', 'Conflit entre le royaume du Népal et la Compagnie britannique des Indes orientales.', NULL, 6),
+('Traité de Sugauli', 'traite-sugauli-nepal-NP', '1816-03-04', '1816-03-04', 'Traité mettant fin à la guerre anglo-népalaise et fixant les frontières du Népal avec les territoires britanniques.', NULL, 14),
+('Établissement de la démocratie multipartite au Népal', 'etablissement-democratie-multipartite-nepal-NP', '1990-04-19', '1990-11-09', 'Mouvement politique conduisant au rétablissement d’un système démocratique multipartite et à une nouvelle constitution.', NULL, 22);
+
+
+-- OMAN --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Développement des établissements de Magan', 'developpement-etablissements-magan-oman-OM', '0001-01-01', '0300-01-01', 'Développement des communautés et centres commerciaux de l’ancien Magan dans la péninsule d’Oman.', NULL, 17),
+('Développement de la métallurgie du cuivre à Oman', 'developpement-metallurgie-cuivre-oman-OM', '0001-01-01', '0500-01-01', 'Développement de l’exploitation et du travail du cuivre dans les montagnes d’Oman.', NULL, 19),
+('Développement du commerce maritime omanais', 'developpement-commerce-maritime-oman-OM', '0200-01-01', '0600-01-01', 'Expansion des échanges maritimes entre Oman, l’Inde, la Perse et les côtes de la mer d’Arabie.', NULL, 25),
+('Diffusion de l’islam à Oman', 'diffusion-islam-oman-OM', '0630-01-01', '0750-01-01', 'Adoption et diffusion de l’islam parmi les populations d’Oman au début de la période islamique.', NULL, 23),
+('Fondation de l’imamat ibadite d’Oman', 'fondation-imamat-ibadite-oman-OM', '0751-01-01', '0751-01-01', 'Établissement d’un imamat ibadite à Oman après les premières luttes politiques de l’époque abbasside.', NULL, 16),
+('Développement de Sohar comme port commercial', 'developpement-sohar-port-commercial-oman-OM', '0800-01-01', '1000-01-01', 'Sohar devient un important centre commercial maritime reliant Oman à l’Inde, à la Perse et à l’Afrique orientale.', NULL, 25),
+('Développement du commerce de l’encens à Oman', 'developpement-commerce-encens-oman-OM', '0800-01-01', '1200-01-01', 'Développement des échanges liés à l’encens provenant notamment du Dhofar.', NULL, 25),
+('Développement de Nizwa comme centre politique', 'developpement-nizwa-centre-politique-oman-OM', '0900-01-01', '1200-01-01', 'Nizwa s’affirme comme l’un des principaux centres politiques et religieux de l’intérieur d’Oman.', NULL, 22),
+('Conquête portugaise de Mascate', 'conquete-portugaise-mascate-oman-OM', '1507-01-01', '1507-01-01', 'Les Portugais prennent Mascate et cherchent à contrôler les routes maritimes de la mer d’Arabie.', NULL, 12),
+('Occupation portugaise de Mascate', 'occupation-portugaise-mascate-oman-OM', '1507-01-01', '1650-01-01', 'Mascate reste sous domination portugaise pendant une grande partie du XVIe et du début du XVIIe siècle.', NULL, 13),
+('Expulsion des Portugais d’Oman', 'expulsion-portugais-oman-OM', '1650-01-01', '1650-01-01', 'Les forces omanaises chassent les Portugais de Mascate et mettent fin à leur domination sur le littoral omanais.', NULL, 12),
+('Fondation de la dynastie Yaruba', 'fondation-dynastie-yaruba-oman-OM', '1624-01-01', '1624-01-01', 'Nasir bin Murshid fonde la dynastie Yaruba et entreprend la réunification d’Oman.', NULL, 16),
+('Développement de l’empire maritime omanais', 'developpement-empire-maritime-oman-OM', '1650-01-01', '1750-01-01', 'Expansion de la puissance maritime omanaise dans l’océan Indien et sur les côtes d’Afrique orientale.', NULL, 17),
+('Conquête de Zanzibar par Oman', 'conquete-zanzibar-oman-OM', '1698-01-01', '1698-01-01', 'Oman prend le contrôle de Zanzibar aux dépens des Portugais.', NULL, 12),
+('Fondation de la dynastie Al Bu Said', 'fondation-dynastie-al-bu-said-oman-OM', '1744-01-01', '1744-01-01', 'Ahmad bin Said fonde la dynastie Al Bu Said, qui règne encore sur Oman.', NULL, 16),
+('Développement de Mascate comme centre commercial', 'developpement-mascate-centre-commercial-oman-OM', '1750-01-01', '1850-01-01', 'Mascate se développe comme centre majeur du commerce maritime entre le golfe d’Oman, l’Inde et l’Afrique orientale.', NULL, 25),
+('Déplacement de la capitale vers Zanzibar', 'deplacement-capitale-zanzibar-oman-OM', '1840-01-01', '1840-01-01', 'Le sultan Said bin Sultan établit sa résidence principale à Zanzibar, renforçant l’orientation africaine de l’empire omanais.', NULL, 22),
+('Traité de commerce anglo-omanais', 'traite-commerce-anglo-omanais-oman-OM', '1839-01-01', '1839-01-01', 'Accord commercial renforçant les relations entre Oman et le Royaume-Uni.', NULL, 14),
+('Révolte du Dhofar', 'revolte-dhofar-oman-OM', '1965-06-09', '1975-12-11', 'Insurrection au Dhofar contre le sultanat, finalement vaincue avec l’aide de forces alliées.', NULL, 9),
+('Création du sultanat moderne d’Oman', 'creation-sultanat-moderne-oman-OM', '1970-07-23', '1970-07-23', 'Qabous ben Saïd prend le pouvoir et lance la modernisation de l’État omanais.', NULL, 22);
+
+
+-- OUZBEKISTAN --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Développement des cultures de l’âge du bronze en Ouzbékistan', 'developpement-cultures-age-bronze-ouzbekistan-UZ', '0001-01-01', '0150-01-01', 'Développement des sociétés agricoles et urbaines anciennes dans les régions correspondant à l’Ouzbékistan actuel.', NULL, 17),
+('Développement de la Sogdiane', 'developpement-sogdiane-ouzbekistan-UZ', '0001-01-01', '0700-01-01', 'Développement de la Sogdiane comme région agricole, urbaine et commerciale d’Asie centrale.', NULL, 17),
+('Développement de Samarcande', 'developpement-samarcande-ouzbekistan-UZ', '0001-01-01', '0700-01-01', 'Samarcande devient progressivement un important centre urbain et commercial d’Asie centrale.', NULL, 17),
+('Conquête achéménide de la Sogdiane', 'conquete-achemenide-sogdiane-ouzbekistan-UZ', '0510-01-01', '0540-01-01', 'Intégration de la Sogdiane à l’Empire achéménide.', NULL, 12),
+('Conquête d’Alexandre le Grand en Sogdiane', 'conquete-alexandre-sogdiane-ouzbekistan-UZ', '0327-01-01', '0329-01-01', 'Conquête de la Sogdiane par Alexandre le Grand et résistance de Spitaménès.', NULL, 12),
+('Développement du royaume gréco-bactrien', 'developpement-royaume-greco-bactrien-ouzbekistan-UZ', '0125-01-01', '0250-01-01', 'Expansion de l’influence hellénistique en Bactriane et dans les régions voisines.', NULL, 17),
+('Développement du commerce sur la route de la soie', 'developpement-route-soie-ouzbekistan-UZ', '0100-01-01', '0500-01-01', 'Développement des échanges reliant la Chine, l’Iran, l’Inde et la Méditerranée à travers l’Asie centrale.', NULL, 25),
+('Conquête arabe de la Transoxiane', 'conquete-arabe-transoxiane-ouzbekistan-UZ', '0705-01-01', '0751-01-01', 'Expansion du pouvoir arabe en Transoxiane et intégration progressive de la région au monde islamique.', NULL, 12),
+('Bataille de Talas', 'bataille-talas-ouzbekistan-UZ', '0751-01-01', '0751-01-01', 'Affrontement entre les forces abbassides alliées aux Karlouks et l’armée chinoise des Tang.', NULL, 7),
+('Fondation de la dynastie samanide en Transoxiane', 'fondation-dynastie-samanide-transoxiane-ouzbekistan-UZ', '0819-01-01', '0819-01-01', 'Établissement de la domination samanide sur la Transoxiane avec Boukhara comme centre politique.', NULL, 16),
+('Développement de Boukhara sous les Samanides', 'developpement-boukhara-samanides-ouzbekistan-UZ', '0892-01-01', '0999-01-01', 'Boukhara devient un grand centre politique, commercial, scientifique et culturel du monde islamique.', NULL, 24),
+('Conquête seldjoukide de la Transoxiane', 'conquete-seldjoukide-transoxiane-ouzbekistan-UZ', '1037-01-01', '1040-01-01', 'Expansion des Seldjoukides en Asie centrale et prise de contrôle de territoires de Transoxiane.', NULL, 12),
+('Conquête mongole de la Transoxiane', 'conquete-mongole-transoxiane-ouzbekistan-UZ', '1219-01-01', '1221-01-01', 'Invasion mongole et conquête des principales villes de Transoxiane.', NULL, 12),
+('Conquête de Samarcande par les Mongols', 'conquete-samarcande-mongols-ouzbekistan-UZ', '1220-03-01', '1220-03-01', 'Prise de Samarcande par les forces de Gengis Khan.', NULL, 12),
+('Développement de Samarcande sous les Timourides', 'developpement-samarcande-timourides-ouzbekistan-UZ', '1370-01-01', '1405-01-01', 'Samarcande devient la capitale de l’empire de Tamerlan et un centre majeur des arts et des sciences.', NULL, 24),
+('Construction de l’observatoire d’Oulough Beg', 'construction-observatoire-ulough-beg-ouzbekistan-UZ', '1420-01-01', '1429-01-01', 'Construction à Samarcande de l’un des principaux observatoires astronomiques du monde médiéval.', NULL, 18),
+('Fondation du khanat de Boukhara', 'fondation-khanat-boukhara-ouzbekistan-UZ', '1500-01-01', '1500-01-01', 'Établissement du khanat ouzbek de Boukhara sous la dynastie des Chaybanides.', NULL, 16),
+('Conquête russe de Tachkent', 'conquete-russe-tachkent-ouzbekistan-UZ', '1865-05-01', '1865-06-01', 'Prise de Tachkent par les forces de l’Empire russe.', NULL, 12),
+('Création de la République socialiste soviétique d’Ouzbékistan', 'creation-republique-socialiste-sovietique-ouzbekistan-UZ', '1924-10-27', '1924-10-27', 'Création de la République socialiste soviétique d’Ouzbékistan dans le cadre de la réorganisation territoriale soviétique en Asie centrale.', NULL, 17),
+('Indépendance de l’Ouzbékistan', 'independance-ouzbekistan-UZ', '1991-09-01', '1991-09-01', 'Proclamation de l’indépendance de l’Ouzbékistan à la suite de la dissolution de l’Union soviétique.', NULL, 11);
+
+
+-- PAKISTAN --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Développement des cités de la vallée de l’Indus', 'developpement-cites-vallee-indus-pakistan-PK', '0001-01-01', '0200-01-01', 'Développement des traditions urbaines héritées de la civilisation de la vallée de l’Indus dans les régions correspondant au Pakistan actuel.', NULL, 17),
+('Développement de Taxila', 'developpement-taxila-pakistan-PK', '0001-01-01', '0500-01-01', 'Taxila devient progressivement un important centre urbain, commercial et intellectuel du nord du sous-continent.', NULL, 17),
+('Développement du bouddhisme au Gandhara', 'developpement-bouddhisme-gandhara-pakistan-PK', '0001-01-01', '0500-01-01', 'Expansion du bouddhisme dans le Gandhara et développement de nombreux monastères et sanctuaires.', NULL, 23),
+('Développement de l’art du Gandhara', 'developpement-art-gandhara-pakistan-PK', '0001-01-01', '0500-01-01', 'Épanouissement d’un art bouddhique mêlant influences indiennes, iraniennes et hellénistiques.', NULL, 24),
+('Conquête kouchane du Gandhara', 'conquete-kouchane-gandhara-pakistan-PK', '0050-01-01', '0100-01-01', 'Intégration du Gandhara à l’empire kouchan et renforcement des échanges sur les routes d’Asie centrale.', NULL, 12),
+('Règne de Kanishka Ier', 'regne-kanishka-ier-pakistan-PK', '0127-01-01', '0151-01-01', 'Règne de Kanishka Ier, souverain kouchan associé à l’expansion du bouddhisme et du commerce international.', NULL, 5),
+('Développement de Multan comme centre commercial', 'developpement-multan-centre-commercial-pakistan-PK', '0600-01-01', '1000-01-01', 'Multan se développe comme important centre commercial et religieux du Sind et du Pendjab.', NULL, 25),
+('Conquête arabe du Sind', 'conquete-arabe-sind-pakistan-PK', '0711-01-01', '0713-01-01', 'Conquête du Sind par les forces omeyyades dirigées par Muhammad ibn al-Qasim.', NULL, 12),
+('Diffusion de l’islam au Sind et au Pendjab', 'diffusion-islam-sind-pendjab-pakistan-PK', '0713-01-01', '1200-01-01', 'Progression de l’islam dans les régions du Sind et du Pendjab au cours du Moyen Âge.', NULL, 23),
+('Conquête ghaznévide du Pendjab', 'conquete-ghaznevide-pendjab-pakistan-PK', '1001-01-01', '1027-01-01', 'Expansion des Ghaznévides au Pendjab et prise de contrôle de plusieurs villes importantes.', NULL, 12),
+('Fondation du sultanat de Lahore', 'fondation-sultanat-lahore-pakistan-PK', '1206-01-01', '1206-01-01', 'Lahore devient un centre majeur du pouvoir musulman dans le nord du sous-continent.', NULL, 16),
+('Conquête mongole du Pendjab', 'conquete-mongole-pendjab-pakistan-PK', '1221-01-01', '1300-01-01', 'Incursions et campagnes mongoles dans le Pendjab et les régions voisines.', NULL, 12),
+('Développement du sultanat de Delhi au Pendjab', 'developpement-sultanat-delhi-pendjab-pakistan-PK', '1206-01-01', '1526-01-01', 'Le Pendjab reste un territoire stratégique du sultanat de Delhi et des puissances musulmanes du nord de l’Inde.', NULL, 17),
+('Conquête moghole du Pendjab', 'conquete-moghole-pendjab-pakistan-PK', '1526-01-01', '1526-01-01', 'Le Pendjab passe sous domination moghole après la victoire de Babur à Panipat.', NULL, 12),
+('Fondation de la communauté sikhe', 'fondation-communaute-sikhe-pakistan-PK', '1469-01-01', '1600-01-01', 'Naissance et développement de la tradition sikhe dans la région du Pendjab.', NULL, 23),
+('Développement de Lahore sous les Moghols', 'developpement-lahore-moghols-pakistan-PK', '1556-01-01', '1707-01-01', 'Lahore connaît un important développement architectural, culturel et économique sous les empereurs moghols.', NULL, 24),
+('Conquête britannique du Sind', 'conquete-britannique-sind-pakistan-PK', '1843-01-01', '1843-01-01', 'Annexion du Sind par la Compagnie britannique des Indes orientales.', NULL, 12),
+('Création de la Ligue musulmane', 'creation-ligue-musulmane-pakistan-PK', '1906-12-30', '1906-12-30', 'Création à Dacca de la Ligue musulmane, mouvement politique majeur dans l’histoire de la future création du Pakistan.', NULL, 22),
+('Indépendance du Pakistan', 'independance-pakistan-PK', '1947-08-14', '1947-08-14', 'Création du Pakistan et indépendance vis-à-vis du Royaume-Uni lors de la partition de l’Inde britannique.', NULL, 11),
+('Adoption de la première Constitution du Pakistan', 'adoption-premiere-constitution-pakistan-PK', '1956-03-23', '1956-03-23', 'Entrée en vigueur de la première Constitution du Pakistan et proclamation de la République islamique du Pakistan.', NULL, 22);
+
+
+-- PALESTINE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Développement des cités cananéennes en Palestine', 'developpement-cites-cananennes-palestine-PS', '0001-01-01', '0500-01-01', 'Développement des principales cités cananéennes de la région correspondant à la Palestine historique.', NULL, 17),
+('Développement de Jérusalem à l’époque antique', 'developpement-jerusalem-antiquite-palestine-PS', '0001-01-01', '0700-01-01', 'Jérusalem se développe comme centre politique, religieux et commercial majeur du Levant.', NULL, 17),
+('Conquête romaine de la Judée', 'conquete-romaine-judee-palestine-PS', '0063-01-01', '0063-01-01', 'Pompée conquiert Jérusalem et intègre la Judée dans la sphère de domination romaine.', NULL, 12),
+('Grande révolte juive contre Rome', 'grande-revolte-juive-rome-palestine-PS', '0066-01-01', '0073-01-01', 'Soulèvement des populations juives de Judée contre l’Empire romain.', NULL, 9),
+('Destruction du Second Temple', 'destruction-second-temple-palestine-PS', '0070-08-01', '0070-08-01', 'Destruction du Second Temple de Jérusalem par les forces romaines de Titus.', NULL, 20),
+('Révolte de Bar Kokhba', 'revolte-bar-kokhba-palestine-PS', '0132-01-01', '0136-01-01', 'Grande révolte juive menée par Simon Bar Kokhba contre le pouvoir romain.', NULL, 9),
+('Fondation d’Aelia Capitolina', 'fondation-aelia-capitolina-palestine-PS', '0135-01-01', '0135-01-01', 'Transformation de Jérusalem en colonie romaine sous le nom d’Aelia Capitolina.', NULL, 17),
+('Diffusion du christianisme en Palestine', 'diffusion-christianisme-palestine-PS', '0100-01-01', '0400-01-01', 'Expansion du christianisme et développement de communautés chrétiennes dans les villes et campagnes de Palestine.', NULL, 23),
+('Développement de Césarée maritime', 'developpement-cesaree-maritime-palestine-PS', '0100-01-01', '0500-01-01', 'Césarée maritime devient un important centre portuaire, administratif et religieux de la région.', NULL, 17),
+('Conquête musulmane de la Palestine', 'conquete-musulmane-palestine-PS', '0634-01-01', '0638-01-01', 'Les armées musulmanes conquièrent progressivement la Palestine aux dépens de l’Empire byzantin.', NULL, 12),
+('Prise de Jérusalem par les forces musulmanes', 'prise-jerusalem-forces-musulmanes-palestine-PS', '0638-01-01', '0638-01-01', 'Jérusalem passe sous domination musulmane après la conquête arabe du Levant.', NULL, 12),
+('Construction du Dôme du Rocher', 'construction-dome-rocher-palestine-PS', '0691-01-01', '0692-01-01', 'Construction du Dôme du Rocher sur l’esplanade du Temple à Jérusalem sous les Omeyyades.', NULL, 23),
+('Construction de la mosquée Al-Aqsa', 'construction-mosquee-al-aqsa-palestine-PS', '0705-01-01', '0715-01-01', 'Construction et développement de la mosquée Al-Aqsa à Jérusalem sous les Omeyyades.', NULL, 23),
+('Conquête croisée de Jérusalem', 'conquete-croisee-jerusalem-palestine-PS', '1099-07-15', '1099-07-15', 'Prise de Jérusalem par les forces de la Première croisade et établissement d’un royaume latin.', NULL, 12),
+('Reprise de Jérusalem par Saladin', 'reprise-jerusalem-saladin-palestine-PS', '1187-10-02', '1187-10-02', 'Saladin reprend Jérusalem aux Croisés après sa victoire à Hattin.', NULL, 12),
+('Conquête mamelouke de la Palestine', 'conquete-mamelouke-palestine-PS', '1260-01-01', '1291-01-01', 'Les Mamelouks consolident leur contrôle de la Palestine après la défaite des Mongols et l’expulsion progressive des Croisés.', NULL, 12),
+('Conquête ottomane de la Palestine', 'conquete-ottomane-palestine-PS', '1516-01-01', '1517-01-01', 'La Palestine passe sous domination ottomane après la défaite des Mamelouks.', NULL, 12),
+('Déclaration Balfour', 'declaration-balfour-palestine-PS', '1917-11-02', '1917-11-02', 'Le gouvernement britannique exprime son soutien à l’établissement d’un foyer national juif en Palestine.', NULL, 22),
+('Début du mandat britannique sur la Palestine', 'debut-mandat-britannique-palestine-PS', '1920-04-25', '1923-09-29', 'Mise en place du mandat britannique sur la Palestine après la Première Guerre mondiale.', NULL, 22),
+('Plan de partage de la Palestine', 'plan-partage-palestine-PS', '1947-11-29', '1947-11-29', 'L’Assemblée générale des Nations unies adopte un plan prévoyant la création de deux États en Palestine, l’un juif et l’autre arabe.', NULL, 22);
+
+
+-- PHILIPPINES --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Développement des premières communautés austronésiennes aux Philippines', 'developpement-communautes-austronesiennes-philippines-PH', '0001-01-01', '0500-01-01', 'Développement des communautés austronésiennes, de l’agriculture et des échanges maritimes dans l’archipel.', NULL, 17),
+('Développement du commerce maritime aux Philippines', 'developpement-commerce-maritime-philippines-PH', '0300-01-01', '1000-01-01', 'Expansion des échanges maritimes entre les Philippines, la Chine, l’Asie du Sud-Est et l’Inde.', NULL, 25),
+('Développement des chefferies philippines', 'developpement-chefferies-philippines-PH', '0500-01-01', '1200-01-01', 'Formation et développement de chefferies locales dans différentes régions de l’archipel.', NULL, 17),
+('Développement de l’influence indienne aux Philippines', 'developpement-influence-indienne-philippines-PH', '0600-01-01', '1200-01-01', 'Diffusion d’influences culturelles et commerciales venues d’Asie du Sud et de l’Asie du Sud-Est.', NULL, 24),
+('Développement de l’influence chinoise aux Philippines', 'developpement-influence-chinoise-philippines-PH', '0800-01-01', '1400-01-01', 'Intensification des échanges commerciaux et culturels entre les communautés philippines et la Chine.', NULL, 25),
+('Développement du royaume de Tondo', 'developpement-royaume-tondo-philippines-PH', '0900-01-01', '1500-01-01', 'Tondo devient un important centre politique et commercial dans la région de l’actuelle Manille.', NULL, 17),
+('Développement de Butuan comme centre commercial', 'developpement-butuan-centre-commercial-philippines-PH', '1000-01-01', '1300-01-01', 'Butuan devient un important centre de commerce maritime dans le sud-est de l’archipel.', NULL, 25),
+('Développement du sultanat de Sulu', 'developpement-sultanat-sulu-philippines-PH', '1400-01-01', '1500-01-01', 'Établissement et expansion du sultanat de Sulu dans le sud des Philippines.', NULL, 16),
+('Diffusion de l’islam dans le sud des Philippines', 'diffusion-islam-sud-philippines-PH', '1380-01-01', '1500-01-01', 'Expansion progressive de l’islam à Mindanao, Sulu et dans les régions voisines.', NULL, 23),
+('Arrivée de Fernand de Magellan aux Philippines', 'arrivee-magellan-philippines-PH', '1521-03-16', '1521-03-16', 'L’expédition de Fernand de Magellan atteint l’archipel lors de son voyage autour du monde.', NULL, 18),
+('Bataille de Mactan', 'bataille-mactan-philippines-PH', '1521-04-27', '1521-04-27', 'Les forces de Lapulapu affrontent et vainquent les troupes de Magellan à Mactan.', NULL, 7),
+('Conquête espagnole des Philippines', 'conquete-espagnole-philippines-PH', '1565-02-13', '1571-06-24', 'Les Espagnols établissent progressivement leur domination sur une grande partie de l’archipel.', NULL, 12),
+('Fondation de Manille espagnole', 'fondation-manille-espagnole-philippines-PH', '1571-06-24', '1571-06-24', 'Manille est établie comme capitale du gouvernement colonial espagnol aux Philippines.', NULL, 16),
+('Développement du commerce des galions de Manille', 'developpement-commerce-galions-manille-philippines-PH', '1565-01-01', '1815-01-01', 'Le commerce des galions relie Manille à Acapulco et crée une importante route commerciale transpacifique.', NULL, 25),
+('Révolte de Dagohoy', 'revolte-dagohoy-philippines-PH', '1744-01-01', '1829-01-01', 'Long soulèvement contre les autorités espagnoles dans l’île de Bohol.', NULL, 9),
+('Révolte de Silang', 'revolte-silang-philippines-PH', '1762-01-01', '1763-05-28', 'Soulèvement d’Ilocos contre la domination espagnole pendant la guerre de Sept Ans.', NULL, 9),
+('Révolution philippine', 'revolution-philippine-philippines-PH', '1896-08-23', '1898-06-12', 'Révolution menée contre la domination espagnole et naissance du mouvement indépendantiste philippin.', NULL, 8),
+('Proclamation de l’indépendance des Philippines', 'proclamation-independance-philippines-PH', '1898-06-12', '1898-06-12', 'Emilio Aguinaldo proclame l’indépendance des Philippines à Kawit.', NULL, 11),
+('Guerre américano-philippine', 'guerre-americano-philippine-philippines-PH', '1899-02-04', '1902-07-04', 'Conflit entre la Première République philippine et les États-Unis après la guerre hispano-américaine.', NULL, 6),
+('Indépendance des Philippines', 'independance-philippines-philippines-PH', '1946-07-04', '1946-07-04', 'Les Philippines obtiennent leur indépendance complète des États-Unis et deviennent une république souveraine.', NULL, 11);
+
+
+-- QATAR --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Développement des établissements anciens du Qatar', 'developpement-etablissements-anciens-qatar-QA', '0001-01-01', '0500-01-01', 'Développement des premiers établissements humains permanents dans la péninsule du Qatar.', NULL, 17),
+('Développement de la pêche et de la perliculture au Qatar', 'developpement-peche-perliculture-qatar-QA', '0001-01-01', '1500-01-01', 'La pêche et la collecte des perles deviennent des activités essentielles de l’économie locale.', NULL, 25),
+('Développement du commerce maritime du golfe Persique', 'developpement-commerce-maritime-golfe-qatar-QA', '0200-01-01', '0700-01-01', 'Développement des échanges maritimes reliant les ports du golfe Persique à la Mésopotamie, à la Perse et à l’Inde.', NULL, 25),
+('Diffusion de l’islam au Qatar', 'diffusion-islam-qatar-QA', '0630-01-01', '0700-01-01', 'Adoption progressive de l’islam dans la péninsule du Qatar au début de la période islamique.', NULL, 23),
+('Développement des routes commerciales abbassides', 'developpement-routes-commerciales-abbassides-qatar-QA', '0750-01-01', '0900-01-01', 'Le Qatar participe aux réseaux commerciaux maritimes de l’époque abbasside dans le golfe Persique.', NULL, 25),
+('Développement des ports du Qatar médiéval', 'developpement-ports-qatar-medieval-qatar-QA', '0800-01-01', '1200-01-01', 'Développement de plusieurs ports et mouillages utilisés pour le commerce maritime dans la péninsule.', NULL, 25),
+('Développement du commerce des perles', 'developpement-commerce-perles-qatar-QA', '1000-01-01', '1500-01-01', 'Expansion du commerce des perles issues des eaux du golfe Persique.', NULL, 25),
+('Conquête portugaise du golfe Persique', 'conquete-portugaise-golfe-qatar-QA', '1507-01-01', '1515-01-01', 'Expansion de la présence portugaise dans le golfe Persique et contrôle de plusieurs routes maritimes régionales.', NULL, 12),
+('Développement des tribus arabes du Qatar', 'developpement-tribus-arabes-qatar-QA', '1600-01-01', '1700-01-01', 'Renforcement des tribus arabes installées dans la péninsule du Qatar.', NULL, 17),
+('Établissement de la famille Al Thani', 'etablissement-famille-al-thani-qatar-QA', '1700-01-01', '1800-01-01', 'La famille Al Thani s’impose progressivement comme une puissance politique majeure dans la péninsule.', NULL, 16),
+('Développement de Doha', 'developpement-doha-qatar-QA', '1820-01-01', '1900-01-01', 'Doha se développe comme centre de population, de pêche et de commerce du Qatar.', NULL, 17),
+('Traité maritime avec la Grande-Bretagne', 'traite-maritime-grande-bretagne-qatar-QA', '1820-01-01', '1820-01-01', 'Accord régional contribuant à limiter la piraterie et à encadrer les relations maritimes dans le golfe.', NULL, 14),
+('Conflit qatari-bahreïni', 'conflit-qatari-bahreini-qatar-QA', '1867-01-01', '1868-01-01', 'Conflit opposant le Qatar à Bahreïn et à ses alliés, entraînant une intervention britannique.', NULL, 6),
+('Traité anglo-qatari', 'traite-anglo-qatari-qatar-QA', '1916-11-03', '1916-11-03', 'Le Qatar devient un protectorat britannique tout en conservant la dynastie Al Thani.', NULL, 14),
+('Découverte du pétrole au Qatar', 'decouverte-petrole-qatar-QA', '1939-01-01', '1939-01-01', 'Découverte de pétrole à Dukhan, ouvrant une nouvelle période économique pour le Qatar.', NULL, 18),
+('Première exportation de pétrole du Qatar', 'premiere-exportation-petrole-qatar-QA', '1949-12-31', '1949-12-31', 'Le Qatar commence ses exportations de pétrole et entre dans une nouvelle phase de développement économique.', NULL, 25),
+('Indépendance du Qatar', 'independance-qatar-QA', '1971-09-03', '1971-09-03', 'Le Qatar met fin à son statut de protectorat britannique et devient un État indépendant.', NULL, 11),
+('Adoption de la Constitution permanente du Qatar', 'adoption-constitution-permanente-qatar-QA', '2004-06-08', '2004-06-08', 'Adoption de la Constitution permanente du Qatar, définissant les institutions de l’État.', NULL, 22),
+('Fondation d’Al Jazeera', 'fondation-al-jazeera-qatar-QA', '1996-11-01', '1996-11-01', 'Lancement de la chaîne Al Jazeera à Doha, qui devient un acteur majeur de l’information internationale.', NULL, 24),
+('Organisation de la Coupe du monde de football au Qatar', 'coupe-du-monde-football-qatar-QA', '2022-11-20', '2022-12-18', 'Le Qatar accueille la Coupe du monde de football, première édition organisée dans un pays arabe.', NULL, 24);
+
+
+-- RUSSIE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Développement des cultures de l’âge du bronze dans les steppes russes', 'developpement-cultures-age-bronze-russie-RU', '0001-01-01', '1000-01-01', 'Développement des sociétés pastorales et métallurgiques dans les steppes et régions méridionales de l’actuelle Russie.', NULL, 17),
+('Développement des cités grecques de la mer Noire', 'developpement-cites-grecques-mer-noire-russie-RU', '0001-01-01', '0500-01-01', 'Établissement et développement de colonies grecques sur les côtes septentrionales de la mer Noire.', NULL, 17),
+('Développement du royaume du Bosphore', 'developpement-royaume-bosphore-russie-RU', '0370-01-01', '0438-01-01', 'Formation et expansion du royaume du Bosphore autour de la mer d’Azov et de la péninsule de Crimée.', NULL, 17),
+('Développement des peuples scythes', 'developpement-peuples-scythes-russie-RU', '0200-01-01', '0700-01-01', 'Expansion des peuples scythes dans les steppes pontiques et développement de leurs réseaux commerciaux.', NULL, 17),
+('Conquête romaine du royaume du Bosphore', 'conquete-romaine-royaume-bosphore-russie-RU', '0014-01-01', '0068-01-01', 'Renforcement de l’influence et de la domination romaines sur le royaume du Bosphore.', NULL, 12),
+('Développement des peuples goths en Russie méridionale', 'developpement-peuples-goths-russie-russie-RU', '0200-01-01', '0400-01-01', 'Migration et implantation de groupes gothiques dans les régions de la mer Noire.', NULL, 17),
+('Invasion des Huns dans les steppes russes', 'invasion-huns-steppes-russie-RU', '0370-01-01', '0450-01-01', 'Expansion des Huns dans les steppes pontiques et bouleversement des équilibres politiques régionaux.', NULL, 13),
+('Développement des Khazars', 'developpement-khazars-russie-RU', '0650-01-01', '0900-01-01', 'Formation et expansion du khaganat khazar autour de la mer Caspienne et de la basse Volga.', NULL, 17),
+('Développement de Novgorod', 'developpement-novgorod-russie-RU', '0850-01-01', '1200-01-01', 'Novgorod devient un important centre commercial et politique relié aux routes de la Baltique et de la Rus.', NULL, 17),
+('Fondation de la Rus de Kiev', 'fondation-rus-kiev-russie-RU', '0862-01-01', '0882-01-01', 'Unification progressive des principautés slaves orientales autour de Novgorod puis de Kiev.', NULL, 16),
+('Christianisation de la Rus de Kiev', 'christianisation-rus-kiev-russie-RU', '0988-01-01', '0988-01-01', 'Le prince Vladimir adopte le christianisme de tradition byzantine comme religion de la Rus de Kiev.', NULL, 23),
+('Développement de la principauté de Vladimir-Souzdal', 'developpement-principaute-vladimir-souzdal-russie-RU', '1100-01-01', '1240-01-01', 'Vladimir-Souzdal devient l’un des principaux centres politiques de la Rus du Nord-Est.', NULL, 17),
+('Invasion mongole de la Rus', 'invasion-mongole-rus-russie-RU', '1223-01-01', '1240-01-01', 'Les armées mongoles envahissent les principautés de la Rus et bouleversent durablement la région.', NULL, 13),
+('Prise de Kiev par les Mongols', 'prise-kiev-mongols-russie-RU', '1240-12-06', '1240-12-06', 'Les forces de Batu Khan prennent et détruisent une grande partie de Kiev.', NULL, 12),
+('Fondation de la principauté de Moscou', 'fondation-principaute-moscou-russie-RU', '1263-01-01', '1263-01-01', 'Moscou devient une principauté distincte au sein de l’espace politique de la Rus.', NULL, 16),
+('Développement de la république de Novgorod', 'developpement-republique-novgorod-russie-RU', '1136-01-01', '1478-01-01', 'Novgorod développe des institutions politiques autonomes et un vaste réseau commercial.', NULL, 22),
+('Bataille de Koulikovo', 'bataille-koulikovo-russie-RU', '1380-09-08', '1380-09-08', 'Victoire de Dmitri Donskoï sur les forces de Mamai dans le cadre des luttes contre la Horde d’Or.', NULL, 7),
+('Développement du grand-duché de Moscou', 'developpement-grand-duche-moscou-russie-RU', '1300-01-01', '1500-01-01', 'Moscou étend progressivement son autorité sur les principautés russes du Nord-Est.', NULL, 17),
+('Fin du joug de la Horde d’Or', 'fin-joug-horde-or-russie-RU', '1480-01-01', '1480-01-01', 'La confrontation sur la rivière Ougra marque la fin de la domination effective de la Horde d’Or sur Moscou.', NULL, 22),
+('Couronnement d’Ivan IV', 'couronnement-ivan-iv-russie-RU', '1547-01-16', '1547-01-16', 'Ivan IV est couronné tsar de Russie.', NULL, 4),
+('Conquête de Kazan', 'conquete-kazan-russie-RU', '1552-10-02', '1552-10-02', 'Ivan IV conquiert le khanat de Kazan et étend la Russie vers la Volga.', NULL, 12),
+('Conquête d’Astrakhan', 'conquete-astrakhan-russie-RU', '1556-01-01', '1556-01-01', 'Le tsarat de Russie conquiert le khanat d’Astrakhan et contrôle davantage la basse Volga.', NULL, 12),
+('Début de la conquête russe de la Sibérie', 'conquete-russe-siberie-russie-RU', '1581-01-01', '1640-01-01', 'Les cosaques et les forces russes progressent à travers la Sibérie jusqu’aux régions orientales.', NULL, 12),
+('Fin de la dynastie des Riourikides', 'fin-dynastie-riourikides-russie-RU', '1598-01-01', '1598-01-01', 'La mort de Fédor Ier met fin à la dynastie des Riourikides sur le trône de Russie.', NULL, 22),
+('Temps des Troubles', 'temps-troubles-russie-RU', '1598-01-01', '1613-01-01', 'Période de crise politique, de guerres civiles et d’interventions étrangères en Russie.', NULL, 22),
+('Fondation de la dynastie Romanov', 'fondation-dynastie-romanov-russie-RU', '1613-03-21', '1613-03-21', 'Michel Romanov est élu tsar et fonde la dynastie qui régnera sur la Russie jusqu’en 1917.', NULL, 16),
+('Fondation de Saint-Pétersbourg', 'fondation-saint-petersbourg-russie-RU', '1703-05-27', '1703-05-27', 'Pierre le Grand fonde Saint-Pétersbourg sur la Neva.', NULL, 16),
+('Grande guerre du Nord', 'grande-guerre-nord-russie-RU', '1700-02-12', '1721-09-10', 'Conflit opposant notamment la Russie et la Suède pour la domination de la Baltique.', NULL, 6),
+('Bataille de Poltava', 'bataille-poltava-russie-RU', '1709-07-08', '1709-07-08', 'Victoire décisive de Pierre le Grand sur l’armée suédoise de Charles XII.', NULL, 7),
+('Couronnement de Catherine II', 'couronnement-catherine-ii-russie-RU', '1762-09-22', '1762-09-22', 'Catherine II est couronnée impératrice de Russie après son accession au pouvoir.', NULL, 4),
+('Conquête de la Crimée par la Russie', 'conquete-crimee-russie-RU', '1783-04-19', '1783-04-19', 'La Russie annexe le khanat de Crimée et étend son contrôle sur le nord de la mer Noire.', NULL, 12),
+('Guerre patriotique contre Napoléon', 'guerre-patriotique-napoleon-russie-RU', '1812-06-24', '1812-12-14', 'La Russie résiste à l’invasion de la Grande Armée de Napoléon et repousse les forces françaises.', NULL, 6),
+('Bataille de Borodino', 'bataille-borodino-russie-RU', '1812-09-07', '1812-09-07', 'Grande bataille de la campagne de Russie opposant l’armée russe aux forces napoléoniennes.', NULL, 7),
+('Révolte des décembristes', 'revolte-decembristes-russie-RU', '1825-12-26', '1825-12-26', 'Soulèvement d’officiers russes à Saint-Pétersbourg contre l’ordre autocratique.', NULL, 9),
+('Guerre de Crimée', 'guerre-crimee-russie-RU', '1853-10-04', '1856-03-30', 'Conflit opposant l’Empire russe à une coalition comprenant notamment l’Empire ottoman, la France et le Royaume-Uni.', NULL, 6),
+('Abolition du servage en Russie', 'abolition-servage-russie-RU', '1861-03-03', '1861-03-03', 'Alexandre II abolit le servage dans l’Empire russe.', NULL, 22),
+('Création de la Douma d’État', 'creation-douma-etat-russie-RU', '1905-10-30', '1906-04-27', 'La révolution de 1905 conduit à la création d’une assemblée représentative impériale.', NULL, 22),
+('Révolution de 1905', 'revolution-1905-russie-RU', '1905-01-22', '1907-06-16', 'Vague de grèves, manifestations et révoltes qui contraint le régime impérial à engager des réformes.', NULL, 8),
+('Révolution de Février', 'revolution-fevrier-russie-RU', '1917-03-08', '1917-03-16', 'Révolution entraînant la chute de la monarchie des Romanov et la formation d’un gouvernement provisoire.', NULL, 8),
+('Révolution d’Octobre', 'revolution-octobre-russie-RU', '1917-11-07', '1917-11-08', 'Les bolcheviks prennent le pouvoir à Petrograd et renversent le gouvernement provisoire.', NULL, 8),
+('Guerre civile russe', 'guerre-civile-russe-russie-RU', '1917-11-07', '1923-06-17', 'Conflit entre les bolcheviks et leurs adversaires politiques et militaires après la révolution de 1917.', NULL, 6),
+('Création de l’Union soviétique', 'creation-union-sovietique-russie-RU', '1922-12-30', '1922-12-30', 'Fondation de l’Union des républiques socialistes soviétiques.', NULL, 17),
+('Industrialisation soviétique', 'industrialisation-sovietique-russie-RU', '1928-01-01', '1941-06-22', 'Transformation accélérée de l’économie soviétique par les plans quinquennaux et l’industrialisation.', NULL, 25),
+('Bataille de Stalingrad', 'bataille-stalingrad-russie-RU', '1942-08-23', '1943-02-02', 'Bataille majeure du front de l’Est et tournant décisif de la Seconde Guerre mondiale.', NULL, 7),
+('Victoire soviétique sur l’Allemagne nazie', 'victoire-sovietique-allemagne-nazie-russie-RU', '1945-05-08', '1945-05-09', 'Capitulation allemande en Europe et victoire soviétique sur le front de l’Est.', NULL, 6),
+('Lancement de Spoutnik 1', 'lancement-spoutnik-1-russie-RU', '1957-10-04', '1957-10-04', 'L’Union soviétique lance Spoutnik 1, premier satellite artificiel de la Terre.', NULL, 18),
+('Premier vol spatial habité de Youri Gagarine', 'premier-vol-gagarine-russie-RU', '1961-04-12', '1961-04-12', 'Youri Gagarine devient le premier être humain à effectuer un vol spatial orbital.', NULL, 18),
+('Dissolution de l’Union soviétique', 'dissolution-union-sovietique-russie-RU', '1991-12-26', '1991-12-26', 'Dissolution officielle de l’Union soviétique et naissance de la Fédération de Russie comme État successeur.', NULL, 22),
+('Adoption de la Constitution de la Fédération de Russie', 'adoption-constitution-federation-russie-RU', '1993-12-12', '1993-12-12', 'Adoption par référendum de la Constitution de la Fédération de Russie.', NULL, 22),
+('Création de l’Union économique eurasiatique', 'creation-union-economique-eurasienne-russie-RU', '2015-01-01', '2015-01-01', 'Entrée en vigueur de l’Union économique eurasiatique réunissant notamment la Russie, la Biélorussie, le Kazakhstan, l’Arménie et le Kirghizistan.', NULL, 25);
+
+
+-- SINGAPOUR --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Développement de Temasek', 'developpement-temasek-singapour-SG', '0600-01-01', '1300-01-01', 'Développement d’un important établissement maritime sur l’île de Singapour, connu plus tard sous le nom de Temasek.', NULL, 17),
+('Développement du commerce maritime de Temasek', 'developpement-commerce-maritime-temasek-singapour-SG', '1000-01-01', '1300-01-01', 'Temasek devient un point d’échanges entre les réseaux commerciaux de l’Asie du Sud-Est et du détroit de Malacca.', NULL, 25),
+('Influence de Srivijaya à Singapour', 'influence-srivijaya-singapour-SG', '0650-01-01', '1200-01-01', 'L’influence de l’empire maritime de Srivijaya s’étend aux routes commerciales autour de Singapour.', NULL, 17),
+('Développement de l’influence javanaise à Temasek', 'developpement-influence-javanaise-temasek-singapour-SG', '1200-01-01', '1300-01-01', 'Les réseaux commerciaux javanais renforcent les échanges autour de Temasek.', NULL, 17),
+('Développement de Temasek sous influence de Majapahit', 'developpement-temasek-majapahit-singapour-SG', '1290-01-01', '1400-01-01', 'Temasek s’intègre progressivement aux réseaux politiques et commerciaux dominés par Majapahit.', NULL, 17),
+('Arrivée de Parameswara à Temasek', 'arrivee-parameswara-temasek-singapour-SG', '1390-01-01', '1390-01-01', 'Parameswara établit son pouvoir à Temasek avant de poursuivre son déplacement vers la péninsule malaise.', NULL, 22),
+('Développement du sultanat de Malacca', 'developpement-sultanat-malacca-singapour-SG', '1400-01-01', '1511-01-01', 'L’essor du sultanat de Malacca renforce l’importance stratégique du détroit et de Singapour.', NULL, 17),
+('Conquête portugaise de Malacca', 'conquete-portugaise-malacca-singapour-SG', '1511-08-15', '1511-08-15', 'La prise de Malacca par les Portugais modifie les réseaux commerciaux du détroit de Malacca.', NULL, 12),
+('Développement du commerce régional autour de Singapour', 'developpement-commerce-regional-singapour-SG', '1600-01-01', '1800-01-01', 'Singapour demeure un point de passage maritime au sein des réseaux commerciaux régionaux.', NULL, 25),
+('Fondation de Singapour moderne par Stamford Raffles', 'fondation-singapour-moderne-singapour-SG', '1819-01-28', '1819-01-28', 'Stamford Raffles établit un comptoir britannique à Singapour.', NULL, 16),
+('Traité anglo-néerlandais de 1824', 'traite-anglo-neerlandais-1824-singapour-SG', '1824-03-17', '1824-03-17', 'Le traité anglo-néerlandais établit des sphères d’influence britannique et néerlandaise en Asie du Sud-Est.', NULL, 14),
+('Création des Établissements des détroits', 'creation-etablissements-detroit-singapour-SG', '1826-11-27', '1826-11-27', 'Singapour est intégré aux Établissements des détroits avec Penang et Malacca.', NULL, 17),
+('Développement du port de Singapour', 'developpement-port-singapour-SG', '1820-01-01', '1900-01-01', 'Le port de Singapour connaît une forte croissance et devient un centre majeur du commerce régional.', NULL, 25),
+('Ouverture du canal de Suez et essor de Singapour', 'ouverture-canal-suez-essor-singapour-SG', '1869-11-17', '1869-11-17', 'L’ouverture du canal de Suez accélère les échanges entre l’Europe et l’Asie et renforce le rôle de Singapour.', NULL, 25),
+('Inauguration de l’aéroport de Singapour à Kallang', 'inauguration-aeroport-kallang-singapour-SG', '1937-06-12', '1937-06-12', 'L’aéroport de Kallang est inauguré et devient un important point de connexion aérienne pour Singapour.', NULL, 17),
+('Occupation japonaise de Singapour', 'occupation-japonaise-singapour-SG', '1942-02-15', '1945-09-12', 'Singapour est occupé par le Japon pendant la Seconde Guerre mondiale.', NULL, 13),
+('Retour de l’administration britannique à Singapour', 'retour-administration-britannique-singapour-SG', '1945-09-12', '1946-04-01', 'Après la capitulation japonaise, l’administration britannique reprend le contrôle de Singapour.', NULL, 22),
+('Autonomie interne de Singapour', 'autonomie-interne-singapour-SG', '1959-06-03', '1959-06-03', 'Singapour obtient une large autonomie interne et Lee Kuan Yew devient Premier ministre.', NULL, 22),
+('Indépendance de la Malaisie et création de la Malaisie', 'formation-malaisie-singapour-SG', '1963-09-16', '1963-09-16', 'Singapour rejoint la Fédération de Malaisie lors de la création de la Malaisie.', NULL, 22),
+('Indépendance de Singapour', 'independance-singapour-SG', '1965-08-09', '1965-08-09', 'Singapour quitte la Fédération de Malaisie et devient un État indépendant.', NULL, 11);
+
+
+-- SRI LANKA --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Développement des premiers établissements agricoles du Sri Lanka', 'developpement-premiers-etablissements-agricoles-sri-lanka-LK', '0001-01-01', '0500-01-01', 'Développement des communautés agricoles et des premières sociétés organisées dans l’île.', NULL, 17),
+('Développement du royaume d’Anuradhapura', 'developpement-royaume-anuradhapura-sri-lanka-LK', '0377-01-01', '1017-01-01', 'Anuradhapura devient le principal centre politique et culturel de l’île.', NULL, 17),
+('Diffusion du bouddhisme au Sri Lanka', 'diffusion-bouddhisme-sri-lanka-LK', '0250-01-01', '0250-01-01', 'Le bouddhisme est introduit dans l’île durant le règne du roi Devanampiya Tissa.', NULL, 23),
+('Construction du stupa Ruwanwelisaya', 'construction-stupa-ruwanwelisaya-sri-lanka-LK', '0140-01-01', '0140-01-01', 'Le grand stupa Ruwanwelisaya est construit à Anuradhapura sous le règne de Dutthagamani.', NULL, 17),
+('Développement des réservoirs hydrauliques d’Anuradhapura', 'developpement-reservoirs-anuradhapura-sri-lanka-LK', '0001-01-01', '0500-01-01', 'Développement de vastes systèmes d’irrigation permettant l’essor de l’agriculture et des villes.', NULL, 19),
+('Développement du commerce maritime de l’océan Indien', 'developpement-commerce-maritime-ocean-indien-sri-lanka-LK', '0001-01-01', '1000-01-01', 'Le Sri Lanka devient un important relais commercial entre l’Inde, l’Asie du Sud-Est, le Moyen-Orient et le monde méditerranéen.', NULL, 25),
+('Développement du royaume de Polonnaruwa', 'developpement-royaume-polonnaruwa-sri-lanka-LK', '1055-01-01', '1212-01-01', 'Polonnaruwa devient le principal centre politique du Sri Lanka après le déclin d’Anuradhapura.', NULL, 17),
+('Règne de Parakramabahu Ier', 'regne-parakramabahu-ier-sri-lanka-LK', '1153-01-01', '1186-01-01', 'Le règne de Parakramabahu Ier marque une période de puissance politique et de grands travaux hydrauliques.', NULL, 5),
+('Construction du complexe de Gal Vihara', 'construction-gal-vihara-sri-lanka-LK', '1150-01-01', '1150-01-01', 'Les célèbres statues bouddhiques de Gal Vihara sont réalisées à Polonnaruwa.', NULL, 17),
+('Développement du royaume de Jaffna', 'developpement-royaume-jaffna-sri-lanka-LK', '1215-01-01', '1450-01-01', 'Le royaume de Jaffna s’affirme comme une puissance politique majeure dans le nord de l’île.', NULL, 17),
+('Développement du royaume de Kotte', 'developpement-royaume-kotte-sri-lanka-LK', '1370-01-01', '1597-01-01', 'Kotte devient un important centre politique du sud-ouest du Sri Lanka.', NULL, 17),
+('Arrivée des Portugais au Sri Lanka', 'arrivee-portugais-sri-lanka-LK', '1505-01-01', '1505-01-01', 'Les Portugais arrivent sur l’île et commencent à établir leur influence commerciale et politique.', NULL, 13),
+('Conquête portugaise des territoires côtiers', 'conquete-portugaise-cotes-sri-lanka-LK', '1517-01-01', '1597-01-01', 'Les Portugais étendent progressivement leur contrôle sur les régions côtières du Sri Lanka.', NULL, 12),
+('Fondation du royaume de Kandy', 'fondation-royaume-kandy-sri-lanka-LK', '1469-01-01', '1469-01-01', 'Kandy s’affirme comme un centre politique important de l’intérieur de l’île.', NULL, 16),
+('Conquête néerlandaise des possessions portugaises', 'conquete-neerlandaise-possessions-portugaises-sri-lanka-LK', '1638-01-01', '1658-01-01', 'Les Néerlandais chassent progressivement les Portugais des principales régions côtières.', NULL, 12),
+('Développement du royaume de Kandy', 'developpement-royaume-kandy-sri-lanka-LK', '1590-01-01', '1815-01-01', 'Le royaume de Kandy maintient son indépendance face aux puissances européennes jusqu’au début du XIXe siècle.', NULL, 17),
+('Conquête britannique du royaume de Kandy', 'conquete-britannique-royaume-kandy-sri-lanka-LK', '1815-03-02', '1815-03-02', 'La convention de Kandy transfère la souveraineté du royaume aux Britanniques.', NULL, 12),
+('Révolte de 1818 contre les Britanniques', 'revolte-1818-sri-lanka-LK', '1818-01-01', '1818-12-31', 'Une importante insurrection éclate dans les régions centrales contre la domination britannique.', NULL, 9),
+('Indépendance de Ceylan', 'independance-ceylan-sri-lanka-LK', '1948-02-04', '1948-02-04', 'Ceylan obtient son indépendance du Royaume-Uni et devient un État souverain du Commonwealth.', NULL, 11),
+('Proclamation de la République du Sri Lanka', 'proclamation-republique-sri-lanka-LK', '1972-05-22', '1972-05-22', 'Ceylan devient officiellement la République du Sri Lanka et adopte une nouvelle constitution.', NULL, 22);
+
+
+-- SYRIE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Division de la Syrie romaine', 'division-syrie-romaine-syrie-SY', '0198-01-01', '0198-01-01', 'L’empereur Septime Sévère divise la province romaine de Syrie en Syrie Coele et Syrie Phénicie.', NULL, 22),
+('Séisme d’Antioche de 526', 'seisme-antioche-526-syrie-SY', '0526-05-20', '0526-05-20', 'Un puissant séisme frappe Antioche et provoque d’importantes destructions.', NULL, 20),
+('Conquête perse sassanide de la Syrie', 'conquete-sassanide-syrie-SY', '0613-01-01', '0614-01-01', 'Les forces sassanides envahissent la Syrie byzantine et s’emparent notamment d’Antioche.', NULL, 13),
+('Conquête musulmane de la Syrie', 'conquete-musulmane-syrie-SY', '0634-01-01', '0636-01-01', 'Les armées musulmanes conquièrent progressivement la Syrie au détriment de l’Empire byzantin.', NULL, 12),
+('Bataille du Yarmouk', 'bataille-yarmouk-syrie-SY', '0636-08-15', '0636-08-20', 'La bataille du Yarmouk consacre la victoire des forces musulmanes sur l’armée byzantine.', NULL, 7),
+('Fondation du califat omeyyade à Damas', 'fondation-califat-omeyyade-damas-syrie-SY', '0661-01-01', '0661-01-01', 'Damas devient la capitale du califat omeyyade sous Muawiya Ier.', NULL, 16),
+('Construction de la Grande Mosquée de Damas', 'construction-grande-mosquee-damas-syrie-SY', '0706-01-01', '0715-01-01', 'Le calife al-Walid Ier fait construire la Grande Mosquée des Omeyyades à Damas.', NULL, 23),
+('Fin du califat omeyyade', 'fin-califat-omeyyade-syrie-SY', '0750-01-01', '0750-01-01', 'La révolution abbasside renverse les Omeyyades et met fin à leur domination depuis Damas.', NULL, 8),
+('Conquête de la Syrie par les Tulunides', 'conquete-tulunide-syrie-SY', '0878-01-01', '0879-01-01', 'Ahmad ibn Touloun étend son pouvoir sur la Syrie et prend Damas.', NULL, 12),
+('Fondation de la dynastie hamdanide d’Alep', 'fondation-dynastie-hamdanide-alep-syrie-SY', '0944-01-01', '0944-01-01', 'La dynastie hamdanide établit son pouvoir à Alep et devient une puissance majeure en Syrie du Nord.', NULL, 16),
+('Conquête seldjoukide de la Syrie', 'conquete-seldjoukide-syrie-SY', '1084-01-01', '1086-01-01', 'Les Seldjoukides prennent le contrôle de plusieurs territoires syriens.', NULL, 12),
+('Prise d’Antioche par les croisés', 'prise-antioche-croises-syrie-SY', '1097-10-20', '1098-06-03', 'Les forces de la Première croisade assiègent puis prennent Antioche.', NULL, 12),
+('Conquête de Damas par Saladin', 'conquete-damas-saladin-syrie-SY', '1174-01-01', '1174-01-01', 'Saladin prend le contrôle de Damas et consolide son pouvoir sur la Syrie.', NULL, 12),
+('Conquête mongole de Damas', 'conquete-mongole-damas-syrie-SY', '1260-03-01', '1260-03-01', 'Les Mongols de Hulagu prennent Damas lors de leur offensive au Levant.', NULL, 12),
+('Bataille d’Aïn Djalout', 'bataille-ain-djalout-syrie-SY', '1260-09-03', '1260-09-03', 'Les Mamelouks battent les Mongols à Aïn Djalout et stoppent leur progression vers l’Égypte.', NULL, 7),
+('Conquête ottomane de la Syrie', 'conquete-ottomane-syrie-SY', '1516-08-24', '1516-08-24', 'La victoire ottomane à Marj Dabiq entraîne l’intégration de la Syrie à l’Empire ottoman.', NULL, 12),
+('Révolte arabe et fin de la domination ottomane', 'revolte-arabe-fin-ottomans-syrie-SY', '1916-06-10', '1918-10-01', 'La révolte arabe et l’offensive alliée mettent fin à la domination ottomane sur la Syrie.', NULL, 9),
+('Établissement du mandat français en Syrie', 'mandat-francais-syrie-SY', '1920-04-25', '1920-07-25', 'La France obtient le mandat sur la Syrie après la réorganisation du Proche-Orient consécutive à la Première Guerre mondiale.', NULL, 22),
+('Grande Révolte syrienne', 'grande-revolte-syrienne-SY', '1925-07-19', '1927-06-01', 'Une vaste insurrection éclate contre le mandat français et s’étend à plusieurs régions de Syrie.', NULL, 9),
+('Indépendance de la Syrie', 'independance-syrie-SY', '1946-04-17', '1946-04-17', 'Les dernières troupes françaises quittent la Syrie, qui devient pleinement indépendante.', NULL, 11);
+
+-- TADJIKISTAN --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Développement de la Sogdiane', 'developpement-sogdiane-tadjikistan-TJ', '0001-01-01', '0700-01-01', 'La Sogdiane constitue un important espace iranien de commerce et de culture en Asie centrale.', NULL, 17),
+('Développement des routes de la soie au Tadjikistan', 'developpement-routes-soie-tadjikistan-TJ', '0001-01-01', '1000-01-01', 'Le territoire de l’actuel Tadjikistan devient un espace de passage important des routes commerciales d’Asie centrale.', NULL, 25),
+('Développement de Khodjent', 'developpement-khodjent-tadjikistan-TJ', '0001-01-01', '0700-01-01', 'Khodjent se développe comme centre urbain et commercial stratégique de la vallée du Syr-Daria.', NULL, 17),
+('Conquête arabe de la Transoxiane', 'conquete-arabe-transoxiane-tadjikistan-TJ', '0705-01-01', '0751-01-01', 'Les armées arabes étendent progressivement leur domination sur la Transoxiane et les territoires correspondant en partie au Tadjikistan actuel.', NULL, 12),
+('Diffusion de l’islam en Asie centrale', 'diffusion-islam-tadjikistan-TJ', '0700-01-01', '0900-01-01', 'L’islam se diffuse progressivement parmi les populations sédentaires et urbaines de la région.', NULL, 23),
+('Développement de la culture de Pendjikent', 'developpement-pendjikent-tadjikistan-TJ', '0001-01-01', '0750-01-01', 'Pendjikent devient un important centre urbain et culturel de la Sogdiane.', NULL, 17),
+('Fondation de l’État samanide', 'fondation-etat-samanide-tadjikistan-TJ', '0875-01-01', '0875-01-01', 'Les Samanides établissent un État iranien majeur en Asie centrale, dont l’héritage est particulièrement important pour l’histoire tadjike.', NULL, 16),
+('Apogée de l’Empire samanide', 'apogee-empire-samanide-tadjikistan-TJ', '0892-01-01', '0999-01-01', 'Sous les Samanides, la culture persane et les villes d’Asie centrale connaissent un important essor.', NULL, 17),
+('Développement de la langue et de la culture persanes', 'developpement-culture-persane-tadjikistan-TJ', '0900-01-01', '1000-01-01', 'La période samanide favorise la renaissance de la langue et de la littérature persanes en Asie centrale.', NULL, 24),
+('Conquête karakhanide de la Transoxiane', 'conquete-karakhanide-transoxiane-tadjikistan-TJ', '0999-01-01', '1000-01-01', 'Les Karakhanides prennent le contrôle de la Transoxiane après la disparition de la puissance samanide.', NULL, 12),
+('Conquête mongole de l’Asie centrale', 'conquete-mongole-asie-centrale-tadjikistan-TJ', '1219-01-01', '1221-01-01', 'Les Mongols conquièrent les territoires de l’Asie centrale et bouleversent les structures politiques de la région.', NULL, 12),
+('Développement de l’Empire timouride', 'developpement-empire-timouride-tadjikistan-TJ', '1370-01-01', '1507-01-01', 'Les territoires tadjiks sont intégrés aux réseaux politiques et culturels de l’Empire timouride.', NULL, 17),
+('Développement de Douchanbé', 'developpement-douchanbe-tadjikistan-TJ', '1600-01-01', '1900-01-01', 'Le site de Douchanbé se développe comme marché et centre régional dans les territoires tadjiks.', NULL, 17),
+('Conquête russe du Turkestan', 'conquete-russe-turkestan-tadjikistan-TJ', '1864-01-01', '1895-01-01', 'L’Empire russe étend progressivement son contrôle sur l’Asie centrale et les territoires correspondant au Tadjikistan actuel.', NULL, 12),
+('Établissement du protectorat russe sur l’émirat de Boukhara', 'protectorat-russe-boukhara-tadjikistan-TJ', '1868-06-23', '1868-06-23', 'L’émirat de Boukhara devient un protectorat russe, affectant une grande partie des territoires tadjiks.', NULL, 22),
+('Création de la République socialiste soviétique autonome tadjike', 'creation-republique-autonome-sovietique-tadjike-TJ', '1924-10-14', '1924-10-14', 'La République socialiste soviétique autonome tadjike est créée dans le cadre de la délimitation nationale de l’Asie centrale soviétique.', NULL, 17),
+('Création de la République socialiste soviétique tadjike', 'creation-republique-socialiste-sovietique-tadjike-TJ', '1929-12-05', '1929-12-05', 'Le Tadjikistan devient une république socialiste soviétique à part entière au sein de l’Union soviétique.', NULL, 17),
+('Déclaration de souveraineté du Tadjikistan', 'declaration-souverainete-tadjikistan-TJ', '1990-08-24', '1990-08-24', 'La République socialiste soviétique tadjike proclame sa souveraineté dans le contexte de l’effondrement de l’Union soviétique.', NULL, 22),
+('Indépendance du Tadjikistan', 'independance-tadjikistan-TJ', '1991-09-09', '1991-09-09', 'Le Tadjikistan proclame son indépendance lors de la dissolution progressive de l’Union soviétique.', NULL, 11),
+('Guerre civile tadjike', 'guerre-civile-tadjikistan-TJ', '1992-05-05', '1997-06-27', 'Conflit politique et militaire opposant le gouvernement tadjik à une coalition d’opposition et qui s’achève par un accord de paix.', NULL, 6);
+
+
+-- TAIWAN --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Développement des cultures austronésiennes à Taïwan', 'developpement-cultures-austronesiennes-taiwan-TW', '0001-01-01', '0600-01-01', 'Les populations austronésiennes développent des communautés agricoles et maritimes sur l’île.', NULL, 17),
+('Développement des échanges maritimes avec l’Asie du Sud-Est', 'developpement-echanges-maritimes-asie-sud-est-taiwan-TW', '0600-01-01', '1200-01-01', 'Les populations de Taïwan participent progressivement aux réseaux maritimes reliant l’île à l’Asie du Sud-Est.', NULL, 25),
+('Développement des échanges avec la Chine', 'developpement-echanges-chine-taiwan-TW', '1000-01-01', '1600-01-01', 'Les contacts commerciaux et culturels entre Taïwan et les régions côtières chinoises s’intensifient.', NULL, 25),
+('Arrivée des marchands chinois à Taïwan', 'arrivee-marchands-chinois-taiwan-TW', '1200-01-01', '1600-01-01', 'Des marchands et pêcheurs chinois fréquentent régulièrement les côtes de Taïwan.', NULL, 25),
+('Établissement des Hollandais à Taïwan', 'etablissement-hollandais-taiwan-TW', '1624-01-01', '1624-01-01', 'La Compagnie néerlandaise des Indes orientales établit une implantation à Taïwan.', NULL, 16),
+('Fondation de Fort Zeelandia', 'fondation-fort-zeelandia-taiwan-TW', '1624-01-01', '1634-01-01', 'Les Néerlandais développent Fort Zeelandia à Tayouan comme centre administratif et commercial.', NULL, 16),
+('Révolte de Guo Huaiyi', 'revolte-guo-huaiyi-taiwan-TW', '1652-09-07', '1652-10-01', 'Une importante révolte de colons chinois contre l’administration néerlandaise est réprimée.', NULL, 9),
+('Conquête de Taïwan par Zheng Chenggong', 'conquete-taiwan-zheng-chenggong-TW', '1661-04-30', '1662-02-01', 'Les forces de Zheng Chenggong assiègent les positions néerlandaises et prennent le contrôle de l’île.', NULL, 12),
+('Fin de la domination néerlandaise à Taïwan', 'fin-domination-neerlandaise-taiwan-TW', '1662-02-01', '1662-02-01', 'La reddition néerlandaise met fin à leur domination sur Taïwan.', NULL, 22),
+('Fondation du royaume de Tungning', 'fondation-royaume-tungning-taiwan-TW', '1662-02-01', '1662-02-01', 'Zheng Chenggong établit le royaume de Tungning, centré sur Taïwan.', NULL, 16),
+('Conquête de Taïwan par les Qing', 'conquete-taiwan-qing-TW', '1683-07-01', '1683-10-01', 'Les forces de la dynastie Qing vainquent le royaume de Tungning et prennent le contrôle de Taïwan.', NULL, 12),
+('Intégration de Taïwan à l’Empire Qing', 'integration-taiwan-empire-qing-TW', '1684-01-01', '1684-01-01', 'Taïwan est administrativement intégrée à l’Empire Qing.', NULL, 22),
+('Révolte de Zhu Yigui', 'revolte-zhu-yigui-taiwan-TW', '1721-01-01', '1721-01-01', 'Une importante révolte contre l’administration Qing éclate à Taïwan.', NULL, 9),
+('Établissement de la province de Taïwan', 'creation-province-taiwan-TW', '1887-01-01', '1887-01-01', 'Les Qing établissent la province de Taïwan afin de renforcer l’administration de l’île.', NULL, 17),
+('Cession de Taïwan au Japon', 'cession-taiwan-japon-TW', '1895-04-17', '1895-04-17', 'Le traité de Shimonoseki cède Taïwan à l’Empire du Japon après la guerre sino-japonaise.', NULL, 14),
+('Insurrection de Taïwan contre la domination japonaise', 'insurrection-taiwan-domination-japonaise-TW', '1895-05-29', '1915-01-01', 'Des mouvements armés et résistances locales s’opposent à l’administration japonaise.', NULL, 9),
+('Rétrocession de Taïwan à la République de Chine', 'retrocession-taiwan-republique-chine-TW', '1945-10-25', '1945-10-25', 'À la fin de la Seconde Guerre mondiale, l’administration japonaise de Taïwan prend fin et l’île passe sous administration de la République de Chine.', NULL, 22),
+('Arrivée du gouvernement nationaliste chinois à Taïwan', 'arrivee-gouvernement-nationaliste-taiwan-TW', '1949-12-07', '1949-12-07', 'Après la victoire communiste sur le continent, le gouvernement de la République de Chine établit son siège à Taïwan.', NULL, 22),
+('Levée de la loi martiale à Taïwan', 'levee-loi-martiale-taiwan-TW', '1987-07-15', '1987-07-15', 'La levée de la loi martiale marque une étape majeure de la démocratisation de Taïwan.', NULL, 22),
+('Première élection présidentielle au suffrage direct', 'premiere-election-presidentielle-directe-taiwan-TW', '1996-03-23', '1996-03-23', 'Taïwan organise sa première élection présidentielle au suffrage universel direct.', NULL, 22);
+
+
+-- THAILAND --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Développement des communautés agricoles de la vallée du Chao Phraya', 'developpement-communautes-agricoles-chao-phraya-thailande-TH', '0001-01-01', '0600-01-01', 'Les communautés agricoles se développent dans les plaines fertiles du centre de l’actuelle Thaïlande.', NULL, 17),
+('Développement de la culture de Dvaravati', 'developpement-culture-dvaravati-thailande-TH', '0500-01-01', '1100-01-01', 'La culture môn de Dvaravati se développe autour de plusieurs centres urbains et contribue à la diffusion du bouddhisme.', NULL, 17),
+('Diffusion du bouddhisme en Thaïlande', 'diffusion-bouddhisme-thailande-TH', '0500-01-01', '1000-01-01', 'Le bouddhisme se diffuse progressivement dans les royaumes et cités de l’actuelle Thaïlande.', NULL, 23),
+('Développement de l’influence khmère', 'developpement-influence-khmere-thailande-TH', '0800-01-01', '1200-01-01', 'L’Empire khmer exerce une influence politique, religieuse et architecturale importante sur plusieurs régions de Thaïlande.', NULL, 17),
+('Construction du sanctuaire de Phanom Rung', 'construction-phanom-rung-thailande-TH', '1000-01-01', '1200-01-01', 'Le complexe religieux de Phanom Rung est développé sous l’influence de la civilisation khmère.', NULL, 17),
+('Fondation du royaume de Sukhothaï', 'fondation-royaume-sukhothai-thailande-TH', '1238-01-01', '1238-01-01', 'Le royaume de Sukhothaï s’établit comme l’un des premiers grands royaumes thaïs indépendants.', NULL, 16),
+('Règne de Ramkhamhaeng', 'regne-ramkhamhaeng-thailande-TH', '1279-01-01', '1298-01-01', 'Le règne de Ramkhamhaeng marque l’apogée politique et culturelle du royaume de Sukhothaï.', NULL, 5),
+('Développement de l’écriture thaïe', 'developpement-ecriture-thaie-thailande-TH', '1283-01-01', '1283-01-01', 'La tradition attribue à Ramkhamhaeng la création ou la codification d’une forme ancienne de l’écriture thaïe.', NULL, 19),
+('Fondation du royaume d’Ayutthaya', 'fondation-royaume-ayutthaya-thailande-TH', '1351-03-04', '1351-03-04', 'Ramathibodi Ier fonde le royaume d’Ayutthaya, qui devient une grande puissance d’Asie du Sud-Est.', NULL, 16),
+('Développement commercial d’Ayutthaya', 'developpement-commerce-ayutthaya-thailande-TH', '1400-01-01', '1600-01-01', 'Ayutthaya devient un important centre commercial reliant l’Asie du Sud-Est, la Chine, l’Inde et les puissances européennes.', NULL, 25),
+('Relations diplomatiques avec les puissances européennes', 'relations-diplomatiques-europeennes-ayutthaya-thailande-TH', '1600-01-01', '1688-01-01', 'Le royaume d’Ayutthaya développe des relations commerciales et diplomatiques avec plusieurs puissances européennes.', NULL, 22),
+('Révolution siamoise de 1688', 'revolution-siamoise-1688-thailande-TH', '1688-01-01', '1688-01-01', 'Une crise politique entraîne l’expulsion de l’influence française et un recentrage du royaume sur ses relations régionales.', NULL, 8),
+('Fondation du royaume de Thonburi', 'fondation-royaume-thonburi-thailande-TH', '1767-12-28', '1767-12-28', 'Taksin établit le royaume de Thonburi après la destruction d’Ayutthaya par les Birmans.', NULL, 16),
+('Fondation de la dynastie Chakri', 'fondation-dynastie-chakri-thailande-TH', '1782-04-06', '1782-04-06', 'Rama Ier fonde la dynastie Chakri, qui règne encore aujourd’hui en Thaïlande.', NULL, 16),
+('Fondation de Bangkok comme capitale', 'fondation-bangkok-capitale-thailande-TH', '1782-04-21', '1782-04-21', 'Rama Ier établit Bangkok comme capitale du royaume de Siam.', NULL, 16),
+('Traité Bowring', 'traite-bowring-thailande-TH', '1855-04-18', '1855-04-18', 'Le traité Bowring avec le Royaume-Uni ouvre davantage le Siam au commerce international.', NULL, 14),
+('Indépendance du Siam face aux puissances coloniales', 'independance-siam-puissances-coloniales-thailande-TH', '1855-04-18', '1855-04-18', 'Le traité Bowring avec le Royaume-Uni renforce l’ouverture commerciale du Siam tout en permettant au royaume de préserver son indépendance face aux puissances coloniales européennes.', NULL, 14),
+('Abolition de l’esclavage au Siam', 'abolition-esclavage-siam-thailande-TH', '1905-01-01', '1905-01-01', 'Le règne de Chulalongkorn aboutit à l’abolition progressive de l’esclavage au Siam.', NULL, 22),
+('Révolution siamoise de 1932', 'revolution-siamoise-1932-thailande-TH', '1932-06-24', '1932-06-24', 'Une révolution met fin à la monarchie absolue et instaure une monarchie constitutionnelle.', NULL, 8),
+('Changement de nom du Siam en Thaïlande', 'changement-nom-siam-thailande-TH', '1939-06-24', '1939-06-24', 'Le royaume adopte officiellement le nom de Thaïlande, marquant une nouvelle étape dans la construction nationale.', NULL, 22);
+
+
+-- TIMOR ORIENTAL --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Développement des communautés austronésiennes au Timor', 'developpement-communautes-austronesiennes-timor-oriental-TL', '0001-01-01', '1000-01-01', 'Les populations austronésiennes développent des communautés agricoles et maritimes sur l’île de Timor.', NULL, 17),
+('Développement de la culture du santal', 'developpement-commerce-santal-timor-oriental-TL', '1000-01-01', '1500-01-01', 'Le bois de santal devient une ressource commerciale majeure de Timor et attire les marchands étrangers.', NULL, 25),
+('Développement des échanges maritimes avec les îles voisines', 'developpement-echanges-maritimes-timor-oriental-TL', '1000-01-01', '1500-01-01', 'Timor participe aux réseaux maritimes reliant les îles de la Sonde, les Moluques et l’Asie du Sud-Est.', NULL, 25),
+('Arrivée des marchands portugais à Timor', 'arrivee-marchands-portugais-timor-oriental-TL', '1500-01-01', '1600-01-01', 'Les Portugais établissent progressivement des relations commerciales avec les communautés de Timor.', NULL, 25),
+('Établissement portugais à Timor', 'etablissement-portugais-timor-oriental-TL', '1590-01-01', '1590-01-01', 'Les Portugais renforcent leur présence politique et commerciale dans l’est de l’île.', NULL, 16),
+('Développement de Dili', 'developpement-dili-timor-oriental-TL', '1520-01-01', '1700-01-01', 'Dili devient progressivement un centre commercial et politique important de la partie orientale de Timor.', NULL, 17),
+('Traité de partage de Timor entre les Portugais et les Néerlandais', 'traite-partage-timor-portugais-neerlandais-TL', '1859-04-20', '1859-04-20', 'Le traité de Lisbonne fixe la répartition des zones d’influence portugaise et néerlandaise sur Timor.', NULL, 14),
+('Transfert de Dili comme capitale du Timor portugais', 'transfert-capitale-dili-timor-oriental-TL', '1769-01-01', '1769-01-01', 'Dili devient le siège principal de l’administration portugaise dans la partie orientale de Timor.', NULL, 22),
+('Révolte de Manufahi', 'revolte-manufahi-timor-oriental-TL', '1911-01-01', '1912-01-01', 'La révolte de Manufahi constitue une importante résistance locale contre l’administration coloniale portugaise.', NULL, 9),
+('Occupation japonaise du Timor portugais', 'occupation-japonaise-timor-oriental-TL', '1942-02-20', '1945-09-02', 'Les forces japonaises occupent le Timor portugais pendant la Seconde Guerre mondiale.', NULL, 13),
+('Retour de l’administration portugaise', 'retour-administration-portugaise-timor-oriental-TL', '1945-09-02', '1945-09-02', 'Après la capitulation japonaise, l’administration portugaise est rétablie au Timor oriental.', NULL, 22),
+('Révolution des Œillets au Portugal', 'revolution-oeillets-portugal-timor-oriental-TL', '1974-04-25', '1974-04-25', 'La révolution portugaise ouvre la voie à la décolonisation des territoires portugais, dont le Timor oriental.', NULL, 8),
+('Création de l’Association sociale-démocrate timoraise', 'creation-association-sociale-democrate-timor-oriental-TL', '1974-09-01', '1974-09-01', 'La création de l’ASDT marque l’organisation politique du mouvement indépendantiste timorais.', NULL, 22),
+('Fondation du FRETILIN', 'fondation-fretilin-timor-oriental-TL', '1974-09-20', '1974-09-20', 'Le FRETILIN devient l’une des principales forces politiques indépendantistes du Timor oriental.', NULL, 17),
+('Proclamation d’indépendance du Timor oriental', 'proclamation-independance-timor-oriental-TL', '1975-11-28', '1975-11-28', 'Le Timor oriental proclame unilatéralement son indépendance du Portugal.', NULL, 11),
+('Invasion indonésienne du Timor oriental', 'invasion-indonesienne-timor-oriental-TL', '1975-12-07', '1975-12-07', 'L’Indonésie lance une invasion militaire et prend progressivement le contrôle du territoire.', NULL, 13),
+('Référendum sur l’indépendance du Timor oriental', 'referendum-independance-timor-oriental-TL', '1999-08-30', '1999-08-30', 'Un référendum organisé sous supervision internationale voit une large majorité voter pour l’indépendance.', NULL, 22),
+('Administration transitoire des Nations unies', 'administration-transitoire-onu-timor-oriental-TL', '1999-10-25', '2002-05-19', 'Les Nations unies administrent temporairement le Timor oriental avant son accession à l’indépendance.', NULL, 22),
+('Indépendance du Timor oriental', 'independance-timor-oriental-TL', '2002-05-20', '2002-05-20', 'Le Timor oriental devient officiellement un État indépendant et souverain.', NULL, 11),
+('Adoption de la Constitution du Timor oriental', 'adoption-constitution-timor-oriental-TL', '2002-03-22', '2002-03-22', 'La Constitution de la République démocratique du Timor-Leste est adoptée avant l’indépendance.', NULL, 22);
+
+
+-- TURKMENISTAN --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Développement de la civilisation de l’Oxus', 'developpement-civilisation-oxus-turkmenistan-TM', '0001-01-01', '0001-01-01', 'La civilisation de l’Oxus se développe dans les oasis d’Asie centrale, notamment dans le sud du Turkménistan.', NULL, 17),
+('Développement des cultures de l’âge du bronze', 'developpement-cultures-age-bronze-turkmenistan-TM', '0001-01-01', '1200-01-01', 'Les cultures de l’âge du bronze se développent dans les oasis et les régions agricoles du sud du Turkménistan.', NULL, 17),
+('Développement de Merv', 'developpement-merv-turkmenistan-TM', '0100-01-01', '0500-01-01', 'Merv devient un important centre urbain et commercial de l’Asie centrale antique.', NULL, 17),
+('Conquête achéménide de la région de Merv', 'conquete-achemenide-merv-turkmenistan-TM', '0530-01-01', '0550-01-01', 'Les territoires du sud du Turkménistan sont intégrés à l’Empire achéménide.', NULL, 12),
+('Conquête d’Alexandre le Grand', 'conquete-alexandre-grand-turkmenistan-TM', '0328-01-01', '0329-01-01', 'Les armées d’Alexandre conquièrent les territoires de Margiane et de l’Asie centrale.', NULL, 12),
+('Développement de la Margiane hellénistique', 'developpement-margiane-hellenistique-turkmenistan-TM', '0125-01-01', '0328-01-01', 'La Margiane connaît une importante influence hellénistique après les conquêtes d’Alexandre.', NULL, 17),
+('Développement des routes de la soie', 'developpement-routes-soie-turkmenistan-TM', '0100-01-01', '1000-01-01', 'Merv et les oasis turkmènes deviennent des étapes majeures des routes commerciales reliant l’Orient et l’Occident.', NULL, 25),
+('Développement de l’Empire parthe', 'developpement-empire-parthe-turkmenistan-TM', '0224-01-01', '0247-01-01', 'Les territoires de Margiane sont intégrés aux réseaux politiques et commerciaux de l’Empire parthe.', NULL, 17),
+('Conquête sassanide de Merv', 'conquete-sassanide-merv-turkmenistan-TM', '0224-01-01', '0224-01-01', 'Les Sassanides prennent le contrôle de la Margiane et de Merv.', NULL, 12),
+('Diffusion de l’islam au Turkménistan', 'diffusion-islam-turkmenistan-TM', '0650-01-01', '0900-01-01', 'L’islam se diffuse progressivement dans les oasis et les centres urbains du territoire.', NULL, 23),
+('Développement des Samanides à Merv', 'developpement-samanides-merv-turkmenistan-TM', '0900-01-01', '0999-01-01', 'Merv connaît un nouvel essor économique et culturel sous l’influence samanide.', NULL, 17),
+('Conquête seldjoukide de Merv', 'conquete-seldjoukide-merv-turkmenistan-TM', '1037-01-01', '1037-01-01', 'Les Seldjoukides prennent Merv et en font l’un des principaux centres de leur empire.', NULL, 12),
+('Merv capitale du Grand Empire seldjoukide', 'merv-capitale-empire-seldjoukide-turkmenistan-TM', '1118-01-01', '1153-01-01', 'Merv atteint un apogée politique, économique et culturel comme centre majeur du monde seldjoukide.', NULL, 5),
+('Conquête mongole de Merv', 'conquete-mongole-merv-turkmenistan-TM', '1221-01-01', '1221-01-01', 'Les Mongols prennent Merv et détruisent une grande partie de la ville.', NULL, 12),
+('Développement de l’Empire timouride', 'developpement-empire-timouride-turkmenistan-TM', '1370-01-01', '1507-01-01', 'Le territoire turkmène est intégré aux réseaux politiques et économiques de l’Empire timouride.', NULL, 17),
+('Conquête safavide du Khurasan', 'conquete-safavide-khurasan-turkmenistan-TM', '1501-01-01', '1508-01-01', 'Les Safavides étendent leur domination sur le Khurasan et les régions méridionales du Turkménistan.', NULL, 12),
+('Développement des tribus turkmènes', 'developpement-tribus-turkmenes-turkmenistan-TM', '1500-01-01', '1800-01-01', 'Les différentes confédérations et tribus turkmènes renforcent leur présence dans les steppes et les oasis.', NULL, 17),
+('Conquête russe du Turkménistan', 'conquete-russe-turkmenistan-TM', '1865-01-01', '1885-01-01', 'L’Empire russe étend progressivement son contrôle sur les territoires turkmènes.', NULL, 12),
+('Bataille de Geok Tepe', 'bataille-geok-tepe-turkmenistan-TM', '1881-01-24', '1881-01-24', 'Les forces russes remportent la bataille de Geok Tepe, étape décisive de la conquête du territoire turkmène.', NULL, 7),
+('Indépendance du Turkménistan', 'independance-turkmenistan-TM', '1991-10-27', '1991-10-27', 'Le Turkménistan proclame son indépendance à la suite de la dissolution de l’Union soviétique.', NULL, 11);
+
+
+-- TURQUIE --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Développement des cités grecques d’Anatolie', 'developpement-cites-grecques-anatolie-turquie-TR', '0001-01-01', '0500-01-01', 'Les cités grecques d’Anatolie développent des centres urbains, commerciaux et culturels majeurs.', NULL, 17),
+('Conquête romaine de l’Anatolie', 'conquete-romaine-anatolie-turquie-TR', '0001-01-01', '0133-01-01', 'Rome étend progressivement son contrôle sur les royaumes et territoires d’Anatolie.', NULL, 12),
+('Développement de Byzance', 'developpement-byzance-turquie-TR', '0001-01-01', '0330-01-01', 'Byzance devient une cité stratégique sur le Bosphore avant de devenir Constantinople.', NULL, 17),
+('Fondation de Constantinople', 'fondation-constantinople-turquie-TR', '0330-05-11', '0330-05-11', 'Constantin Ier inaugure Constantinople comme nouvelle capitale de l’Empire romain.', NULL, 16),
+('Développement de l’Empire byzantin en Anatolie', 'developpement-empire-byzantin-anatolie-turquie-TR', '0330-01-01', '1071-01-01', 'L’Anatolie constitue pendant des siècles le cœur territorial et économique de l’Empire byzantin.', NULL, 17),
+('Diffusion du christianisme en Anatolie', 'diffusion-christianisme-anatolie-turquie-TR', '0050-01-01', '0400-01-01', 'Les communautés chrétiennes se développent rapidement en Anatolie durant l’Antiquité et l’Antiquité tardive.', NULL, 23),
+('Conquête arabe de l’Anatolie orientale', 'conquete-arabe-anatolie-orientale-turquie-TR', '0630-01-01', '0800-01-01', 'Les armées musulmanes lancent plusieurs campagnes contre les territoires byzantins d’Anatolie.', NULL, 12),
+('Bataille de Manzikert', 'bataille-manzikert-turquie-TR', '1071-08-26', '1071-08-26', 'Les Seldjoukides remportent une victoire décisive contre l’Empire byzantin.', NULL, 7),
+('Fondation du sultanat de Roum', 'fondation-sultanat-roum-turquie-TR', '1077-01-01', '1077-01-01', 'Le sultanat seldjoukide de Roum s’établit en Anatolie après l’affaiblissement du pouvoir byzantin.', NULL, 16),
+('Développement de Konya sous les Seldjoukides', 'developpement-konya-seldjoukides-turquie-TR', '1100-01-01', '1300-01-01', 'Konya devient un important centre politique, commercial et culturel du sultanat de Roum.', NULL, 17),
+('Invasion mongole de l’Anatolie', 'invasion-mongole-anatolie-turquie-TR', '1243-01-01', '1243-01-01', 'La bataille de Köse Dağ entraîne la domination mongole sur le sultanat de Roum.', NULL, 13),
+('Fondation de la principauté ottomane', 'fondation-principaute-ottomane-turquie-TR', '1299-01-01', '1299-01-01', 'Osman Ier établit la principauté qui donnera naissance à l’Empire ottoman.', NULL, 16),
+('Prise de Constantinople par les Ottomans', 'prise-constantinople-ottomans-turquie-TR', '1453-05-29', '1453-05-29', 'Mehmed II conquiert Constantinople et met fin à l’Empire byzantin.', NULL, 12),
+('Apogée de l’Empire ottoman sous Soliman le Magnifique', 'apogee-empire-ottoman-soliman-turquie-TR', '1520-01-01', '1566-01-01', 'Le règne de Soliman le Magnifique marque l’apogée politique, militaire et culturelle de l’Empire ottoman.', NULL, 5),
+('Prise de Chypre par les Ottomans', 'conquete-chypre-ottomane-turquie-TR', '1570-01-01', '1571-08-01', 'Les Ottomans conquièrent Chypre après une campagne militaire contre la République de Venise.', NULL, 12),
+('Déclin progressif de l’Empire ottoman', 'declin-empire-ottoman-turquie-TR', '1699-01-01', '1914-01-01', 'Les défaites militaires et les pertes territoriales entraînent un affaiblissement progressif de l’Empire ottoman.', NULL, 22),
+('Guerre d’indépendance turque', 'guerre-independance-turque-turquie-TR', '1919-05-19', '1922-09-09', 'Le mouvement national dirigé par Mustafa Kemal combat les forces étrangères et le gouvernement ottoman.', NULL, 6),
+('Abolition du sultanat ottoman', 'abolition-sultanat-ottoman-turquie-TR', '1922-11-01', '1922-11-01', 'La Grande Assemblée nationale de Turquie abolit le sultanat ottoman.', NULL, 22),
+('Proclamation de la République de Turquie', 'proclamation-republique-turquie-TR', '1923-10-29', '1923-10-29', 'La République de Turquie est officiellement proclamée avec Ankara comme capitale.', NULL, 22),
+('Adoption de la Constitution turque de 1924', 'adoption-constitution-turquie-TR', '1924-04-20', '1924-04-20', 'La Turquie adopte une nouvelle Constitution consolidant les institutions de la république.', NULL, 22);
+
+
+-- VIETNAM --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Développement de la culture de Đông Sơn', 'developpement-culture-dong-son-vietnam-VN', '0001-01-01', '0700-01-01', 'La culture de Đông Sơn se développe dans le nord du Vietnam avec une métallurgie du bronze particulièrement avancée.', NULL, 17),
+('Formation du royaume de Văn Lang', 'formation-royaume-van-lang-vietnam-VN', '0250-01-01', '0250-01-01', 'La tradition vietnamienne associe cette période à la formation du royaume de Văn Lang.', NULL, 16),
+('Conquête chinoise du Nam Việt', 'conquete-chinoise-nam-viet-vietnam-VN', '0111-01-01', '0111-01-01', 'La dynastie Han conquiert le Nam Việt et intègre le nord du Vietnam à son empire.', NULL, 12),
+('Révolte des sœurs Trưng', 'revolte-soeurs-trung-vietnam-VN', '0040-01-01', '0043-01-01', 'Les sœurs Trưng dirigent une révolte majeure contre la domination chinoise.', NULL, 9),
+('Diffusion du bouddhisme au Vietnam', 'diffusion-bouddhisme-vietnam-VN', '0200-01-01', '0600-01-01', 'Le bouddhisme se diffuse progressivement dans les régions du Vietnam sous influence chinoise et maritime.', NULL, 23),
+('Développement du royaume de Champa', 'developpement-royaume-champa-vietnam-VN', '0192-01-01', '1000-01-01', 'Le royaume de Champa se développe dans le centre et le sud de l’actuel Vietnam.', NULL, 17),
+('Indépendance du Vietnam sous Ngô Quyền', 'independance-vietnam-ngo-quyen-VN', '0939-01-01', '0939-01-01', 'Ngô Quyền met fin à une longue période de domination chinoise après sa victoire sur les forces des Han du Sud.', NULL, 11),
+('Fondation de la dynastie Lý', 'fondation-dynastie-ly-vietnam-VN', '1009-01-01', '1009-01-01', 'Lý Công Uẩn fonde la dynastie Lý et établit une nouvelle période de consolidation politique.', NULL, 16),
+('Transfert de la capitale à Thăng Long', 'transfert-capitale-thang-long-vietnam-VN', '1010-07-01', '1010-07-01', 'Lý Công Uẩn transfère la capitale à Đại La, renommée Thăng Long.', NULL, 22),
+('Développement du Đại Việt', 'developpement-dai-viet-vietnam-VN', '1054-01-01', '1400-01-01', 'Le Đại Việt connaît une expansion politique, économique et culturelle importante.', NULL, 17),
+('Résistance vietnamienne contre les Mongols', 'resistance-vietnamienne-mongols-VN', '1258-01-01', '1288-01-01', 'Les Đại Việt repoussent plusieurs invasions mongoles et yuan au XIIIe siècle.', NULL, 6),
+('Fondation de la dynastie Lê postérieure', 'fondation-dynastie-le-posterieure-vietnam-VN', '1428-01-01', '1428-01-01', 'Lê Lợi fonde la dynastie Lê postérieure après la défaite des forces Ming.', NULL, 16),
+('Conquête du Champa par le Đại Việt', 'conquete-champa-dai-viet-vietnam-VN', '1471-01-01', '1471-01-01', 'Les forces du Đại Việt conquièrent Vijaya, capitale du Champa, lors d’une campagne majeure.', NULL, 12),
+('Expansion vietnamienne vers le sud', 'expansion-vietnamienne-vers-sud-VN', '1500-01-01', '1800-01-01', 'Les États vietnamiens étendent progressivement leur contrôle vers le delta du Mékong et les territoires méridionaux.', NULL, 12),
+('Fondation de la dynastie Nguyễn', 'fondation-dynastie-nguyen-vietnam-VN', '1802-06-01', '1802-06-01', 'Nguyễn Ánh devient empereur Gia Long et fonde la dynastie Nguyễn.', NULL, 16),
+('Conquête française du Vietnam', 'conquete-francaise-vietnam-VN', '1858-09-01', '1885-06-09', 'La France conquiert progressivement le Vietnam et impose son contrôle colonial.', NULL, 12),
+('Création de l’Indochine française', 'creation-indochine-francaise-vietnam-VN', '1887-10-17', '1887-10-17', 'L’Union indochinoise est créée afin de regrouper les possessions françaises d’Asie du Sud-Est.', NULL, 17),
+('Révolution d’Août', 'revolution-aout-vietnam-VN', '1945-08-19', '1945-09-02', 'Le Việt Minh prend le pouvoir dans une grande partie du Vietnam à la fin de la Seconde Guerre mondiale.', NULL, 8),
+('Proclamation de l’indépendance du Vietnam', 'proclamation-independance-vietnam-VN', '1945-09-02', '1945-09-02', 'Hồ Chí Minh proclame l’indépendance de la République démocratique du Vietnam à Hanoï.', NULL, 11),
+('Réunification du Vietnam', 'reunification-vietnam-VN', '1975-04-30', '1976-07-02', 'La victoire communiste met fin à la guerre du Vietnam et conduit à la réunification officielle du pays.', NULL, 22);
+
+
+-- YEMEN --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Développement des royaumes sud-arabiques', 'developpement-royaumes-sud-arabiques-yemen-YE', '0001-01-01', '0600-01-01', 'Les royaumes de l’Arabie du Sud développent des sociétés urbaines, agricoles et commerciales prospères au Yémen.', NULL, 17),
+('Développement du royaume de Saba', 'developpement-royaume-saba-yemen-YE', '0001-01-01', '0300-01-01', 'Le royaume de Saba devient une puissance majeure grâce au commerce de l’encens et à l’agriculture irriguée.', NULL, 17),
+('Développement des infrastructures hydrauliques de Marib', 'developpement-infrastructures-marib-yemen-YE', '0001-01-01', '0500-01-01', 'Les systèmes d’irrigation de Marib permettent le développement agricole des régions arides du Yémen.', NULL, 17),
+('Développement du royaume himyarite', 'developpement-royaume-himyarite-yemen-YE', '0110-01-01', '0525-01-01', 'Les Himyarites établissent un puissant royaume contrôlant une grande partie de l’Arabie du Sud.', NULL, 17),
+('Conquête aksoumite du Yémen', 'conquete-aksoumite-yemen-YE', '0525-01-01', '0525-01-01', 'Le royaume d’Aksoum intervient au Yémen et renverse le pouvoir himyarite.', NULL, 12),
+('Intervention sassanide au Yémen', 'intervention-sassanide-yemen-YE', '0570-01-01', '0570-01-01', 'Les Sassanides interviennent au Yémen et mettent fin à la domination aksoumite.', NULL, 13),
+('Conquête musulmane du Yémen', 'conquete-musulmane-yemen-YE', '0628-01-01', '0630-01-01', 'Le Yémen adopte progressivement l’islam et entre dans l’espace politique des premiers califats.', NULL, 12),
+('Diffusion du chiisme zaïdite au Yémen', 'diffusion-chiisme-zaidite-yemen-YE', '0890-01-01', '0900-01-01', 'Le zaïdisme s’implante durablement dans les régions montagneuses du nord du Yémen.', NULL, 23),
+('Fondation de l’imamat zaïdite du Yémen', 'fondation-imamat-zaidite-yemen-YE', '0897-01-01', '0897-01-01', 'Yahya ibn al-Husayn établit un pouvoir zaïdite dans le nord du Yémen.', NULL, 16),
+('Développement de la dynastie sulayhide', 'developpement-dynastie-sulayhide-yemen-YE', '1047-01-01', '1138-01-01', 'Les Sulayhides établissent un pouvoir important dans les hautes terres et les régions côtières du Yémen.', NULL, 17),
+('Fondation de la dynastie rasoulide', 'fondation-dynastie-rasoulide-yemen-YE', '1229-01-01', '1229-01-01', 'La dynastie rasoulide établit un puissant sultanat basé à Taïz.', NULL, 16),
+('Apogée du sultanat rasoulide', 'apogee-sultanat-rasoulide-yemen-YE', '1250-01-01', '1350-01-01', 'Le Yémen connaît un important essor économique, culturel et architectural sous les Rasoulides.', NULL, 17),
+('Conquête ottomane du Yémen', 'conquete-ottomane-yemen-YE', '1538-01-01', '1547-01-01', 'Les Ottomans prennent progressivement le contrôle de plusieurs régions du Yémen.', NULL, 12),
+('Première domination ottomane du Yémen', 'domination-ottomane-yemen-YE', '1538-01-01', '1635-01-01', 'L’Empire ottoman administre une partie du Yémen avant d’être chassé par les forces locales.', NULL, 5),
+('Établissement de la dynastie qasimide', 'fondation-dynastie-qasimide-yemen-YE', '1597-01-01', '1597-01-01', 'Les Qasimides consolident un pouvoir zaïdite qui finit par expulser les Ottomans du Yémen.', NULL, 16),
+('Seconde conquête ottomane du Yémen', 'seconde-conquete-ottomane-yemen-YE', '1849-01-01', '1872-01-01', 'Les Ottomans rétablissent leur domination sur une grande partie du nord du Yémen.', NULL, 12),
+('Création du royaume mutawakkilite du Yémen', 'creation-royaume-mutawakkilite-yemen-YE', '1918-11-30', '1918-11-30', 'Après le retrait ottoman, l’imamat zaïdite consolide son indépendance et fonde le royaume mutawakkilite.', NULL, 16),
+('Indépendance du Yémen du Nord', 'independance-yemen-nord-YE', '1918-11-30', '1918-11-30', 'Le Yémen du Nord devient indépendant après la disparition de l’Empire ottoman.', NULL, 11),
+('Indépendance du Yémen du Sud', 'independance-yemen-sud-YE', '1967-11-30', '1967-11-30', 'Le Royaume-Uni se retire d’Aden et le Yémen du Sud devient indépendant.', NULL, 11),
+('Unification du Yémen', 'unification-yemen-YE', '1990-05-22', '1990-05-22', 'La République arabe du Yémen et la République démocratique populaire du Yémen s’unissent pour former la République du Yémen.', NULL, 22);
