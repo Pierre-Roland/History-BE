@@ -75,4 +75,22 @@ INSERT INTO event_country_link (event_id, country_id) SELECT id, 160 FROM events
 );
 
 
---
+-- TONGA --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 161 FROM events WHERE slug IN (
+    'developpement-premieres-communautes-tongiennes-tonga-TO', 'developpement-navigation-tongienne-tonga-TO', 'developpement-echanges-interinsulaires-tonga-TO', 'developpement-chefferies-tongiennes-tonga-TO', 'formation-empire-maritime-tongien-tonga-TO', 'expansion-influence-tongienne-polynesie-tonga-TO', 'developpement-culture-tongienne-tonga-TO', 'declin-empire-maritime-tongien-tonga-TO', 'developpement-lignages-tui-tonga-tonga-TO', 'arrivee-navigateurs-europeens-tonga-TO', 'exploration-europeenne-tonga-TO', 'arrivee-james-cook-tonga-TO', 'arrivee-missionnaires-chretiens-tonga-TO', 'unification-royaume-tonga-TO', 'conversion-taufahahau-christianisme-tonga-TO', 'proclamation-royaume-tonga-TO', 'adoption-constitution-tonga-TO', 'traite-amitie-royaume-uni-tonga-TO', 'fin-protectorat-britannique-tonga-TO', 'adhesion-tonga-nations-unies-tonga-TO'
+);
+
+
+-- TUVALU --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 162 FROM events WHERE slug IN (
+    'developpement-premieres-communautes-polynesiennes-tuvalu-TV', 'developpement-navigation-traditionnelle-tuvalu-TV', 'developpement-echanges-interinsulaires-tuvalu-TV', 'developpement-chefferies-traditionnelles-tuvalu-TV', 'developpement-culture-polynesienne-tuvalu-TV', 'developpement-contacts-iles-voisines-tuvalu-TV', 'arrivee-navigateurs-europeens-tuvalu-TV', 'exploration-europeenne-iles-ellice-tuvalu-TV', 'developpement-contacts-commerciaux-tuvalu-TV', 'arrivee-missionnaires-chretiens-tuvalu-TV', 'developpement-christianisme-tuvalu-TV', 'protectorat-britannique-tuvalu-TV', 'creation-colonie-gilbert-ellice-tuvalu-TV', 'separation-administrative-iles-ellice-tuvalu-TV', 'autonomie-interne-iles-ellice-tuvalu-TV', 'independance-tuvalu-TV', 'adoption-constitution-tuvalu-TV', 'adhesion-tuvalu-nations-unies-TV', 'adoption-dollar-australien-tuvalu-TV', 'creation-banque-nationale-tuvalu-TV'
+);
+
+
+-- VANUATU --
+
+INSERT INTO event_country_link (event_id, country_id) SELECT id, 163 FROM events WHERE slug IN (
+    'developpement-premieres-communautes-melanesiennes-vanuatu-VU', 'developpement-navigation-traditionnelle-vanuatu-VU', 'developpement-agriculture-traditionnelle-vanuatu-VU', 'developpement-echanges-interinsulaires-vanuatu-VU', 'developpement-chefferies-traditionnelles-vanuatu-VU', 'developpement-societes-melanesiennes-vanuatu-VU', 'developpement-echanges-iles-voisines-vanuatu-VU', 'arrivee-navigateurs-europeens-vanuatu-VU', 'exploration-europeenne-vanuatu-VU', 'arrivee-missionnaires-chretiens-vanuatu-VU', 'developpement-christianisme-vanuatu-VU', 'developpement-commerce-bois-santal-vanuatu-VU', 'etablissement-colons-francais-britanniques-vanuatu-VU', 'creation-commission-navale-conjointe-vanuatu-VU', 'etablissement-condominium-franco-britannique-vanuatu-VU', 'presence-militaire-seconde-guerre-mondiale-vanuatu-VU', 'developpement-mouvement-independantiste-vanuatu-VU', 'independance-vanuatu-VU', 'adoption-constitution-vanuatu-VU', 'adhesion-vanuatu-nations-unies-VU'
+);

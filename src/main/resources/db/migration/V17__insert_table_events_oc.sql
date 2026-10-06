@@ -273,5 +273,77 @@ INSERT INTO events (title, slug, date_start, date_end, description, image_url, t
 ('Adhésion des îles Salomon aux Nations unies', 'adhesion-iles-salomon-nations-unies-SB', '1978-09-19', '1978-09-19', 'Les îles Salomon deviennent membre de l’Organisation des Nations unies.', NULL, 22);
 
 
---
+-- TONGA --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Développement des premières communautés tongiennes', 'developpement-premieres-communautes-tongiennes-tonga-TO', '0001-01-01', '1000-01-01', 'Les populations polynésiennes s’installent dans l’archipel des Tonga et développent des communautés organisées autour des villages et des lignages.', NULL, 17),
+('Développement de la navigation tongienne', 'developpement-navigation-tongienne-tonga-TO', '0001-01-01', '1200-01-01', 'Les habitants développent des techniques avancées de navigation permettant les voyages entre les îles du Pacifique occidental.', NULL, 18),
+('Développement des échanges interinsulaires', 'developpement-echanges-interinsulaires-tonga-TO', '0500-01-01', '1500-01-01', 'Les Tonga deviennent un centre important d’échanges maritimes entre plusieurs archipels polynésiens.', NULL, 25),
+('Développement des chefferies tongiennes', 'developpement-chefferies-tongiennes-tonga-TO', '0800-01-01', '1200-01-01', 'Les structures politiques et sociales tongiennes se développent autour de chefferies et de lignages puissants.', NULL, 22),
+('Formation de l’empire maritime tongien', 'formation-empire-maritime-tongien-tonga-TO', '950-01-01', '1200-01-01', 'Les Tonga étendent leur influence politique et maritime sur de nombreuses îles de Polynésie occidentale.', NULL, 12),
+('Expansion de l’influence tongienne en Polynésie', 'expansion-influence-tongienne-polynesie-tonga-TO', '1000-01-01', '1300-01-01', 'L’influence politique et culturelle tongienne atteint notamment Samoa, Fidji et plusieurs archipels voisins.', NULL, 12),
+('Développement de la culture tongienne', 'developpement-culture-tongienne-tonga-TO', '1000-01-01', '1600-01-01', 'Les traditions, les cérémonies et les institutions sociales tongiennes se développent et se structurent.', NULL, 24),
+('Déclin de l’empire maritime tongien', 'declin-empire-maritime-tongien-tonga-TO', '1200-01-01', '1500-01-01', 'L’influence directe de l’empire maritime tongien diminue progressivement dans les archipels voisins.', NULL, 22),
+('Développement des lignages Tuʻi Tonga', 'developpement-lignages-tui-tonga-tonga-TO', '1200-01-01', '1600-01-01', 'Les lignages associés aux Tuʻi Tonga consolident leur rôle politique et religieux dans l’archipel.', NULL, 22),
+('Arrivée des navigateurs européens', 'arrivee-navigateurs-europeens-tonga-TO', '1616-01-01', '1616-01-01', 'Les navigateurs néerlandais Willem Schouten et Jacob Le Maire atteignent les Tonga lors de leur voyage dans le Pacifique.', NULL, 18),
+('Exploration européenne des Tonga', 'exploration-europeenne-tonga-TO', '1643-01-01', '1643-01-01', 'Abel Tasman explore plusieurs îles des Tonga lors de son expédition dans le Pacifique.', NULL, 18),
+('Arrivée de James Cook aux Tonga', 'arrivee-james-cook-tonga-TO', '1773-01-01', '1773-01-01', 'James Cook visite les Tonga et contribue à leur appellation traditionnelle d’îles des Amis dans les récits européens.', NULL, 18),
+('Arrivée des missionnaires chrétiens', 'arrivee-missionnaires-chretiens-tonga-TO', '1797-01-01', '1797-01-01', 'Les premiers missionnaires protestants arrivent dans l’archipel et commencent à diffuser le christianisme.', NULL, 23),
+('Unification du royaume des Tonga', 'unification-royaume-tonga-TO', '1826-01-01', '1845-01-01', 'Taufaʻahau unifie progressivement les principales chefferies et fonde les bases du royaume moderne des Tonga.', NULL, 12),
+('Conversion de Taufaʻahau au christianisme', 'conversion-taufahahau-christianisme-tonga-TO', '1830-01-01', '1830-01-01', 'Taufaʻahau adopte le christianisme, événement majeur dans la transformation politique et religieuse du royaume.', NULL, 23),
+('Proclamation du royaume des Tonga', 'proclamation-royaume-tonga-TO', '1845-01-01', '1845-01-01', 'Taufaʻahau devient le premier roi des Tonga sous le nom de George Tupou I.', NULL, 5),
+('Adoption de la Constitution des Tonga', 'adoption-constitution-tonga-TO', '1875-11-04', '1875-11-04', 'La Constitution établit une monarchie constitutionnelle et modernise les institutions du royaume.', NULL, 22),
+('Traité d’amitié avec le Royaume-Uni', 'traite-amitie-royaume-uni-tonga-TO', '1900-05-18', '1900-05-18', 'Les Tonga concluent un traité avec le Royaume-Uni qui place le royaume sous protection britannique tout en conservant sa monarchie.', NULL, 14),
+('Fin du protectorat britannique', 'fin-protectorat-britannique-tonga-TO', '1970-06-04', '1970-06-04', 'Les Tonga mettent fin à leur statut de protectorat britannique et retrouvent leur pleine souveraineté.', NULL, 11),
+('Adhésion des Tonga aux Nations unies', 'adhesion-tonga-nations-unies-tonga-TO', '1999-09-14', '1999-09-14', 'Les Tonga deviennent membre de l’Organisation des Nations unies.', NULL, 22);
+
+
+-- TUVALU --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Développement des premières communautés polynésiennes', 'developpement-premieres-communautes-polynesiennes-tuvalu-TV', '0001-01-01', '1000-01-01', 'Les populations polynésiennes s’installent progressivement dans les îles de l’actuel Tuvalu et développent des communautés insulaires.', NULL, 17),
+('Développement de la navigation traditionnelle', 'developpement-navigation-traditionnelle-tuvalu-TV', '0001-01-01', '1200-01-01', 'Les habitants développent des techniques de navigation permettant les déplacements entre les atolls et les archipels voisins.', NULL, 18),
+('Développement des échanges interinsulaires', 'developpement-echanges-interinsulaires-tuvalu-TV', '0500-01-01', '1500-01-01', 'Les différentes îles entretiennent des réseaux d’échanges de nourriture, d’objets et de ressources marines.', NULL, 25),
+('Développement des chefferies traditionnelles', 'developpement-chefferies-traditionnelles-tuvalu-TV', '0800-01-01', '1600-01-01', 'Des structures politiques locales se développent autour des chefs, des familles et des communautés villageoises.', NULL, 22),
+('Développement de la culture polynésienne', 'developpement-culture-polynesienne-tuvalu-TV', '1000-01-01', '1700-01-01', 'Les traditions, croyances, pratiques maritimes et structures sociales propres aux communautés de Tuvalu se consolident.', NULL, 24),
+('Développement des contacts avec les îles voisines', 'developpement-contacts-iles-voisines-tuvalu-TV', '1000-01-01', '1700-01-01', 'Les communautés de Tuvalu entretiennent des relations avec les îles Gilbert, Samoa, Tonga et d’autres archipels du Pacifique.', NULL, 25),
+('Arrivée des navigateurs européens', 'arrivee-navigateurs-europeens-tuvalu-TV', '1568-01-01', '1568-01-01', 'Le navigateur espagnol Álvaro de Mendaña de Neira aperçoit certaines îles de l’archipel lors de son expédition dans le Pacifique.', NULL, 18),
+('Exploration européenne des îles Ellice', 'exploration-europeenne-iles-ellice-tuvalu-TV', '1780-01-01', '1820-01-01', 'Les explorateurs européens cartographient progressivement les atolls et îles de l’archipel.', NULL, 18),
+('Développement des contacts commerciaux', 'developpement-contacts-commerciaux-tuvalu-TV', '1820-01-01', '1870-01-01', 'Les contacts avec les baleiniers, commerçants et navigateurs européens se multiplient dans les îles Ellice.', NULL, 25),
+('Arrivée des missionnaires chrétiens', 'arrivee-missionnaires-chretiens-tuvalu-TV', '1861-01-01', '1861-01-01', 'Des missionnaires protestants commencent à diffuser le christianisme dans les îles Ellice.', NULL, 23),
+('Développement du christianisme', 'developpement-christianisme-tuvalu-TV', '1861-01-01', '1900-01-01', 'Le christianisme se diffuse rapidement et devient une composante majeure de la société des îles Ellice.', NULL, 23),
+('Établissement du protectorat britannique', 'protectorat-britannique-tuvalu-TV', '1892-01-01', '1892-01-01', 'Le Royaume-Uni établit un protectorat sur les îles Ellice dans le cadre de son expansion dans le Pacifique.', NULL, 22),
+('Création de la colonie Gilbert et Ellice', 'creation-colonie-gilbert-ellice-tuvalu-TV', '1916-01-01', '1916-01-01', 'Les îles Ellice sont intégrées à la colonie britannique des îles Gilbert et Ellice.', NULL, 16),
+('Séparation administrative des îles Ellice', 'separation-administrative-iles-ellice-tuvalu-TV', '1975-01-01', '1975-01-01', 'Les îles Ellice deviennent une colonie distincte des îles Gilbert, marquant une étape vers l’indépendance.', NULL, 22),
+('Autonomie interne des îles Ellice', 'autonomie-interne-iles-ellice-tuvalu-TV', '1978-01-01', '1978-01-01', 'Les institutions locales disposent d’une autonomie accrue avant l’accession à l’indépendance.', NULL, 22),
+('Indépendance de Tuvalu', 'independance-tuvalu-TV', '1978-10-01', '1978-10-01', 'Les îles Ellice deviennent l’État indépendant de Tuvalu.', NULL, 11),
+('Adoption de la Constitution de Tuvalu', 'adoption-constitution-tuvalu-TV', '1978-10-01', '1978-10-01', 'La Constitution établit les institutions politiques de l’État indépendant de Tuvalu.', NULL, 22),
+('Adhésion de Tuvalu aux Nations unies', 'adhesion-tuvalu-nations-unies-TV', '2000-09-05', '2000-09-05', 'Tuvalu devient membre de l’Organisation des Nations unies.', NULL, 22),
+('Adoption du dollar australien comme monnaie', 'adoption-dollar-australien-tuvalu-TV', '1966-01-01', '1966-01-01', 'Le dollar australien devient la principale monnaie utilisée dans les îles Ellice, puis à Tuvalu après l’indépendance.', NULL, 25),
+('Création de la Banque nationale de Tuvalu', 'creation-banque-nationale-tuvalu-TV', '1980-01-01', '1980-01-01', 'La Banque nationale de Tuvalu est créée afin de fournir des services financiers au nouvel État indépendant.', NULL, 17);
+
+
+-- VANUATU --
+
+INSERT INTO events (title, slug, date_start, date_end, description, image_url, type_id) VALUES
+('Développement des premières communautés mélanésiennes', 'developpement-premieres-communautes-melanesiennes-vanuatu-VU', '0001-01-01', '1000-01-01', 'Les populations mélanésiennes s’installent progressivement dans l’archipel et développent des communautés adaptées aux différentes îles.', NULL, 17),
+('Développement de la navigation traditionnelle', 'developpement-navigation-traditionnelle-vanuatu-VU', '0001-01-01', '1200-01-01', 'Les habitants développent des techniques de navigation permettant les déplacements entre les nombreuses îles de l’archipel.', NULL, 18),
+('Développement de l’agriculture traditionnelle', 'developpement-agriculture-traditionnelle-vanuatu-VU', '0500-01-01', '1500-01-01', 'Les communautés développent des systèmes agricoles fondés notamment sur la culture de l’igname, du taro et de la noix de coco.', NULL, 17),
+('Développement des échanges interinsulaires', 'developpement-echanges-interinsulaires-vanuatu-VU', '0500-01-01', '1700-01-01', 'Les différentes îles entretiennent des réseaux d’échanges de produits, de ressources et d’objets traditionnels.', NULL, 25),
+('Développement des chefferies traditionnelles', 'developpement-chefferies-traditionnelles-vanuatu-VU', '0800-01-01', '1700-01-01', 'Les structures politiques locales se développent autour des chefs, des clans et des communautés villageoises.', NULL, 22),
+('Développement des sociétés mélanésiennes', 'developpement-societes-melanesiennes-vanuatu-VU', '1000-01-01', '1700-01-01', 'Les sociétés de l’archipel développent des traditions, des systèmes de prestige et des pratiques cérémonielles variées.', NULL, 24),
+('Développement des échanges avec les îles voisines', 'developpement-echanges-iles-voisines-vanuatu-VU', '1000-01-01', '1700-01-01', 'Les communautés entretiennent des contacts avec les îles Salomon, la Nouvelle-Calédonie, les Fidji et d’autres archipels voisins.', NULL, 25),
+('Arrivée des navigateurs européens', 'arrivee-navigateurs-europeens-vanuatu-VU', '1606-01-01', '1606-01-01', 'Pedro Fernandes de Queirós atteint l’archipel lors d’une expédition espagnole dans le Pacifique.', NULL, 18),
+('Exploration européenne de l’archipel', 'exploration-europeenne-vanuatu-VU', '1768-01-01', '1774-01-01', 'Les expéditions de Bougainville et de James Cook explorent plusieurs îles de l’archipel.', NULL, 18),
+('Arrivée des missionnaires chrétiens', 'arrivee-missionnaires-chretiens-vanuatu-VU', '1839-01-01', '1839-01-01', 'Les premiers missionnaires chrétiens commencent à établir des missions dans l’archipel.', NULL, 23),
+('Développement du christianisme', 'developpement-christianisme-vanuatu-VU', '1839-01-01', '1900-01-01', 'Le christianisme se diffuse progressivement parmi les populations de nombreuses îles.', NULL, 23),
+('Développement du commerce du bois de santal', 'developpement-commerce-bois-santal-vanuatu-VU', '1840-01-01', '1860-01-01', 'Le commerce du bois de santal attire des navires et des marchands étrangers dans l’archipel.', NULL, 25),
+('Établissement de colons français et britanniques', 'etablissement-colons-francais-britanniques-vanuatu-VU', '1860-01-01', '1900-01-01', 'Des colons et commerçants français et britanniques s’installent progressivement dans les îles.', NULL, 22),
+('Création de la Commission navale conjointe', 'creation-commission-navale-conjointe-vanuatu-VU', '1887-01-01', '1887-01-01', 'La France et le Royaume-Uni mettent en place une commission chargée de maintenir l’ordre dans les Nouvelles-Hébrides.', NULL, 15),
+('Établissement du condominium franco-britannique', 'etablissement-condominium-franco-britannique-vanuatu-VU', '1906-10-20', '1906-10-20', 'La Convention anglo-française établit le condominium des Nouvelles-Hébrides, administré conjointement par la France et le Royaume-Uni.', NULL, 14),
+('Occupation japonaise et alliée du Pacifique', 'presence-militaire-seconde-guerre-mondiale-vanuatu-VU', '1942-01-01', '1945-01-01', 'Les Nouvelles-Hébrides deviennent une importante zone de soutien logistique pour les forces alliées pendant la guerre du Pacifique.', NULL, 6),
+('Développement du mouvement indépendantiste', 'developpement-mouvement-independantiste-vanuatu-VU', '1970-01-01', '1980-01-01', 'Les mouvements politiques locaux réclament progressivement l’autonomie puis l’indépendance des Nouvelles-Hébrides.', NULL, 9),
+('Indépendance du Vanuatu', 'independance-vanuatu-VU', '1980-07-30', '1980-07-30', 'Les Nouvelles-Hébrides deviennent indépendantes sous le nom de République du Vanuatu.', NULL, 11),
+('Adoption de la Constitution du Vanuatu', 'adoption-constitution-vanuatu-VU', '1980-07-30', '1980-07-30', 'La Constitution établit les institutions de la nouvelle République indépendante du Vanuatu.', NULL, 22),
+('Adhésion du Vanuatu aux Nations unies', 'adhesion-vanuatu-nations-unies-VU', '1981-09-15', '1981-09-15', 'Le Vanuatu devient membre de l’Organisation des Nations unies.', NULL, 22);
 
